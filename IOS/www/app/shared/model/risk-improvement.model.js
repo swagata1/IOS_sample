@@ -1,0 +1,9 @@
+"use strict";
+var RiskImrovement = (function () {
+    function RiskImrovement() {
+    }
+    return RiskImrovement;
+}());
+exports.RiskImrovement = RiskImrovement;
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC9zaGFyZWQvbW9kZWwvcmlzay1pbXByb3ZlbWVudC5tb2RlbC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQUE7SUFBQTtJQU1BLENBQUM7SUFBRCxxQkFBQztBQUFELENBTkEsQUFNQyxJQUFBO0FBTlksc0JBQWMsaUJBTTFCLENBQUEiLCJmaWxlIjoiYXBwL3NoYXJlZC9tb2RlbC9yaXNrLWltcHJvdmVtZW50Lm1vZGVsLmpzIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNsYXNzIFJpc2tJbXJvdmVtZW50IHtcclxuXHJcbiAgICByaU51bWJlcjogc3RyaW5nO1xyXG5cclxuICAgIGxlQmVmb3JlOiBudW1iZXI7XHJcbiAgICBsZUFmdGVyOiBudW1iZXI7XHJcbn0iXX0=

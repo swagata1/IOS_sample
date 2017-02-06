@@ -1,0 +1,512 @@
+<!-- Flammable Liquids Storage (inside) Section Starts -->
+<div class="isc-form-horizontal isc-reveal">
+   <div class="isc-form-group">
+      <div class="isc-col-md-4">
+         <label class="isc-control-label" for="flsHazardName">Hazard Name</label>
+         <input class="isc-form-control" type="text" name="flsHazardName" id="flsHazardName" value="" [(ngModel)]="model.OFFLNS_FLS_HAZARD_NAME" />
+      </div>
+      <div class="isc-col-md-4">
+         <label class="isc-control-label" for="flsAreaSize">Area Size</label>
+         <input class="isc-form-control" type="number" name="flsAreaSize" id="flsAreaSize" value="" [(ngModel)]="model.OFFLNN_FLS_AREA_SIZE" />
+      </div>
+      <div class="isc-col-md-4">
+         <label class="isc-control-label" for="flsCeilingHeight">Ceiling Height</label>
+         <input class="isc-form-control" type="number" name="flsCeilingHeight" id="flsCeilingHeight" value="" [(ngModel)]="model.OFFLNN_FLS_CEILING_HEIGHT" />
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <div class="isc-col-md-4">
+         <label class="isc-control-label" for="flsContainerMaxSize">Max. Container Size</label>
+         <input class="isc-form-control" type="number" name="flsContainerMaxSize" id="flsContainerMaxSize" value="" [(ngModel)]="model.OFFLNN_FLS_MAX_CONTAINER_SIZE" />
+      </div>
+      <div class="isc-col-md-4">
+         <label class="isc-control-label" for="flsStorageHeight">Storage Height</label>
+         <input class="isc-form-control" type="number" name="flsStorageHeight" id="flsStorageHeight" value="" [(ngModel)]="model.OFFLNN_FLS_STORAGE_HEIGHT" />
+      </div>
+      <div class="isc-col-md-4">
+         <label class="isc-control-label" for="flsAisleSpacing">Aisle Spacing</label>
+         <input class="isc-form-control" type="number" name="flsAisleSpacing" id="flsAisleSpacing" value="" [(ngModel)]="model.OFFLNN_FLS_AISLE_SPACING" />
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="flsCutOffRating">Cutoff Rating</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsCutOffRating" id="flsCutOffRatingHalf" value="1/2" [(ngModel)]="model.OFFLNS_FLS_CUTOFF_RATING" />
+            <label for="flsCutOffRatingHalf">1/2</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsCutOffRating" id="flsCutOffRatingOne" value="1" [(ngModel)]="model.OFFLNS_FLS_CUTOFF_RATING" />
+            <label for="flsCutOffRatingOne">1</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsCutOffRating" id="flsCutOffRatingTwo" value="2" [(ngModel)]="model.OFFLNS_FLS_CUTOFF_RATING" />
+            <label for="flsCutOffRatingTwo">2</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsCutOffRating" id="flsCutOffRatingThree" value="3" [(ngModel)]="model.OFFLNS_FLS_CUTOFF_RATING" />
+            <label for="flsCutOffRatingThree">3</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsCutOffRating" id="flsCutOffRatingFour" value="4" [(ngModel)]="model.OFFLNS_FLS_CUTOFF_RATING" />
+            <label for="flsCutOffRatingFour">4</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsCutOffRating" id="flsCutOffRatingUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FLS_CUTOFF_RATING" />
+            <label for="flsCutOffRatingUnknown">Unknown</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsCutOffRating" id="flsCutOffRatingNone" value="None" [(ngModel)]="model.OFFLNS_FLS_CUTOFF_RATING" />
+            <label for="flsCutOffRatingNone">None</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="hmBatteryInspections">Liquid Type</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsLiquidTypeClassIII" id="flsLiquidTypeClassIII" value="ClassIII" [(ngModel)]="model.OFFLNS_FLS_LIQUID_TYPE_CLASSIII" />
+            <label for="flsLiquidTypeClassIII">Class III</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsLiquidTypeClassII" id="flsLiquidTypeClassII" value="ClassII" [(ngModel)]="model.OFFLNS_FLS_LIQUID_TYPE_CLASSII" />
+            <label for="flsLiquidTypeClassII">Class II</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsLiquidTypeClassIA" id="flsLiquidTypeClassIA" value="ClassIA" [(ngModel)]="model.OFFLNS_FLS_LIQUID_TYPE_CLASSIA" />
+            <label for="flsLiquidTypeClassIA">Class IA</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsLiquidTypeClassIB" id="flsLiquidTypeClassIB" value="ClassIB" [(ngModel)]="model.OFFLNS_FLS_LIQUID_TYPE_CLASSIB" />
+            <label for="flsLiquidTypeClassIB">Class IB</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsLiquidTypeClassIC" id="flsLiquidTypeClassIC" value="ClassIC" [(ngModel)]="model.OFFLNS_FLS_LIQUID_TYPE_CLASSIC" />
+            <label for="flsLiquidTypeClassIC">Class IC</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsLiquidTypeUnknown" id="flsLiquidTypeUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FLS_LIQUID_TYPE_UNKNOWN" />
+            <label for="flsLiquidTypeUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="flsContainerMaterial">Container Material</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsContainerMaterialMetal" id="flsContainerMaterialMetal" value="Metal" [(ngModel)]="model.OFFLNS_FLS_CONTAINER_MATERIAL_METAL" />
+            <label for="flsContainerMaterialMetal">Metal</label>                        
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsContainerMaterialPlastic" id="flsContainerMaterialPlastic" value="Plastic" [(ngModel)]="model.OFFLNS_FLS_CONTAINER_MATERIAL_PLASTIC" />
+            <label for="flsContainerMaterialPlastic">Plastic</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsContainerMaterialFibreglass" id="flsContainerMaterialFibreglass" value="Fibreglass" [(ngModel)]="model.OFFLNS_FLS_CONTAINER_MATERIAL_FIBRE" />
+            <label for="flsContainerMaterialFibreglass">Fibreglass</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsContainerMaterialGlass" id="flsContainerMaterialGlass" value="Glass" [(ngModel)]="model.OFFLNS_FLS_CONTAINER_MATERIAL_GLASS" />
+            <label for="flsContainerMaterialGlass">Glass</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsContainerMaterialOther" id="flsContainerMaterialOther" value="Other" [(ngModel)]="model.OFFLNS_FLS_CONTAINER_MATERIAL_OTHER" />
+            <label for="flsContainerMaterialOther">Other</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsContainerMaterialUnknown" id="flsContainerMaterialUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FLS_CONTAINER_MATERIAL_UNKNOWN" />
+            <label for="flsContainerMaterialUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="flsStorage">Storage Arrangement</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsStorageSolidPiled" id="flsStorageSolidPiled" value="SolidPiled" [(ngModel)]="model.OFFLNS_FLS_STORAGE_ARRANGEMENT_SOLID" />
+            <label for="flsStorageSolidPiled">Solid Piled</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsStoragePalletized" id="flsStoragePalletized" value="Palletized" [(ngModel)]="model.OFFLNS_FLS_STORAGE_ARRANGEMENT_PALLETIZED" />
+            <label for="flsStoragePalletized">Palletized</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsStorageRacks" id="flsStorageRacks" value="Racks" [(ngModel)]="model.OFFLNS_FLS_STORAGE_ARRANGEMENT_RACKS" />
+            <label for="flsStorageRacks">Racks</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsStorageShelves" id="flsStorageShelves" value="Shelves" [(ngModel)]="model.OFFLNS_FLS_STORAGE_ARRANGEMENT_SHELVES" />
+            <label for="flsStorageShelves">Shelves</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsStorageOther" id="flsStorageOther" value="Other" [(ngModel)]="model.OFFLNS_FLS_STORAGE_ARRANGEMENT_OTHER" />
+            <label for="flsStorageOther">Other</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsStorageUnknown" id="flsStorageUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FLS_STORAGE_ARRANGEMENT_UNKNOWN" />
+            <label for="flsStorageUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="flsPallet">Pallet Types</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsPalletWood" id="flsPalletWood" value="Wood" [(ngModel)]="model.OFFLNS_FLS_PALLET_TYPES_WOOD" />
+            <label for="flsPalletWood">Wood</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsPalletReinf" id="flsPalletReinf" value="Reinf.Plastic" [(ngModel)]="model.OFFLNS_FLS_PALLET_TYPES_REINF" />
+            <label for="flsPalletReinf">Reinf. Plastic</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsPalletUnreinf" id="flsPalletUnreinf" value="Unreinf.Plastic" [(ngModel)]="model.OFFLNS_FLS_PALLET_TYPES_UNREINF" />
+            <label for="flsPalletUnreinf">Unreinf. Plastic</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsPalletCardboard" id="flsPalletCardboard" value="Cardboard" [(ngModel)]="model.OFFLNS_FLS_PALLET_TYPES_CARDBOARD" />
+            <label for="flsPalletCardboard">Cardboard</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsPalletOther" id="flsPalletOther" value="Other" [(ngModel)]="model.OFFLNS_FLS_PALLET_TYPES_OTHER" />
+            <label for="flsPalletOther">Other</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsPalletNone" id="flsPalletNone" value="None" [(ngModel)]="model.OFFLNS_FLS_PALLET_TYPES_NONE" />
+            <label for="flsPalletNone">None</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsPalletUnknown" id="flsPalletUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FLS_PALLET_TYPES_UNKNOWN" />
+            <label for="flsPalletUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="flsFlue">Flue Space adequate</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsFlue" id="flsFlueYes" value="Yes" [(ngModel)]="model.OFFLNS_FLS_FLUE_SPACE" />
+            <label for="flsFlueYes">Yes</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsFlue" id="flsFlueNo" value="No" [(ngModel)]="model.OFFLNS_FLS_FLUE_SPACE" />
+            <label for="flsFlueNo">No</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsFlue" id="flsFlueNA" value="N/A" [(ngModel)]="model.OFFLNS_FLS_FLUE_SPACE" />
+            <label for="flsFlueNA">N/A</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsFlue" id="flsFlueUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FLS_FLUE_SPACE" />
+            <label for="flsFlueUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="flsAisles">Storage in Aisles</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsAisles" id="flsAislesYes" value="Yes" [(ngModel)]="model.OFFLNS_FLS_STORAGE_IN_AISLE" />
+            <label for="flsAislesYes">Yes</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsAisles" id="flsAislesNo" value="No" [(ngModel)]="model.OFFLNS_FLS_STORAGE_IN_AISLE" />
+            <label for="flsAislesNo">No</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsAisles" id="flsAislesUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FLS_STORAGE_IN_AISLE" />
+            <label for="flsAislesUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="flsHeatSmoke">Heat/Smoke Vents</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsHeatSmoke" id="flsHeatSmokeYes" value="Yes" [(ngModel)]="model.OFFLNS_FLS_SMOKE_VENTS" />
+            <label for="flsHeatSmokeYes">Yes</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsHeatSmoke" id="flsHeatSmokeNo" value="No" [(ngModel)]="model.OFFLNS_FLS_SMOKE_VENTS" />
+            <label for="flsHeatSmokeNo">No</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsHeatSmoke" id="flsHeatSmokeUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FLS_SMOKE_VENTS" />
+            <label for="flsHeatSmokeUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="flsFireDetection">Fire Detection</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsFireDetectionHeat" id="flsFireDetectionHeat" value="Heat" [(ngModel)]="model.OFFLNS_FLS_FIRE_DETECTION_HEAT" />
+            <label for="flsFireDetectionHeat">Heat</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsFireDetectionSmoke" id="flsFireDetectionSmoke" value="Smoke" [(ngModel)]="model.OFFLNS_FLS_FIRE_DETECTION_SMOKE" />
+            <label for="flsFireDetectionSmoke">Smoke</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsFireDetectionUvIr" id="flsFireDetectionUvIr" value="UV/IR" [(ngModel)]="model.OFFLNS_FLS_FIRE_DETECTION_UV_IR" />
+            <label for="flsFireDetectionUvIr">UV/IR</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsFireDetectionAir" id="flsFireDetectionAir" value="AirSampling" [(ngModel)]="model.OFFLNS_FLS_FIRE_DETECTION_AIR" />
+            <label for="flsFireDetectionAir">Air Sampling</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsFireDetectionOther" id="flsFireDetectionOther" value="Other" [(ngModel)]="model.OFFLNS_FLS_FIRE_DETECTION_OTHER" />
+            <label for="flsFireDetectionOther">Other</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsFireDetectionNone" id="flsFireDetectionNone" value="None" [(ngModel)]="model.OFFLNS_FLS_FIRE_DETECTION_NONE" />
+            <label for="flsFireDetectionNone">None</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsFireDetection" id="flsFireDetectionUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FLS_FIRE_DETECTION_UNKNOWN" />
+            <label for="flsFireDetectionUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="flsCeilingSystem">Ceiling Sprinkler System</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsCeilingSystem" id="flsCeilingSystemAutomatic" value="Automatic" [(ngModel)]="model.OFFLNS_FLS_CEILING_SPRINKLER" />
+            <label for="flsCeilingSystemAutomatic">Automatic</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsCeilingSystem" id="flsCeilingSystemManual" value="Manual" [(ngModel)]="model.OFFLNS_FLS_CEILING_SPRINKLER" />
+            <label for="flsCeilingSystemManual">Manual</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsCeilingSystem" id="flsCeilingSystemNone" value="None" [(ngModel)]="model.OFFLNS_FLS_CEILING_SPRINKLER" />
+            <label for="flsCeilingSystemNone">None</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsCeilingSystem" id="flsCeilingSystemUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FLS_CEILING_SPRINKLER" />
+            <label for="flsCeilingSystemUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="flsCeilingSystemType">Ceiling Sprinkler System Type</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsCeilingSystemTypeCmda" id="flsCeilingSystemTypeCmda" value="CMDA" [(ngModel)]="model.OFFLNS_FLS_CEILING_SPRINKLER_TYPE_CMDA" />
+            <label for="flsCeilingSystemTypeCmda">CMDA</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsCeilingSystemTypeCmsa" id="flsCeilingSystemTypeCmsa" value="CMSA" [(ngModel)]="model.OFFLNS_FLS_CEILING_SPRINKLER_TYPE_CMSA" />
+            <label for="flsCeilingSystemTypeCmsa">CMSA</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsCeilingSystemTypeEspr" id="flsCeilingSystemTypeEspr" value="ESFR" [(ngModel)]="model.OFFLNS_FLS_CEILING_SPRINKLER_TYPE_ESFR" />
+            <label for="flsCeilingSystemTypeEspr">ESFR</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsCeilingSystemTypeOther" id="flsCeilingSystemTypeOther" value="Other" [(ngModel)]="model.OFFLNS_FLS_CEILING_SPRINKLER_TYPE_OTHER" />
+            <label for="flsCeilingSystemTypeOther">Other</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsCeilingSystemTypeUnknown" id="flsCeilingSystemTypeUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FLS_CEILING_SPRINKLER_TYPE_UNKNOWN" />
+            <label for="flsCeilingSystemTypeUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="flsInRack">In rack sprinklers</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsInRack" id="flsInRackYes" value="Yes" [(ngModel)]="model.OFFLNS_FLS_IN_RACK_SPRINKLER" />
+            <label for="flsInRackYes">Yes</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsInRack" id="flsInRackNo" value="No" [(ngModel)]="model.OFFLNS_FLS_IN_RACK_SPRINKLER" />
+            <label for="flsInRackNo">No</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsInRack" id="flsInRackNA" value="N/A" [(ngModel)]="model.OFFLNS_FLS_IN_RACK_SPRINKLER" />
+            <label for="flsInRackNA">N/A</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsInRack" id="flsInRackUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FLS_IN_RACK_SPRINKLER" />
+            <label for="flsInRackUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="flsOtherFp">Other FP System</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsOtherFp" id="flsOtherFpFoam" value="Foam" [(ngModel)]="model.OFFLNS_FLS_OTHER_FP_FOAM" />
+            <label for="flsOtherFpFoam">Foam</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsOtherFp" id="flsOtherFpGaseous" value="Gaseous" [(ngModel)]="model.OFFLNS_FLS_OTHER_FP_GASEOUS" />
+            <label for="flsOtherFpGaseous">Gaseous</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsOtherFp" id="flsOtherFpDry" value="DryChemical" [(ngModel)]="model.OFFLNS_FLS_OTHER_FP_DRY_CHEMICAL" />
+            <label for="flsOtherFpDry">Dry Chemical</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsOtherFp" id="flsOtherFpOther" value="Other" [(ngModel)]="model.OFFLNS_FLS_OTHER_FP_OTHER" />
+            <label for="flsOtherFpOther">Other</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="flsOtherFp" id="flsOtherFpUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FLS_OTHER_FP_UNKNOWN" />
+            <label for="flsOtherFpUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="flsInRack">Ventilation</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsVentilation" id="flsVentilationGravity" value="Gravity" [(ngModel)]="model.OFFLNS_FLS_VENTILATION" />
+            <label for="flsVentilationGravity">Gravity</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsVentilation" id="flsVentilationMehanical" value="ContinuousMechanical" [(ngModel)]="model.OFFLNS_FLS_VENTILATION" />
+            <label for="flsVentilationMehanical">Continuous Mechanical</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsInRack" id="flsVentilationOther" value="Other" [(ngModel)]="model.OFFLNS_FLS_VENTILATION" />
+            <label for="flsVentilationOther">Other</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsVentilationUnknown" id="flsVentilationUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FLS_VENTILATION" />
+            <label for="flsVentilationUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="flsInlet">Inlet and Exhaust Vents at Floor Level</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsInlet" id="flsInletYes" value="Yes" [(ngModel)]="model.OFFLNS_FLS_INLET_AND_EXHAUST" />
+            <label for="flsInletYes">Yes</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsInlet" id="flsInletNo" value="No" [(ngModel)]="model.OFFLNS_FLS_INLET_AND_EXHAUST" />
+            <label for="flsInletNo">No</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsInlet" id="flsInletNA" value="N/A" [(ngModel)]="model.OFFLNS_FLS_INLET_AND_EXHAUST" />
+            <label for="flsInletNA">N/A</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsInlet" id="flsInletUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FLS_INLET_AND_EXHAUST" />
+            <label for="flsInletUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="flsEquipment">Electrical Equipment</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsEquipment" id="flsEquipmentCL1Div1" value="CL1Div1" [(ngModel)]="model.OFFLNS_FLS_ELECTRICAL_EQUIPMENT" />
+            <label for="flsEquipmentCL1Div1">CL1 Div1</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsEquipment" id="flsEquipmentCL1Div2" value="CL1Div2" [(ngModel)]="model.OFFLNS_FLS_ELECTRICAL_EQUIPMENT" />
+            <label for="flsEquipmentCL1Div2">CL1 Div2</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsEquipment" id="flsEquipmentOrdinary" value="Ordinary" [(ngModel)]="model.OFFLNS_FLS_ELECTRICAL_EQUIPMENT" />
+            <label for="flsEquipmentOrdinary">Ordinary</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsEquipment" id="flsEquipmentUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FLS_ELECTRICAL_EQUIPMENT" />
+            <label for="flsEquipmentUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="flsAdequate">Adequate Bonding and Grounding</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsAdequate" id="flsAdequateYes" value="Yes" [(ngModel)]="model.OFFLNS_FLS_ADEQUATE_BONDING" />
+            <label for="flsAdequateYes">Yes</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsAdequate" id="flsAdequateNo" value="No" [(ngModel)]="model.OFFLNS_FLS_ADEQUATE_BONDING" />
+            <label for="flsAdequateNo">No</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsAdequate" id="flsAdequateNA" value="N/A" [(ngModel)]="model.OFFLNS_FLS_ADEQUATE_BONDING" />
+            <label for="flsAdequateNA">N/A</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsAdequate" id="flsAdequateUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FLS_ADEQUATE_BONDING" />
+            <label for="flsAdequateUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="flsDeadman">Deadman Valves for Dispensing</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsDeadman" id="flsDeadmanYes" value="Yes" [(ngModel)]="model.OFFLNS_FLS_DEADMAN_VALVES" />
+            <label for="flsDeadmanYes">Yes</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsDeadman" id="flsDeadmanNo" value="No" [(ngModel)]="model.OFFLNS_FLS_DEADMAN_VALVES" />
+            <label for="flsDeadmanNo">No</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsDeadman" id="flsDeadmanNA" value="N/A" [(ngModel)]="model.OFFLNS_FLS_DEADMAN_VALVES" />
+            <label for="flsDeadmanNA">N/A</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsDeadman" id="flsDeadmanUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FLS_DEADMAN_VALVES" />
+            <label for="flsDeadmanUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="flsExplosion">Explosion Protection</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsExplosion" id="flsExplosionYes" value="Yes" [(ngModel)]="model.OFFLNS_FLS_EXPLOSION_PROTECTION" />
+            <label for="flsExplosionYes">Yes</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsExplosion" id="flsExplosionNo" value="No" [(ngModel)]="model.OFFLNS_FLS_EXPLOSION_PROTECTION" />
+            <label for="flsExplosionNo">No</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsExplosion" id="flsExplosionNA" value="N/A" [(ngModel)]="model.OFFLNS_FLS_EXPLOSION_PROTECTION" />
+            <label for="flsExplosionNA">N/A</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsExplosion" id="flsExplosionUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FLS_EXPLOSION_PROTECTION" />
+            <label for="flsExplosionUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="flsLift">Lift Truck Designation</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsLift" id="flsLiftCL1Div1" value="CL1Div1" [(ngModel)]="model.OFFLNS_FLS_LIFT_TRUCK" />
+            <label for="flsLiftCL1Div1">CL1 Div1</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsLift" id="flsLiftCL1Div2" value="CL1Div2" [(ngModel)]="model.OFFLNS_FLS_LIFT_TRUCK" />
+            <label for="flsLiftCL1Div2">CL1 Div2</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsLift" id="flsLiftOrdinary" value="Ordinary" [(ngModel)]="model.OFFLNS_FLS_LIFT_TRUCK" />
+            <label for="flsLiftOrdinary">Ordinary</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="flsLift" id="flsLiftUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FLS_LIFT_TRUCK" />
+            <label for="flsLiftUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- Flammable Liquids Storage (inside) Section End -->

@@ -1,0 +1,1370 @@
+[
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Flammable Liquids - Storage, Transfer, Use",
+   "title": "Fl./Comb. Liquids Storage Room- Provide storage room for liquids in [location]",
+   "body": "Provide a cut-off room for the storage of flammable/combustible liquids in accordance with NFPA 30 with the following protection: A minimum X hour fire rated construction with the following attributes with all openings protected with appropriately fire rated assemblies (doors, seals, dampers, etc) Automatic closing fire doors Curbs and/or ramps at least 4 inches (102 mm) high or open grated trenches that drain to a safe location to prevent the flow of liquids into adjacent areas Adequate ventilation with supply and exhaust within 12 inches of the floor with mechanical ventilation being provide if dispensing Class I liquids Establish the area electrical hazard classification and provide appropriately rated electrical equipment. Provide as a minimum Class I, Division 2 electrical equipment if Class I liquids are present and Class I, Division 1 equipment within 3 feet (1 m) of any dispensing nozzle. Explosion venting if Class IA liquids are stored in containers larger than 1 gallon Use of listed self closing valves or self closing faucets when manually dispensing liquids Bonding and grounding of all equipment handling Class I liquids or liquids being used above their flash point. Provide bonding and grounding of all dispensing operations involving Class I liquids or liquids being used above their flash point. Room heat via indirect means or by equipment listed for the application A [Sprinkler system type (wet pipe, dry pipe, etc)] automatic sprinkler system utilizing K=[K factor ], standard response sprinklers with a [Temperature]F (C) temperature rating. Design the system to provide [Density] gpm/sq.ft.(mm/min) over the hydraulically most remote [Area of application] sq.ft. (sq m) with a hose stream allowance of [flowrate] gpm (L/min). All sprinkler piping should have a UL Corrosion Resistance Rating (CRR) of at least 1.0.",
+   "details": "Flammable and combustible liquids present a significant fire hazard should they ignite. An unconfined spill fire can spread over large areas overtaxing sprinkler systems and result in significant property damage and interruption to business operations. The protection recommendations above are intended to mitigate this hazard."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Flammable Liquids - Storage, Transfer, Use",
+   "title": "Fl./Comb. Liquids Storage Cabinet- Provide cabinet for liquids in [location]",
+   "body": "Store the flammable/combustibles located in the [Areas description] in flammable/combustible liquids storage cabinets meeting the requirements of NFPA 30.",
+   "details": "Flammable and combustible liquids present a significant fire hazard should they ignite. An unconfined spill fire can spread over large areas overtaxing sprinkler systems and result in significant property damage and interruption to business operations. Locating the liquids in a storage cabinet lessens the likelihood they will ignite and provides a form of confinement."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Flammable Liquids - Storage, Transfer, Use",
+   "title": "Flammable Liquids Safety Cans- Provide safety cans for liquids in [location]",
+   "body": "Provide safety cans for the handling of flammable liquids being used in the [Areas description]. (NFPA 30)",
+   "details": "Safety cans are design to minimize the possibility of a liquid spill and contain an internal flash arrester to prevent a fire propagation into the can. "
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Hydraulic Equipment",
+   "title": "Hydraulic Fluid Power Equipment- Protect the [eqt. descr.] in [location]",
+   "body": "Replace the existing combustible fluid used in the [1] hydraulic equipment in the [Area description] with a listed or approved less hazardous hydraulic fluid   Or   Provide the [Equipment description] hydraulic equipment with the following protection features: Separate the [Equipment description] from adjacent areas by a minimum X hour fire rated construction with all openings protected with appropriately fire rated assemblies (doors, seals, dampers, etc) and automatic closing fire doors Automatic (low-low reservoir, fire detection or sprinkler system water flow) or manual (E-stop at least 40 from hazard or control room operated PLC shutdown) interlocks to shut down the equipment A [Sprinkler system type (wet pipe, dry pipe, etc)] automatic sprinkler system utilizing K=[K factor], standard response sprinklers with a [Temperature]F (C) temperature rating. Design the system to provide [Density] gpm/sq.ft.(mm/min) over the hydraulically most remote  [Area of application] sq.ft. (sq m) with a hose stream allowance of [flowrate] gpm (L/min). All sprinkler piping should have a UL Corrosion Resistance Rating (CRR) of at least 1.0. ",
+   "details": "Pressured hydraulic equipment present a significant fire hazard should they ignite. An unconfined spill fire can spread over large areas and a pressurized liquid leak can result in a spray fire that releases large amounts of energy. These events can overtax sprinkler systems and result in significant property damage and interruption to business operations. The protection recommendations above are intended to mitigate this hazard."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Commercial Cooking",
+   "title": "Commercial Cooking Equipment- Protect the [eqt. descr.] in [location]",
+   "body": "Protect the commercial cooking equipment in the [Area description] with an ANSI/UL 300 compliant wet chemical extinguishing system interlocked to shut off the fuel supply to the equipment upon system actuation in accordance with NFPA 96.",
+   "details": "A fire involving oils used in the cooking equipment represents a significant fire hazard that can release large amounts of smoke. Conventional sprinklers and older dry chemical systems are not as effective as wet chemical extinguishing systems. The suppressant in these systems is specifically designed to extinguish cooking oil fires through the process of saponification that produces a soap foam layer when mixed with the oil that cools and seals off the surface, preventing re-ignition."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Hazards",
+   "RecSubType": "Commercial Cooking",
+   "title": "Commercial Cooking Equipment- Inspect/Clean Ducts in [location]",
+   "body": "Conduct [Inspection frequency (Monthly, Quarterly, Semiannually, Annually)] visual inspections of the ductwork serving the commercial cooking equipment in the [Area description] for grease buildup and clean the ductwork as warranted in accordance with NFPA 96.",
+   "details": "A fire involving the buildup of grease inside of the duct would be difficult to extinguish and could result in significant damage and fire spread to the duct, adjacent construction and the roof."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Diesel Generator (emergency power supplies)",
+   "title": "Emergency Diesel Generator- Protect the [eqt.descr.] in [location]",
+   "body": "Separate the emergency generator in the [Area description] from adjacent areas by a minimum 1 hour fire rated construction with all openings protected with appropriately fire rated assemblies (doors, seals, dampers, etc) and automatic closing fire doors and provide the following features in accordance with NFPA 37: Curbs and/or ramps at least 4 inches (102 mm) high or open grated trenches that drain to a safe location to contain the capacity of the largest tank in order to prevent the flow of liquids into adjacent areas Automatic or manual shut off valves to isolate the fuel in event of a line break. A manual valve outside of the room and an automatic fire safe valve at the generator are preferred. Fuel pumps (including the main tank to day tank pump) interlocked to shut down upon suppression system activation unless it is desirable to maintain emergency power during a fire. A wet pipe automatic sprinkler system utilizing K=8, standard response sprinklers with a [Temperature]F (C) temperature rating. Design the system to provide 0.30 gpm/sq.ft.(12.2 mm/min) over the hydraulically most remote 2500 sq.ft. ( 230 sq m) with a hose stream allowance of 500 gpm (1900 L/min). All sprinkler piping should have a UL Corrosion Resistance Rating (CRR) of at least 1.0.",
+   "details": "The fuel used by the generator presents a significant fire hazard should a leak occur. Ignition of the leak is likely due to the generators hot surfaces. An unconfined spill fire can spread over large areas and a pressurized fuel leak can result in a spray fire that releases large amounts of energy. These events can overtax sprinkler systems and result in significant property damage and interruption to business operations. The protection recommendations above are intended to mitigate this hazard."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "External fire spread",
+   "title": "Outside Idle Pallet Storage- Relocate pallets from [location1] to [location2]",
+   "body": "Relocate the idle pallet storage located adjacent to [Building description] a distance of at least [Distance {[50 pallets - 20 ft (6.1m);50 to 200 pallets  30 ft (9.1m);]200 pallets  50 ft (15.2m)}] from the building in accordance with NFPA 1.",
+   "details": "The idle pallets represent an exposure to the building. A fire involving the pallets would quickly grow and could spread into the building. Sprinkler systems are not typically designed to extinguish a large fire that is already in the growth/steady burning phase. Relocating the pallets reduces the potential for this type of event."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "External fire spread",
+   "title": "Outside Large Comb. Trash Containers- Relocate containers at [location1] to [location2]",
+   "body": "Relocate the large combustible trash containers adjacent to [Building description] a distance of at least 33 ft (10m) and preferably 50 ft (15.2m) from the building in accordance with AIG CP-EG-0008 guide on housekeeping.",
+   "details": "The trash containers represent an exposure to the building. A fire involving them could quickly grow and could spread into the building. Sprinkler systems are not typically designed to extinguish a large fire that is already in the growth/steady burning phase. Relocating the pallets reduces the potential for this type of event. "
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "Floor Storage of Idle Wood Pallets- Protect pallets in [location]",
+   "body": "Limit the storage height of wood pallets in the [Area description] to 6 ft (1.8m) or less and limit pile size to four stacks with at least 8 (2.4m) aisles or provide the following protection: A [Sprinkler system type (wet pipe, dry pipe, etc)] automatic sprinkler system utilizing K=[K factor], standard response sprinklers with a [Temperature]F (C) temperature rating. Design the system to provide [Density] gpm/sq.ft.(mm/min) over the hydraulically most remote [Area of application] sq.ft. (sq m) with a hose stream allowance of [flowrate] gpm (1900 L/min). All sprinkler piping should have a UL Corrosion Resistance Rating (CRR) of at least 1.0. (NFPA 13)",
+   "details": "Tests have shown that fires involving idle pallets can be very challenging and may not be controlled by the existing sprinkler system. This could result in significant property damage and interruption to business operations. The protection recommendations above are intended to mitigate this hazard."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "Rack Storage of Idle Wood Pallets- Protect pallets in [location]",
+   "body": "Protect the rack storage of wood pallets in the [Area description] in accordance with NFPA 13 as follows: Provide a [Sprinkler system type (wet pipe, dry pipe, etc)] automatic sprinkler system utilizing K=[K factor], standard response sprinklers with a [Temperature]F (C) temperature rating. Design the system to provide [Density] gpm/sq.ft.(mm/min) over the hydraulically most remote [Area of application] sq.ft. (sq m) with a hose stream allowance of [Flowrate] gpm (L/min). All sprinkler piping should have a UL Corrosion Resistance Rating (CRR) of at least 1.0, OR Provide a wet type automatic sprinkler system utilizing K=[K factor], ESFR sprinklers with a [Temperature]F (C) temperature rating. Design the system to provide [Pressure] psi (bar) at the 12 hydraulically most remote sprinklers with a hose stream allowance of 250 gpm (946 L/min). All sprinkler piping should have a UL Corrosion Resistance Rating (CRR) of at least 1.0.",
+   "details": "Tests have shown that fires involving idle pallets can be very challenging and may not be controlled by the existing sprinkler system. This could result in significant property damage and interruption to business operations. The protection recommendations above are intended to mitigate this hazard."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "Floor Storage of Idle Plastic Pallets- Protect pallets in [location]",
+   "body": "Limit the storage height of plastic pallets in the [Area description] to 4 ft (1.2m) or less and limit pile size to two stacks with at least 8 (2.4m) aisles   OR     Limit the storage height to 10 ft (3.05m) and provide the following protection: A wet pipe automatic sprinkler system utilizing K=16.8, standard response sprinklers with a [Temperature]F (C) temperature rating. Design the system to provide 0.60 gpm/sq.ft.(24.4 mm/min) over the hydraulically most remote 2000 sq.ft. (186 sq m) with a hose stream allowance of [flowrate] gpm (1900 L/min). All sprinkler piping should have a UL Corrosion Resistance Rating (CRR) of at least 1.0.",
+   "details": "Tests have shown that fires involving idle pallets can be very challenging and may not be controlled by the existing sprinkler system. This could result in significant property damage and interruption to business operations. The protection recommendations above are intended to mitigate this hazard."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "Rack Storage of Idle Plastic Pallets- Protect pallets in [location]",
+   "body": "Protect the rack storage of wood pallets in the [Area description] in accordance with NFPA 13 with a wet pipe automatic sprinkler system utilizing K=[K factor], ESFR sprinklers with a [Temperature]F (C) temperature rating. Design the system to provide [Pressure] psi (bar) at the 12 most remote sprinklers with a hose stream allowance of 250 gpm (946 L/min). All sprinkler piping should have a UL Corrosion Resistance Rating (CRR) of at least 1.0.",
+   "details": "Tests have shown that fires involving idle pallets can be very challenging and may not be controlled by the existing sprinkler system. This could result in significant property damage and interruption to business operations. The protection recommendations above are intended to mitigate this hazard."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "HVLS Fans- Provide Shutdown Interlock for Fans in [location]",
+   "body": "Interlock the HVLS fans in the [Area description] to shutdown upon receiving a water flow signal from the sprinkler system protecting the area in which they are located.",
+   "details": "Tests have shown that the ability for a sprinkler system to control a fire is negatively affected if the fans continue to run. This could result in significantly more damage or an uncontrolled fire."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "HVLS Fans- Relocate fans in [location]",
+   "body": "Relocate the HVLS fans in the [Area description] as follows: Center fan between four sprinklers Maintain at least 3 ft (1m) vertical clearance between the fan and sprinkler deflector.",
+   "details": "Tests have shown that the ability for a sprinkler system to control a fire is negatively affected by the placement of the fan in relation to the sprinklers. This could result in significantly more damage or an uncontrolled fire."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "ESFR Obstructions- Eliminate obstructions to sprinklers in [location]",
+   "body": "Correct the obstructions to the water distribution pattern from ESFR sprinklers located at [Location description(s)] by [Correction method (relocated sprinklers, install sprinklers below obstructions, etc)].",
+   "details": "Tests have shown that obstructions to an ESFR sprinklers water distribution pattern can have a significant effect on the ability of the sprinkler system to control a fire. This could result in significantly more damage or an uncontrolled fire."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "Rack Storage; Transverse Flues- Maintain flue spaces in [storage location]",
+   "body": "Maintain nominal 6 inch (152.4 mm) transverse flues between loads and at rack uprights (approximately every 5 ft (1.5 m)) within the rack storage located in [Location description]. Random variations in the width of the flue spaces or in vertical alignment are permitted.",
+   "details": "Transverse flue spaces allow the hot gases from a fire to more quickly reach the ceiling sprinklers and results in earlier sprinkler activation. The flues also allow sprinkler water penetration into the storage array which helps to control the fire. Blocked transverse flues will likely result in significantly more damage or an uncontrolled fire."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "Rack Storage; Longitudinal Flues- Maintain flues in the [storage location]",
+   "body": "Maintain nominal 6 inch (152.4 mm) longitudinal flues within the rack storage located in [Location description]. Random variations in the width of the flue spaces or in vertical alignment are permitted. (NFPA 13)",
+   "details": "Longitudinal flue spaces allow the hot gases from a fire to more quickly reach the ceiling sprinklers and this results in earlier sprinkler activation. The flues also allow sprinkler water penetration into the storage array which helps to control the fire. Blocked longitudinal flues will likely result in significantly more damage or an uncontrolled fire."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "Rack Storage; Solid Shelves ] than 20 sq.ft. (1.86 sq m)- Remove solid shelves in [location]",
+   "body": "Remove the solid shelves within the rack storage located in [Location description],    OR   Create 6 inch (152.4 mm) transverse flues between loads and at rack uprights. Random variations in the width of the flue spaces or in vertical alignment are permitted, OR   Install one line of 165F (74C), minimum K=5.6 quick response sprinklers above every other tier of storage. Space the sprinklers horizontally a maximum distance of 10 ft (3m) apart in the longitudinal flue. Design the system to supply [number of sprinklers (see 13, 16.1.6.5)] sprinklers discharging a minimum of 30 gpm (114 L/min). (NFPA 13)",
+   "details": "Solid shelves essentially block flue spaces thus preventing the hot gases from a fire from reaching the sprinklers and preventing sprinkler water penetration into the storage array. This delays sprinkler operation and prevents sprinkler water from controlling the fire. The shelves will also result in more lateral fire spread within the rack. Thus the shelves will likely result in significantly more damage or an uncontrolled fire."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "Rack Storage; Solid Shelves ] than 64 sq.ft. (5.95 sq m)-  Remove solid shelves in [location]",
+   "body": "Remove the solid shelves within the rack storage located in [Location description],    OR   Create 6 inch (152.4 mm) transverse flues between loads and at rack uprights. Random variations in the width of the flue spaces or in vertical alignment are permitted, OR   Install one line of 165F (74C), minimum K=5.6 quick response sprinklers above each tier of storage. Space the sprinklers horizontally a maximum distance of 10 ft (3m) apart in the longitudinal flue. Design the system to supply [number of sprinklers (see 13, 16.1.6.5)] sprinklers discharging a minimum of 30 gpm (114 L/min).",
+   "details": "Solid shelves essentially block flue spaces thus preventing the hot gases from a fire from reaching the sprinklers and preventing sprinkler water penetration into the storage array. This delays sprinkler operation and prevents sprinkler water from controlling the fire. The shelves will also result in more lateral fire spread within the rack. Thus the shelves will likely result in significantly more damage or an uncontrolled fire."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "Rack Storage; Open Top Noncomb. Containers- Relocate containers in [storage location]",
+   "body": "Provide lids for the open top noncombustible containers located in the rack storage in [Location description], OR   Relocate all open top containers to the top tier of storage and provide lids for the open top containers located elsewhere in the racks or remove all other open top containers in the racks, OR   Relocate all open top containers to the bottom tier of storage and provide lids for the open top containers located elsewhere in the racks or remove all other open top containers in the racks OR   Relocated all open top containers from the top tier of storage and intermix the open top containers with storage in combustible within the racks provided the open top containers do not extend into the transverse flue spaces.",
+   "details": "Open top containers will collect water from the ceiling sprinklers that would normally cascade down into the storage array and control the fire. Their presence will likely result in significantly more damage or an uncontrolled fire."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "Rack Storage; Open Top Comb. Containers- Relocate containers in [storage location]",
+   "body": "Provide lids for the open top combustible containers located in the rack storage in [Location description], OR   Relocate all open top containers to the bottom tier of storage and provide lids for the open top containers located elsewhere in the racks or remove all other open top containers in the racks OR   Remove all open top containers from the top tier of storage and do not allow open top containers within the racks to extend into the transverse flue spaces.",
+   "details": "Open top containers will collect water from the ceiling sprinklers that would normally cascade down into the storage array and control the fire. Their presence will likely result in significantly more damage or an uncontrolled fire."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "Metal Halide Lamps- Replace lamps in [location]",
+   "body": "Replace the metal halide lamps in [Location description] with O-type lamps or provide the lighting fixtures with containment barriers if within its listing to prevent hot particles from falling onto the storage below.   AND   Turn off the lighting at least once a week for a minimum of 15 minutes to reduce the likelihood of arc tube rupture. (NFPA 70B)",
+   "details": "Metal halide lamps are somewhat prone to failure resulting in hot particles being ejected. These particles can be sources of ignition. Lamps that are nearing this type of failure will generally fail to start once they have been turned off and allowed to cool down."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "Sprinklers; Ceiling Only- Provide sprinklers in the [description]",
+   "body": "Provide automatic sprinkler protection in [Area description] over the [Type of storage (palletized, shelf, single row rack, double row rack, multirow rack, etc)] storage of [Commodity description] being stored to a height of [Storage height] ft (m). Design the system to provide [Density] gpm/sq.ft.(mm/min) over the hydraulically most remote [Area of application] sq.ft. (sq m) using a [Type of system (wet, dry, preaction, etc)] system using K=[K factor], [Response type (standard, quick)] response, [Temperature] F (C) rated sprinklers. Include a hose stream allowance of [Flow rate] gpm (L/min). All sprinkler piping should have a UL Corrosion Resistance Rating (CRR) of at least 1.0.   Install the system in accordance with NFPA 13.",
+   "details": "Fires involving high piled storage are a significant hazard. They can grow quickly resulting in significant fire and smoke damage to the building and its contents if inadequately protected."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "Sprinklers; Ceiling and In-Racks in DRR up to 25 (7.62m)- Provide sprinklers in the [description]",
+   "body": "Provide automatic sprinkler protection in [Area description] over the [Type of storage (palletized, shelf, single row rack, double row rack, multirow rack, etc)] storage of [Commodity description] being stored to a height of [Storage height] ft (m). Design the system to provide [Density] gpm/sq.ft.(mm/min) over the hydraulically most remote [Area of application] sq.ft. (sq m) using a [Type of system (wet, dry, preaction, etc)] system using K=[K factor], [Response type (standard, quick)] response, [Temperature] F (C) rated sprinklers.    In addition, provide minimum K=5.6, [Temperature] F (74C) rated, quick response sprinklers spaced [Distance] apart in the longitudinal flue of the rack above the [Tiers requiring in-rack sprinklers (e.g., second, fourth, etc)] tier(s) of storage. Design the in-rack sprinklers to supply [Number of sprinklers] sprinklers operating at a minimum pressure of a minimum of [Pressure] psi (bar). Piping for the in-rack sprinklers should be valved independently of the ceiling sprinklers.    Include a hose stream allowance of [flow rate] gpm (L/min). All sprinkler piping should have a UL Corrosion Resistance Rating (CRR) of at least 1.0.   Install the system in accordance with NFPA 13.",
+   "details": "Fires involving high piled storage are a significant hazard. They can grow quickly resulting in significant fire and smoke damage to the building and its contents if inadequately protected."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "Sprinklers; Ceiling ESFR- Provide sprinklers in the [description]",
+   "body": "Provide wet pipe automatic sprinkler protection in [Area description] over the [Type of storage (palletized, shelf, single row rack, double row rack, multirow rack, etc)] storage of [Commodity description] being stored to a height of [Storage height] ft (m). Design the system to provide [8] psi (bar) at the 12 hydraulically most remote sprinklers using utilizing K=[K factor], ESFR sprinklers with a [ Temperature]F (C) temperature rating. Include a hose stream allowance of 250 gpm (946 L/min). All sprinkler piping should have a UL Corrosion Resistance Rating (CRR) of at least 1.0.   Install the system in accordance with NFPA 13.",
+   "details": "Fires involving high piled storage are a significant hazard. They can grow quickly resulting in significant fire and smoke damage to the building and its contents if inadequately protected."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "Steel Building Columns Protection- Protect the columns in [description]",
+   "body": "Protect the steel columns in the [Description of Area] area by one of the following methods: Provide a minimum 1 hour fire rated fireproofing Install sidewall sprinklers at the 15 ft (4.6m) elevation, pointed at one side of the steel column. The sprinklers do not have to be considered in the sprinkler systems hydraulic calculation. (NFPA 13)",
+   "details": "A fire within a rack structure or storage array presents a significant exposure to the steel column. The Fire could heat up and cause serious damage to the steel columns resulting in a partial building collapse."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "Aerosol Storage- Segregate the aerosols in [description]",
+   "body": "Segregate the [Description of Aerosols] storage in the [Description of Area] from the rest of the storage area by one of the following methods: (NFPA 30B) Chain link fences that extends from the floor to the underside of the roof deck or ceiling Wall assemblies with an X hour fire resistance rating",
+   "details": "Aerosols can fail during a fire with the cans acting as missiles when the contents of the cans are expelled. This can create multiple ignition source locations within the storage area. Automatic sprinklers systems are typically not designed to control fires starting in multiple locations. Therefore, lack of segregation could result in significant fire damage."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Hazards",
+   "RecSubType": "Explosive Dusts",
+   "title": "Dust Hazards Analysis- Conduct an analysis of the [building/process]",
+   "body": "Conduct a dust hazards analysis of buildings and systems that contain combustible dust or are likely to generate combustible dust to evaluate their explosion hazards. Where explosion hazards are present appropriate measures should be taken to mitigate the hazard. This includes explosion protection, venting and isolation.    To support this analysis it may be necessary to conduct tests to determine the deflagration hazard characteristics of the [dust description] dust. As necessary, conduct a screening test in accordance with ASTM E1226 to determine if the dust is explosible. If explosible, conduct further tests in accordance with ASTM E1226 to determine the Pmax and Kst of the dust.",
+   "details": "Combustible dust explosions can result in significant building and equipment damage and extended interruption to business operations. It is critical that these hazards be identified and managed to reduce the potential for loss."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Hazards",
+   "RecSubType": "Explosive Dusts",
+   "title": "Dust Hazard Evaluation- Conduct tests of the dust in [description]",
+   "body": "Conduct tests to determine the deflagration hazard characteristics of the [dust description] dust. Conduct a screening test in accordance with ASTM E1226 to determine if the dust is explosible. If explosible, conduct further tests in accordance with ASTM E1226 to determine the Pmax and Kst of the dust. (NOTE: Based on the results of the tests, additional process hazard evaluation may be necessary to determine the need for additional protection such as explosion proof electrical equipment, explosion relief and suppression for silos and dust collection systems, etc).",
+   "details": "If explosible, the dust may represent an explosion hazard. Additional dust hazards analyses and testing may be required to evaluate the hazard. Dust explosions can cause significant equipment and building damage and result in extended interruption to business operations.   It is important to characterize the material throughout the process. This may require that multiple samples be tested. ASTM E1226 allows for testing as-received samples of particulate or modifying the sample so only the smaller particles are tested. The latter is recommended where separation or accumulation of fines is possible at some location in a processing system or where dust collection systems will collect the finer material. Consideration should be given to what type of sample should be tested based on the process characteristics involved.   We also recommend that a sieve analysis or particle size analysis of the samples be performed."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Explosive Dusts",
+   "title": "Dust Collector- Provide explosion protection and isolation for the collector in [description]",
+   "body": "Provide some form of explosion protection for the dust collector in the [location description] collecting [dust description] dust in accordance with NFPA 69. In addition, provide explosion isolation to prevent explosion propagation to the upstream connected equipment.",
+   "details": "The dust being collected by the dust collector is explosible. An explosion within the collector would also spread to other equipment to through the inlet piping. The dust collector and the connected equipment would likely be seriously damaged."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Flammable Liquids - Storage, Transfer, Use",
+   "title": "Outdoor Fuel Dispensing from AST- Provide protection for the dispensing operation at [location]",
+   "body": "Provide the following protection for the [Dispensing area description] outdoor fuel dispensing located at [Location description on site]: Replace the existing tank with a Listed or Approved protected aboveground tank or fire-resistant tank Provide spill containment for the aboveground tank Provide vehicular protection (e.g., guard posts) Listed pump taking suction through the top of the container Listed hose with listed emergency breakaway device Listed automatic closing valve with latch-open device for island type dispensing devices or a Listed, automatic closing-type nozzle valve without a latch open device Emergency shut off device located between 20 and 30 from dispensing device (NFPA 34)",
+   "details": "Flammable and combustible liquids present a significant fire hazard should they ignite. An unconfined spill fire can spread over large areas overtaxing sprinkler systems and result in significant property damage and interruption to business operations. The protection recommendations above are intended to mitigate this hazard."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Construction",
+   "RecSubType": "Construction",
+   "title": "Pipe/Conduit and Cable/Cable Tray Pen. Seals- Install seals in the [barrier description]",
+   "body": "Seal the annular space around all pipe and conduit penetrations through the [barrier description] with a listed fire stop assembly. The fire resistance rating should be X hours or commensurate with the barrier being penetrated.(NFPA 221)",
+   "details": "Lack of a properly rated seal will allow the fire to propagate through the [barrier description]."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Construction",
+   "RecSubType": "Construction",
+   "title": "Protection of Openings- Protect the openings in the [barrier description]",
+   "body": "Close all unnecessary openings between the [area 1 description] and [area 2 description] with equivalent construction of the separating wall. Protect the man-way entries with X hour fire rated, automatic closing fire doors having a maximum temperature rise of 250F (121C) in 30 minutes. (NFPA 221)",
+   "details": "Non-fire rated protection of openings will allow the fire to propagate from one area to another."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Flammable Liquids - Storage, Transfer, Use",
+   "title": "Manual Spray Booth Interlocks- Provide interlocks for the spray booth in [description]",
+   "body": "Provide interlocks between the each spray applicator and spray booth exhaust system for the [spray booth description] so that the applicators cannot be operated unless the exhaust ventilation system is running and the spray application is stopped if the exhaust ventilation system fails. (NFPA 33)",
+   "details": "This interlock will prevent a buildup of flammable vapors that can easily be ignited."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Flammable Liquids - Storage, Transfer, Use",
+   "title": "Manual Spray Booth Sprinkler Protection- Extend sprinklers into the booth in [location]",
+   "body": "Extend the existing sprinkler system to protect the interior of the [ spray booth description] and in the area behind the filters.",
+   "details": "The interior of the spray booth is shield from the overhead sprinklers. Sprinklers are needed inside the booth to control a fire within it should a fire occur."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Flammable Liquids - Storage, Transfer, Use",
+   "title": "Spray Booth Sprinklers- Protect the sprinklers in [description] from Overspray",
+   "body": "Protect the sprinklers in [spray booth description] from overspray residue by covering them with a cellophane bag having a maximum thickness of 0.003 inches (0.08 mm) or with a thin paper bag. (NFPA 33)",
+   "details": "Sprinklers that have overspray residue may not operate properly or at all. Thus a fire in the spray booth may not be controlled resulting in significant fire damage."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Protection",
+   "RecSubType": "Sprinklers",
+   "title": "Sprinkler Systems; Design Demand- Determine the system demand for [system]",
+   "body": "Determine the system design demands for the sprinkler systems protecting [area descriptions] and submit it to AIG for review. As an alternate, locate the sprinkler drawings for the areas and submit them to AIG for review. ",
+   "details": "Sprinkler design information was not available at the time of the survey. This information is needed to conduct a thorough assessment of the sprinkler protection adequacy in the affected areas."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Protection",
+   "RecSubType": "Sprinklers",
+   "title": "Sprinkler Systems; Placards- Attach placards to the [system] risers",
+   "body": "Attach placards containing the system design information to the sprinkler system risers for [area descriptions]. (NFPA 13)",
+   "details": "Sprinkler design information should be documented on the placards so that the information is available for review and assessment."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Construction",
+   "RecSubType": "Construction",
+   "title": "Ceiling panels- Replace missing ceiling panels in [area]",
+   "body": "Replace all missing suspended ceiling panels in the [area description].",
+   "details": "Hot gases from a fire in the area could be redirected to the space above the ceiling. This could delay detection of the fire by fire detectors and delay activation of sprinklers installed at the ceiling level."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Human Element",
+   "RecSubType": "Planned Preventative Maintenance",
+   "title": "Roof Drains- Clean the debris from roof drains on [building]",
+   "body": "Clean the debris from the roof drains on the roof of the [building description].",
+   "details": "The debris is blocking the roof drains which will prevent water drainage. The collected water could overtax the roofs support structure or result in water intrusion into the building."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Human Element",
+   "RecSubType": "Emergency Organization & Planning",
+   "title": "Plant Emergency Organization- Develop",
+   "body": "Develop and implement a written emergency plan that establishes actions to be taken in the event of an emergency and that defines the roles and responsibilities for plan implementation. The following functions may be needed depending on the nature of the facilities operation provided it is safe to do so and following any evacuation: Notification of fire department and other emergency response organizations Communicate with responding emergency response personnel Ensure sprinkler control valves are open and not shut until instructed to do so by the Fire Department Monitor the fire pump to ensure it is operating as designed Shutdown any hazardous operations and other equipment to prevent additional damage or ensuing catastrophic events. Respond to fire emergencies in order to control and extinguish the fire Commence salvage operations as soon as possible to minimize the damage to equipment   Drills should be conducted periodically to ensure all participants understand their roles and responsibilities and to verify they can be carried out effectively.",
+   "details": "Losses can be greatly reduced with a proper employee response. An Emergency Organization can impact both the response time by the Fire Department and ensure that existing fire protection systems work as designed. The emergency plan should address the facilities response to emergency events as applicable including fire, explosion, fire exposures from outside the plant, flood, windstorm, earthquake, water/liquid damage, flammable/combustible liquid spills, toxic or hazardous chemical releases, and loss of critical utilities. Those assigned plan responsibilities should be trained in its implementation."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Human Element",
+   "RecSubType": "Site Level Business Continuity Planning",
+   "title": "Business Continuity Plan- Develop",
+   "body": "Develop and implement a written business continuity plan (BCP) that identifies and addresses how the facility would respond to all events that could lead to interruption of operations, analyzes the business impact of each of them, and the recovery strategies needed to limit the consequences of the incident.   Components of the plan should be tested annually as part of the annual review process.",
+   "details": "A BCP is critical to ensure the facility can quickly respond to major events and limit their impact on the business. Approximately 50%of businesses that suffer from a major disaster without a BCP never re-open for business. The BCP should address events creating adverse physical conditions including weather and natural hazards such as flood, windstorm and earthquake, fire, loss of critical utilities, and civil disturbances."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Human Element",
+   "RecSubType": "Self-Inspection Program",
+   "title": "Self Inspection Plan- Develop",
+   "body": "Develop and implement a written self inspection plan that requires regular, formal documented fire safety inspections. The plan should establish fire safety and fire equipment and system inspection frequencies and establish checklists for items to be inspected.",
+   "details": "Fire safety inspections can identify potential hazardous situations and ensure they are corrected on a continuous basis. Fire equipment and system inspection and testing will help ensure the protection equipment is properly placed, is serviceable and will operate if needed. NFPA 25 contains information on water based fire system inspection and testing. Those assigned plan responsibilities should be trained in its implementation."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Human Element",
+   "RecSubType": "Impairment Procedures",
+   "title": "Impairment Program- Develop",
+   "body": "Develop and implement a written program to manage impairments to fire protection systems and equipment. The program should establish actions necessary for impairment identification, tracking, reporting and restoration, and hazard evaluation and mitigation. Impairments should be tagged for visual indication and tracked using a computerized or paper log system. AIG should be notified of all impairments that will exceed 8 hours in duration.",
+   "details": "Impaired fire protection can result in a large loss if not properly managed. If an impairment occurs, appropriate precautions should be taken as necessary to minimize the hazard including: Notification of appropriate department heads in the affected areas Shutdown of hazardous processes Prohibit hot work Prohibit smoking Notification of the central station\\alarm receiving center Notification of the public fire Supplemental manual firefighting equipment such as extra fire extinguishers and charged holes lines. Establish temporary connections to hydrants or adjoining sprinkler systems Expediting completion of repair work   AIG recommends that all impairments lasting longer than 1-shift or 8 hours be reported to the impairment desk. This will allow AIG to monitor the impairment and provide guidance regarding precautions that should be taken while the impairment exists. Impairments can be reported by calling 877-705-7287 or emailing GlobalProperty.Impairment@aig.com."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Human Element",
+   "RecSubType": "Contractor Management",
+   "title": "Contractor Management Program- Develop",
+   "body": "Develop and implement a written contractor training program which covers all aspects of plant safety and plant operations as it pertains to their work. It should also include all applicable management programs such as hot work, impairment handling, housekeeping and smoking policies. The training should be completed by all contractors and its subcontractors prior to being allowed to work onsite. Training records should be maintained for future review.",
+   "details": "Contractors should be considered an extension of the permanent staff therefore they should receive the same training as it pertains to their work location and activities. History as shown that many fires that have resulted in significant fire loss have been caused by contractors, especially while performing hot work."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Human Element",
+   "RecSubType": "Hot Work Permit",
+   "title": "Hot Work Program- Develop",
+   "body": "Develop and implement a hot work program based on the AIG cutting and welding permit system to monitor hot work operations. The program should including logging and tracking of hot work and pre and post work approvals. The program should also require a continuous fire watch while hot work is being conducted, a 1 hour continuous fire watch after hot work has been completed and a 3 hour intermittent fire watch thereafter.",
+   "details": "Improper cutting and welding is a leading cause of fire. Loss history shows that some hot work fires can start some distance away from where the work is taking place, sometimes well after the work has been completed. A hot work permit system ensures that proper precautions are in place prior, during and after this work is completed. All hot work operations taking place outside designated workshop areas should be performed under this program, including work by contractors."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Human Element",
+   "RecSubType": "Hot Work Permit",
+   "title": "Hot Work Program- Improve",
+   "body": "Improve the existing hot work permit by: By ensuring that the permit is completed and signed off accordingly after the completion of work. Extending the fire watch and monitoring period to a 1 hour continuous fire watch after hot work has been completed and a 3 hour intermittent fire watch thereafter. Extending the clearance area around the hot work area to 35 ft (10m) Including a check to ensure detection is reinstated after hot work operations. Including an audit system to assess precautions and the permit for active hot work operations during large maintenance periods.",
+   "details": "Improper cutting and welding is a leading cause of fire. Loss history shows that some hot work fires can start some distance away from where the work is taking place, sometimes well after the work has been completed. A hot work permit system ensures that proper precautions are in place prior, during and after this work is completed. All hot work operations taking place outside designated workshop areas should be performed under this program, including work by contractors."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Human Element",
+   "RecSubType": "Smoking",
+   "title": "Smoking Policy- Develop",
+   "body": "Establish and implement a written smoking policy that prohibits smoking onsite other than in designated external areas where appropriate receptacles are provided for smoking material disposable. Conduct weekly self inspections to ensure the policy is observed.",
+   "details": "Improper disposable of smoking materials is a cause of fire. Limiting smoking to designated areas reduces the likelihood of a fire."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Human Element",
+   "RecSubType": "Planned Preventative Maintenance",
+   "title": "Preventive Maintenance Program- Develop",
+   "body": "Develop and implement a preventive maintenance program that addresses the inspection and maintenance of all key and critical plant equipment that meets or exceeds the manufacturers recommendations. The program should utilize a computerized or paper tracking system.",
+   "details": "Claims records show that where equipment and services are not maintained on a scheduled basis, then they are more likely to fail. This creates prolonged, and unplanned for, periods of production down time which can have a significant impact on the company. A supply of critical spares should be held onsite."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Human Element",
+   "RecSubType": "Planned Preventative Maintenance",
+   "title": "Thermographic Inspections- Inspection the [equipment]",
+   "body": "Conduct annual thermographic/Infrared (IR) inspections of critical electrical equipment. (NFPA 70B)",
+   "details": "IR inspections can detect deteriorating conditions before a failure occurs allowing for corrective action to be taken to prevent equipment and plant downtime. It is also recommended that the IR inspections be extended to critical rotating equipment."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Human Element",
+   "RecSubType": "Planned Preventative Maintenance",
+   "title": "Circuit Breakers- Conduct inspection and testing on [equipment]",
+   "body": "Conduct annual visual inspections and trip tests, and triennial contact resistance of circuit breakers (NFPA 70B)",
+   "details": "Thorough visual inspections and testing can detect deteriorating conditions before a failure occurs allowing for corrective action to be taken to prevent equipment and plant downtime."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Human Element",
+   "RecSubType": "Planned Preventative Maintenance",
+   "title": "Emergency Generators, Conduct inspection and testing on [equipment]",
+   "body": "Inspect emergency generators weekly and conduct monthly service testing under load. (NFPA 110)",
+   "details": "Thorough visual inspections and testing can detect deteriorating conditions before a failure occurs allowing for corrective action to be taken to ensure the generator is functions properly when needed."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Human Element",
+   "RecSubType": "Planned Preventative Maintenance",
+   "title": "Transfer Switches- Test [description] transfer switches",
+   "body": "Operate transfer switches once per month. (NFPA 110)",
+   "details": "Testing can detect deteriorating conditions before a failure occurs allowing for corrective action to be taken to ensure the transfer switch functions properly when needed."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Human Element",
+   "RecSubType": "Planned Preventative Maintenance",
+   "title": "Liquid Filled Transformers- Test the [description] transformers",
+   "body": "Conduct the following tests on the [transformer description] transformers as follows: Annual oil gas analysis Insulation resistance every 3 to 5 years Insulation power factor every 3 to 5 years Turns ratio test every 3 to 5 years (NFPA 70B)",
+   "details": "Thorough testing can detect deteriorating conditions before a failure occurs allowing for corrective action to be taken to ensure the transformer functions properly."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Human Element",
+   "RecSubType": "Planned Preventative Maintenance",
+   "title": "Safety Shutoff Valves- Conduct leak tests on [description] valves",
+   "body": "Conduct annual leak tests of the safety shutoff valves on the [equipment description]. (NFPA 85, 86 and CSD-1)",
+   "details": "Thorough testing can detect deteriorating conditions before a failure occurs allowing for corrective action to be taken to ensure the safety valves functions properly."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Human Element",
+   "RecSubType": "Planned Preventative Maintenance",
+   "title": "Combustion Controls- Test the [equipment] combustion controls",
+   "body": "Conduct annual tests of the combustion controls on the [equipment description] by testing all pressure switch limits and interlocks, and flame failure detection devices. (NFPA 85, 86 and CSD-1)",
+   "details": "Thorough testing will ensure the safety devices and interlocks will properly protect the equipment."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Human Element",
+   "RecSubType": "Planned Preventative Maintenance",
+   "title": "Ammonia Refrigeration Vapor Detection- Test the [equipment] detection system",
+   "body": "Conduct annual tests of the [equipment description] ammonia refrigeration system vapor detection devices. (NFPA 1) ",
+   "details": "Thorough testing will ensure the safety devices function properly and will provide the appropriate warning should a leak occur."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Human Element",
+   "RecSubType": "Planned Preventative Maintenance",
+   "title": "Ammonia Refrigeration Ventilation System- Test the [equipment] ventilation system",
+   "body": "Conduct annual tests of the [equipment description] ammonia refrigeration engine room ventilation system. (NFPA 1)",
+   "details": "Thorough testing will ensure the ventilation system functions properly to prevent a buildup of explosive ammonia gas."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Human Element",
+   "RecSubType": "Housekeeping",
+   "title": "Housekeeping Program- Develop",
+   "body": "Develop and implement a housekeeping program that establishes regularly scheduled inspections of all facility areas.",
+   "details": "An effective housekeeping program can reduce the potential for fire or conditions that can lead to increased loss due to fire."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Human Element",
+   "RecSubType": "Planned Preventative Maintenance",
+   "title": "Housekeeping- Maintain clearance between combustibles and electrical equipment in [location]",
+   "body": "Maintain at least 3 ft. (1m) clearance between electrical equipment and combustible materials.",
+   "details": "Clear work space around electrical equipment is needed for operations and maintenance. In addition, a fire involving the combustible may contribute to the smoke contamination of the electrical equipment, and increase the potential for equipment damage."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Human Element",
+   "RecSubType": "Housekeeping",
+   "title": "Housekeeping- Remove combustibles from [location]",
+   "body": "Remove the combustible materials from the [room description].",
+   "details": "A fire involving the combustible materials may contribute to the smoke contamination of the equipment within the room."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Human Element",
+   "RecSubType": "Management Interest",
+   "title": "Management Interest- Improve",
+   "body": "Improve managements interest and approach with loss prevention by ensuring corporate and local policies recognize the importance of loss prevention and assign responsibility for overall loss prevention both corporately and at each location.",
+   "details": "Employees attitude toward loss prevention is directly related to senior managements interest in it. Ensuring corporate and local policies recognize the importance of loss prevention can improve the employees attitude toward it."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Human Element",
+   "RecSubType": "Management Interest",
+   "title": "Plan Review- Submit plans for the [project]",
+   "body": "Submit plans for the [project description] for AIG review and acceptance.",
+   "details": "AIG will review the plans to ensure they are acceptable for AIG insurance purposes and will provide recommendations as needed. Having AIG involved earlier on and throughout the project will help ensure that the appropriate loss prevention features are provided and prevent project delays.  Please contact your Account Engineer prior to or during the design phase of the project."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Construction",
+   "RecSubType": "Construction",
+   "title": "Building Valuation- Conduct a valuation of the [building]",
+   "body": "Conduct a professional building evaluation to determine the actual value of the [building description].",
+   "details": "For such a complex building available evaluation tools will not accurately give a building estimate and should be done professionally. The building's reported values are [building value] while our [tool / (the Marshall & Swift)] evaluates this building at [evaluated building value]."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Construction",
+   "RecSubType": "Construction",
+   "title": "Plastic Suspended Ceiling- Replace combustible tiles in [description]",
+   "body": "Replace combustible plastic suspended ceiling tiles in [area description] with non-combustible tiles.",
+   "details": "The ceiling tiles are made of combustible plastic and will release a large amount of energy, heat and smoke as they burn.This could result in increased fire and smoke damage."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Construction",
+   "RecSubType": "Construction",
+   "title": "Fire Barrier to Separate Areas- Provide a barrier to separate [area descriptions]",
+   "body": "Provide a [hour] hour fire resistance rated barrier wall, preferably with masonry construction with openings protected by automatic closing fire doors with a [hour] rating and a maximum temperature rise of 250F (121C) in 30 minutes between the [area 1 description] and [area 2 description. Seal all cable, pipe and conduit penetrations with listed fire stop assemblies with a [hour] rating.",
+   "details": "The fire barrier is needed to limit fire and smoke spread between the areas. This would help reduce damage to property and the fire's impact on business operations."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Construction",
+   "RecSubType": "Construction",
+   "title": "Fire Stopping Materials- Replace materials in [barrier]",
+   "body": "Replace the fire stopping materials in the [barrier description] separating [area 1 description] and [area 2 description] with listed fire stopping assemblies with a fire resistance rating commensurate with the barrier.",
+   "details": "The fire stopping material installed appears to use a variety of expanded foam materials, the combustibility of which could not be confirmed. Some expanded foam materials e.g. polyurethane are combustible and therefore unsuitable for use in fire stopping applications, as they would aid the spread of fire and combustion gases between compartments."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Construction",
+   "RecSubType": "Construction",
+   "title": "Fire Doors- Unblock the fire doors in [Description]",
+   "body": "Discontinue the practice of blocking open the fire doors located in the wall separating [area 1 description] and [area 2 description].",
+   "details": "The fire doors should be allowed to automatically close in order to be effective in limiting the spread of fire. If the doors must be open, consider installing a listed automatic door closure with a hold open device."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Construction",
+   "RecSubType": "Construction",
+   "title": "Fire Doors- Repair the fire doors in [description]",
+   "body": "Repair the damage to the fire door in the wall separating [area 1 description] and [area 2 description] using an approved method OR replace the fire door.",
+   "details": "The fire door's condition compromises its ability to limit fire and smoke spread between the areas. This increases the probability of fire spread, damage to property and the fire's impact on business operations."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Supervision",
+   "RecSubType": "Automatic Fire Detection",
+   "title": "Fire Detection- Extend detection into [description]",
+   "body": "Extend the existing fire detection system by installing [detector type] detectors in the [area 1 description]. The detectors should be listed and installed in accordance with NFPA 72.",
+   "details": "Detectors are currently installed [area 2 description]. Extending the sytem into the [area 1 description] will provide prompt notification of a fire in the area. This would increase the likelihood of quick response by emergency personnel and help to reduce property damage and the impact on business operations."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Supervision",
+   "RecSubType": "Automatic Fire Detection",
+   "title": "Sprinkler Valves- Lock the valves on the [systems]",
+   "body": "Lock all sprinkler control valves in the fully-open position using padlocked chains or straps.",
+   "details": "Locking the valves helps assure they will remain open and reduces the possibility of unauthorized tampering. A closed or partially closed valve will prevent water from reaching the fire and possibly notification of the fire to emergency response personnel. This could result in increased property damage and impact on business operations."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Protection",
+   "RecSubType": "Sprinklers",
+   "title": "Sprinkler Protection- Install sprinklers in [description]",
+   "body": "Provide automatic sprinkler protection in [Area description]. Design the system to provide [Density] gpm/sq.ft.(mm/min) over the hydraulically most remote [Area of application] sq.ft. (sq m) using a [Type of system (wet, dry, preaction, etc)] system using K=[K factor], [Response type (standard, quick)] response, [Temperature] F (C) rated sprinklers. Include a hose stream allowance of [Flow rate] gpm (L/min). All sprinkler piping should have a UL Corrosion Resistance Rating (CRR) of at least 1.0.   Install the system in accordance with NFPA 13.",
+   "details": "The [Area description] contains [occupancy description] and is considered a [Occupancy Classification] occupancy. Should a fire occur, the sprinkler system will control the fire until emergency response personnel are able to extinguish it. This will limit property damage and the affect on business operations."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Protection",
+   "RecSubType": "Sprinklers",
+   "title": "Sprinklers- Reinforce sprinklers in [description]",
+   "body": "Reinforce the existing automatic sprinkler system in [Area description] to provide [Density] gpm/sq.ft.(mm/min) over the hydraulically most remote [Area of application] sq.ft. (sq m) using a [Type of system (wet, dry, preaction, etc)] system using K=[K factor], [Response type (standard, quick)] response, [Temperature] F (C) rated sprinklers. Include a hose stream allowance of [Flow rate] gpm (L/min). All sprinkler piping should have a UL Corrosion Resistance Rating (CRR) of at least 1.0.   System changes should be in accordance with NFPA 13.",
+   "details": "A fire involving the combustibles in the area has the potential to overwhelm the existing sprinkler installation. This could lead to a loss of control allowing the fire to grow rapidly and cause significant damage to both the building and its contents and have a negative affect on business operations."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Water Supply",
+   "RecSubType": "Water Supply",
+   "title": "Fire Pump; Manual Shutdown- Disable the shutdown on [fire pump]",
+   "body": "Disable the automatic stop feature in the fire pump controller so that the fire pump must be manual shutdown. ",
+   "details": "The fire pump is currently designed to automatically shutdown. Should an fire occur it is possible that the pump would shutdown during the incident and undermine the effectiveness of the sprinkler system. "
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Water Supply",
+   "RecSubType": "Water Supply",
+   "title": "Public Water Supply- Test the [description] water supply",
+   "body": "Petition the [water department] to conduct new water supply tests utilizing hydrants located at [location]. The test results should include the static pressure, residual pressure and the flow rate at the residual pressure. The test results should be forwarded to AIG for review.",
+   "details": "The water supply test information is [\"over 5 years old\" or \"not available\"]. Updated information is needed to assure that the water supply is capable of meeting the required sprinkler demands. The water supply can change over time due to changes in usage and system changes."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Water Supply",
+   "RecSubType": "Water Supply",
+   "title": "Diesel Driven Fire Booster Pump- Provide a pump for the [buildings]",
+   "body": "Provide a listed automatic diesel driven, horizontal centrifugal fire pump rated at [pressure] psi (bar) at a flow rate of [flowrate] gpm (lpm) and installed in accordance with NFPA 20. It should be arranged with a properly valved and checked bypass in accodance with NFPA 20 to take suction form the [size] inch (mm) public water main located at [location]. The fire pump should be provided with the following: Detached noncombustible pump house OR separate room cut off from adjacent areas by [hour] fire resistance rated construction with all openings protected with a [hour] fire resistance rating, with all man-way entries provided with X hour fire rated, automatic closing fire doors having a maximum temperature rise of 250F (121C) in 30 minutes. Either should be heated in order to maintain a temperature above 40F (5C), equipped with emergency lighting and provided with automatic sprinkler protection. Listed control panel connected to a [station type] station signaling system to provide supervisory signals including \"pump running\", \"engine trouble\", \"engine controller in off or manual\" and, \"fuel low level\", \"pump house/room low temperature\".  A [flowrate] gpm (lpm) pressure maintenance (jockey) pump to automatically mainitan [pressure] psi (bar). Independent pressure sensing lines for the pump and jockey pump. Each sensing line should be located between the pump discharge check valve and the discharge isolation valve, and should be constructed of 1/2 inch (15 mm) corrision-resisteant metallic pipe with two check valves installed at least 5 feet (1.52m) apart with a nominal 0.09365 inch (2.4mm) orifice drilled into the clapper. Ground-face unions with noncorrosive diaphragms drilled with a nominal 0.09375 (2.4mm) orifice are permitted where the water is clean. A standard pump test header equipped with [number] hose valves. An indoor above ground diesel fuel tank with a capacity equal to 1 US gallon per horsepower (5.07 L per kW) plus 5 percent volume for expansion and 5 percent volume for sump. The tank should be listed and provided with spill containment. Fuel piping should not be galvanized steel or copper. If flexible hose is used it should be flame resistant reinforced flexible house with a 30 minute fire resistance rating equal to ISO 15540. The fuel supply connection to the engine should be no lower than the level of the engine fuel transfer pump.",
+   "details": "The existing water supply does not have the pressure necessary to adequately supply water to the sprinkler system protecting [area/hazard description]. A booster pump is needed to boost the pressure to provide an adequate water supply. A fire occurring under the current conditions would not be controlled by the sprinkler system and result in significant property damage and disruption to business operations."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Water Supply",
+   "RecSubType": "Water Supply",
+   "title": "Water Supply Connection to Public Water Main- Provide a connection to the [water supply]",
+   "body": "Provide a [size] inch (mm) connection to the [size] public main in the [street/location] using a standard frostproof pit and a fire department connection in accordance with NFPA 24.",
+   "details": "The existing water supply does cannot adequately supply water to the sprinkler system protecting [area/hazard description]. Another water supply is needed. A fire occurring under the current conditions would not be controlled by the sprinkler system and result in significant property damage and disruption to business operations."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Water Supply",
+   "RecSubType": "Water Supply",
+   "title": "Electric Driven Fire Booster Pump- Provide a pump for the [buildings]",
+   "body": "Provide a listed automatic electric driven, horizontal centrifugal fire pump rated at [pressure] psi (bar) at a flow rate of [flowrate] gpm (lpm) and installed in accordance with NFPA 20. It should be arranged with a properly valved and checked bypass in accodance with NFPA 20 to take suction form the [size] inch (mm) public water main located at [location]. The fire pump should be provided with the following: Detached noncombustible pump house OR separate room cut off from adjacent areas by [hour] fire resistance rated construction with all openings protected with a [hour] fire resistance rating, with all man-way entries provided with X hour fire rated, automatic closing fire doors having a maximum temperature rise of 250F (121C) in 30 minutes. Either should be heated in order to maintain a temperature above 40F (5C), equipped with emergency lighting and provided with automatic sprinkler protection. Listed control panel connected to a [station type] station signaling system to provide supervisory signals including \"pump running\", \"power failure\", \"phase reversal\" and \"pump house/room low temperature\".  A [flowrate] gpm (lpm) pressure maintenance (jockey) pump to automatically mainitan [pressure] psi (bar). Independent pressure sensing lines for the pump and jockey pump. Each sensing line should be located between the pump discharge check valve and the discharge isolation valve, and should be constructed of 1/2 inch (15 mm) corrision-resisteant metallic pipe with two check valves installed at least 5 feet (1.52m) apart with a nominal 0.09365 inch (2.4mm) orifice drilled into the clapper. Ground-face unions with noncorrosive diaphragms drilled with a nominal 0.09375 (2.4mm) orifice are permitted where the water is clean. A standard pump test header equipped with [number] hose valves. Listed motor An electrical service connection dedicated to the fire pump OR a dedicated feeder connection derived directly from the dedicated serivce to the fire pump such that it is independent of all plant disconnecting means and physically routed outside of buildings and away from major exposures. An emergency generator back up power supply. ",
+   "details": "The existing water supply does cannot adequately supply water to the sprinkler system protecting [area/hazard description]. Another water supply is needed. A fire occurring under the current conditions would not be controlled by the sprinkler system and result in significant property damage and disruption to business operations."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Water Supply",
+   "RecSubType": "Water Supply",
+   "title": "Diesel Driven Fire Pump- Provide a pump for the [buildings]",
+   "body": "Provide a listed automatic diesel driven, horizontal centrifugal fire pump rated at [pressure] psi (bar) at a flow rate of [flowrate] gpm (lpm) and installed in accordance with NFPA 20 to take suction from a [reservoir size] gallon (litre) [suction type, e.g., tank, reservoir, pond]. The fire pump should be provided with the following: Detached noncombustible pump house OR separate room cut off from adjacent areas by [hour] fire resistance rated construction with all openings protected with a [hour] fire resistance rating, with all man-way entries provided with X hour fire rated, automatic closing fire doors having a maximum temperature rise of 250F (121C) in 30 minutes. Either should be heated in order to maintain a temperature above 40F (5C), equipped with emergency lighting and provided with automatic sprinkler protection. Listed control panel connected to a [station type] station signaling system to provide supervisory signals including \"pump running\", \"engine trouble\", \"engine controller in off or manual\" and, \"fuel low level\", \"pump house/room low temperature\".  A [flowrate] gpm (lpm) pressure maintenance (jockey) pump to automatically mainitan [pressure] psi (bar). Independent pressure sensing lines for the pump and jockey pump. Each sensing line should be located between the pump discharge check valve and the discharge isolation valve, and should be constructed of 1/2 inch (15 mm) corrision-resisteant metallic pipe with two check valves installed at least 5 feet (1.52m) apart with a nominal 0.09365 inch (2.4mm) orifice drilled into the clapper. Ground-face unions with noncorrosive diaphragms drilled with a nominal 0.09375 (2.4mm) orifice are permitted where the water is clean. A standard pump test header equipped with [number] hose valves and a flow meter arranged to discharge back over the top of the suction tank or reservoir to allow for testing the fire pump. An indoor above ground diesel fuel tank with a capacity equal to 1 US gallon per horsepower (5.07 L per kW) plus 5 percent volume for expansion and 5 percent volume for sump. The tank should be listed and provided with spill containment. Fuel piping should not be galvanized steel or copper. If flexible hose is used it should be flame resistant reinforced flexible house with a 30 minute fire resistance rating equal to ISO 15540. The fuel supply connection to the engine should be no lower than the level of the engine fuel transfer pump.",
+   "details": "The existing water supply does cannot adequately supply water to the sprinkler system protecting [area/hazard description]. Another water supply is needed. A fire occurring under the current conditions would not be controlled by the sprinkler system and result in significant property damage and disruption to business operations. "
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Water Supply",
+   "RecSubType": "Water Supply",
+   "title": "Electric Driven Fire Pump- Provide a pump for the [buildings]",
+   "body": "Provide a listed automatic electric driven, horizontal centrifugal fire pump rated at [pressure] psi (bar) at a flow rate of [flowrate] gpm (lpm) and installed in accordance with NFPA 20 to take suction from a [reservoir size] gallon (litre) [suction type, e.g., tank, reservoir, pond]. The fire pump should be provided with the following: Detached noncombustible pump house OR separate room cut off from adjacent areas by [hour] fire resistance rated construction with all openings protected with a [hour] fire resistance rating, with all man-way entries provided with X hour fire rated, automatic closing fire doors having a maximum temperature rise of 250F (121C) in 30 minutes. Either should be heated in order to maintain a temperature above 40F (5C), equipped with emergency lighting and provided with automatic sprinkler protection. Listed control panel connected to a [station type] station signaling system to provide supervisory signals including \"pump running\", \"power failure\", \"phase reversal\" and \"pump house/room low temperature\".  A [flowrate] gpm (lpm) pressure maintenance (jockey) pump to automatically mainitan [pressure] psi (bar). Independent pressure sensing lines for the pump and jockey pump. Each sensing line should be located between the pump discharge check valve and the discharge isolation valve, and should be constructed of 1/2 inch (15 mm) corrision-resisteant metallic pipe with two check valves installed at least 5 feet (1.52m) apart with a nominal 0.09365 inch (2.4mm) orifice drilled into the clapper. Ground-face unions with noncorrosive diaphragms drilled with a nominal 0.09375 (2.4mm) orifice are permitted where the water is clean. A standard pump test header equipped with [number] hose valves and a flow meter arranged to discharge back over the top of the suction tank or reservoir to allow for testing the fire pump. Listed motor An electrical service connection dedicated to the fire pump OR a dedicated feeder connection derived directly from the dedicated serivce to the fire pump such that it is independent of all plant disconnecting means and physically routed outside of buildings and away from major exposures An emergency generator back up power supply. ",
+   "details": "The existing water supply does cannot adequately supply water to the sprinkler system protecting [area/hazard description]. Another water supply is needed. A fire occurring under the current conditions would not be controlled by the sprinkler system and result in significant property damage and disruption to business operations."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Water Supply",
+   "RecSubType": "Water Supply",
+   "title": "Fire Water Tank- Provide a tank for the [fire pump]",
+   "body": "Provide a [reservoir size] gallon (litre) tank to supply the [fire pump description] installed in accordance with NFPA 22. The tank should be provided with the following: A permanent method to fill the tank that should be sized to fill the tank in a maximum of 8 hours.  A heating system if the tank is subject to freezing designed to maintain a temperature of at least 42F (5.6C). Anti-vortex plate assembly on the discharge outlet Low water temperature alarm set at 40F (4.4C) connected to a [station type] signaling system. Water level gauge to visually determine tank level A low water level alarm connected to a [station type] signaling system.",
+   "details": "The existing water supply for the [fire pump description] [deficiency, e.g, does not provide an adequate amount of water, is considered not a reliable water supply] to the sprinkler system protecting [area/hazard description]. Another water supply is needed. A fire occurring under the current conditions would not be controlled by the sprinkler system and result in significant property damage and disruption to business operations."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Water Supply",
+   "RecSubType": "Water Supply",
+   "title": "Fire Pump Installation- Improve the [pump] installation at [location]",
+   "body": "Improve the existing [pump description] pump installation by providing the following:  Independent pressure sensing lines for the pump and jockey pump. Each sensing line should be located between the pump discharge check valve and the discharge isolation valve, and should be constructed of 1/2 inch (15 mm) corrision-resisteant metallic pipe with two check valves installed at least 5 feet (1.52m) apart with a nominal 0.09365 inch (2.4mm) orifice drilled into the clapper. Ground-face unions with noncorrosive diaphragms drilled with a nominal 0.09375 (2.4mm) orifice are permitted where the water is clean.  A [flowrate] gpm (lpm) pressure maintenance (jockey) pump to automatically mainitan [pressure] psi (bar).  Detached noncombustible pump house OR separate room cut off from adjacent areas by [hour] fire resistance rated construction with all openings protected with a [hour] fire resistance rating, with all man-way entries provided with X hour fire rated, automatic closing fire doors having a maximum temperature rise of 250F (121C) in 30 minutes. Either should be heated in order to maintain a temperature above 40F (5C), equipped with emergency lighting and provided with automatic sprinkler protection.   Connected to a [station type] station signaling system to provide supervisory signals including [select appropriate items, \"pump running\", \"power failure\", \"phase reversal\", \"engine trouble\", \"engine controller in off or manual\" and, \"fuel low level\", \"pump house/room low temperature\"]. A permanent method to fill the suction tank that should be sized to fill the tank in a maximum of 8 hours. A standard pump test header equipped with [number] hose valves. A flow meter arranged to discharge back over the top of the suction tank or reservoir to allow for testing the fire pump.",
+   "details": "The existing fire pump installation contains weaknesses that can affect its reliability. Improving the installation will ensure the fire pump is available and can provide an adequate water supply to the sprinkler systems thus limiting property damage and any negative affect on business operations."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Supervision",
+   "RecSubType": "Security",
+   "title": "Security Service- Provide key stations and conduct tours in [areas]",
+   "body": "Provide a system of key stations throughout [site/building desription]. Conduct recorded tours every two hours in all unattended areas by trained personnel.",
+   "details": "There are various areas of the plant that are not under survelliance by plant personnel due to idle periods and typical business operations. These areas should be surveilled to assure an off-normal condition is identified in order to assure prompt response by plant and emergency personnel."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Supervision",
+   "RecSubType": "Security",
+   "title": "Security Service- Extend the security rounds to [description]",
+   "body": "Extend the existing security rounds to monitor the [area descriptions].",
+   "details": "These areas are not under survelliance by plant personnel due to idle periods and typical business operations. They should be surveilled to assure an off-normal condition is identified in order to assure prompt response by plant and emergency personnel."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Supervision",
+   "RecSubType": "Automatic Fire Detection",
+   "title": "Fire Alarm System- Provide system in [areas]",
+   "body": "Provide a [system type] signaling system to monitor [description of systems to be monitored]. Install the system in accordance with NFPA 72.",
+   "details": "The [description of systems to be monitored] are currently not adequately monitored. Should a fire or trouble condition occur, response by plant or emergency response personnel could be delayed. This could result in increased damage to property and impact on business operations."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Supervision",
+   "RecSubType": "Automatic Fire Detection",
+   "title": "Fire Alarm System- Extend the system to [areas]",
+   "body": "Extend the [system type] signaling system to monitor [description of signals to be monitored].",
+   "details": "The [description of signals to be monitored] are currently not adequately monitored. Should a fire or trouble condition occur, response by plant or emergency response personnel could be delayed. This could result in increased damage to property and impact on business operations."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "Human Element",
+   "RecSubType": "Self-Inspection Program",
+   "title": "Self Inspection Plan- Improve",
+   "body": "Improve the existing self inspection plan to include the following: Internal inspection of sprinkler piping for obstructions every 5 years Monthly inspections of locked or supervised sprinkler valves Weekly inspections of sealed sprinkler valves Quarterly tests of mechanical waterflow devices (e.g., water gongs) Semiannual tests of vane and pressure switch waterflow devices Annual main drain tests Annual testing of wet pipe system antifreeze solution at the most remote portion of the system. If an incorrect freeze point is found the system should be drained and filled with new premixed antifreeze. portion and where it interfaces with the wet pipe system. Annual trip tests of dry pipe and preaction system valves Full flow trip tests dry pipe and preaction system valves every 3 years Annual full flow trip tests of deluge systems Air leakage tests of deluge and preaction systems every 3 years Quarterly low air pressure alarm tests of dry pipe, deluge and preaction systems Annual internal ice plug inspection of deluge and preaction systems protecting freezers Weekly fire pump churn tests Monthly fire pump churn tests Annual fire pump full flow tests Annual test of fire pump diesel fuel Quarterly partial flow test of master pressure reducing valve (e.g., at fire pump) Annual full flow test of master pressure reducing valve (e.g., at fire pump) Annual partial flow test of pressure reducing valve (e.g., at each floor) Full flow test of pressure reducing valve (e.g., at fire pump) Internal inspection of fire water supply tanks every 5 years (3 years if corrosion protection is installed) Annual operational testing of fire doors Annual testing of fire detection devices Annual testing of fire alarm signaling systems Annual testing of clean agent systems Semiannual check of clean agent quantity and pressure on refillable containers Annual operational testing of automatic closing fire doors and shutters to verify they will close. Annual testing of fire dampers to verify they will close. Annual operation and flushing of private fire hydrants",
+   "details": "Fire safety inspections can identify potential hazardous situations and ensure they are corrected on a continuous basis. Fire equipment and system inspection and testing will help ensure the protection equipment is properly placed, is serviceable and will operate if needed. NFPA 25 contains information on water based fire system inspection and testing. Those assigned plan responsibilities should be trained in its implementation."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "In-Rack Sprinklers, Face and Flue- Install sprinklers in [description]",
+   "body": "Install a minimum K=5.6, [Temperature] F (C) rated, quick response sprinklers spaced [Distance] apart in the longitudinal flue of the rack above the [Tiers requiring in-rack sprinklers (e.g., second, fourth, etc)] tier(s) of storage located in [rack description]. In addition install the same sprinklers  at the face of storage above the [Tiers requiring in-rack sprinklers (e.g., second, fourth, etc)] tier(s) of storage. Stagger the sprinklers both horizontally and vertically.   Maintain at least 6 inches (15cm) of clearance between the sprinklers and top of storage. Provide water shields or use listed intermediate level sprinklers if the sprinklers are not shielded by horizontal barriers.   Design the in-rack sprinklers to supply [Number of sprinklers] sprinklers operating at a minimum pressure of a minimum of [Pressure] psi (bar). Piping for the in-rack sprinklers should be valved independently of the ceiling sprinklers.",
+   "details": "The existing sprinkler system is not designed to control a fire within the storage rack. Providing the in-rack sprinklers willl enable the system to control the fire. Significant property damage and impact on business operations will likely occur if the in-rack sprinklers are not installed."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "In-Rack Sprinklers, Single Row Rack- Install sprinklers in [description]",
+   "body": "Install a minimum K=5.6, [Temperature] F (C) rated, quick response sprinklers spaced [Distance] apart above the [Tiers requiring in-rack sprinklers (e.g., second, fourth, etc)] tier(s) of storage in the single row racks located in [rack description]. Stagger the sprinklers vertically.   Maintain at least 6 inches (15cm) of clearance between the sprinklers and top of storage. Provide water shields or use listed intermediate level sprinklers if the sprinklers are not shielded by horizontal barriers.   Design the in-rack sprinklers to supply [Number of sprinklers] sprinklers operating at a minimum pressure of a minimum of [Pressure] psi (bar). Piping for the in-rack sprinklers should be valved independently of the ceiling sprinklers.",
+   "details": "The existing sprinkler system is not designed to control a fire within the storage rack. Providing the in-rack sprinklers willl enable the system to control the fire. Significant property damage and impact on business operations will likely occur if the in-rack sprinklers are not installed."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "Horiz. Barriers and In-Rack Sprinklers, Single Row Racks, Scheme A- Install in [description]",
+   "body": "Install horizontal barriers above the [Tiers requiring in-rack sprinklers (e.g., second, fourth, etc)] tier(s) of storage in the single row racks located in [rack description]. The barriers should be construction of plywood having a minimum thickness of 3?8 in. (10 mm) or of sheet metal of minimum 22 gauge thickness.   Also install minimum K=8, ordinary temperature, quick response sprinklers spaced 4 to 5 feet (1.2 to 1.5m) apart below the barriers. Maintain at least 6 inches (15cm) of clearance between the sprinklers and top of storage.    Design the in-rack sprinklers to supply [Number of sprinklers] sprinklers operating at a minimum pressure of a minimum of 50 psi (345 kPa). Piping for the in-rack sprinklers should be valved independently of the ceiling sprinklers.",
+   "details": "The existing sprinkler system is not designed to control a fire within the storage rack. Providing the barriers and in-rack sprinklers willl enable the system to control the fire. Significant property damage and impact on business operations will likely occur if the in-rack sprinklers are not installed."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "Horiz. Barriers and In-Rack Sprinklers, Double Row Racks, Scheme A- Install in [description]",
+   "body": "Install horizontal barriers above above the [Tiers requiring in-rack sprinklers (e.g., second, fourth, etc)] tier(s) of storage in the double row racks located in [rack description]. The barriers should be construction of plywood having a minimum thickness of 3?8 in. (10 mm) or of sheet metal of minimum 22 gauge thickness.   Also install minimum K=8, ordinary temperature, quick response sprinklers spaced 4 to 5 feet (1.2 to 1.5m) apart in the longitudinal flue of the rack  below the barriers. In addition install the same sprinklers spaced 8 feet (2.4 m) apart at the face of storage below the barriers. Maintain at least 6 inches (15cm) of clearance between the sprinklers and top of storage.    Design the in-rack sprinklers to supply [Number of sprinklers] sprinklers operating at a minimum pressure of a minimum of 50 psi (345 kPa). Piping for the in-rack sprinklers should be valved independently of the ceiling sprinklers.",
+   "details": "The existing sprinkler system is not designed to control a fire within the storage rack. Providing the barriers and in-rack sprinklers willl enable the system to control the fire. Significant property damage and impact on business operations will likely occur if the in-rack sprinklers are not installed."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "Horiz. Barriers and In-Rack Sprinklers, Double Row Racks, Scheme B- Install in [description]",
+   "body": "Install horizontal barriers above every tier of storage in the double row racks located in [rack description]. The barriers should be construction of plywood having a minimum thickness of 3?8 in. (10 mm) or of sheet metal of minimum 22 gauge thickness.   Also install minimum K=8, ordinary temperature, quick response sprinklers spaced 4 to 5 feet (1.2 to 1.5m) apart in the longitudinal flue of the rack  below the barriers. In addition install the same sprinklers spaced 8 feet (2.4 m) apart at the face of storage below the barriers. Maintain at least 6 inches (15cm) of clearance between the sprinklers and top of storage.    Design the in-rack sprinklers to supply [Number of sprinklers] sprinklers operating at a minimum pressure of a minimum of 50 psi (345 kPa). Piping for the in-rack sprinklers should be valved independently of the ceiling sprinklers.",
+   "details": "The existing sprinkler system is not designed to control a fire within the storage rack. Providing the barriers and in-rack sprinklers willl enable the system to control the fire. Significant property damage and impact on business operations will likely occur if the in-rack sprinklers are not installed."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "Horiz. Barriers and In-Rack Sprinklers, Single Row Racks, Scheme B- Install in [description]",
+   "body": "Install horizontal barriers aboveevery tier of storage in the single row racks located in [rack description]. The barriers should be construction of plywood having a minimum thickness of 3?8 in. (10 mm) or of sheet metal of minimum 22 gauge thickness.   Also install minimum K=8, ordinary temperature, quick response sprinklers spaced 4 to 5 feet (1.2 to 1.5m) apart below the barriers. Maintain at least 6 inches (15cm) of clearance between the sprinklers and top of storage.    Design the in-rack sprinklers to supply [Number of sprinklers] sprinklers operating at a minimum pressure of a minimum of 50 psi (345 kPa). Piping for the in-rack sprinklers should be valved independently of the ceiling sprinklers.",
+   "details": "The existing sprinkler system is not designed to control a fire within the storage rack. Providing the barriers and in-rack sprinklers willl enable the system to control the fire. Significant property damage and impact on business operations will likely occur if the in-rack sprinklers are not installed."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Water Supply",
+   "RecSubType": "Water Supply",
+   "title": "Fire Pump Performance- Investigate the performance of [fire pump]",
+   "body": "Investigate the cause of the degraded performance of the [pump description] fire pump and take the appropriate corrective actions to improve pump performance.",
+   "details": "The fire pump test results show a significant reduction in fire pump performance. An underperforming fire pump could affect the reliability of the sprinkler system and/or even cause the failure of the system. Increasing the risk of significant property damage and impact on business operations. "
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Fired Process Equipment",
+   "title": "Oven Sprinkler Protection- Install sprinklers in [description]",
+   "body": "Provide automatic sprinkler protection in [oven description]. Install a minimum K=5.6, [Temperature; should be 50F higher than max operating temp] F (C) rated, ordinary response sprinklers spaced no more than 12 feet (3.7m) apart at a maximum spacing of 130 sq.ft.  Design the system with a minimum sprinkler operating pressure of a 15 psi (1 bar) with all sprinklers operating within the oven. The preferred arrangement is to locate piping outside of the oven and use sprinkler drops to locate the sprinklers in the oven in a pendent position. All sprinkler piping should have a UL Corrosion Resistance Rating (CRR) of at least 1.0.   Install the system in accordance with NFPA 13. ",
+   "details": "The oven is used to heat combustible materials. A fire within the oven could result in extensive damage to the oven and the surrounding area and could have a significant impact on operations. The sprinkler system will control the fire and reduce the amount of damage and the impact on business operations."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Flammable Liquids - Storage, Transfer, Use",
+   "title": "Spray Booth Sprinkler Protection- Install sprinklers in [booth]",
+   "body": "Provide automatic sprinkler protection in [booth description] spray booth. Design the system to provide 0.40 gpm/sq.ft.(16.3 mm/min) over the hydraulically most remote [Area of application] sq.ft. (sq m) using a [Type of system (wet, dry, preaction, etc)] system using K=[K factor], ordinary response, [Temperature] F (C) rated sprinklers. Include a hose stream allowance of [Flow rate] gpm (L/min). The sprinkler system should be controlled by a separate, listed indicating valve, operable from floor level .   All sprinkler piping should have a UL Corrosion Resistance Rating (CRR) of at least 1.0.   Install the system in accordance with NFPA 13. ",
+   "details": "The paint spray booth use flammable/combustible paint and the objects being coated are also combustible. A fire within the spray booth could result in extensive damage to the booth and the surrounding area and could have a significant impact on operations. The sprinkler system will control the fire and reduce the amount of damage and the impact on business operations."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Exhaust Ducts and Hook-Ups",
+   "title": "Duct Sprinkler Protection- Install sprinklers in [ducts]",
+   "body": "Provide automatic sprinkler protection in the [duct description] duct located in [area description] using a [Type of system (wet, dry, preaction, etc)] system using K=[K factor], ordinary response, [Temperature; should be 50F higher than max operating temp] F (C) rated sprinklers.  Design the system with a minimum flowrate of 30 gpm (114 lpm) per sprinkler at a minimum operating pressure of a 15 psi (1 bar). The preferred arrangement is to locate piping outside of the duct and use sprinkler drops to locate the sprinklers in the duct. All sprinkler piping should have a UL Corrosion Resistance Rating (CRR) of at least 1.0.   Sprinklers should be protected against overspray residue, either by location or covering (covered only by cellophane bags having a thickness of  0.003 inches (0.08 mm) or less or by thin paper bags).   Install the system in accordance with NFPA 13.",
+   "details": "The ducts are construction of combustible material and/or convey combustible materials. A fire within the  duct could result in extensive damage to the duct and the surrounding area and could have a significant impact on operations. The sprinkler system will control the fire and reduce the amount of damage and the impact on business operations."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Protection",
+   "RecSubType": "Special Extinguishing Protection",
+   "title": "Waterspray System- Provide a system for [description]",
+   "body": "Provide a fixed pipe waterspray system to protect the [hazard/area description]. Design the system to provide [density] gpm/sq.ft.(mm/min) over the [Area to be protected, e.g., entire area, tank surface] and automaticallly actuated by a [detection type] detection system. Extend the existing fire alarm signaling system to monitor the system. All sprinkler piping should have a UL Corrosion Resistance Rating (CRR) of at least 1.0.   Install the system in accordance with NFPA 15.",
+   "details": "The [hazard/area description] currently does not have adequate protection to control a fire and could result in extensive damage to the surrounding area as well as a significant impact on business operations."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Protection",
+   "RecSubType": "Special Extinguishing Protection",
+   "title": "Explosion Suppression System- Provide a system for [equipment]",
+   "body": "Provide an explosion protection system for [equipment description] located [equipment location]. In addition, provide explosion isolation to prevent explosion propagation to the connected equipment. Install the system in accordance with NFPA 69.",
+   "details": "The equipment contains materials that represent an explosion hazard. An explosion within the equipment could cause significant damage to the equipment and the surrounding area and disrupt business operations. The explosion protection system will protect the equipment and prevent explosion propagation to other equipment."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Protection",
+   "RecSubType": "Special Extinguishing Protection",
+   "title": "Foam-Water Sprinkler System- Provide a system for [description]",
+   "body": "Provide a fixed pipe foam-water sprinkler system for the [area/hazard description] arranged to operate automatically by a [detection type] detection system. Design the system to provide [density] gpm/sq.ft.(mm/min) over the hydraulically most remote [Area of application] sq.ft. (sq m) using closed sprinkler heads approved for use in foam systems with a [foam type] foam concentrate for a period of [discharge time] minutes. All sprinkler piping should have a UL Corrosion Resistance Rating (CRR) of at least 1.0.     Install the system in accordance with NFPA 16.",
+   "details": "The [hazard/area description] currently does not have adequate protection to control a fire and could result in extensive damage to the surrounding area as well as a significant impact on business operations."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Protection",
+   "RecSubType": "Special Extinguishing Protection",
+   "title": "Foam-Water Deluge System- Provide a system for [description]",
+   "body": "Provide a fixed pipe foam-water [spray or sprinkler] system for the [area/hazard description] arranged to operate automatically by a [detection type] detection system. Design the system to provide [density] gpm/sq.ft.(mm/min) over the entire area using open foam-water sprinkler heads with a [foam type] foam concentrate for a period of [discharge time] minutes. All sprinkler piping should have a UL Corrosion Resistance Rating (CRR) of at least 1.0.     Install the system in accordance with NFPA 16.",
+   "details": "The [hazard/area description] currently does not have adequate protection to control a fire and could result in extensive damage to the surrounding area as well as a significant impact on business operations."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Protection",
+   "RecSubType": "Special Extinguishing Protection",
+   "title": "Carbon Dioxide Suppression System- Provide a system for [description]",
+   "body": "Provide a fixed pipe CO2 system to protect [hazards description] arranged to operate automatically by a [detection type] detection system. The system should include: Calculations based on the flow for the largertst hazard plus simultaneous flow from CO2 hose connections A quantity of stored CO2 for at least two complete discharges plus 10% allowed for losses before refilling is required A system control unit designed for release device service to monitor the detectors and actuate the system. Extend the existing fire alarm signaling system to monitor the control unit. Interlocks to shutdown the ventilation system and close dampers and doors prior to discharge, when the system is activated either manually or automatically. Interlocks to shutdown the protected equipment if it is operationally safe to do so. A clearly identified manual means of operating the system located outside of the immediate fire area.   Install the system in accordance with NFPA 12.",
+   "details": "The [hazard/area description] currently does not have adequate protection to control a fire and could result in extensive damage to the surrounding area as well as a significant impact on business operations."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Conveyors",
+   "title": "Conveyor Deluge Waterspray System- Provide a system for [description]",
+   "body": "Provide a fixed pipe waterspray system over the belt conveyors located in [conveyor location], designed to provide 0.25 gpm/sq.ft. (mm/min) over the entire belt area and conveyor services were combustibles are likely to accumulate and automatically actuated by a [detection type] detection system. Sprinklers should cover the top and bottom beltsand should be spaced no more than 10' (3m) apart. Sprinkler should also cover the drive rolls, take up rolls, power units and hydraulic oil unit.Provide interlocks to shutdown the conveyor system upon actuation of the detection system. Extend the existing fire alarm signaling system to monitor the control unit. All sprinkler piping should have a UL Corrosion Resistance Rating (CRR) of at least 1.0.   Install they system in accordance with NFPA 15.",
+   "details": "The [hazard/area description] currently does not have adequate protection to control a fire and could result in extensive damage to the surrounding area as well as a significant impact on business operations."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Conveyors",
+   "title": "Conveyor Sprinkler System - Provide a system for [description]",
+   "body": "Provide a fixed pipe [\"preaction\" or \"wet pipe\"] [\"waterspray\" or \"sprinkler\"] system over the belt conveyors located in [conveyor location], designed to provide 0.25 gpm/sq.ft. (10.2 mm/min) over belt areas and conveyor surfaces were combustibles are likely to accumulate extend for [\"remote 100 lineal feet\" for less than or equal to 10 incline, \"remote 150 lineal feet\" for  greater than 10 incline]. The system should be automatically actuated by a [detection type] detection system. Sprinklers should cover the top and bottom beltsand should be spaced no more than 10' (3m) apart. Sprinkler should also cover the drive rolls, take up rolls, power units and hydraulic oil unit.Provide interlocks to shutdown the conveyor system upon actuation of the detection system. Include a hose stream allowance of 500 gpm (1900 L/min). Extend the existing fire alarm signaling system to monitor the control unit. All sprinkler piping should have a UL Corrosion Resistance Rating (CRR) of at least 1.0.   Install they system in accordance with NFPA 15.",
+   "details": "The [hazard/area description] currently does not have adequate protection to control a fire and could result in extensive damage to the surrounding area as well as a significant impact on business operations."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Protection",
+   "RecSubType": "Special Extinguishing Protection",
+   "title": "Spark Extinguishing System- Provide a system for [description]",
+   "body": "Provide a spark extinguishing system for the [equipment/duct description]. Install the system in accordance with NFPA 15.",
+   "details": "The [spark generating equipment] are known to produce sparks or hot particles that can serve as ignition sources downstream of the equipment. The spark extinguishing system will detect a spark in the product stream within the duct and apply a suppresant to extinguish it. This will significantly decrease the likelihood of a fire or explosion in downstream equipment."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Flammable Liquids - Storage, Transfer, Use",
+   "title": "Thermal Oil Heating Systems-  Improve protection of [description]",
+   "body": "Improve the protection of the [equipment description] hot oil system located in [area description] by completing the following:   Provide automatic sprinkler protection throughout the Hot Oil Boiler Building designed to cover the entire area. Design the system to provide 0.30 gpm/sq.ft.(12.2 mm/min) over the hydraulically most remote 2500 sq.ft. (232 sq m) using K=8, ordinary response sprinklers. Provide a nitrogen blanket inside the expansion tank on top of the hot oil. Ensure that all oil piping joints are welded or threaded welded for pipes 2 inches (51 mm) or less. Provide a well marked remote emergency shutoff capable of shutting down the entire hot oil system located at an accessible located at least 40 feet (12.2m) from the equipment. Interlock the system to shutdown on low heat transfer fluid flow, high fluid tempearture, low reservoir (expansion) tank level, sprinkler system water flow and heat detection. Emergency drainage systems shall be provided to direct liquid leakage and fire protection water to a safe location.   Install the system in accordance with NFPA 30 and NFPA 87,",
+   "details": "This room contains a a thermal heat transfer system, which is used to supply hot oil to the [equipment description]. The systems are rated at [energy rating in BTU/hr or kW] and operates at about [temperature] F (C). The oil is a [oil name], with a flash point of [temperature] F (C). The oil can be heated up to [temperature] F (C). The room is not provided with any fire detection or sprinkler system."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Flammable Gases - Storage, Transfer, Use",
+   "title": "Gas Cylinder Storage- Improve the storage of cylinders in [location]",
+   "body": "Improve protection for storage of gas cylinders throughout the site. This should include the following:  Ensure all gas cylinder are secured in place with chains at all times. Separate Acetylene and other cylinders containing flammable gas from the Oxygen cylinders in accordance with NFPA 55 (Chapter 7) guidelines. These commodities should be separated from each other by a minimum of 20 ft, OR otherwise provide a barrier of noncombustible construction that has a fire resistance rating of at least 0.5 hour and interrupts the line of sight between the containers. Provide storage areas exposed to vehicular traffic with protective guard posts/bollards. Keep storage areas free of combustible materials include vegetation so that they are at least 10 feet (3m) form the containers.",
+   "details": "All cylinders should be secured to avoid accidental falling and rupture. Also, oxygen should be separated from flammable gases to avoid feeding a fire."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Protection",
+   "RecSubType": "Sprinklers",
+   "title": "Sprinklers- Replace old sprinkler heads in the [system]",
+   "body": "All sprinkler heads 50 years old and older should have a representative sampling removed and sent to UL or other recognized testing laboratory for testing. Should testing show that these heads need to be replaced then the facility should schedule a replacement program. If the sprinkler heads test satisfactorily then testing should continue to be conducted at 10 year intervals. (Note: any sprinklers made before 1920 should be automatically replaced).    Submit documentation of the tests to AIG for review.",
+   "details": "In accordance with NFPA 13 and 25 guidelines, sprinklers that are 50 years old or greater should be tested to ensure proper operation.It should be noted that if the submitted sprinkler pass the test, they are required to be tested at 10-year intervals going forward."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Protection",
+   "RecSubType": "Sprinklers",
+   "title": "Sprinklers; Recall- Verify if the sprinklers in the [system] have been recalled",
+   "body": "Investigate the existing sprinkler heads to verify whether they are part of the [sprinkler manufacturer] recall. A reputable sprinkler contractor should be contacted to perform this work. Sprinklers that are noted to be affected by the recall should be replaced with similar design heads. ",
+   "details": "According to past information from [sprinkler manufacturer], certain sprinklers at this site may have been part of the national recall issued [year/time frame of issue]. If part of the recall, the sprinklers may not operate effectively. Sprinklers throughout the ceiling of the buildings should be verified by a reputable sprinkler contactor to confirm the make/model and whether they need to be replaced."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Fired Process Equipment",
+   "title": "Gas Fire Equipment Vent Lines- Separate the lines serving [eqt descriptions]",
+   "body": "The vent lines for the [equipment description] gas-fired equipment should be separately piped so that the \"atmospheric vents\" (such as those on gas regulators, switches, etc) are not manifolded together with the \"vents to atmosphere\" (e.g., vent between SSOV's).",
+   "details": "\"Atmospheric vent lines\" (such as those on gas regulators, switches, etc) should not be connected with \"vents to atmosphere\" (such as those between the two safety shut-off valves or pressure relief valves). This is to avoid the potential for the gas to back-feed into the atmospheric vent and damage the diaphragm."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Protection",
+   "RecSubType": "Special Extinguishing Protection",
+   "title": "Data Center Subfloor Protection- Provide protection for the [room description] subfloor",
+   "body": "Provide fire suppression for the Data Center subfloor area in accordance with NFPA 75 guidelines.",
+   "details": "The data center is provided with a raised subfloor area that acts as an air plenum and contains various cables (data, power) for the equipment. The subfloor area is currently not provided with any fire suppression (or detection). A fire in this concealed space would grow unchecked before the room fire protection would activate. This could result in substantial damage to equipment (as well as business interruption). Therefore, in accordance with NFPA 75 (2013), Section 8.1.1.2, a fire suppression system should be provided for the protection of the area below a raised floor, \"where 1) There is a critical need to protect data in the process, reduce equipment damage, and facilitate return to service, OR, 2) If the area below the raised floor contains combustible material.\""
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Electrical",
+   "title": "Battery Room Protection- Improve protection in the [location] battery room",
+   "body": "Improve protection for all battery rooms at this site by ensuring that the following are provided:  Provide continuous ventilation to limit hydrogen to 1% by volume in the room or continuous ventilation at a rate of 1 cu.ft./min/sq.ft. (5.1 L/sec/sq.m.) of floor area of the room or cabinet for flooded lead-acid, flooded nickel cadmium, and VRLA batteries. Provide an approved automatic smoke detection system supervised by the fire alarm system and that will give an audible signal at a constantly attended location.",
+   "details": "There are several battery rooms at this site. Batteries can give off flammable hydrogen gas when charging. Therefore additional protection should be considered. In accordance with NFPA 1 Section 52, For flooded lead-acid, flooded nickel cadmium, and VRLA batteries, adequate ventilation and fire detection are recommended."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Heating, Ventilation, Air Cond & Refrigeration",
+   "title": "Ammonia Refrig. System Machine Room- Improve the protection in the [description] room",
+   "body": "Improve protection for ammonia refrigeration system in the [area description] by ensuring that the following are provided:  Cut off the room from adjacent areas by a minimun 1  hour fire resistance rated barrier, preferably with masonry construction with openings protected by automatic closing fire doors with a [hour] rating and a maximum temperature rise of 250F (121C) in 30 minutes Seal all cable, pipe and conduit penetrations with listed fire stop assemblies with a [hour] rating. Continuous ceiling level exhaust ventilation  and emergency ventilation. Ventilation fans should be powered from circuits outside of the room and have key control stations outside of the room. Audible and visual alarms at ammonia concentration values of either less than 10000 ppm or less than 25% of the LEL (Note the PEL is 50 ppm thus alarm thresholds are typically in the range of 25 ppm). The alarm circuit should be supervised and provided with battery back up. An approved automatic smoke detection system supervised by the fire alarm system and that will give an audible signal at a constantly attended location. Automatic sprinkler protection designed the system to provide 0.30 gpm/sq.ft.(12.2 mm/min) over the hydraulically most remote 2500 sq.ft. (232 sq m) using K=8, ordinary response sprinklers. Provide explosion venting if the system contains more than 600 lbs of ammonia.",
+   "details": "Ammonia is a flammable gas and represents both a fire and explosion hazard. An explosion involving an ammonia leak would cause severe damage to room and have significant impact on business operations. The protection features being recommended both reduce the likelihood of an explosion and could reduce the resulting damage should one occur."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Protection",
+   "RecSubType": "Sprinklers",
+   "title": "Sprinklers- Extend sprinklers into the [description]",
+   "body": "Extend the existing sprinkler system in [area description] to protect [area/room descriptions].  All sprinkler piping should have a UL Corrosion Resistance Rating (CRR) of at least 1.0.   Extend the system in accordance with NFPA 13. ",
+   "details": "The [room description] is lacking sprinkler protection. Extending the existing sprinkler system will increase the likelihood that the sprinkler system will control a fire starts in the area."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "Sprinklers; Refrigerated Area- Extend the sprinkler system into the [description]",
+   "body": "Extend the existing sprinkler system in [area description] to protect [area/room descriptions] using listed dry pendent sprinklers.  All sprinkler piping should have a UL Corrosion Resistance Rating (CRR) of at least 1.0.   Extend the system in accordance with NFPA 13. ",
+   "details": "The [room description] is lacking sprinkler protection. Extending the existing sprinkler system will increase the likelihood that the sprinkler system will control a fire starts in the area."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Conveyors",
+   "title": "Conveyor Interlocks- Install/Repair the interlocks on the [description]",
+   "body": "[\"Install\" or \"Repair\"] interlocks for the [equipment description] rubber belt conveyors in the [area description] so that the conveyors shutdown upon: A reduction in speed below 20% of normal operating speed Misalignment or drift of the belt Actuation of the automatic sprinkler system",
+   "details": "A reduction in belt speed is indicative of an physical overload or other mechanical issue. This and belt misalignment can result in failure of the belt and also create frictional ignition sources, increasing the likelihood of a fire. Shutting down the conveyor upon sprinkler activation will prevent a fire on the conveyor from spreading and improve the sprinkler system's ability to control the fire."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Explosive Dusts",
+   "title": "Dust Collector Sprinkler Protection- Provide protection for the [description] collector",
+   "body": "Provide a fixed pipe [\"preaction\" or \"wet pipe\"] sprinkler system to protect the [equipment description] dust collector in [area description] [added if preaction- \"arranged to operate automatically by a [detection type] detection system\"]. Design the system to provide 0.20 gpm/sq.ft. (8 mm/min) in the bag section and clean air plenum utilizing K=5.6, standard response sprinklers with a [Temperature]F (C) temperature rating. Design the cust collector to withstand the weight of the maximum possible water containment  or install drains.",
+   "details": "The dust collector contains [dust description] which is combustible. A fire inside of the dust collector would be shielded from the ceiling sprinklers. Combating a fire within the collector would be very difficult due to limited access. The sprinklers could effectively control the fire, limiting property damage and the fire's impact on business operations."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Fired Process Equipment",
+   "title": "Combustion Controls- Install /Upgrade the controls on the [equipment]",
+   "body": "Provide the [equipment description] in the [area description] with the following safety devices and interlocks: High and low fuel pressure switches [number] safety shutoff valves [as required - \"with a vent line piped outside located between the two valves\"]. Equip the valves with the appropriate trim to conduct leak tests. Flame failure supervision Purge timer Combustion airflow switch Low water level switch High temperature switch (NFPA 85, NFPA 86, CSD1) ",
+   "details": "The [equipment description] burns [fuel description]. The recommended interlocks and controls will help assure the combustion process is well controlled and will safely shutdown in event of a system upset or malfunction."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Hydraulic Equipment",
+   "title": "Hydraulic Fluid Power Equipment Interlocks- Provide interlocks on the [equipment]",
+   "body": "Provide the [Equipment description] hydraulic equipment with the following  interlocks to shut down the equipment: Automatic low-low reservoir level, fire detection or sprinkler system water flow Manual (E-stop at least 40 from hazard or control room operated PLC shutdown)   ",
+   "details": "Pressured hydraulic equipment present a significant fire hazard should they ignite. An unconfined spill fire can spread over large areas and a pressurized liquid leak can result in a spray fire that releases large amounts of energy. These events can overtax sprinkler systems and result in significant property damage and interruption to business operations. The protection recommendations above are intended to mitigate this hazard."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Protection",
+   "RecSubType": "Special Extinguishing Protection",
+   "title": "Clean Agent Suppression System- Provide a system to protect [hazard]",
+   "body": "Provide a fixed pipe clean agent suppression system to protect [hazards description] arranged to operate automatically by a [detection type] detection system. The system should include: A quantity of stored suppressant agent for at least two complete discharges A system control unit designed for release device service to monitor the detectors and actuate the system. Extend the existing fire alarm signaling system to monitor the control unit. Interlocks as needed to shutdown the ventilation system and close dampers and doors prior to discharge, when the system is activated either manually or automatically. Interlocks as needed to shutdown the protected equipment if it is operationally safe to do so. A clearly identified manual means of operating the system located outside of the immediate fire area.   Install the system in accordance with NFPA 2001.",
+   "details": "The [hazard/area description] currently does not have adequate protection to control a fire and could result in extensive damage to the surrounding area as well as a significant impact on business operations."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Protection",
+   "RecSubType": "Special Extinguishing Protection",
+   "title": "Watermist Suppression System- Provide a system to protect [hazard]",
+   "body": "Provide a fixed pipe watermist suppression system to protect [hazards description] arranged to operate automatically by a [detection type] detection system. The system should include: A water supply and atomizing media quantity capable of supplying the largest single hazard or group of hazards to be protected simultaneously. A reserve supply of suppression agent and expellant gas or atomizing media A system control unit designed to monitor the detectors and actuate the system. Extend the existing fire alarm signaling system to monitor the control unit. Interlocks as needed to shutdown the ventilation system and close dampers and doors prior to discharge, when the system is activated either manually or automatically. Interlocks as needed to shutdown the protected equipment if it is operationally safe to do so. A clearly identified manual means of operating the system located outside of the immediate fire area.   Install the system in accordance with NFPA 750. ",
+   "details": "The [hazard/area description] currently does not have adequate protection to control a fire and could result in extensive damage to the surrounding area as well as a significant impact on business operations."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "NATCAT",
+   "RecSubType": "Other Perils",
+   "title": "Terrorism- Develop a comprehensive site security plan for [project]",
+   "body": "Develop a comprehensive site security plan for the [project description] to identify critical security safeguards to protect the facility from terrorist attacks. ",
+   "details": "For buildings at high risk from terrorists attack, it is critical to address critical security objectives at the earliest design planning stages as possible.  Implementing appropriate physical security safeguards such as procurement of adequate land to provide appropriate standoff protection at the earliest planning stages can preclude costly security enhancements and retrofits post construction/renovation.  Its also important to remember that the nature of threat is always changing; building designs should also take into consideration the need to incorporate security designs that can be enhanced during periods of increased threats or other civil unrest (controlled access points; off-site vehicle parking; security screening areas; and controlled delivery points)."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Other Perils",
+   "title": "Terrorism; Standoff Protection- Provide protection for the [building]",
+   "body": "Provide standoff protection for the [building(s) description].",
+   "details": "The most common threat to large buildings comes in the form of Vehicle-Borne Improvised Explosive Devices (VBIEDs)a large VBIED is capable of creating mass destruction to a building including complete structural failure.  This structural failure is a direct result of the dramatic air-blast pressure increased over a short time span which vastly changes the critical loads on the buildings columns and load bearing beams.  The primary risk mitigation measure for this threat is increasing the standoff distance between the explosive threat and the building.  Increasing standoff and using other building design processes to harden the structure may allow buildings to resist explosive threats."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "NATCAT",
+   "RecSubType": "Flood",
+   "title": "Flood Emergency Response Plan- Create a site specific plan for [site]",
+   "body": "Create a site specific Flood Emergency Response Plan that addresses the following:  An overview of flood hazard How flood conditions will be monitored Detailed description of flood response actions including a timetable that indicates when each action should be implemented Responsibilities during flood event with specific people identified Materials and supplies inventories and locations Contractors list/phone numbers including agreements Schedule for updating plan and practicing flood emergency response ",
+   "details": "A well prepared and practiced FERP is a proven method for reducing flood exposure."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Flood",
+   "title": "Flood- Elevate equipment/stock/machinery in the [location]",
+   "body": "Raise and/or relocate important equipment, stock and machinery above the flood elevation.   AIG recommends raising  to elevation [insert elevation - 500-year + half the distance between 100 and 500 year elevations with a minimum of 1 foot above the 500 year.  See COM-PM-04-0018] [datum].",
+   "details": "The most effective and reliable method to avoid flood damage is to simply raise or relocate important equipment, machinery and stock well above the flood elevation."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "NATCAT",
+   "RecSubType": "Flood",
+   "title": "Dry Flood Proofing- Investigate dry flood proofing of [buildings]",
+   "body": "Investigate dry flood proofing of [insert building(s) to be dry flood proofed].  The purpose of dry flood proofing a building is to make it watertight to floods of limited duration (a few hours) and depth (typically less than 3 feet). An effective dry flood proofing retrofit requires the following: Design by a qualified registered design professional. Verification that the walls/structure can withstand the anticipated hydrostatic pressure during a flood. Sealing the buildings exterior walls using technologies that include impermeable waterproof membranes and potentially strengthening those walls. Seal all wall penetrations.  Protection of the building depends on sealing openings, such as vents, and utility penetrations, and sealing walls and slabs, which are rarely designed to be watertight or resist flood loads. Select and install flood shields for openings in exterior walls. Watertight structural systems that close the openings in a buildings exterior walls to the entry of water.  Select only products that have been tested and certified by an independent organization. Install backflow valves on all interior drains to prevent floodwater flow into the building through drains. Verify that internal drainage systems are adequate to remove water that may seep through  pathways in the protection system Verification/testing that the constructed systems provide the desired flood proofing effectiveness Sufficient warning time to deploy active dry flood proofing measures and vacate the building and a plan for deploying any active dry flood proofing measures that require human intervention Operations and maintenance plan",
+   "details": "Dry flood proofing is a combination of measures that results in a structure, including the attendant utilities and equipment, being watertight with all elements substantially impermeable to the entrance of floodwater and with structural components having the capacity to resist flood loads.  Dry flood proofing reduces the potential for flood damage by reducing the probability that the building interior will be inundated. It can be an appropriate alternative for flood mitigation when relocating or elevating buildings is not cost-effective or technically feasible."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "NATCAT",
+   "RecSubType": "Flood",
+   "title": "Wet Flood Proofing- Investigate wet flood proofing of [buildings]",
+   "body": "Investigate wet flood proofing of [insert building(s) to be wet flood proofed].  The purpose of wet flood proofing a building to modify a building to allow floodwaters to pass through it in order to minimize damage to the building. An effective wet flood proofing retrofit requires the following: Using flood damage-resistant materials below the flood level throughout the building.  A detailed list of appropriate flood damage-resistant materials can be found in NFIP Technical Bulletin 2, Flood Damage-Resistant Materials Requirements for Buildings Located in Special Flood Hazard Areas (FEMA 2008a). Raising utilities and important contents to or above the flood protection level Installing and configuring electrical and mechanical systems to minimize disruptions and facilitate repairs Installing flood openings or other methods to equalize the hydrostatic pressure exerted by floodwaters Installing pumps to gradually remove floodwater from basement/low areas after the flood",
+   "details": "Wet flood proofing involves modifying a building to allow floodwaters to enter it in order to minimize damage to the building."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Flood",
+   "title": "Temporary Flood Barrier- Obtain barriers to protect [buildings]",
+   "body": "Obtain temporary flood barriers to be installed prior to anticipated flood events.  A number of vendors make temporary flood barriers that can be assembled relatively easily, moved into place, anchored, and erected. AIG recommends [xxx] [ft./m, or number of units] of [insert recommended product] be purchased.  Training and annual drills should also be conducted  so personnel know how to deploy the barriers. Proper storage, including cleaning after deployment, is necessary to protect the materials over long periods.",
+   "details": "Temporary barriers can stop floodwaters before the impact a facility and are typically most effective for flood depths on 3 feet or less.  The location and timing of installation should be pre determined and there must be adequate warning time for installation to occur."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Earthquake",
+   "title": "Floor Mounted Gas Fired Equip.- Anchor the [description] equipment",
+   "body": "Anchor floor mounted gas-fired [Boiler, Furnace, etc.] located in [Building Name and Location].  As a minimum, where holes are provided in the base of the equipment, anchor bolts should be installed at each corner in proportion to the hole-size in the frame.  In some instances, there may be more than four holes.  In those instances, fill all bolt holes with the appropriate size anchor bolt.  Where equipment frames do not have bolt holes, steel brackets should be welded or bolted to the frame and bolted to the floor.  In addition, rigidly attached piping should be provided with sufficient flexibility (i.e., either through expansion loops in the piping or flexible connectors) to allow differential movement in any direction during an earthquake.  Typical anchorage details are presented in Installing Seismic Restraints for Mechanical Equipment, published by the Federal Emergency Management Agency (FEMA 412).",
+   "details": "Fire following earthquake often causes more damage than the shaking itself.  The main reason for such fires is leaking gas ignited by open electrical equipment or other hot surfaces.  Anchorage of gas-fired equipment is important to minimize movement and undo stress on the attached piping and is a cost-effective way of minimizing the probability of a fire and/or explosion."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Earthquake",
+   "title": "Suspended Gas-Fired Equip.- Brace the [description] equipment",
+   "body": "Brace suspended gas-fired [Space Heater(s), Packaged Fan/Coil Unit(s), etc.] located in [Building Name and Location].  As a minimum, braces should be installed at the each corner of the unit at approximately 45 degree angle so that lateral motion is restrained in any direction.  Bracing should consist of steel members (angles, tees, straps, etc.) or cables (wire rope).  Each brace must be bolted to the unit adjacent to the vertical support rod using a steel bracket (bent plate or angle) or hardware suitable for attachment.  The other end of the brace should be bolted or welded to the structure above using a similar steel bracket or hardware.  If the braces are installed at steep angles, then the vertical support rods will require reinforcement to resist upward motion from the brace.  In addition, rigidly attached piping should be provided with sufficient flexibility (i.e., either through expansion loops in the piping or flexible connectors) to allow movement in any direction during an earthquake.  Typical bracing details are presented in Installing Seismic Restraints for Mechanical Equipment, published by the Federal Emergency Management Agency (FEMA 412).",
+   "details": "Fire following earthquake often causes more damage than the shaking itself.  The main reason for such fires is leaking gas ignited by open electrical equipment or other hot surfaces.  Lateral bracing for suspended gas-fired equipment is important to minimize movement and undo stress on the attached piping, and is a cost-effective way of minimizing the probability of a fire and/or explosion."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Earthquake",
+   "title": "Seismic Shutoff Valve- Provide valves at the [description]",
+   "body": "Provide seismic shutoff valve at the main gas supply line from the utility company where it enters the property.  Supplemental shutoff valves should be considered where the line enters [Building Names or Areas].  Management should first contact the utility company to ensure compliance with local codes and regulations.  In addition, all gas piping should have adequate bracing, which consists of a combination of anchors, guides, rollers, and/or diagonal braces.  Bracing should be installed such that the system can still expand or contract during normal operations without overstressing the piping.  Typical bracing details are presented in Installing Seismic Restraints for Ducts and Pipe; published by the Federal Emergency Management Agency (FEMA 414), and spacing requirements in the Seismic Restraint Manual, Guidelines for Mechanical Systems, published by the Sheet Metal and Air Conditioning Contractors National Association (SMACNA).",
+   "details": "Fire following earthquake often causes more damage than the shaking itself.  The main reason for such fires is leaking gas ignited by open electrical equipment or other hot surfaces.  Shutting off the gas supply to a building in the event of an earthquake is a cost-effective way of minimizing the probability of a fire and/or explosion, and when a fire does occur, eliminates the fuel than can feed the fire."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Earthquake",
+   "title": "Mechanical Equip.- Anchor the [description] equipment",
+   "body": "Anchor mechanical equipment such as [Names of Major Equipment Categories] located in [Building Name or Location].  All critical, high-valued, or unique equipment should be properly bolted to its supporting structure.  Where holes are provided in the base of the equipment, anchor bolts should be installed at each corner in proportion to the hole-size in the frame.  In some instances, there may be more than four holes provided.  In those instances, fill all bolt holes with the appropriate size anchor bolt.  Typical anchorage and bracing details are presented in Installing Seismic Restraints for Mechanical Equipment, published by the Federal Emergency Management Agency (FEMA 412).",
+   "details": "In the event of an earthquake, unanchored mechanical equipment can easily slide or topple and become damaged resulting property and business interruption losses.  In some instance, equipment can serve as part of a critical function or is necessary to protect life-safety.  Anchorage and bracing of equipment is the most cost-effective solution for mitigating damage and reducing the extent of downtime and loss of use."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Earthquake",
+   "title": "Rooftop Equip.- Anchor the [description]",
+   "body": "Anchor rooftop equipment such as the [HVAC Units, Cooling Tower, Chillers, etc.] located on the roof of [Building Name and Location].  As a minimum, all rooftop HVAC equipment should be properly bolted to the roof structure or curb per the manufacturer specifications, which may also require architectural details to maintain the waterproofing envelope.  Where holes are provided in the base of the equipment, anchor bolts should be installed at each corner in proportion to the hole-size in the frame.  In some instances, there may be more than four holes provided.  In those instances, fill all bolt holes with the appropriate size anchor bolt.  Roof mounted piping and ducting should also be braced along their lengths using uniformly spaced transverse and longitudinal braces.  Typical anchorage and bracing details are presented in Installing Seismic Restraints for Mechanical Equipment, (FEMA 412), and Installing Seismic Restraints for Ducts and Pipe, (FEMA 414) published by the Federal Emergency Management Agency.  Brace spacing requirements are presented in Seismic Restraint Manual, Guidelines for Mechanical Systems, published by the Sheet Metal and Air Conditioning Contractors National Association (SMACNA).",
+   "details": "Unanchored or unbraced rooftop equipment can easily slide or topple and become damaged resulting property and business interruption losses.  In some instance, equipment can serve as part of a critical function and necessary to protect life-safety.  Anchorage and bracing of equipment is the most cost-effective solution for mitigating damage and reducing the extent of downtime and loss of use."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Earthquake",
+   "title": "Electrical Equip.- Anchor the [description] equipment",
+   "body": "Anchor electrical equipment such as [Names of Major Equipment Categories] located in [Building Name or Location].  Where anchorage was inaccessible such as was the case with the [Equipment Names] because [they were or it was ] energized, verify that anchor bolts exist during future maintenance shutdowns.  If anchorage is missing, provide a minimum of four anchor bolts per unit.  Typical details are presented in Installing Seismic Restraints for Electrical Equipment, published by the Federal Emergency Management Agency (FEMA 413).",
+   "details": "Unanchored electrical equipment can easily slide or topple and become damaged resulting property and business interruption losses.  Differential movement between equipment can also cause damage to the attachments (i.e., cabling, conduits, etc.) resulting in possible electrical arcing that can lead to a fire and/or loss of power.  In some instance, electrical equipment serves as part of a critical function and necessary to protect life-safety.  Anchorage and bracing of electrical equipment is the most cost-effective solution for mitigating damage, reducing business interruption, and limiting the potential for arcing, fire and loss of power."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Earthquake",
+   "title": "Laboratory Equip.- Restrain the laboratory equipment in [location]",
+   "body": "Restrain laboratory equipment located in [Building Name or Location].  Improvement of lab equipment bracing includes:   All critical, sensitive, unique, or high-valued equipment should be anchored (in instances where the equipment is supposed to be mobile, it should be tethered in their stationary positions) Commercially available Velcro type systems should be used to fasten tabletop equipment to their support surface (support tables should also be anchored) Vials or containers holding samples, sensitive, hazardous or flammable materials should be stored on shelve that have a lip above the edge of the shelf (this holds the containers in place and keeps them from falling off or out of the shelves) Shelving holding stored materials should be tied to the wall or secured to prevent them from tipping over or falling onto other equipment or shelving Limited amounts of flammable materials should be maintained in small containers during laboratory operations, and larger containers (gallon and liter size) should be stored in approved flammable liquids cabinets that are provided with locking doors, spill containment, and proper anchorage.",
+   "details": "Unrestrained laboratory equipment can easily slide or topple and become damaged resulting property and business interruption losses.  Also, hazardous or flammable materials can spill releasing toxic fumes and result in a possible fire or explosion provided an ignition source such as a Bunsen burner is present.  Restraining laboratory equipment is the most cost-effective solution for mitigating damage, reducing business interruption, preventing toxic fume releases, and limiting the potential for a fire and/or explosion."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Earthquake",
+   "title": "Compressed Gas Cylinders- Restrain the cylinders in [location]",
+   "body": "Restrain compressed gas cylinder that can fall or become projectiles in [Building Name or Location].  Restraints should consist of:   A structural support rack to hold the gas cylinders securely in place Steel or nylon straps or steel chains placed at the top and bottom third of the gas cylinder and tightly secured.  In addition, gas cylinder valve caps should be kept in place except when cylinders are in use.  Typical bracing details are presented in Installing Seismic Restraints for Mechanical Equipment, published by the Federal Emergency Management Agency (FEMA 412).",
+   "details": "Unrestrained compressed gas cylinders can easily topple and become damaged resulting property loss.  Also, flammable materials can escape and provide a potential ignition source and fuel for a fire.  Restraining gas cylinders is the most cost-effective solution for mitigating damage and limiting the potential for a fire and/or explosion."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Earthquake",
+   "title": "Data Processing and Computer Equip.- Restrain the equipment in [location]",
+   "body": "Restrain data processing and computer equipment in the [location] located in [Building Name and Location].  Improvements should include:   Raised access floor pedestals should have positive anchorage (i.e., mechanical fasteners (glue is not acceptable especially for slabs-on-grade where the glue can deteriorate from moisture coming through the slab)) Raised access floors taller than 12 inches (300 millimeters) should have bracing spaced approximately 12 to 16 feet (3.6 to 4.9 meters) on center in both directions and floor runners should be bolted together and be continuous Equipment supported on raised access floors should have overturning restraints installed to the subfloor (these are typically threaded rods bolted to the equipment and anchored to the subfloor below), and diagonal braces (supplemental to the access floor bracing) localized under the equipment to resist shifting Equipment supported on independent frames that penetrate the raised access floor and are resting on the subfloor should have anchorage from the equipment to the frame and the frame to the subfloor Provide protection to prevent water leakage from automatic sprinkler systems located under the raised access floor or at the ceiling Upgrade the emergency preparedness plan to include sprinkler leakage and water damage training of all personnel to assist with prompt clean up procedures of contaminated equipment and product during salvage operations for electronic equipment that is critical to operations For non-raised access floors, equipment such as server, racks, air conditioning units, etc. should be bolted to the floor.",
+   "details": "Critical unrestrained computer room equipment can easily slide or topple in an earthquake and become damaged resulting property and business interruption losses.  Restraining computer room equipment is the most cost-effective solution for mitigating damage, reducing business interruption, and limiting the potential for a fire and/or explosion."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Earthquake",
+   "title": "Vibration Isolation Equip.- Provide Snubbing Devices for [equipment]",
+   "body": "Provide snubbing devices for the [Names of Equipment] located in [Building Name and Location].  Snubbers are passive bumper devices when the equipment is operating, but become active once the equipment displaces too much in an earthquake (snubbers can be purchased from vibration isolator manufacturers).  They should be placed to prevent the equipment from moving greater than 1/4inch (6 millimeters).  Examples of snubbing devices are presented in Reducing the Risk of Nonstructural Earthquake Damage  A Practical Guide, published by the Federal Emergency Management Agency (FEMA E-74).",
+   "details": "Vibration isolated equipment will move more than those without because they resonant with the earthquake.  Damage to vibration isolated equipment usually consists of severe displacement that causes damage to the equipment and its attachments as well as damage to nearby objects due to impact that results in property and business interruption losses.  In some instance, the equipment serves as part of a critical function and necessary to protect life-safety (i.e., emergency generators).  Installing seismic snubbers is the most cost-effective solution for mitigating damage, reducing business interruption, and limiting life-safety concerns."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Earthquake",
+   "title": "Storage Tanks- Anchor storage tanks located in [location]",
+   "body": "Anchor storage tanks located in [Building Name and Location] to reduce damage and potential spillage of content.  In certain instances where the tanks have a low profile (i.e., width is larger than its height), the tank can remain unanchored, but must have sufficient flexibility in the attachments to prevent fractures in the piping and have reasonable separation so as not to impact other nearby objects.  Typical bracing details are presented in Installing Seismic Restraints for Mechanical Equipment, published by the Federal Emergency Management Agency (FEMA 412).",
+   "details": "Unanchored storage tanks can easily slide or topple in an earthquake and become damaged resulting property and business interruption losses.  Also, hazardous or flammable materials can spill releasing toxic fumes and resulting in a potential life-safety issue.  In addition, provided there is an ignition source present, there is the possibility of a fire and/or explosion.  Anchoring storage tanks is the most cost-effective solution for mitigating damage, reducing business interruption, preventing the release of toxic fumes, and limiting the potential for a fire and/or explosion."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Earthquake",
+   "title": "Piping and Ducting- Brace all piping in [location]",
+   "body": "Brace all piping in [Building Name or Location] as follows:  brace all fuel oil, gas, medical gas, and compressed air piping in accordance with local codes; brace all piping located in boiler, mechanical equipment and refrigeration mechanical rooms that are 1-1/4 (32 millimeters) nominal diameter and larger; and brace all pipes 2-1/2 (64 millimeters) nominal diameter and larger.  The exception is where piping is suspended by individual hangers 12 (300 millimeters) or less in length.  Bracing should also be provided for ducting in [Building Name or Location] as follows:  brace rectangular ducts with cross sectional areas 6 square feet (0.6 square meters) and larger; and circular ducts with diameters 28 (700 millimeters) and larger.  The exception is where ducting is suspended by hangers 12 (300 millimeters) or less in length.  Piping and ducting should be braced along their lengths using uniformly spaced transverse and longitudinal braces.  Seismic bracing should be installed such that the system can still expand or contract during normal operations without overstressing the piping or ducting.  Typical anchorage and bracing details are presented in Installing Seismic Restraints for Ducts and Pipe. published by the Federal Emergency Management Agency (FEMA 414).  Brace spacing requirements are presented in Seismic Restraint Manual, Guidelines for Mechanical Systems. published by the Sheet Metal and Air Conditioning Contractors National Association (SMACNA).",
+   "details": "Larger piping and ducting can sway causing excessive movement and failures in the suspended support system resulting in severe damage to the system and falling hazards for the occupants below.  In some instance, the piping and ducting serve as part of a critical function, necessary to protect life-safety, or contain contaminated or hazardous materials.   Damage to these systems often result in costly property and business interruption losses.   Bracing is the most cost-effective solution for mitigating damage and reducing the extent of downtime and loss of use."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Earthquake",
+   "title": "Fire Sprinkler System- Brace the system in [building]",
+   "body": "Brace existing fire sprinkler system in [Building Name and Location] in accordance with NFPA 13 requirements.  As a minimum, all main sprinkler lines should have longitudinal braces spaced no greater than 80 feet (24 meters) on center and transverse braces spaced no greater than 40 feet (12 meters) on center, four-way bracing should be provided at the top of all risers, vertical restraints should be provided at the end of all branch lines, sprinkler heads and branch lines should be at least two inches away from impact with any object, long sprinkler head drops shall have adequate flexibility for differential movement between sprinklers and ceilings, and sufficient clearance should be provided around sprinkler pipes that penetrate through structural walls or floors.  Where c-clamps are used for attachment of the piping to the structure, they shall have retainer straps, and under no condition should c-clamps be used for the attachment of bracing.",
+   "details": "Fire protection systems that meet current NFPA 13 bracing requirements have performed well during past earthquakes.  Fire following earthquake is a real issue, and it is important that sprinkler systems be functional after the event to stop the spread of fire and reduce the potential for additional damage.  Proper bracing and detailing is the most cost-effective way of ensuring that the fire sprinkler system will be operational and available after the earthquake."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Earthquake",
+   "title": "Industrial Storage Racks- Strengthen the racks in [locations]",
+   "body": "Strengthen industrial storage racks located in [Building Name and Location].  Strengthening measures should include:  providing base anchorage (installing anchor bolts in all holes provided in the column base plates), tying adjacent racks together, providing restraints so that items cannot fall off their shelves, and using good housekeeping procedures such as shrink wrapping materials stored on pallets, loading lower shelves first, always storing heavier products on the lower shelves, and placing critical and sensitive products in impact resistant packaging.  In addition, members impacted and deformed by moving vehicles should be reinforced or be replaced.  Always when purchasing new storage racks require that the design meet all current building code requirements and validated by analysis for the seismicity of the region.",
+   "details": "Industrial storage racks have not performed well during past earthquakes.  Contents are typically unrestrained and the structural framing systems are generally inadequate to resist movement without collapse (particular in the longitudinal direction). Also, anchorage is usually inadequate to resist overturning in the transverse direction (high aspect ratio).  Complete retrofit of existing racks is not cost-effective, and therefore, recommendations provided above are to minimize future damage, including potential falling hazards when occupants are present."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Earthquake",
+   "title": "Suspended Ceilings- Brace the ceiling in [location]",
+   "body": "Provide bracing (splay wires and compression posts) for suspended ceilings in important and high occupancy areas located in [Building Name] in accordance with current building code requirements.  Splay wires and compression posts should be installed on a 12-foot (3.6 meter) grid to restrain the ceiling tiles from excessive movement.  Light fixtures and HVAC registers should also have safety wires at each diagonal corner because they are a backup system so that the fixtures do not fall on the occupants below if the ceiling grid fails.  Typical bracing details are presented in Designing for Earthquakes, A Manual for Architects, published by the Federal Emergency Management Agency (FEMA 454).",
+   "details": "Adequately braced suspended ceiling systems have performed well in past earthquakes.   Without adequate bracing and detailing, the ceiling becomes a falling hazard and a life-safety issue for the occupants below, especially where heavy light fixtures and HVAC registers do not have safety wires.  To ensure adequate protection for the occupants below, the lateral bracing of the suspended ceilings should meet minimum code requirements."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Earthquake",
+   "title": "Partition Walls- Brace the walls in [buildings]",
+   "body": "Provide bracing along the top of all important and high occupancy partition walls located in [Building Name] in accordance with current building code requirements.",
+   "details": "Adequately braced partition walls have performed well in past earthquakes.  Without adequate bracing, the walls become falling hazards and a life-safety issue for the occupants nearby, and can block access to egress corridors.  To ensure adequate protection, lateral bracing should be installed along the top of all free standing partitions walls and they should meet minimum code requirements."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Wind",
+   "title": "Roof Flashing Securement- Reinforce the flashing on [building]",
+   "body": "Reinforce the flashing to the wood nailer on [ Building] to minimize the risk of damage to the roof cover.   Screws spaced no more than 12 in (30 cm) on center (o. c.) should be provided to reinforce the flashing. Minimum No. 8 galvanized screw fasteners should be used with neoprene washers and should be long enough to penetrate the wood nailer 3/4 in (1.9 cm).  The holes in the flashing should be pre-drilled to be oversized to permit movement and should be located in the lower edge of the flashing.   In areas where the flashing is attached to concrete/masonry walls, appropriate fasteners should be used such masonry anchors, compressed-air or powder-driven fasteners, or self-tapping concrete fastener with pre-drilled holes.",
+   "details": "The flashings were both visually and physically determined to be deficient.  Since uplift pressures experienced during a windstorm are highest at the perimeter and corners of buildings, properly installed flashing is the first line of defense against strong winds.  If flashing is not properly secured, wind can get underneath it and begin to peel the roof off leading to major damage to the roof and subsequent wetting of the building contents.  Proper base and cap flashing securement is also necessary to prevent damage to the roofing and the rooftop equipment from the flashing impacting them and also to prevent potential leaks along the parapet wall."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Wind",
+   "title": "Roof Gutter Securement- Reinforce the gutter on [building]",
+   "body": "Reinforce the gutter to the wood nailer on [ Building] to minimize the risk of damage to the roof cover.   The gutter should be secured with 1 in (2.5 cm) wide bands of 18 ga. or thicker metal straps spaced 12 in (30 cm) apart and screwed with No. 10 screws and should be long enough to penetrate the wood nailer 3/4 in (1.9 cm).  The holes in the flashing should be pre-drilled to be oversized to permit movement and should be located in the lower edge of the flashing.   In areas where the flashing is attached to concrete/masonry walls, appropriate fasteners should be used such masonry anchors, compressed-air or powder-driven fasteners, or self-tapping concrete fastener with pre-drilled holes.",
+   "details": "The flashings were both visually and physically determined to be deficient.  Since uplift pressures experienced during a windstorm are highest at the perimeter and corners of buildings, properly installed flashing and gutters are an important component of a good roofing system.  If not properly secured, wind can get underneath it and begin to peel the roof off leading to major damage to the roof and subsequent wetting of the building contents."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Wind",
+   "title": "Roof Blisters- Repair roof blisters on [building]",
+   "body": "Repair roof blisters on [Building] as soon as possible.  Whenever blisters are observed, the following steps should be taken:   Conduct a moisture survey (per TAS 126, ANSI/SPRI/RCI NT-1, ASTM WK41647) on the roof to detect areas with high moisture content. Cut out core samples in problem areas to investigate the quality and moisture content of the roof layers. Remove the existing roof system down to the deck and reroof with an approved system in the damaged areas and 10 ft. (3 m) beyond in all directions.",
+   "details": "Blistering, cracks or leakages are usually indications that the roofing layers have high moisture content.  Wet roof layers and/or insulation are likely to lead to loss of adhesion between layers and structural degradation of the deck through corrosion.  The holding power of the mechanical fasteners is also greatly reduced when the insulation is weakened from dampness.  Many roof blisters were noted on this building during this visit.  If nothing is done, leaks will develop which will lead to the eventual deterioration of the deck.  Because of the weakened layers, possible windstorm damage to the covering is also a concern."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Wind",
+   "title": "Steel Roof Deck- Provide additional securement for the roof deck on [building]",
+   "body": "Provide additional securement of the steel roof deck to the supporting girders [bar joist, purlin, beam] of [Building] by completing either one of the following:   1. Secure from the top down.  Secure the deck with self-drilling tek screws or powder actuated roof deck fasteners driven from the top of the deck and down into the girders.  The fasteners should have at least a 0.375 in (1 cm) dia. head and have adequate penetration per the manufacters recommendation.  The spacing should be as follows: Within the [ ] ft. ([ ]m) perimeter roof zones:  Every [ ] in ([ ] cm) o. c. Within the [ ] x [ ]ft. ([ ] x [ ] m) corner roof zones:  Every [ ] in ([ ] cm) o. c. To facilitate this, the roofing material should be removed and replaced as necessary.   2. Secure from the bottom up.  Provide self-drilling screws (min. #12) with min. 0.05 in. (1.27 mm) thick flat washers from the bottom up.  Based on the type of girder, the fasteners can be installed at the center or sides of the upper flanges.  If placed on the sides, they should be installed in an alternating pattern on each side.  The screws should be long enough to penetrate the bottom of the steel deck by at least 1/2 in (1.3 cm) and short enough so as not to penetrate the above deck roofing material.  The washers should be large enough to overlap the girders by at least 1/2 in (1.3 cm). The spacing should be as follows:\\ Within the [ ] ft. ([ ]m) perimeter roof zones:  Every [ ] in ([ ] cm) o.c. Within the [ ] x [ ]ft. ([ ] x [ ] m) corner roof zones:  Every [ ] in ([ ] cm) o. cC. ",
+   "details": "Based on field measurements, the existing roof deck does not have adequate securement in the [perimeter, corners, perimeter and corners] of the roof.  Historically, guidelines for welding steel deck to the joists have not fully recognized the impact of wind uplift.  As a result, excessive spans can lead to substantial overloads of the welds, resulting in the entire loss of the roof deck.  Providing simple retrofit securement in the areas described above will help prevent potential overloading in these highly stressed areas of the roof."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Wind",
+   "title": "Built-Up Roof Covering- Provide additional securement to the roof cover on [building]",
+   "body": "Provide additional securement to the roof cover by mechanically attaching it to the roof deck of [ Building ] as follows:   In the [ ] ft. ([ ]m) perimeter roof zones:  At rate of one per [ ] sq. Ft. ([ ] sq. m).   In the [ ] x [ ]ft. ([ ] x [ ] m) corner roof zones:  At a rate of [ ] sq. Ft. ([ ] sq. m).   The securement should be done by driving approved (Dade County, Florida Product Approval, or equivalent), insulation fasteners for the deck type with 3 in. dia. plates through the top of the existing roof cover.  They should be long enough to engage the roof deck by at least 1 in (2.5 cm).  The fasteners should be appropriately covered with a two-ply built-up/modified bitumen roof to prevent water penetration.",
+   "details": "A roof experiences greater uplift forces in the perimeter and corners areas of a building.  To counteract the greater forces, additional fasteners are needed.  This roof does not have the necessary increased density of fasteners in some or all of these areas.  Therefore, wind forces during a hurricane will lead to the failure of the roof system and allow complete wetting of the contents of the building.  This will result in nearly 100% loss of the contents and a great amount of downtime."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Wind",
+   "title": "Single-ply Roof Covering- Provide additional securement to the roof cover on [building]",
+   "body": "Provide additional securement to the single-ply membrane (SPM) roof covering of [ Building ] by mechanically attaching it to the roof deck.  Approved (Dade County, Florida Product Approval, or equivalent) side lap min. 2 in (5 cm) plates or continuous metal batten straps with approved fasteners should be provided 6 in (15 cm)  o. c. in rows between and parallel to the existing roof cover laps evenly spaced as follows:   In the field roof zone:  Provide additional [one, two] additional row(s) of fasteners evenly spaced between the existing rows at a maximum of [ ] in ([ ] cm) o. c. spacing between all rows.   In the [ ] ft. ([ ]m) perimeter roof zones:  Provide additional [one, two] additional row(s) of fasteners evenly spaced between the existing rows at a maximum of [ ] in ([ ] cm) o. c. spacing between all rows.   In the [ ] x [ ]ft. ([ ] x [ ] m) corner roof zones:  Provide additional [one, two, three] additional row(s) of fasteners evenly spaced between the existing rows at a maximum of [ ] in ([ ] cm) o. c. spacing between all rows.   Once this is done, necessary weather protection should be provided over the fasteners (sealing and/or a layer of adhered membrane over).  Before repairs are done, the roof manufacturer should be consulted to maintain the warranty.   The roof covering is a mechanically attached SPM roof secured at the seams with side lap fasteners on [6] in ([15 ] cm) o. c.  spacing.  The seams are [ ] in ([ ] cm) o. c. apart.  Within the perimeter, the seams are [ ] in ([ ] cm) o. c. aApart.   ",
+   "details": "A roof experiences greater uplift forces in the perimeter and corners areas of a building.  To counteract the greater forces, additional fasteners are needed.  This roof does not have the necessary increased density of fasteners in some or all of these areas.  Therefore, wind forces during a hurricane will lead to the failure of the roof system and allow complete wetting of the contents of the building.  This will result in nearly 100% loss of the contents and a great amount of downtime. "
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Wind",
+   "title": "Standing Seam Roof; Fasteners- Provide additional fasteners for the roof on [building]",
+   "body": "Reinforce the [Building] standing seam roof to limit the possibility of the steel metal panels blowing off during a windstorm by adding fasteners with min. 5/8 in (1.6 cm) dia. heads with neoprene washers.  They should be placed from the top down, through the panels, and into the supporting purlins and be long enough to penetrate the steel purlins by 3/8 in (1 cm) at the following maximum spacing:   In the field roof zone:  [ ] in ([ ] cm) o. c. spacing. In the [ ] ft. ([ ]m) perimeter roof zones:  [ ] in ([ ] cm) o. c. spacing. In the [ ] x [ ]ft. ([ ] x [ ] m) corner roof zones:  [ ] in ([ ] cm) o. c. spacing.      The steel purlins are [60] in ([152 ] cm) o. c. apart and the [18, 20, 22, 24, 26] ga. [steel, aluminum] panel seams are [12, 16, 18, 24] in ([ ] cm) o. c. apart.   For added sealing protection, the screw heads can be covered with one of the many commercially available sealing systems such as elastomeric patches.",
+   "details": "A roof experiences greater uplift forces in the perimeter and corners areas of a building. To counteract the greater forces, tighter clip spacing is needed in these areas. This roof does not have the necessary increased density of clips in the corners. As a result, the clips at the seams are expected to fail and lead to the majority of the roof to be lost.  Providing additional securement in the areas described above will help prevent potential overloading in these highly stressed areas of the roof."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Wind",
+   "title": "Standing Seam Roof; Clamps- Provide clamps for the roof on [building]",
+   "body": "Reinforce the [Building] standing seam roof (SSR) to limit the possibility of the steel metal panels blowing off during a windstorm by adding [S-5, Varco-Pruden, Butler] roof clamps.  The clamps should be placed over the existing seams wherever there is SSR clip (usually located directly above the supporting purlins) in in the following areas:   In the field roof zone. In the [ ] ft. ([ ]m) perimeter roof zones. In the [ ] x [ ]ft. ([ ] x [ ] m) corner roof zones.   The clamps should be inspected regularly to ensure they remain properly installed.   The purlins are [60] in ([152 ] cm) o. c. apart and the [18, 20, 22, 24, 26] ga. [steel, aluminum] ga. steel panel seams are [12, 16, 18, 24] in ([ ] cm) o. c. aApart. ",
+   "details": "A roof experiences greater uplift forces in the perimeter and corners areas of a building. To counteract the greater forces, tighter clip spacing is needed in these areas. This roof does not have the necessary increased density of clips in the corners. As a result, the clips at the seams are expected to fail and lead to the majority of the roof to be lost.  For marginally deficient roofs, providing additional clamps in the areas described above will help prevent potential overloading in these highly stressed areas of the roof."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Wind",
+   "title": "Standing Seam Roof; Clips- Provide additional clips to the roof on [building]",
+   "body": "Reinforce the [Building] T-panel standing seam roof (SSR) to limit the possibility of the steel metal panels blowing off during a windstorm by adding full length clips.  This can be done by removing the panels, replacing the existing clips with the full length clips, and replacing the panels. This should be done in the following areas: In the field roof zone. In the [ ] ft. ([ ]m) perimeter roof zones. In the [ ] x [ ]ft. ([ ] x [ ] m) corner roof zones.   The purlins are [60] in ([152 ] cm) o. c. apart and the [18, 20, 22, 24, 26] ga. [steel, aluminum] ga. steel panel seams are [12, 16, 18, 24] in ([ ] cm) o. c. aApart. ",
+   "details": "A roof experiences greater uplift forces in the perimeter and corners areas of a building. To counteract the greater forces, tighter clip spacing is needed in these areas. This roof does not have the necessary increased density of clips in the corners. As a result, the clips at the seams are expected to fail and lead to the majority of the roof to be lost.  For marginally deficient roofs, providing additional clamps in the areas described above will help prevent potential overloading in these highly stressed areas of the roof."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Wind",
+   "title": "Lap Seam Roof- Provide additional fasteners to the roof on [building]",
+   "body": "Reinforce the [Building] lap seam roof to limit the possibility of the roof panels blowing off during a windstorm by adding fasteners with min. 5/8 in (1.6 cm) dia. heads with neoprene washers.  They should be placed from the top down, through the panels, and into the supporting purlins and be long enough to penetrate the steel purlins by 3/8 in (1 cm) at the following maximum spacing:   In the field roof zone:  [ ] in ([ ] cm) o. c. spacing. In the [ ] ft. ([ ]m) perimeter roof zones:  [ ] in ([ ] cm) o. c. spacing. In the [ ] x [ ]ft. ([ ] x [ ] m) corner roof zones:  [ ] in ([ ] cm) o. c. spacing.      The steel purlins are [60] in ([152 ] cm) o. c. apart and the [22, 24, 26, 28 ga.] [ steel, aluminum, FRP] panel seams are [12, 16, 18, 24] in ([ ] cm) o. c. apart.   For added sealing protection, the screw heads can be covered with one of the many commercially available sealing systems such as elastomeric patches.",
+   "details": "Based on field measurements, the existing roof deck does not have adequate securement in the [perimeter, corners, perimeter and corners] of the roof.  As a result, excessive spans can lead to substantial overloads of the fasteners, resulting in the entire loss of the roof deck.  Providing simple retrofit securement in the areas described above will help prevent potential overloading in these highly stressed areas of the roof."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Wind",
+   "title": "Cementitious Wood Fiber Deck- Provide additional securement to the roof on [building]",
+   "body": "Provide additional securement of the Cementitious Wood Fiber (CWF) roof deck to the supporting girders [bar joist, purlin, beam] of [Building] by completing either one of the following:   a.  Secure from the top down.  The CWF deck panels should be secured from the top down by adding appropriate fasteners to the supporting girders (IE, #14 screws for steel, wood, etc.). The fasteners can be used with 3 in. dia. insulation board stress plates and installed along the length of the girders. The spacing of the fasteners should be as follows:   Within the [ ] ft. ([ ]m) perimeter roof zones:  Every [ ] in ([ ] cm) o. c. Within the [ ] x [ ]ft. ([ ] x [ ] m) corner roof zones:  Every [ ] in ([ ] cm) o. c. To facilitate this, the roofing material should be removed and replaced as necessary.      b.  Secure from the bottom up.  The CWF deck panels should be secured from below by adding auger type fasteners with min. 0.05 in. (1.27 mm) thick flat washers along the top flanges of the girders.  Based on the type of girder, the fasteners can be installed at the center or sides of the upper flanges.  If placed on the sides, they should be installed in an alternating pattern on each side.  The screws should be long enough to penetrate the bottom of the deck by at least [1, 2, 2] in ([ ] cm) and short enough so as not to penetrate the above deck roofing material.  The washers should be large enough to overlap the girders by at least 1/2 in (1.3 cm).   The spacing of the fasteners should be as follows:   Within the [ ] ft. ([ ]m) perimeter roof zones:  Every [ ] in ([ ] cm) o. c. Within the [ ] x [ ]ft. ([ ] x [ ] m) corner roof zones:  Every [ ] in ([ ] cm) o. c.",
+   "details": "Based on field measurements, the existing roof deck does not have adequate securement in the [perimeter, corners, perimeter and corners] of the roof.  As a result, excessive spans can lead to substantial overloads of the [clips], resulting in the entire loss of the roof deck.  Providing simple retrofit securement in the areas described above will help prevent potential overloading in these highly stressed areas of the roof."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Wind",
+   "title": "Roof Ballast Stones- Replace the stones on the roof of [building]",
+   "body": "Replace stone with minimum No. 3 aggregate ballast stones per ASTM D448 on [ Building ].   Within the [ ] ft. ([ ]m) perimeter roof zones:  Maintain minimum depth of [2, 3] in. ([ ] cm). Within the [ ] x [ ]ft. ([ ] x [ ] m) corner roof zones:  Maintain minimum depth of [2, 3] in. ([ ] cm). A certified structural engineer should be consulted to confirm that any additional weight is acceptable for the existing structure.   As an alternative, re-roof with an approved (Dade County, Florida Product Approval, or equivalent) roofing system.",
+   "details": "The existing ballast stones are too small and/or insufficiently provided.  A windstorm will blow off the ballasts and roofing and expose the building to wind and rain.  Replacing the ballasts as recommended will ensure adequate securement."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Wind",
+   "title": "Roof Paver Stones- Replace the pavers on the roof of [building]",
+   "body": "Replace the pavers on [ Building ] with minimum 23 psf standard pavers and T&G, Beveled of Strapped Pavers within the [ ] ft. ([ ]m) perimeter roof zones and a minimum 18 psf in the [ ] x [ ]ft. ([ ] x [ ] m) corners areas.      As an alternative, re-roof with an approved (Dade County, Florida Product Approval, or equivalent) roofing system.",
+   "details": "The existing pavers are too small and/or insufficiently provided.  A windstorm will blow off the ballasts and roofing and expose the building to wind and rain.  Replacing the ballasts as recommended will ensure adequate securement."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Wind",
+   "title": "Roof Uplift Testing- Conduct testing on the roof of [building]",
+   "body": "Conduct negative pressure or uplift tests on [Building] to determine if the roof coverings can withstand a windstorm per ASTM E-907 Standard Test Method for Field Testing Uplift Resistance of Adhered Membrane Roofing Systems or FM Data Sheet 1-52:   Conduct at least [5] tests.  At least 2 tests should be done in each defined [ ] ft. ([ ]m) perimeter and the [ ] x [ ]ft. ([ ] x [ ] m) corners roof areas at test pressures up to [120] psf ([ ] kPa) and [ ] psf ([ ] kPa), respectively.   The account engineer should be contacted in advance to arrange for someone to witness and review the tests results.    If the tests fail, test cuts should be made to determine what the cause of failure.   If uplift tests fail, additional securement should be provided in deficient areas or a complete re-cover or tear-off and replacement with an approved (Dade County, Florida Product Approval, or equivalent) roofing system.  Consult with AIG for further guidance. ",
+   "details": "The uplift design of the roof covering is unknown.   Based on the age of the roof and the construction practices at that time, certain assumptions were made as to the likely construction of the roof system.  Based on these assumptions, the roof is probably not adequately designed for the windstorm exposure.  Conducting uplift tests will help to better determine what the exact uplift capacity is.  Passing tests will ensure the roof covering is capable of withstanding the high uplift pressures predominant in windstorms."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Wind",
+   "title": "Rooftop Equipment - Secure the equipment on the roof of [building]",
+   "body": "Secure the rooftop [ fan blower, air ducts, fan shrouds, A/C units, etc.] by providing steel cables bolted to the building steel frame (i.e., the steel beams, not the deck).  One cable on each corner or equivalent should be provided.  Alternately, minimum 24 ga. galvanized steel straps can be used and secured to the building frame using at least two No. 14 screws at each termination point.",
+   "details": "Loose equipment can blow off and damage the roofing as it rolls over the roof, creating leaks in the process.   It can also act as a projectile and impact windows.  Most of the rooftop equipment is well secured with the exception of this equipment."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Wind",
+   "title": "Window Protection- Provide window protection for the [Main Building]",
+   "body": "The shutters should be approved (Dade County, Florida Product Approval, or equivalent) for large missile impact resistance.  Other approved alternatives include impact screens.  When choosing a shutter system, consideration should be given to the amount of time needed to install them.  Accordion, roll down shutters and screens will be quicker to install while panel types will take longer.  Plywood can also be an option but not preferred.  Priority should be given to the lowest floors first.   For more information, refer to FEMAs Protect Windows and Doors with Covers at  http://www.fema.gov/media-library-data/20130726-1627-20490-8875/how2017_how2029_protect_windows_doors_4_11.pdf ",
+   "details": "This location is a region exposed to high windstorm speeds.  Windborne debris can impact windows, breaking them, and allowing major water and wind damage in the building.  In severe windstorms, hurricane shutters have been proven effective in preventing window breakage/damage and subsequent water/debris entering the building."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Wind",
+   "title": "FRP Roof Panels- Replace the panels on the roof of [building]",
+   "body": "Replace the [Building] fiber reinforced plastic (FRP) skylights with Dade County approved skylights.  As an alternative, provide Miami-Dade County approved shutters or replace the FRP panels with metal panels.",
+   "details": "The FRP panels are not designed to withstand the extreme uplift pressures experienced during a 100 yr.  hurricane.  They would fail and allow significant amounts wind driven rain into the warehouse leading major wetting of the storage.  Approved skylights have been proven to be the most effective in limiting damage from breakage/damage and subsequent water/debris entering the building. "
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Wind",
+   "title": "Window Film Protection System- Provide protection on the windows of [building]",
+   "body": "Provide an approved (Dade County, Florida Product Approval, or equivalent) window film system for [Building] installed on all of the [3/16, ] in. ([0.476, 0.635] cm) tempered glass windows of the first fifty feet in height (floors [1-5]) per the manufacturers recommendation.",
+   "details": "Approved window film systems have been tested to meet small missile impact as well as uniform static air pressure, and may offer an attractive alternative for areas where shutters are considered impractical."
+ },
+ {
+   "RecMainType": "Human Element",
+   "RecType": "NATCAT",
+   "RecSubType": "Wind",
+   "title": "Hurricane Preparedness Plan- Establish a formal plan",
+   "body": "Establish a formal Hurricane Preparedness Plan to ensure proper precautions are taken prior to a hurricane. The plan should specify specific actions to be carried out at set time intervals in advance of the event (i.e., T-72, 48, 36 hours).  Actions should include closing hurricane shutters, securing all loose equipment, testing generators, re-stocking fuel and water, etc.   The plan should be documented and reviewed, updated, and exercised annually.",
+   "details": "Without a documented hurricane plan that is actively exercised, it is unlikely that all necessary actions will take place for before, during and after a major windstorm.  Organizations that utilize a formal plan are always better prepared and are back in business much quicker than those that dont."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Wind",
+   "title": "Tile Roof- Re-roof the roof and secure the wood deck of [building]",
+   "body": "The asphalt shingles roof of the [Building] should be re-roofed with an approved (Dade County, Florida Product Approval, or equivalent) roofing system designed to meet [FM 1-90] in the field of the roof.  Perimeter and corners should be provided with increased fastening as required by the approval standard.   After the original roof is removed and before the new roof is installed, the plywood roof deck should be provided with additional securement by adding No. 8 screws every [12] in ([30] cm) o. c. along the wood joists.  Spacing should be [6] in ([15] cm) o. c. In the [ ] ft. ([ ] m) perimeter and corner areas.  Alternately, the deck can be nailed using 12d ring shank nails every [12] in (30 cm) o. c. And every [4] in ([ ] cm) o. c. in the field and perimeters and corners, respectively.",
+   "details": "There is no practical method to improve the tear away strength of the shingles.  The roof deck design is not known but based on the age of construction, the deck is likely not adequately secured for the expected wind uplift pressures expected in this area during 100 yr. hurricane"
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "NATCAT",
+   "RecSubType": "Wind",
+   "title": "Loading Dock Doors- Replace or secure the doors on [building]",
+   "body": "Secure the approximately [30] roll-up bay doors on [Building], by one of the following methods: Replace with approved (Dade County, Florida Product Approval, or equivalent) approved large missile impact resistant doors. Provide at least one continuous 4 x 4 in (10 x 10 cm) wood or 2 x 4 in (5 x 10 cm) steel beam every 5 ft. in the vertical direction bolted to the ground and wall above the door using two min.  in (0.64 cm) thick bolts at each connection.   Provide additional bracing to meet TAS 202, ASTM E330 or ANSI/DASMA 108 or equivalent local test standard, as recommended by the manufacturer or a registered structural engineer.   Install approved hurricane shutters over the door opening.   Any retrofit door solution should recognize that bracing is needed to prevent both inward and outward pressures.   ",
+   "details": "During strong winds, improperly secured bay doors have historically failed and led to a breach of the building envelope. This creates large openings for the horizontal wind-driven rain to enter the building. In addition, the openings also create a higher uplift pressure on the roof covering (by air infiltration through the roof deck), placing more stress on the roof covering securement, beyond its design. As a result, the roof covering may also blow off. All of these events would allow major water damage to occur to the building and its contents."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Protection",
+   "RecSubType": "Sprinklers",
+   "title": "Sprinkler Protection- Install sprinklers in {terse}[description]",
+   "body": "Provide automatic sprinkler protection in [Area description]. All sprinkler piping should have a UL Corrosion Resistance Rating (CRR) of at least 1.0.   Install the system in accordance with NFPA 13.",
+   "details": "The [Area description] contains [occupancy description] and is considered a [Occupancy Classification] occupancy. Should a fire occur, the sprinkler system will control the fire until emergency response personnel are able to extinguish it. This will limit property damage and the affect on business operations."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Protection",
+   "RecSubType": "Sprinklers",
+   "title": "Sprinklers- Reinforce sprinklers in {terse}[description]",
+   "body": "Reinforce the existing automatic sprinkler system in [Area description]. All sprinkler piping should have a UL Corrosion Resistance Rating (CRR) of at least 1.0.   System changes should be in accordance with NFPA 13.",
+   "details": "A fire involving the combustibles in the area has the potential to overwhelm the existing sprinkler installation. This could lead to a loss of control allowing the fire to grow rapidly and cause significant damage to both the building and its contents and have a negative affect on business operations."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "Sprinklers; Ceiling Only- Provide sprinklers in the {terse}[description]",
+   "body": "Provide automatic sprinkler protection in [Area description] over the [Type of storage (palletized, shelf, single row rack, double row rack, multirow rack, etc)] storage of [Commodity description] being stored to a height of [Storage height] ft (m). All sprinkler piping should have a UL Corrosion Resistance Rating (CRR) of at least 1.0.   Install the system in accordance with NFPA 13.",
+   "details": "Fires involving high piled storage are a significant hazard. They can grow quickly resulting in significant fire and smoke damage to the building and its contents if inadequately protected."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "Sprinklers; Ceiling and In-Racks- Provide sprinklers in the {terse}[description]",
+   "body": "Provide automatic sprinkler protection in [Area description] over the [Type of storage (palletized, shelf, single row rack, double row rack, multirow rack, etc)] storage of [Commodity description] being stored to a height of [Storage height] ft (m).    In addition, provide minimum K=5.6, quick response in the longitudinal flue of the rack.  Piping for the in-rack sprinklers should be valved independently of the ceiling sprinklers.    All sprinkler piping should have a UL Corrosion Resistance Rating (CRR) of at least 1.0.   Install the system in accordance with NFPA 13.",
+   "details": "Fires involving high piled storage are a significant hazard. They can grow quickly resulting in significant fire and smoke damage to the building and its contents if inadequately protected."
+ },
+ {
+   "RecMainType": "Physical Protection",
+   "RecType": "Hazards",
+   "RecSubType": "Storage",
+   "title": "Aisle Storage- Remove the combustible storage from aisles in [area description]",
+   "body": "Remove the combustibles being storage in the aisles in the [description] rack storage. Aisles should be area as noted in NFPA 1, A.34.7.3.3 and NFPA 13, A.16.2.1.3.2.1.",
+   "details": "Storage sprinklers are tested with aisles free of combustibles. The combustibles in the aisles will provide a path for fire to spread from one rack to another. The sprinkler system may not be able to control the fire and this could result in significant damage."
+ }
+]

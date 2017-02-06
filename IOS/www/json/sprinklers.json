@@ -1,0 +1,15 @@
+[
+	{
+		"PROTECTED_AREA_TX":"Building #1",
+		"SYSTEM_NO":"Wet",
+		"EXISTING_DESIGN_TX":"0.30/1500",
+		"REQUIRED_DESIGN_TX":"0.20/1500",
+		"EXISTING_BOR_PRESSURE_QT":"45",
+		"ADJUSTED_BOR_PRESSURE_QT":"52",
+		"TEMP_K_FACTOR_NO":"165",
+		"HOSE_QT":"250",
+		"SPRINKLER_ADEQUACY_CD":"Good",
+		"SPRINKLER_HAZARD":"5",
+		"IncludeThisSection":"true"
+	}
+]

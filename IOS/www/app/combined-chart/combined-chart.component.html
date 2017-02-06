@@ -1,0 +1,12 @@
+<div class="isc-card">
+	<div class="isc-card-heading">
+		<div class="isc-card-title">
+			<h4>Combined Chart</h4>
+		</div>
+	</div>
+	<div class="isc-card-body">
+		<div *ngIf="dateReadyFlag == true">
+			<axis-graphs [(dataForChart)]=chartData [(dataForOptions)]=optionsData [yLogScale]=true></axis-graphs>
+		</div>
+	</div>
+</div>

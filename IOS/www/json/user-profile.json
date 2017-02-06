@@ -1,0 +1,33 @@
+{
+"pxObjClass":"aig-GP-GRASP-Work-API-CaseManagement"
+,"SvcUserProfilePage":{
+"EMPLOYEE_ID":"9301065"
+,"pxObjClass":"aig-FW-GRASP-Data-TGRASP_USER"
+}
+,"SvcUserProfileResPg":{
+"BUSINESS_SEGMENT_LOB_DS":"CP"
+,"COUNTRY_NM":"United States"
+,"CURRENCY_NM":"UNITED STATES U.S. DOLLAR"
+,"EMAIL_ADDRESS_TX":"Ranjani.Srinivasan@ctc-tcs.com"
+,"EMPLOYEE_ID":"9301065"
+,"ENGINEERING_REGION_NM":"North America - Canada"
+,"EXPERIENCE_LEVEL_CD":""
+,"FIRST_NM":"FIELDENGINEER"
+,"FULL_NM":"FIELDENGINEER FIELDENGINEER"
+,"JOB_TITLE_NM":"GFLDENGG"
+,"LANGUAGE_CD":"ENG"
+,"LAST_NM":"FIELDENGINEER"
+,"OFFICE_PHONE_NO":"23112312312"
+,"pxObjClass":"aig-FW-GRASP-Data-TGRASP_USER"
+,"USER_ID":"17826"
+,"UW_OFFICE_CD":"NEW JERSEY"
+,"WORKING_PRESSURE_CD":"PSI"
+,"WORKING_UNIT_TYPE_NM":"Imperial"
+,"UserRole":[ 
+{
+"pxObjClass":"aig-FW-GRASP-Data-TGRASP_USER"
+,"ROLE_CD":"FE"
+}
+] 
+}
+}

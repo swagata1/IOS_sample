@@ -1,0 +1,206 @@
+<!-- Electrical Systems Section Starts -->
+<div class="isc-form-horizontal isc-reveal">
+   <div class="isc-form-group">
+      <div class="isc-col-md-6">
+         <label class="isc-control-label" for="esHazardName">Hazard Name</label>
+         <input class="isc-form-control" type="text" name="esHazardName" id="esHazardName" value="" [(ngModel)]="model.OFFLS_ES_HAZARD_NAME" />
+      </div>
+      <div class="isc-col-md-6">
+         <label class="isc-control-label" for="esNumTransformers">Number of transformers</label>
+         <input class="isc-form-control" type="number" name="esNumTransformers" id="esNumTransformers" value="" [(ngModel)]="model.OFFLN_ES_NUMBER_OF_TRANFORMERS" />
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="esTypeSupply">Type of supply</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="esTypeSupply" id="esTypeSupplyOneFeeder" value="Onefeeder" [(ngModel)]="model.OFFLS_ES_TYPE_OF_SUPPLY" />
+            <label for="esTypeSupplyOneFeeder">One feeder</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="esTypeSupply" id="esTypeSupplyTwoFeeder" value="Twofeeders" [(ngModel)]="model.OFFLS_ES_TYPE_OF_SUPPLY" />
+            <label for="esTypeSupplyTwoFeeder">Two feeders</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="esTypeSupply" id="esTypeSupplyMoreTwoFeeder" value="Morethantwofeeders" [(ngModel)]="model.OFFLS_ES_TYPE_OF_SUPPLY" />
+            <label for="esTypeSupplyMoreTwoFeeder">More than two feeders</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="esTypeSupply" id="esTypeSupplyTwoIndiFeeder" value="Twoindependentfeeders" [(ngModel)]="model.OFFLS_ES_TYPE_OF_SUPPLY" />
+            <label for="esTypeSupplyTwoIndiFeeder">Two independent feeders</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="esTypeSupply" id="esTypeSupplyMoreTwoIndiFeeder" value="Morethantwoindependentfeeders" [(ngModel)]="model.OFFLS_ES_TYPE_OF_SUPPLY" />
+            <label for="esTypeSupplyMoreTwoIndiFeeder">More than two independent feeders</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="esTypeSupply" id="esTypeSupplyOther" value="Other" [(ngModel)]="model.OFFLS_ES_TYPE_OF_SUPPLY" />
+            <label for="esTypeSupplyOther">Other</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="esTypeSupply" id="esTypeSupplyUnknown" value="Unknown" [(ngModel)]="model.OFFLS_ES_TYPE_OF_SUPPLY" />
+            <label for="esTypeSupplyUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="esTypeTransformers">Type of transformers</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="esTypeTransformersOil" id="esTypeTransformersOil" value="OilFilled" [(ngModel)]="model.OFFLS_ES_TYPE_OF_TRANFORMERS_OIL_FILLED" />
+            <label for="esTypeTransformersOil">Oil Filled</label>                        
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="esTypeTransformersDry" id="esTypeTransformersDry" value="Dry" [(ngModel)]="model.OFFLS_ES_TYPE_OF_TRANFORMERS_DRY" />
+            <label for="esTypeTransformersDry">Dry</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="esTypeTransformersOther" id="esTypeTransformersOther" value="Other" [(ngModel)]="model.OFFLS_ES_TYPE_OF_TRANFORMERS_OTHER" />
+            <label for="esTypeTransformersOther">Other</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="esTypeTransformersNone" id="esTypeTransformersNone" value="None" [(ngModel)]="model.OFFLS_ES_TYPE_OF_TRANFORMERS_NONE" />
+            <label for="esTypeTransformersNone">None</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="esTypeTransformersUnknown" id="esTypeTransformersUnknown" value="Unknown" [(ngModel)]="model.OFFLS_ES_TYPE_OF_TRANFORMERS_UNKNOWN" />
+            <label for="esTypeTransformersUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="esNumThermo">Thermographic (IR) Inspection Frequency for Critical Equipment</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="esNumThermo" id="esNumThermoAnnually" value="AtLeastAnnually" [(ngModel)]="model.OFFLS_ES_THERMOGRAPHIC_INSPECTION" />
+            <label for="esNumThermoAnnually">At Least Annually</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="esNumThermo" id="esNumThermoFive" value="AtLeastEveryFiveYears" [(ngModel)]="model.OFFLS_ES_THERMOGRAPHIC_INSPECTION" /> 
+            <label for="esNumThermoFive">At Least Every Five Years</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="esNumThermo" id="esNumThermoNone" value="None" [(ngModel)]="model.OFFLS_ES_THERMOGRAPHIC_INSPECTION" />
+            <label for="esNumThermoNone">None</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="esNumThermo" id="esNumThermoUnknown" value="Unknown" [(ngModel)]="model.OFFLS_ES_THERMOGRAPHIC_INSPECTION" />
+            <label for="esNumThermoUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="esNumCircuit">Circuit Breaker Physical Trip Testing Frequency</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="esNumCircuit" id="esNumCircuitAnnually" value="AtLeastAnnually" [(ngModel)]="model.OFFLS_ES_CIRCUIT_BREAKER_TESTING_FREQUENCY" />
+            <label for="esNumCircuitAnnually">At Least Annually</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="esNumCircuit" id="esNumCircuitFive" value="AtLeastEveryFiveYears" [(ngModel)]="model.OFFLS_ES_CIRCUIT_BREAKER_TESTING_FREQUENCY" />
+            <label for="esNumCircuitFive">At Least Every Five Years</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="esNumCircuit" id="esNumCircuitNone" value="None" [(ngModel)]="model.OFFLS_ES_CIRCUIT_BREAKER_TESTING_FREQUENCY" />
+            <label for="esNumCircuitNone">None</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="esNumCircuit" id="esNumCircuitUnknown" value="Unknown" [(ngModel)]="model.OFFLS_ES_CIRCUIT_BREAKER_TESTING_FREQUENCY" />
+            <label for="esNumCircuitUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="esFireDetection">Fire Detection in Electrical Rooms</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="esFireDetectionHeat" id="esFireDetectionHeat" value="Heat" [(ngModel)]="model.OFFLS_ES_FIRE_DETECTION_HEAT" /> 
+            <label for="esFireDetectionHeat">Heat</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="esFireDetectionSmoke" id="esFireDetectionSmoke" value="Smoke" [(ngModel)]="model.OFFLS_ES_FIRE_DETECTION_SMOKE" /> 
+            <label for="esFireDetectionSmoke">Smoke</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="esFireDetectionUvIr" id="esFireDetectionUvIr" value="UV/IR" [(ngModel)]="model.OFFLS_ES_FIRE_DETECTION_UV_IR" /> 
+            <label for="esFireDetectionUvIr">UV/IR</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="esFireDetectionAir" id="esFireDetectionAir" value="AirSampling" [(ngModel)]="model.OFFLS_ES_FIRE_DETECTION_AIR_SAMPLING" /> 
+            <label for="esFireDetectionAir">Air Sampling</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="esFireDetectionOther" id="esFireDetectionOther" value="Other" [(ngModel)]="model.OFFLS_ES_FIRE_DETECTION_OTHER" /> 
+            <label for="esFireDetectionOther">Other</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="esFireDetectionUnknown" id="esFireDetectionUnknown" value="Unknown" [(ngModel)]="model.OFFLS_ES_FIRE_DETECTION_UNKNOWN" /> 
+            <label for="esFireDetectionUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="esCeilingSytem">Electrical Room Ceiling Sprinkler System</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="esCeilingSytem" id="esCeilingSytemAutomatic" value="Automatic" [(ngModel)]="model.OFFLS_ES_ELECTRICAL_ROOM" /> 
+            <label for="esCeilingSytemAutomatic">Automatic</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="esCeilingSytem" id="esCeilingSytemManual" value="Manual" [(ngModel)]="model.OFFLS_ES_ELECTRICAL_ROOM" /> 
+            <label for="esCeilingSytemManual">Manual</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="esCeilingSytem" id="esCeilingSytemNone" value="None" [(ngModel)]="model.OFFLS_ES_ELECTRICAL_ROOM" /> 
+            <label for="esCeilingSytemNone">None</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="esCeilingSytem" id="esCeilingSytemUnknown" value="Unknown" [(ngModel)]="model.OFFLS_ES_ELECTRICAL_ROOM" /> 
+            <label for="esCeilingSytemUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="esFpSystem">Other FP System</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="esFpSystemFoam" id="esFpSystemFoam" value="Foam" [(ngModel)]="model.OFFLS_ES_OTHER_FP_FOAM" />  
+            <label for="esFpSystemFoam">Foam</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="esFpSystemGaseous" id="esFpSystemGaseous" value="Gaseous" [(ngModel)]="model.OFFLS_ES_OTHER_FP_GASEOUS" />  
+            <label for="esFpSystemGaseous">Gaseous</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="esFpSystemDry" id="esFpSystemDry" value="DryChemical" [(ngModel)]="model.OFFLS_ES_OTHER_FP_DRY_CHEMICAL" />  
+            <label for="esFpSystemDry">Dry Chemical</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="esFpSystemOther" id="esFpSystemOther" value="Other" [(ngModel)]="model.OFFLS_ES_OTHER_FP_OTHER" />  
+            <label for="esFpSystemOther">Other</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="esFpSystemUnknown" id="esFpSystemUnknown" value="Unknown" [(ngModel)]="model.OFFLS_ES_OTHER_FP_UNKNOWN" />  
+            <label for="esFpSystemUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="esCombustible">Combustible Storage in Electrical Rooms</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="esCombustible" id="esCombustibleYes" value="Yes" [(ngModel)]="model.OFFLS_ES_COMBUSTIBLE_STORAGE" />  
+            <label for="esCombustibleYes">Yes</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="esCombustible" id="esCombustibleNo" value="No" [(ngModel)]="model.OFFLS_ES_COMBUSTIBLE_STORAGE" />  
+            <label for="esCombustibleNo">No</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="esCombustible" id="esCombustibleUnknown" value="Unknown" [(ngModel)]="model.OFFLS_ES_COMBUSTIBLE_STORAGE" />  
+            <label for="esCombustibleUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- Electrical Systems Section End -->

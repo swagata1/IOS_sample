@@ -1,0 +1,70 @@
+{
+	"FirePumpDetailsPage": 
+	{
+		"OverAllStatus": "",
+		"pxObjClass": "",
+		"SectionCompleted": "",
+		"showStatus": "",
+		"FirePumpDetailsList": [
+			{
+				"FIRE_PUMP_SQN": "1",
+				"PUMP_NM": "Fire Pump 1",
+				"SUCTION_SOURCE_CD": "Deep Well",
+				"DRIVER_TYPE_CD": "Dual drive",
+				"SHAFT_TYPE_CD": "Vertical Shaft",
+				"CONTROLLER_TYPE_CD": "Auto",
+				"DRIVER_APPROVAL_LIST_CD": "UL",
+				"FIRE_PUMP_APPROVAL_LIST_CD": "LPCB",
+				"CONTROLLER_APPROVAL_LIST_CD": "LPCB",
+				"churnPressure": "30.00",
+				"NOMINAL_PUMP_PRESSURE_QT": "25.00",
+				"NOMINAL_PUMP_FLOW_QT": "50.00",
+				"maxFlow": "80.00",
+				"pressureMaxFlow": "75.00",
+				"NOMINAL_PUMP_SPEED_QT": "75.00",
+				"PRESSURE_TANK_CD": "true",
+				"FirePumpPerfList": [
+					{
+						"FIRE_PUMP_TEST_SQN": "1",
+						"FIRE_PUMP_TEST_DT": "10-17-2016",
+						"FIRE_PUMP_TESTER_NM": "John Smith",
+						"GRAPH_INCLUSION_IN": "true",
+						"IncludeThisSection": "",
+						"FirePumpTestPointsList": [
+							{
+								"FIRE_PUMP_TEST_PTS_NO": "1",
+								"pyLabel": "Chum",
+								"MEASURED_FLOW_QT": "50.00",
+								"NOMINAL_FLOW_PC": "50.00",
+								"CORRECTED_FLOW_QT": "80.00",
+								"SUCTION_PRESSURE_QT": "50.00",
+								"DISCHARGE_PRESSURE_QT": "100.00",
+								"NET_PRESSURE_QT": "90.00",
+								"CORRECTED_PRESSURE_QT": "120.00",
+								"PUMP_SPEED_QT": "50.00",
+								"RATING_DS": "Not Applicable"
+							},
+							{
+								"FIRE_PUMP_TEST_PTS_NO": "2",
+								"pyLabel": "2nd Test Point",
+								"MEASURED_FLOW_QT": "50.00",
+								"NOMINAL_FLOW_PC": "50.00",
+								"CORRECTED_FLOW_QT": "80.00",
+								"SUCTION_PRESSURE_QT": "50.00",
+								"DISCHARGE_PRESSURE_QT": "100.00",
+								"NET_PRESSURE_QT": "90.00",
+								"CORRECTED_PRESSURE_QT": "120.00",
+								"PUMP_SPEED_QT": "50.00",
+								"RATING_DS": "Good"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
+
+
+
+						

@@ -1,0 +1,416 @@
+<!-- Floor - NonRack Storage Section Starts -->
+<div class="isc-form-horizontal isc-reveal">
+  <div class="isc-form-group">    
+    <div class="isc-col-md-3">
+       <label class="isc-control-label" for="hazardName">Hazard Name</label>
+       <input class="isc-form-control" type="text" name="hazardName" placeholder="Enter Hazard Name"  spellcheck="true" [(ngModel)]="model.OFFLNS_HAZARD_NM" />
+    </div>
+    <div class="isc-col-md-3">
+      <label class="isc-control-label" for="areasize">Area size</label>
+      <input class="isc-form-control" type="number" name="areasize" value="" placeholder="Enter Area size" [(ngModel)]="model.OFFLNN_AREA_SIZE"/>
+    </div>
+    <div class="isc-col-md-3">
+      <label class="isc-control-label" for="ceilingHeight">Ceiling Height</label>
+      <input class="isc-form-control" type="number" name="ceilingHeight" placeholder="Enter Ceiling Height" [(ngModel)]="model.OFFLNN_CEILING_HEIGHT"/>
+    </div>
+    <div class="isc-col-md-3">
+      <label class="isc-control-label" for="aisleWidth">Aisle Width</label>
+      <input class="isc-form-control" type="number" name="aisleWidth" placeholder="Enter Aisle Width" [(ngModel)]="model.OFFLNN_AISLE_WIDTH"/>
+    </div>
+  </div>
+
+  <div class="isc-form-group">
+    <label class="isc-col-md-3 isc-control-label" for="hmCutoffRating">Cutoff Rating</label>
+    <div class="isc-col-md-9">
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmCutoffRating" id="hmCutoffRatingHalf" value="1/2" [(ngModel)]="model.OFFLNS_CUTOFF_RATING">
+        <label for="hmCutoffRatingHalf">1/2</label>
+      </div>
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmCutoffRating" id="hmCutoffRatingOne" value="1" [(ngModel)]="model.OFFLNS_CUTOFF_RATING">
+        <label for="hmCutoffRatingOne">1</label>
+      </div>
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmCutoffRating" id="hmCutoffRatingTwo" value="2" [(ngModel)]="model.OFFLNS_CUTOFF_RATING">
+        <label for="hmCutoffRatingTwo">2</label>
+      </div>  
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmCutoffRating" id="hmCutoffRatingThree" value="3" [(ngModel)]="model.OFFLNS_CUTOFF_RATING">
+        <label for="hmCutoffRatingThree">3</label>
+      </div>  
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmCutoffRating" id="hmCutoffRatingFour" value="4" [(ngModel)]="model.OFFLNS_CUTOFF_RATING">
+        <label for="hmCutoffRatingFour">4</label>
+      </div>  
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmCutoffRating" id="hmCutoffRatingNone" value="None" [(ngModel)]="model.OFFLNS_CUTOFF_RATING">
+        <label for="hmCutoffRatingNone">None</label>
+      </div>  
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmCutoffRating" id="hmCutoffRatingUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_CUTOFF_RATING">
+        <label for="hmCutoffRatingUnknown">Unknown</label>
+      </div>               
+    </div>
+  </div>
+
+  <div class="isc-form-group">
+    <label class="isc-col-md-3 isc-control-label" for="hmCommodityTypes">Commodity Types</label>
+    <div class="isc-col-md-9">                        
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmCommodityTypes" id="hmCommodityTypesAerosols" value="Aerosols" [(ngModel)]="model.OFFLNS_COMMODITY_TYPES_AEROSOLS">
+        <label for="hmCommodityTypesAerosols">Aerosols</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmCommodityTypes" id="hmCommodityTypesI" value="Class I" [(ngModel)]="model.OFFLNS_COMMODITY_TYPES_CLASS_I">
+        <label for="hmCommodityTypesI">Class I</label>
+      </div>                      
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmCommodityTypes" id="hmCommodityTypesII" value="Class II" [(ngModel)]="model.OFFLNS_COMMODITY_TYPES_CLASS_II">
+        <label for="hmCommodityTypesII">Class II</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmCommodityTypes" id="hmCommodityTypesIII" value="Class III" [(ngModel)]="model.OFFLNS_COMMODITY_TYPES_CLASS_III">
+        <label for="hmCommodityTypesIII">Class III</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmCommodityTypes" id="hmCommodityTypesIV" value="Class IV" [(ngModel)]="model.OFFLNS_COMMODITY_TYPES_CLASS_IV">
+        <label for="hmCommodityTypesIV">Class IV</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmCommodityTypes" id="hmCommodityTypesCartoned" value="Unexp. Grp A Plastic (Cartoned)" [(ngModel)]="model.OFFLNS_COMMODITY_TYPES_UNEXP_CARTONED">
+        <label for="hmCommodityTypesCartoned">Unexp. Grp A Plastic (Cartoned)</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmCommodityTypes" id="hmCommodityTypesUncartoned" value="Unexp. Grp A Plastic (Uncartoned)" [(ngModel)]="model.OFFLNS_COMMODITY_TYPES_UNEXP_UNCARTONED">
+        <label for="hmCommodityTypesUncartoned">Unexp. Grp A Plastic (Uncartoned)</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmCommodityTypes" id="hmCommodityTypesExpCartoned" value="Exp. Grp A Plastic (Cartoned)" [(ngModel)]="model.OFFLNS_COMMODITY_TYPES_EXP_CARTONED">
+        <label for="hmCommodityTypesExpCartoned">Exp. Grp A Plastic (Cartoned) </label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmCommodityTypes" id="hmCommodityTypesExpUncartoned" value="Exp. Grp A Plastic (Uncartoned)" [(ngModel)]="model.OFFLNS_COMMODITY_TYPES_EXP_UNCARTONED">
+        <label for="hmCommodityTypesExpUncartoned">Exp. Grp A Plastic (Uncartoned)</label>
+      </div>                        
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmCommodityTypes" id="hmCommodityTypesOther" value="Other" [(ngModel)]="model.OFFLNS_COMMODITY_TYPES_OTHER">
+        <label for="hmCommodityTypesOther">Other</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmCommodityTypes" id="hmCommodityTypesUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_COMMODITY_TYPES_UNKNOWN">
+        <label for="hmCommodityTypesUnknown">Unknown</label>
+      </div>
+    </div>
+  </div>  
+
+  <div class="isc-form-group">
+    <label class="isc-col-md-3 isc-control-label" for="hmStorageArrangement">Storage Arrangement</label>
+    <div class="isc-col-md-9">                        
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmStorageArrangement" id="hmStorageArrangementPalletized" value="Palletized" [(ngModel)]="model.OFFLNS_STORAGE_ARRANGMENT_PALETIZED">
+        <label for="hmStorageArrangementPalletized">Palletized</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmStorageArrangement" id="hmStorageArrangementSolidPile" value="Solid Pile" [(ngModel)]="model.OFFLNS_STORAGE_ARRANGMENT_SOLID_PILE">
+        <label for="hmStorageArrangementSolidPile">Solid Pile</label>
+      </div>                      
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmStorageArrangement" id="hmStorageArrangementBinBox" value="Bin Box" [(ngModel)]="model.OFFLNS_STORAGE_ARRANGMENT_BIN_BOX">
+        <label for="hmStorageArrangementBinBox">Bin Box</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmStorageArrangement" id="hmStorageArrangementShelf" value="Shelf" [(ngModel)]="model.OFFLNS_STORAGE_ARRANGMENT_SHELF">
+        <label for="hmStorageArrangementShelf">Shelf</label>
+      </div>                               
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmStorageArrangement" id="hmStorageArrangementOther" value="Other" [(ngModel)]="model.OFFLNS_STORAGE_ARRANGMENT_OTHER">
+        <label for="hmStorageArrangementOther">Other</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmStorageArrangement" id="hmStorageArrangementUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_STORAGE_ARRANGMENT_UNKNOWN">
+        <label for="hmStorageArrangementUnknown">Unknown</label>
+      </div>
+    </div>
+  </div>
+
+  <div class="isc-form-group">
+    <label class="isc-col-md-3 isc-control-label" for="hmPalletTypes">Pallet Types</label>
+    <div class="isc-col-md-9">                        
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmPalletTypes" id="hmPalletTypesWood" value="Wood" [(ngModel)]="model.OFFLNS_PALLET_TYPES_WOOD">
+        <label for="hmPalletTypesWood">Wood</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmPalletTypes" id="hmPalletTypesReinf" value="Reinf. Plastic" [(ngModel)]="model.OFFLNS_PALLET_TYPES_REINF_PLASTIC">
+        <label for="hmPalletTypesReinf">Reinf. Plastic</label>
+      </div>                      
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmPalletTypes" id="hmPalletTypesUnreinf" value="Unreinf. Plastic" [(ngModel)]="model.OFFLNS_PALLET_TYPES_UNREINF_PLASTIC">
+        <label for="hmPalletTypesUnreinf">Unreinf. Plastic</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmPalletTypes" id="hmPalletTypesCardboard" value="Cardboard" [(ngModel)]="model.OFFLNS_PALLET_TYPES_CARDBOARD">
+        <label for="hmPalletTypesCardboard">Cardboard</label>
+      </div>                               
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmPalletTypes" id="hmPalletTypesOther" value="Other" [(ngModel)]="model.OFFLNS_PALLET_TYPES_OTHER">
+        <label for="hmPalletTypesOther">Other</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmPalletTypes" id="hmPalletTypesUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_PALLET_TYPES_UNKNOWN">
+        <label for="hmPalletTypesUnknown">Unknown</label>
+      </div>
+    </div>
+  </div>
+
+  <div class="isc-form-group">
+    <label class="isc-col-md-3 isc-control-label" for="hmStorageInAisles">Storagein Aisles</label>
+    <div class="isc-col-md-9">
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmStorageInAisles" id="hmStorageInAislesYes" value="Yes" [(ngModel)]="model.OFFLNS_STORAGEIN_AISLES">
+        <label for="hmStorageInAislesYes">Yes</label>
+      </div>
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmStorageInAisles" id="hmStorageInAislesNo" value="No" [(ngModel)]="model.OFFLNS_STORAGEIN_AISLES">
+        <label for="hmStorageInAislesNo">No</label>
+      </div>                        
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmStorageInAisles" id="hmStorageInAislesUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_STORAGEIN_AISLES">
+        <label for="hmStorageInAislesUnknown">Unknown</label>
+      </div>                      
+    </div>
+  </div>
+
+  <div class="isc-form-group">
+    <label class="isc-col-md-3 isc-control-label" for="hmHeatSmoke">Heat/Smoke Vents</label>
+    <div class="isc-col-md-9">
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmHeatSmoke" id="hmHeatSmokeYes" value="Yes" [(ngModel)]="model.OFFLNS_SMOKE_VENTS">
+        <label for="hmHeatSmokeYes">Yes</label>
+      </div>
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmHeatSmoke" id="hmHeatSmokeNo" value="No" [(ngModel)]="model.OFFLNS_SMOKE_VENTS">
+        <label for="hmHeatSmokeNo">No</label>
+      </div>                        
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmHeatSmoke" id="hmHeatSmokeUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_SMOKE_VENTS">
+        <label for="hmHeatSmokeUnknown">Unknown</label>
+      </div>                      
+    </div>
+  </div>
+
+  <div class="isc-form-group">
+    <label class="isc-col-md-3 isc-control-label" for="hmFireDetection">Fire Detection</label>
+    <div class="isc-col-md-9">
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmFireDetectionHeat" id="hmFireDetectionHeat" value="Heat" [(ngModel)]="model.OFFLNS_FIRE_DETECTION_HEAT">
+        <label for="hmFireDetectionHeat">Heat</label>                        
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmFireDetectionSmoke" id="hmFireDetectionSmoke" value="Smoke" [(ngModel)]="model.OFFLNS_FIRE_DETECTION_SMOKE">
+        <label for="hmFireDetectionSmoke">Smoke</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmFireDetectionUV" id="hmFireDetectionUV" value="UV/IR" [(ngModel)]="model.OFFLNS_FIRE_DETECTION_UVIR">
+        <label for="hmFireDetectionUV">UV/IR</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmFireDetectionAir" id="hmFireDetectionAir" value="Air Sampling" [(ngModel)]="model.OFFLNS_FIRE_DETECTION_AIR_SAMPLING">
+        <label for="hmFireDetectionAir">Air Sampling</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmFireDetectionOther" id="hmFireDetectionOther" value="Other" [(ngModel)]="model.OFFLNS_FIRE_DETECTION_OTHER">
+        <label for="hmFireDetectionOther">Other</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmFireDetectionNone" id="hmFireDetectionNone" value="None" [(ngModel)]="model.OFFLNS_FIRE_DETECTION_NONE">
+        <label for="hmFireDetectionNone">None</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmFireDetectionUnknown" id="hmFireDetectionUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FIRE_DETECTION_UNKNOWN">
+        <label for="hmFireDetectionUnknown">Unknown</label>
+      </div>
+    </div>
+  </div>
+
+  <div class="isc-form-group">
+    <label class="isc-col-md-3 isc-control-label" for="hmCeilingSprinklerSystem">Ceiling Sprinkler System</label>
+    <div class="isc-col-md-9">
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmCeilingSprinklerSystem" id="hmCeilingSprinklerSystemAutomatic" value="Automatic" [(ngModel)]="model.OFFLNS_CEILING_SPRINKLER">
+        <label for="hmCeilingSprinklerSystemAutomatic">Automatic</label>
+      </div>
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmCeilingSprinklerSystem" id="hmCeilingSprinklerSystemManual" value="Manual" [(ngModel)]="model.OFFLNS_CEILING_SPRINKLER">
+        <label for="hmCeilingSprinklerSystemManual">Manual</label>
+      </div>
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmCeilingSprinklerSystem" id="hmCeilingSprinklerSystemNone" value="None" [(ngModel)]="model.OFFLNS_CEILING_SPRINKLER">
+        <label for="hmCeilingSprinklerSystemNone">None</label>
+      </div>
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmCeilingSprinklerSystem" id="hmCeilingSprinklerSystemUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_CEILING_SPRINKLER">
+        <label for="hmCeilingSprinklerSystemUnknown">Unknown</label>
+      </div>                      
+    </div>
+  </div>
+
+  <div class="isc-form-group">
+    <label class="isc-col-md-3 isc-control-label" for="hmSprinklerSystemType">Ceiling Sprinkler System Type</label>
+    <div class="isc-col-md-9">
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmSprinklerSystemType" id="hmSprinklerSystemTypeCMDA" value="CMDA" [(ngModel)]="model.OFFLNS_CEILING_SPRINKLER_TYPE_CMDA">
+        <label for="hmSprinklerSystemTypeCMDA">CMDA</label>                        
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmSprinklerSystemTypeCMSA" id="hmSprinklerSystemTypeCMSA" value="CMSA" [(ngModel)]="model.OFFLNS_CEILING_SPRINKLER_TYPE_CMSA">
+        <label for="hmSprinklerSystemTypeCMSA">CMSA</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmSprinklerSystemTypeESFR" id="hmSprinklerSystemTypeESFR" value="ESFR" [(ngModel)]="model.OFFLNS_CEILING_SPRINKLER_TYPE_ESFR">
+        <label for="hmSprinklerSystemTypeESFR">ESFR</label>
+      </div>                        
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmSprinklerSystemTypeOther" id="hmSprinklerSystemTypeOther" value="Other" [(ngModel)]="model.OFFLNS_CEILING_SPRINKLER_TYPE_OTHER">
+        <label for="hmSprinklerSystemTypeOther">Other</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmSprinklerSystemTypeUnknown" id="hmSprinklerSystemTypeUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_CEILING_SPRINKLER_TYPE_UNKNOWN">
+        <label for="hmSprinklerSystemTypeUnknown">Unknown</label>
+      </div>
+    </div>
+  </div>
+
+  <div class="isc-form-group">
+    <label class="isc-col-md-3 isc-control-label" for="hmOtherFPSystem">Other FP System</label>
+    <div class="isc-col-md-9">
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmOtherFPSystem" id="hmOtherFPSystemFoam" value="Foam" [(ngModel)]="model.OFFLNS_OTHER_FP_FOAM">
+        <label for="hmOtherFPSystemFoam">Foam</label>                        
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmOtherFPSystem" id="hmOtherFPSystemGaseous" value="Gaseous" [(ngModel)]="model.OFFLNS_OTHER_FP_GASEOUS">
+        <label for="hmOtherFPSystemGaseous">Gaseous</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmOtherFPSystem" id="hmOtherFPSystemDryChemical" value="Dry Chemical" [(ngModel)]="model.OFFLNS_OTHER_FP_DRY_CHEMICAL">
+        <label for="hmOtherFPSystemDryChemical">Dry Chemical</label>
+      </div>                      
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmOtherFPSystem" id="hmOtherFPSystemOther" value="Other" [(ngModel)]="model.OFFLNS_OTHER_FP_OTHER">
+        <label for="hmOtherFPSystemOther">Other</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmOtherFPSystem" id="hmOtherFPSystemUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_OTHER_FP_UNKNOWN">
+        <label for="hmOtherFPSystemUnknown">Unknown</label>
+      </div>
+    </div>
+  </div>
+
+  <div class="isc-form-group">
+    <label class="isc-col-md-3 isc-control-label" for="hmSpillControl">Spill Control</label>
+    <div class="isc-col-md-9">                      
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmSpillControl" id="hmSpillControlContainment" value="Containment" [(ngModel)]="model.OFFLNS_SPILL_CONTROL_CONTAINMENT">
+        <label for="hmSpillControlContainment">Containment</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmSpillControl" id="hmSpillControlDrainage" value="Drainage" [(ngModel)]="model.OFFLNS_SPILL_CONTROL_DRAINAGE">
+        <label for="hmSpillControlDrainage">Drainage</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmSpillControl" id="hmSpillControlNone" value="None" [(ngModel)]="model.OFFLNS_SPILL_CONTROL_NONE">
+        <label for="hmSpillControlNone">None</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmSpillControl" id="hmSpillControlUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_SPILL_CONTROL_UNKNOWN">
+        <label for="hmSpillControlUnknown">Unknown</label>
+      </div>
+    </div>
+  </div>
+
+  <div class="isc-form-group">
+    <label class="isc-col-md-3 isc-control-label" for="hmInsideHoseConnections">Inside Hose Connections provided  </label>
+    <div class="isc-col-md-9">
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmInsideHoseConnections" id="hmInsideHoseConnectionsYes" value="Yes" [(ngModel)]="model.OFFLNS_INSIDE_HOSE">
+        <label for="hmInsideHoseConnectionsYes">Yes</label>
+      </div>
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmInsideHoseConnections" id="hmInsideHoseConnectionsNo" value="No" [(ngModel)]="model.OFFLNS_INSIDE_HOSE">
+        <label for="hmInsideHoseConnectionsNo">No</label>
+      </div>                        
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmInsideHoseConnections" id="hmInsideHoseConnectionsUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_INSIDE_HOSE">
+        <label for="hmInsideHoseConnectionsUnknown">Unknown</label>
+      </div>                      
+    </div>
+  </div>
+
+  <div class="isc-form-group">
+    <label class="isc-col-md-3 isc-control-label" for="hmSprinklerObstructions">Sprinkler Obstructions</label>
+    <div class="isc-col-md-9">
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmSprinklerObstructions" id="hmSprinklerObstructionsYes" value="Yes" [(ngModel)]="model.OFFLNS_SPRINKLER_OBSTRUCTIONS">
+        <label for="hmSprinklerObstructionsYes">Yes</label>
+      </div>
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmSprinklerObstructions" id="hmSprinklerObstructionsNo" value="No" [(ngModel)]="model.OFFLNS_SPRINKLER_OBSTRUCTIONS">
+        <label for="hmSprinklerObstructionsNo">No</label>
+      </div>
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmSprinklerObstructions" id="hmSprinklerObstructionsNA" value="N/A" [(ngModel)]="model.OFFLNS_SPRINKLER_OBSTRUCTIONS">
+        <label for="hmSprinklerObstructionsNA">N/A</label>
+      </div>
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmSprinklerObstructions" id="hmSprinklerObstructionsUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_SPRINKLER_OBSTRUCTIONS">
+        <label for="hmSprinklerObstructionsUnknown">Unknown</label>
+      </div>                      
+    </div>
+  </div>
+
+  <div class="isc-form-group">
+    <label class="isc-col-md-3 isc-control-label" for="hmHVLSFans">HVLS Fans properly arranged</label>
+    <div class="isc-col-md-9">
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmHVLSFans" id="hmHVLSFansYes" value="Yes" [(ngModel)]="model.OFFLNS_HVS_FANS">
+        <label for="hmHVLSFansYes">Yes</label>
+      </div>
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmHVLSFans" id="hmHVLSFansNo" value="No" [(ngModel)]="model.OFFLNS_HVS_FANS">
+        <label for="hmHVLSFansNo">No</label>
+      </div>
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmHVLSFans" id="hmHVLSFansNA" value="N/A" [(ngModel)]="model.OFFLNS_HVS_FANS">
+        <label for="hmHVLSFansNA">N/A</label>
+      </div>
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmHVLSFans" id="hmHVLSFansUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_HVS_FANS">
+        <label for="hmHVLSFansUnknown">Unknown</label>
+      </div>                      
+    </div>
+  </div>
+
+  <div class="isc-form-group">
+    <label class="isc-col-md-3 isc-control-label" for="hmHalideLighting">Metal Halide Lighting properly arranged/protected</label>
+    <div class="isc-col-md-9">
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmHalideLighting" id="hmHalideLightingYes" value="Yes"  [(ngModel)]="model.OFFLNS_METAL_HALIDE_YES">
+        <label for="hmHalideLightingYes">Yes</label>                        
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmHalideLighting" id="hmHalideLightingNo" value="No"  [(ngModel)]="model.OFFLNS_METAL_HALIDE_NO">
+        <label for="hmHalideLightingNo">No</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmHalideLighting" id="hmHalideLightingNA" value="N/A"  [(ngModel)]="model.OFFLNS_METAL_HALIDE_NA">
+        <label for="hmHalideLightingNA">N/A</label>
+      </div>  
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmHalideLighting" id="hmHalideLightingUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_METAL_HALIDE_UNKNOWN">
+        <label for="hmHalideLightingUnknown">Unknown</label>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Floor - NonRack Storage Section Ends -->

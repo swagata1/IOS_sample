@@ -1,0 +1,311 @@
+<!-- Aircraft Hangar Section Starts -->
+<div class="isc-form-horizontal isc-reveal">
+   <div class="isc-form-group">
+      <div class="isc-col-md-4">
+         <label class="isc-control-label" for="ahHazardName">Hazard Name</label>
+         <input class="isc-form-control" type="text" id="ahHazardName" value="" [(ngModel)]="model.OFFLS_AH_HAZARD_NAME"  />
+      </div>
+      <div class="isc-col-md-4">
+         <label class="isc-control-label" for="ahAreaSize">Area Size</label>
+         <input class="isc-form-control" type="number" id="ahAreaSize" value=""  [(ngModel)]="model.OFFLN_AH_AREA_SIZE"/>
+      </div>
+      <div class="isc-col-md-4">
+         <label class="isc-control-label" for="ahCeilingHeight">Ceiling Height</label>
+         <input class="isc-form-control" type="number" id="ahCeilingHeight" value="" [(ngModel)]="model.OFFLN_AH_CEILING_HEIGHT"/>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="ahTypeOfConstruction">Type of construction</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahTypeOfConstruction" id="constructionTypeI" value="TypeI" [(ngModel)]="model.OFFLS_AH_TYPE_OF_CONSTRUCTION">
+            <label for="constructionTypeI">Type I</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahTypeOfConstruction" id="constructionTypeII" value="TypeII" [(ngModel)]="model.OFFLS_AH_TYPE_OF_CONSTRUCTION">
+            <label for="constructionTypeII">Type II</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahTypeOfConstruction" id="constructionTypeIV" value="TypeIV" [(ngModel)]="model.OFFLS_AH_TYPE_OF_CONSTRUCTION">
+            <label for="constructionTypeIV">Type IV</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahTypeOfConstruction" id="constructionTypeV" value="TypeV" [(ngModel)]="model.OFFLS_AH_TYPE_OF_CONSTRUCTION">
+            <label for="constructionTypeV">Type V</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahTypeOfConstruction" id="constructionUnknown" value="Unknown" [(ngModel)]="model.OFFLS_AH_TYPE_OF_CONSTRUCTION">
+            <label for="constructionUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="ahDoorHeight">Aircraft access door height</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahDoorHeight" id="ahDoorHeightOver28Ft" value="Over28ft" [(ngModel)]="model.OFFLS_AH_AIRCRAFT_DOOR_HEIGHT">
+            <label for="ahDoorHeightOver28Ft">Over 28 ft</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahDoorHeight" id="ahDoorHeightLessEq28Ft" value="<=28ft" [(ngModel)]="model.OFFLS_AH_AIRCRAFT_DOOR_HEIGHT">
+            <label for="ahDoorHeightLessEq28Ft"> <= 28 ft</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahDoorHeight" id="ahDoorHeightUnknown" value="Unknown" [(ngModel)]="model.OFFLS_AH_AIRCRAFT_DOOR_HEIGHT">
+            <label for="ahDoorHeightUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="ahTailHeight">Aircraft tail height</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahTailHeight" id="ahTailHeightOver28Ft" value="Over28ft" [(ngModel)]="model.OFFLS_AH_AIRCRAFT_TAIL_HEIGHT">
+            <label for="ahTailHeightOver28Ft">Over 28 ft</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahTailHeight" id="ahTailHeightLessEq28Ft" value="<=28ft" [(ngModel)]="model.OFFLS_AH_AIRCRAFT_TAIL_HEIGHT">
+            <label for="ahTailHeightLessEq28Ft"> <= 28 ft</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahTailHeight" id="ahTailHeightUnknown" value="Unknown" [(ngModel)]="model.OFFLS_AH_AIRCRAFT_TAIL_HEIGHT">
+            <label for="ahTailHeightUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="ahHangerType">Hangar Type</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahHangerType" id="ahHangerTypeGroupI" value="GroupI" [(ngModel)]="model.OFFLS_AH_HANGAR_TYPE">
+            <label for="ahHangerTypeGroupI">Group I</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahHangerType" id="ahHangerTypeGroupII" value="GroupII" [(ngModel)]="model.OFFLS_AH_HANGAR_TYPE">
+            <label for="ahHangerTypeGroupII">Group II</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahHangerType" id="ahHangerTypeGroupIII" value="GroupIII" [(ngModel)]="model.OFFLS_AH_HANGAR_TYPE">
+            <label for="ahHangerTypeGroupIII">Group III</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahHangerType" id="ahHangerTypeGroupIV" value="GroupIV" [(ngModel)]="model.OFFLS_AH_HANGAR_TYPE">
+            <label for="ahHangerTypeGroupIV">Group IV</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahHangerType" id="ahHangerTypeUnknown" value="Unknown" [(ngModel)]="model.OFFLS_AH_HANGAR_TYPE">
+            <label for="ahHangerTypeUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="ahDrainage">Drainage</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahDrainage" id="ahDrainageProvided" value="Provided" [(ngModel)]="model.OFFLS_AH_DRAINAGE">
+            <label for="ahDrainageProvided">Provided</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahDrainage" id="ahDrainageNotProvided" value="NotProvided" [(ngModel)]="model.OFFLS_AH_DRAINAGE">
+            <label for="ahDrainageNotProvided">Not Provided</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahDrainage" id="ahDrainageUnknown" value="Unknown" [(ngModel)]="model.OFFLS_AH_DRAINAGE">
+            <label for="ahDrainageUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="ahEquipment">Electrical Equipment Classification</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahEquipment" id="ahEquipmentClDivOne" value="CL1Div1" [(ngModel)]="model.OFFLS_AH_ELECTRICAL_EQUIPMENT">
+            <label for="ahEquipmentClDivOne">CL1 Div1</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahEquipment" id="ahEquipmentClDivTwo" value="CL1Div2" [(ngModel)]="model.OFFLS_AH_ELECTRICAL_EQUIPMENT">
+            <label for="ahEquipmentClDivTwo">CL1 Div2</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahEquipment" id="ahEquipmentExpolsion" value="Ordinary;EUexplosionproof" [(ngModel)]="model.OFFLS_AH_ELECTRICAL_EQUIPMENT">
+            <label for="ahEquipmentExpolsion">Ordinary;EU explosion proof</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahEquipment" id="ahEquipmentUnknown" value="Unknown" [(ngModel)]="model.OFFLS_AH_ELECTRICAL_EQUIPMENT">
+            <label for="ahEquipmentUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="ahFuelWings">Fuel in Aircraft Wings</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahFuelWings" id="ahFuelWingsYes" value="Yes" [(ngModel)]="model.OFFLS_AH_FUEL_IN_AIRCRAFT_WINGS">
+            <label for="ahFuelWingsYes">Yes</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahFuelWings" id="ahFuelWingsNo" value="No" [(ngModel)]="model.OFFLS_AH_FUEL_IN_AIRCRAFT_WINGS">
+            <label for="ahFuelWingsNo">No</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahFuelWings" id="ahFuelWingsUnknown" value="Unknown" [(ngModel)]="model.OFFLS_AH_FUEL_IN_AIRCRAFT_WINGS">
+            <label for="ahFuelWingsUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="ahFireDetection">Fire Detection</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="ahFireDetectionHeat" id="ahFireDetectionHeat" value="Heat" [(ngModel)]="model.OFFLS_AH_FIRE_DETECTION_HEAT"> 
+            <label for="hmPressureSwitchesYes">Heat</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="ahFireDetectionSmoke" id="ahFireDetectionSmoke" value="Smoke" [(ngModel)]="model.OFFLS_AH_FIRE_DETECTION_SMOKE"> 
+            <label for="ahFireDetectionSmoke">Smoke</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="ahFireDetectionUvIr" id="ahFireDetectionUvIr" value="UV/IR" [(ngModel)]="model.OFFLS_AH_FIRE_DETECTION_UV_IR"> 
+            <label for="ahFireDetectionUvIr">UV/IR</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="ahFireDetectionAirSampling" id="ahFireDetectionAirSampling" value="AirSampling" [(ngModel)]="model.OFFLS_AH_FIRE_DETECTION_AIR_SAMPLING"> 
+            <label for="ahFireDetectionAirSampling">Air Sampling</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="ahFireDetectionOther" id="ahFireDetectionOther" value="Other" [(ngModel)]="model.OFFLS_AH_FIRE_DETECTION_OTHER"> 
+            <label for="ahFireDetectionOther">Other</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="ahFireDetectionNone" id="ahFireDetectionNone" value="None" [(ngModel)]="model.OFFLS_AH_FIRE_DETECTION_NONE"> 
+            <label for="ahFireDetectionNone">None</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="ahFireDetectionUnknown" id="ahFireDetectionUnknown" value="Unknown" [(ngModel)]="model.OFFLS_AH_FIRE_DETECTION_UNKNOWN"> 
+            <label for="ahFireDetectionUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="ahCeilingSystem">Ceiling Sprinkler System</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahCeilingSystem" id="ahCeilingSystemAutomatic" value="Automatic" [(ngModel)]="model.OFFLS_AH_CEILING_SPRINKLER">
+            <label for="ahCeilingSystemAutomatic">Automatic</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahCeilingSystem" id="ahCeilingSystemManual" value="Manual" [(ngModel)]="model.OFFLS_AH_CEILING_SPRINKLER">
+            <label for="ahCeilingSystemManual">Manual</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahCeilingSystem" id="ahCeilingSystemNone" value="None" [(ngModel)]="model.OFFLS_AH_CEILING_SPRINKLER">
+            <label for="ahCeilingSystemNone">None</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahCeilingSystem" id="ahCeilingSystemUnknown" value="Unknown" [(ngModel)]="model.OFFLS_AH_CEILING_SPRINKLER">
+            <label for="ahCeilingSystemUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="ahCeilingSystemType">Ceiling Sprinkler System Type</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="ahCeilingSystemTypeCmda" id="ahCeilingSystemTypeCmda" value="CMDA" [(ngModel)]="model.OFFLS_AH_CEILING_SPRINKLER_TYPE_CMDA">
+            <label for="ahCeilingSystemTypeCmda">CMDA</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="ahCeilingSystemTypeCmsa" id="ahCeilingSystemTypeCmsa" value="CMSA" [(ngModel)]="model.OFFLS_AH_CEILING_SPRINKLER_TYPE_CMSA">
+            <label for="ahCeilingSystemTypeCmsa">CMSA</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="ahCeilingSystemTypeEsfr" id="ahCeilingSystemTypeEsfr" value="ESFR" [(ngModel)]="model.OFFLS_AH_CEILING_SPRINKLER_TYPE_ESFR">
+            <label for="ahCeilingSystemTypeEsfr">ESFR</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="ahCeilingSystemTypeOther" id="ahCeilingSystemTypeOther" value="Other" [(ngModel)]="model.OFFLS_AH_CEILING_SPRINKLER_TYPE_OTHER">
+            <label for="ahCeilingSystemTypeOther">Other</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="ahCeilingSystemTypeUnknown" id="ahCeilingSystemTypeUnknown" value="Unknown" [(ngModel)]="model.OFFLS_AH_CEILING_SPRINKLER_TYPE_UNKNOWN">
+            <label for="ahCeilingSystemTypeUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="ahOtherFp">Other FP System</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="ahOtherFpFoam" id="ahOtherFpFoam" value="Foam" [(ngModel)]="model.OFFLS_AH_OTHER_FP_FOAM">
+            <label for="ahOtherFpFoam">Foam</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="ahOtherFpGaseous" id="ahOtherFpGaseous" value="Gaseous" [(ngModel)]="model.OFFLS_AH_OTHER_FP_GASEOUS">
+            <label for="ahOtherFpGaseous">Gaseous</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="ahOtherFpDry" id="ahOtherFpDry" value="DryChemical" [(ngModel)]="model.OFFLS_AH_OTHER_FP_DRY_CHEMICAL">
+            <label for="ahOtherFpDry">Dry Chemical</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="ahOtherFpOther" id="ahOtherFpOther" value="Other" [(ngModel)]="model.OFFLS_AH_OTHER_FP_OTHER">
+            <label for="ahOtherFpOther">Other</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="ahOtherFpUnknown" id="ahOtherFpUnknown" value="Unknown" [(ngModel)]="model.OFFLS_AH_OTHER_FP_UNKNOWN">
+            <label for="ahOtherFpUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="ahFireProtection">Underwing Fire Protection</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="ahFireProtectionWaterBased" id="ahFireProtectionWaterBased" value="Waterbased" [(ngModel)]="model.OFFLS_AH_UNDERWING_FIRE_PROTECTION_WATER_BASED">
+            <label for="ahFireProtectionWaterBased">Water based</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="ahFireProtectionFoam" id="ahFireProtectionFoam" value="Foam" [(ngModel)]="model.OFFLS_AH_UNDERWING_FIRE_PROTECTION_FOAM">
+            <label for="ahFireProtectionFoam">Foam</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="ahFireProtectionGaseous" id="ahFireProtectionGaseous" value="Gaseous" [(ngModel)]="model.OFFLS_AH_UNDERWING_FIRE_PROTECTION_GASEOUS">
+            <label for="ahFireProtectionGaseous">Gaseous</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="ahFireProtectionDry" id="ahFireProtectionDry" value="DryChemical" [(ngModel)]="model.OFFLS_AH_UNDERWING_FIRE_PROTECTION_DRY_CHEMICAL">
+            <label for="ahFireProtectionDry">Dry Chemical</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="ahFireProtectionOther" id="ahFireProtectionOther" value="Other" [(ngModel)]="model.OFFLS_AH_UNDERWING_FIRE_PROTECTION_OTHER">
+            <label for="ahFireProtectionOther">Other</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="ahFireProtectionNone" id="ahFireProtectionNone" value="None" [(ngModel)]="model.OFFLS_AH_UNDERWING_FIRE_PROTECTION_NONE">
+            <label for="ahFireProtectionNone">None</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="ahFireProtectionUnknown" id="ahFireProtectionUnknown" value="Unknown" [(ngModel)]="model.OFFLS_AH_UNDERWING_FIRE_PROTECTION_UNKNOWN">
+            <label for="ahFireProtectionUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="ahUnderwingStorage">Underwing Storage</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahUnderwingStorage" id="ahUnderwingStorageYes" value="Yes" [(ngModel)]="model.OFFLS_AH_UNDERWING_STORAGE">
+            <label for="ahUnderwingStorageYes">Yes</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahUnderwingStorage" id="ahUnderwingStorageNo" value="No" [(ngModel)]="model.OFFLS_AH_UNDERWING_STORAGE">
+            <label for="ahUnderwingStorageNo">No</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="ahUnderwingStorage" id="ahUnderwingStorageUnknown" value="Unknown" [(ngModel)]="model.OFFLS_AH_UNDERWING_STORAGE">
+            <label for="ahUnderwingStorageUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- Aircraft Hangar Section End -->

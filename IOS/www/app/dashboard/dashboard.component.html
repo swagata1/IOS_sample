@@ -1,0 +1,128 @@
+<div class="isc-container">
+    <!--<div class="_plr-lg _pb-sm">
+        <div class="isc-grid">
+            <div class="isc-col-sm-5 isc-col-md-3">
+                <span>
+                <span data-isc-icon="loading"></span>
+                </span>
+            </div>
+            <div class="isc-col-sm-2">
+                <small data-color="muted">Report Due</small>
+            </div>
+            <div class="isc-col-sm-2">
+                <small data-color="muted">Survey Due</small>
+            </div>
+            <div class="isc-col-sm-3">
+                <small data-color="muted">Service Type</small>
+            </div>
+            <div class="isc-col-sm-1 isc-col-md-2" data-align="right">
+               <div class="isc-dropdown dropdown" [ngClass]="dropopen">
+                <a (click)="toggleSortDrop()" class="isc-dropdown-toggle dropdown-toggle"><span (window:mouseup)="toggleSortDropClose($event)" class="material-icons">sort_by_alpha</span></a>
+                <ul class="isc-dropdown-menu" role="menu">
+                    <li (click)="sortByCustom('Report')"><a>Report Due</a></li>
+                    <li (click)="sortByCustom('Survey')"><a>Survey Due</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>-->
+    <div class="_p">
+  <div class="isc-grid">
+    <div class="isc-col-sm-9 _center-block">
+      <div class="isc-grid">
+        <div class="isc-col-sm-11">
+          <!--<span>
+            <span data-isc-icon="loading"><span class="material-icons  isc-rotate">autorenew</span><span data-ng-transclude=""></span></span>
+            <span data-color="muted" class="_text-12 hidden-xs hidden-sm">Downloading Data...</span>
+          </span>-->
+        </div>
+        <!--<div class="isc-col-sm-1" data-align="right">
+          <div class="isc-dropdown dropdown" [ngClass]="dropopen">
+                <a (click)="toggleSortDrop()" class="isc-dropdown-toggle dropdown-toggle" href><span (window:mouseup)="toggleSortDropClose($event)" class="material-icons">sort_by_alpha</span></a>
+                <ul class="isc-dropdown-menu" role="menu">
+                    <li (click)="sortByCustom('Report')"><a href="javascript:void(0)">Report Due</a></li>
+                    <li (click)="sortByCustom('Survey')"><a href="javascript:void(0)">Survey Due</a></li>
+                </ul>
+            </div>
+        </div>-->
+      </div>
+    </div>
+  </div>
+</div>
+    <div *ngIf="isLoading" class="._text-center" data-align="center">
+        <span data-isc-icon="loading" data-size="xxxx-large"><span class="material-icons  isc-rotate isc-icon-xxxx-lg">autorenew</span></span>
+    </div>
+    <div class="isc-grid">
+        <div class="isc-col-sm-9 _center-block">
+    
+
+
+    <div *ngFor="let site of sites | orderby:[sortBy,'ACCOUNT_BUSINESS_NM']; let i=index" class="isc-card isc-card-horizontal isc-reveal">
+      <img class="isc-img-responsive" src="images/{{getSurveyImageId(i+1)}}.png">
+      <div class="isc-card-content">
+        <div class="isc-card-body">
+          <div class="isc-media">
+            <div class="isc-media-body">
+              <h4 class="_nmb">{{site.ACCOUNT_BUSINESS_NM}}</h4>
+              <small data-color="muted">{{site.RFS_PARENT_ID}}-{{site.SUB_RFS_NO}}</small>
+            </div>
+            <div class="isc-media-right">
+                <!--<div class="isc-dropdown in">
+                <span *ngIf="site.downloadIndicator=='T'">
+                    <axis-app-nav [currState]="'dashboard'" [navKind]="navKind" [isDownloaded]="true" [selectedSite]="site" (navigateEvent)="navigateEvent($event)"></axis-app-nav>
+                </span>
+              </div>-->
+            </div>
+          </div>
+          <div class="isc-media">
+            <div class="isc-media-body">
+              <div data-text-weight="bold">
+                <!--<a href="javascript:void(0);" (click)="navigate(site)">{{site.LOCATION_GROUP_NM}}</a>-->
+                {{site.LOCATION_GROUP_NM}}
+              </div>
+              <address data-color="muted">
+                <div>{{site.SITE_STREET_NM}}</div>
+                <div>{{site.SITE_CITY_NM}}, {{site.SITE_STATE_NM}} {{site.SITE_ZIP_CD}}</div>
+                <div>{{site.SITE_COUNTRY_NM}}</div>
+              </address>
+              <div>{{site.REQUEST_TYPE_DS}} - {{site.ACTIVITY_DS}}</div>
+              <!-- <div data-color="muted"><label>LAT</label> {{survey.latitude}}, <label>LGT</label>  {{survey.longitude}}</div> -->
+            </div>
+            <div class="isc-media-right">
+              <a target="_blank" href="http://maps.google.com/?q=521%20Colony%20Road,%20Madison%20Heights,%20VA,%2024572"><span data-isc-icon="location"><span class="material-icons ">location_on</span></span>
+            </a>
+            <span *ngIf="site.downloadIndicator =='F' && site.REQUEST_TYPE_DS =='Prop All Risk  - Initial' && site.LOB_DS=='COMMERCIAL PROPERTY' && site.BUILDING_CT=='1'" class="_pl-md in">
+            <download-survey [index]=i [site]=site [currState]="'dashboard'" (downloadedSite)="downloadedSite($event)"></download-survey>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="isc-card-footer">
+        <div class="isc-grid" data-separator="true">
+          <div class="isc-col-md-6">
+            <div class="isc-summary" data-align="center">
+              <small *ngIf="site.SURVEY_END_DT" class="isc-summary-title">Survey Due (<span *ngIf="site.SURVEY_DUEDATE_TYPE_CD == 'F'" data-color="muted">{{site.SURVEY_END_DT | date:'mediumDate'}}</span>
+                    <span *ngIf="site.SURVEY_DUEDATE_TYPE_CD == 'R'" data-color="muted">{{site.SURVEY_START_DT | date:'mediumDate'}}</span>)</small>
+              <h4 class="isc-summary-text"><span *ngIf="site.SURVEY_DUEDATE_TYPE_CD == 'F'">{{site.surveyEndDiff}}</span><span *ngIf="site.SURVEY_DUEDATE_TYPE_CD == 'R'">{{site.surveyStartDiff}}</span></h4>
+            </div>
+          </div>
+          <div class="isc-col-md-6">
+            <div class="isc-summary" data-align="center">
+              <small *ngIf="site.REPORT_DUE_DT" class="isc-summary-title">Report Due (<span>{{site.REPORT_DUE_DT | date:'mediumDate'}}</span>)</small>
+              <h4 class="isc-summary-text"><span>{{site.reportDueDiff}}</span></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+    </div>
+    </div>
+    <!--end-->
+</div>

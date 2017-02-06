@@ -1,0 +1,512 @@
+<div bsModal #lgModal="bs-modal" 
+		 class="isc-modal fade" 
+		 tabindex="-1" 
+		 role="dialog" 
+		 aria-labelledby="myLargeModalLabel" 
+		 aria-hidden="true">
+	<div class="isc-modal-dialog isc-modal-xl">
+		<div class="isc-modal-content">
+			<div class="isc-modal-header">
+				<h4 class="isc-modal-title">{{title}} Risk Improvement</h4>
+			</div>
+			<div class="isc-modal-body">
+				<!--<div class="isc-form-group">
+					<div class="isc-radio isc-radio-inline">
+						<input type="radio" id="rinRadio" name="ri" value="new"><label for="rinRadio">New</label>
+					</div>
+					<div class="isc-radio isc-radio-inline">
+						<input type="radio" id="rinsRadio" name="ri" value="standard"><label for="rinsRadio">New from Standard</label>
+					</div>
+				</div>-->
+				<div class="isc-ri-card-fixed">
+					<div class="isc-card isc-card-secondary _nmb">
+						<div class="isc-card-heading">
+							<div class="isc-card-title">
+								<div class="isc-grid">
+									<div class="isc-col-sm-12">
+										<div class="isc-form-inline isc-form-inline-flex">
+											<div class="isc-form-group">
+												<label class="isc-control-label" for="riNum">Number</label>
+												<input [disabled]="title == 'Edit'" #riskNumber="ngModel" class="isc-form-control" required id="riNum" type="text" [(ngModel)]="newRiskImp.RI_NO" />
+												<span [hidden]="riskNumber.valid || riskNumber.pristine" class="axis-help-block">{{validationMessagesObject.MSG1}}</span>
+												<span [hidden]="newRiskImp.RI_NO != null" class="axis-help-block">{{validationWarnObj.MSG18}}</span>
+											</div>
+											<div class="isc-form-group">
+												<label class="isc-control-label" for="riTitle">Title</label>
+												<input #riskTitle="ngModel" class="isc-form-control" required id="riTitle" type="text" maxlength="100" [(ngModel)]="newRiskImp.RISK_IMPRVMNT_NM" />
+												<span [hidden]="riskTitle.valid || riskTitle.pristine" class="axis-help-block">{{validationMessagesObject.MSG1}}</span>
+											</div>
+											<!--<div class="isc-form-group" data-ng-show="container.toggleManualTemplate=='template'">
+												<label class="isc-control-label" for="riTitle">Risk Improvement Title</label>
+												<span class="_ml-md" data-ng-class="{'_text-muted':container.titleRiskImprovementTemplate==''}">
+													{{container.titleRiskImprovementTemplate || 'Please select a Narratives template'}}
+												</span> 
+											</div>-->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="isc-card isc-card-secondary isc-ri-card-fixed-top">
+					<div class="isc-card-body">
+						<div class="isc-grid">
+							<div class="isc-col-md-3">
+								<div class="isc-form-group">
+									<label class="isc-form-label" for="rinMainType">Main Type</label>
+									<dropdown-container     
+										[(inputData)]="mainTypeValue"                 
+										[list]="mainTypes"
+										[displayProperty]="'Description'"
+										(suggestionSelected)="filterOnMainType($event)">
+									</dropdown-container>
+								</div>
+							</div>
+							<div class="isc-col-md-3">
+								<div class="isc-form-group">
+									<label class="isc-form-label" for="riType">Type</label>
+									<dropdown-container     
+										[(inputData)]="typeValue"                 
+										[list]="types"
+										[displayProperty]="'RecType'"
+										(suggestionSelected)="filterOnType($event)">
+									</dropdown-container>
+								</div>
+							</div>
+							<div class="isc-col-md-4">
+								<div class="isc-form-group">
+									<label class="isc-form-label" for="riSubtype">Sub Type</label>
+									<!--<div class="">
+										<div class="isc-btn-group isc-dropdown" id="dd-modalRI-new-subtype" style="width: 100%;"> <button class="isc-btn isc-btn-default isc-dropdown-toggle" style="width: 100%; min-width: 100%;">None available<span class="isc-caret"></span></button>  </div>
+									</div>-->
+									<dropdown-container     
+										[(inputData)]="subTypeValue"                 
+										[list]="subTypes"
+										[displayProperty]="'RecSubType'"
+										(suggestionSelected)="filterOnSubType($event)">
+									</dropdown-container>
+								</div>
+							</div>
+							<div class="isc-col-md-2">
+								<div class="isc-form-group">
+									<label class="isc-form-label" for="riStatus">Status</label>
+									<dropdown-container     
+										[(inputData)]="statusValue"                 
+										[list]="statuses"
+										[displayProperty]="'Description'"
+										(suggestionSelected)="filterOnStatus($event)">
+									</dropdown-container>
+								</div>
+							</div>
+						</div>
+						<div class="isc-grid">
+							<div class="isc-col-md-3">
+								<div class="isc-form-group">
+									<label class="isc-form-label" for="rinIntendedAction">Intended Action</label>
+									<dropdown-container     
+										[(inputData)]="intendedActionValue"                 
+										[list]="intendedActions"
+										[displayProperty]="'Description'"
+										(suggestionSelected)="filterOnIntAct($event)">
+									</dropdown-container>
+								</div>
+							</div>
+							<div class="isc-col-md-3">
+								<div class="isc-form-group">
+									<label class="isc-form-label" for="rinCategory">Category</label>
+									<dropdown-container                   
+										[(inputData)]="categoryValue"
+										[list]="categories"
+										[displayProperty]="'Description'"
+										(suggestionSelected)="filterOnCategory($event)">
+									</dropdown-container>
+								</div>
+							</div>
+							<div class="isc-col-md-4">
+								<div class="isc-form-group">
+									<label class="isc-form-label" for="riSubtype">Target Completion</label>
+									<div class="isc-form-inline">
+										<div class="isc-datepicker" id="rinTargetCompletionDate" style="display: inline;"> 
+											<div class="isc-input-group"> 
+												<input type="text" class="isc-form-control" placeholder="mm/dd/yyyy" [value]="setTargetDate(newRiskImp.TARGET_COMPLETION_DT) | date:'MM/dd/yyyy'" > 
+												<span class="isc-input-group-btn"> 
+													<button (click)="newRiskImp.showTargetDatePicker = !newRiskImp.showTargetDatePicker" type="button" class="isc-btn isc-btn-default" ><i class="material-icons">date_range</i></button> 
+												</span> 
+											</div>
+											<div *ngIf="newRiskImp.showTargetDatePicker" style="position: absolute; background:white; z-index: 999;">
+												<datepicker [(ngModel)]="newRiskImp.TARGET_COMPLETION_DT" 
+															[minDate]="minDate" 
+															[showWeeks]="false" 
+															(dismissDatepicker)="newRiskImp.showTargetDatePicker = !newRiskImp.showTargetDatePicker"
+															(clearSelectedDate)="clearTargetDate(newRiskImp)"
+															(triggerTodaysDate)="setTargetToTodaysDate(newRiskImp, $event)"
+															(selectionDone)="newRiskImp.showTargetDatePicker = !newRiskImp.showTargetDatePicker">
+												</datepicker>
+											</div>
+										</div>
+										<div class="isc-form-group">
+											<dropdown-container  
+												[(inputData)]="targetCompletionTimeValue"                    
+												[list]="targetCompletionTimeValues"
+												[displayProperty]="'Description'"
+												(suggestionSelected)="filterTargetComp($event)">
+											</dropdown-container>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="isc-col-md-2">
+								<div class="isc-form-group">
+									<label class="isc-form-label" for="riActualCompletionDate">Actual Completion</label>
+									<div class="isc-datepicker" id="rinTargetCompletionDate"> 
+										<div class="isc-input-group"> 
+											<input type="text" class="isc-form-control" placeholder="mm/dd/yyyy" [value]="setActualDate(newRiskImp.COMPLETION_DT) | date:'MM/dd/yyyy'" > 
+											<span class="isc-input-group-btn"> 
+												<button (click)="newRiskImp.showActualDatePicker = !newRiskImp.showActualDatePicker" type="button" class="isc-btn isc-btn-default" ><i class="material-icons">date_range</i></button> 
+											</span> 
+										</div> 
+											<div *ngIf="newRiskImp.showActualDatePicker" style="position: absolute; background:white; right:0; z-index: 999;">
+												<datepicker [(ngModel)]="newRiskImp.COMPLETION_DT" 
+															[minDate]="minDate" 
+															[showWeeks]="false" 
+															(dismissDatepicker)="newRiskImp.showActualDatePicker = !newRiskImp.showActualDatePicker"
+															(clearSelectedDate)="clearActualDate(newRiskImp)"
+															(triggerTodaysDate)="setActualToTodaysDate(newRiskImp, $event)"
+															(selectionDone)="newRiskImp.showActualDatePicker = !newRiskImp.showActualDatePicker">
+												</datepicker>
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="isc-grid">
+							<div class="isc-col-md-3">
+								<div class="isc-form-group _nmb">
+									<label class="isc-form-label" for="riAge">Age</label>
+									<div>
+										<segment-control [controlArr]="['New','Outstanding']" [(ngModel)]="newRiskImp.RISK_OUTSTANDING_CD"></segment-control>
+									</div>
+								</div>
+							</div>
+							<div class="isc-col-md-3">
+								<div class="isc-form-group _nmb">
+									<div class="isc-form-inline">
+										<div class="isc-form-group _nmb">
+											<label class="isc-form-label" for="riNonAIGSource">Non AIG Source</label>
+											<div>
+												<toggle-switch size="small" [(ngModel)]="newRiskImp.NON_AIG_SOURCE_IN"></toggle-switch>
+											</div>
+										</div>
+										<div class="isc-form-group _nmb">
+											<label class="isc-form-label" for="riENGage">ENGage?</label>
+											<div>
+												<toggle-switch size="small" [disabled]="newRiskImp.NON_AIG_SOURCE_IN != true" [(ngModel)]="newRiskImp.SHOW_PORTAL_IN"></toggle-switch>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="isc-col-md-4">
+								<div class="isc-form-group _nmb">
+									<label class="isc-form-label" for="riSLE">SLE</label>
+									<div>
+										<toggle-switch size="small" [(ngModel)]="sleValue" (change)="sleChangeHandler($event)"></toggle-switch>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Loss Estimate Start -->
+				<div>
+					<div class="isc-form-inline isc-form-inline-flex">
+						<h4 class="_mt-xlg">Loss Estimate</h4>
+						<div style="padding-left: 20px; padding-top: 10px;">
+							<segment-control [controlArr]="['Manual','Link']" [(ngModel)]="lossEstimateType" (change)="lossEstimateHandler($event)"></segment-control>
+						</div>
+					</div>
+					<table class="isc-table isc-table-basic" *ngIf="(lossEstimateType == 'Link') && (mainTypeValue == 'Physical Protection')">
+						<colgroup>
+							<col class="_w-px-75" />
+							<col class="_w-px-75" />
+							<col class="" />
+							<col class="_w-15" />
+							<col class="_w-15" />
+							<col class="_w-15" />
+							<col class="_w-px-75" />
+						</colgroup>
+						<thead>
+							<tr>
+							<th colspan="3">Location</th>
+							<th data-align="right">PD</th>
+							<th data-align="right">TE</th>
+							<th data-align="right">Total</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr *ngFor="let fireLossEstimate of fireLossEstimates; let indexValue=index;">
+								<td>
+									<div class="isc-radio">
+										<input type="radio" id="le-{{indexValue}}" name="le-{{indexValue}}" 
+										(click)="selectedFireLEIndex = indexValue; fireLEHandler()" 
+										[checked]="indexValue === selectedFireLEIndex">
+										<label [attr.for]="'le-' + indexValue">&nbsp;</label>
+									</div>
+								</td>
+								<td><span class="isc-badge">M</span></td>
+								<td>
+									{{fireLossEstimate.BLOCK_NAME}}
+									<div>{{fireLossEstimate.FIRE_LOSS_MANUAL_DESCRIPTION}}</div>
+									<div><span class="isc-badge isc-badge-success">{{fireLossEstimate.leType}}</span></div>
+								</td>
+								<td data-align="right">{{fireLossEstimate.TOTAL_PRPTY_DMG_AM}}</td>
+								<td data-align="right">{{fireLossEstimate.TOTAL_BIZ_INTRPT_AM}}</td>
+								<td data-align="right">{{fireLossEstimate.TOTAL_AM}}</td>
+							</tr>
+						</tbody>
+					</table>					
+					<table class="isc-table isc-table-basic">
+						<colgroup>
+							<col />
+							<col />
+							<col />
+							<col />
+							<col />
+							<col class="_w-px-100" />
+							<col />
+						</colgroup>
+						<thead>
+							<tr>
+								<th data-align="right">PD LE Before</th>
+								<th data-align="right">TE LE Before</th>
+								<th data-align="right">Total LE Before</th>
+								<th data-align="right">Total LE After</th>
+								<th data-align="right">Estimate Cost</th>
+								<th data-align="right">Benefit Ratio</th>
+								<th>Loss Reduction</th>
+								<th *ngIf="(lossEstimateType == 'Link') && (mainTypeValue == 'Physical Protection')">Delink</th>
+							</tr>
+						</thead>
+						<tbody class="isc-reveal" *ngIf="lossEstimateType == 'Manual'">
+							<tr>
+								<td data-align="right">
+									<input class="isc-form-control" data-align="right" name="rinPDLEBeforeInput" placeholder="PD LE Before" type="number" [(ngModel)]="newRiskImp.PRPTY_LOSS_EST_BEFORE_RI_AM" 
+									[disabled]="selectedFireLEIndex != -1" (keyup)="calculateData()" *ngIf="((lossEstimateType == 'Manual') && checkMainType && newRiskImp.LARGE_LOSS_POTENTIAL_IN && newRiskImp.LARGE_LOSS_POTENTIAL_IN == 'Yes')"/>
+								</td>
+								<td data-align="right">
+									<input class="isc-form-control" data-align="right" name="rinBILEBeforeInput" placeholder="TE LE Before" type="number" [(ngModel)]="newRiskImp.BIZ_INTRPT_LSS_EST_BFR_RI_AM" 
+									[disabled]="selectedFireLEIndex != -1" (keyup)="calculateData()" *ngIf="((lossEstimateType == 'Manual') && checkMainType && newRiskImp.LARGE_LOSS_POTENTIAL_IN && newRiskImp.LARGE_LOSS_POTENTIAL_IN == 'Yes')"/>
+								</td>
+								<td data-align="right">
+									<input class="isc-form-control" data-align="right" name="rinTotalInput" placeholder="Total LE Before" type="number" [(ngModel)]="newRiskImp.TOT_LOSS_EST_BFR_RI_AM" 
+									[disabled]="true" *ngIf="((lossEstimateType == 'Manual') && checkMainType && newRiskImp.LARGE_LOSS_POTENTIAL_IN && newRiskImp.LARGE_LOSS_POTENTIAL_IN == 'Yes')"/>
+								</td>
+								<td data-align="right">
+									<input class="isc-form-control" data-align="right" name="rinLEAfterInput" placeholder="Total LE After" type="number" [(ngModel)]="newRiskImp.TOT_LOSS_EST_AFTER_RI_AM" 
+									(keyup)="calculateData()" *ngIf="((lossEstimateType == 'Manual') && checkMainType && newRiskImp.LARGE_LOSS_POTENTIAL_IN && newRiskImp.LARGE_LOSS_POTENTIAL_IN == 'Yes')"/>
+								</td>
+								<td data-align="right">
+									<input class="isc-form-control" data-align="right" name="rinEstCompleteInput" placeholder="Estimate Cost" type="number" [(ngModel)]="newRiskImp.EST_COST_TO_COMPLETE_AM" 
+									(keyup)="calculateData()" *ngIf="((lossEstimateType == 'Manual') && checkMainType && newRiskImp.LARGE_LOSS_POTENTIAL_IN && newRiskImp.LARGE_LOSS_POTENTIAL_IN == 'Yes')"/>
+								</td>
+								<td data-align="right">
+									<span *ngIf="((lossEstimateType == 'Manual') && checkMainType && newRiskImp.LARGE_LOSS_POTENTIAL_IN && newRiskImp.LARGE_LOSS_POTENTIAL_IN == 'Yes')">
+										{{newRiskImp.BENEFIT_RATIO_RT}}%
+									</span>									
+								</td>
+								<td>
+									<dropdown-container  
+										[(inputData)]="newRiskImp.LOSS_REDUCTION_LIKELIHOOD_CD"
+										[list]="lossReductions"
+										[displayProperty]="'Description'"
+										placeholder="Please Select"
+										(suggestionSelected)="selectedLossReduction($event)"
+										*ngIf="((mainTypeValue == 'Human Element') && (typeValue == 'Human Element' || typeValue == 'Liablility'))">
+									</dropdown-container>
+								</td>
+							</tr>
+						</tbody>
+						<tbody class="isc-reveal" *ngIf="(lossEstimateType == 'Link') && (mainTypeValue == 'Physical Protection')">							
+							<tr [hidden]="selectedFireLEIndex == -1">
+								<td data-align="right">{{newRiskImp.PRPTY_LOSS_EST_BEFORE_RI_AM}}</td>
+								<td data-align="right">{{newRiskImp.BIZ_INTRPT_LSS_EST_BFR_RI_AM}}</td>
+								<td data-align="right">{{newRiskImp.TOT_LOSS_EST_BFR_RI_AM}}</td>
+								<td data-align="right">{{newRiskImp.TOT_LOSS_EST_AFTER_RI_AM}}</td>
+								<td data-align="right">{{newRiskImp.EST_COST_TO_COMPLETE_AM}}</td>
+								<td data-align="right">{{newRiskImp.BENEFIT_RATIO_RT}}%</td>
+								<td>{{newRiskImp.LOSS_REDUCTION_LIKELIHOOD_CD}}</td>	
+								<td>
+									<button class="isc-btn isc-btn-icon" (click)="deLinkLE();">
+							            <span class="material-icons isc-icon-sm" title="Delink">delete</span>
+							        </button>
+								</td>
+							</tr>
+							<tr [hidden]="selectedFireLEIndex != -1">
+								<td colspan="8" data-align="center">
+									 <span class="material-icons ">check_circle</span>
+									 Please select a location from the table above. 
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<!-- Loss Estimate End -->
+
+				<!-- Hazards Section Starts -->
+				<div>
+					<h4 class="_mt-xlg">Hazards</h4>
+					<table class="isc-table isc-table-basic">
+				      <colgroup>
+				        <col class="_w-px-75" />
+				        <col class="" />
+				        <col class="_w-20" />
+				        <col class="_w-20" />
+				        <col class="_w-25" />
+				      </colgroup>
+				      <thead>
+				        <tr>
+				          <th></th>
+				          <th>Name</th>
+				          <th>Main Type</th>
+				          <th>Type</th>
+				          <th>Category</th>
+				        </tr>
+				      </thead>
+				      <tbody>
+				        <tr *ngFor="let hazard of hazardsData; let getIndex=index;">
+				        	<td data-align="center">
+							  <div class="isc-checkbox">
+								<input id="hazardsInc{{getIndex}}" type="checkbox" name="hazardsInc{{getIndex}}" [(ngModel)]="hazard.checked" >
+								<label [attr.for]="'hazardsInc'+ getIndex">&nbsp;</label>
+							  </div>
+							</td>
+				          <td>{{hazard.SPECIFIC_LOCATION_NM}}</td>
+				          <td>{{hazard.HAZARD_MAIN_TYPE_Desc}}</td>
+				          <td>{{hazard.HAZARD_TYPE_Desc}}</td>
+				          <td>{{hazard.HAZARD_CATEGORY_Desc}}</td>
+				        </tr>
+				      </tbody>
+				    </table>
+				</div>
+				<!-- Hazards Section Ends -->
+
+				<!-- Narrative Start -->
+				<div>
+					<div class="isc-form-inline isc-form-inline-flex">
+						<h4 class="_mt-xlg">Narratives</h4>
+						<div style="padding-left: 20px; padding-top: 10px;">
+							<segment-control [controlArr]="['Manual','Template']" [(ngModel)]="narrativeType"></segment-control>
+						</div>
+					</div>
+					<div class="isc-card isc-card-secondary">
+						<div class="isc-card-body">
+							<div class="isc-form-horizontal">
+								<div class="isc-form-group _nmb">
+									<label class="isc-col-md-2 isc-control-label" for="riClientResponse">Client Response</label>
+									<div class="isc-col-md-10">
+										<p id="riClientResponse" class="isc-form-control-static">{{narrativeClientResponse}}</p>
+									</div>
+								</div>
+							</div>
+							<div class="isc-grid _mt-md" *ngIf="narrativeType == 'Manual'">
+								<div class="isc-col-md-6">
+									<div class="isc-editor" *ngIf="newRiskImp.RICommentList[0].PrimaryLanguage">
+										<label class="isc-control-label">Body</label>
+										<textarea htmlEditor name="body" [(ngModel)]=newRiskImp.RICommentList[0].PrimaryLanguage></textarea>
+									</div>
+								</div>
+								<div class="isc-col-md-6">
+									<div class="isc-editor" *ngIf="newRiskImp.RICommentList[1].PrimaryLanguage">
+										<label class="isc-control-label">Details</label>
+										<textarea htmlEditor name="details" [(ngModel)]=newRiskImp.RICommentList[1].PrimaryLanguage></textarea>
+									</div>
+								</div>
+							</div>
+							<div class="isc-table-responsive _mt-lg _nmb" *ngIf="narrativeType == 'Template'">
+								<div class="isc-grid _mb-md">
+									<div class="isc-col-sm-8">
+										<div class="isc-form-inline isc-form-inline-flex">
+											<div class="isc-form-group isc-form-group-grow">
+												<label class="isc-control-label" for="riFilterNarrative">Filter</label>
+												<div class="isc-input-group isc-input-group-secondary has-search">
+													<input type="text" class="isc-form-control" id="riFilterNarrative" placeholder="Type to filter..." [(ngModel)]="riFilter" (keyup)="riFilterChange()">
+													<span class="isc-input-group-addon">
+														<button class="isc-btn isc-btn-icon" type="button"> 
+															<span></span>
+															<span>
+																<span>
+																	<span class="material-icons ">search</span>
+																	<span></span>
+																</span>
+															</span>
+														</button>
+													</span>
+												</div>
+											</div>
+										</div>	
+									</div>
+								</div>
+								<table class="isc-table isc-table-basic isc-reveal">
+									<colgroup>
+										<col class="_w-px-75">
+										<col class="_w-15">
+										<col class="_w-25">
+										<col class="_w-25">
+										<col class="_w-25">
+									</colgroup>
+									<thead>
+			  							<tr>
+											<th colspan="2"></th>
+											<th>Risk Improvement Title</th>
+											<th>Narrative 1 (Body)</th>
+											<th>Narrative 2 (Details)</th>
+			  							</tr>
+									</thead>
+								</table>
+								<div class="isc-scroll-container">
+									<table class="isc-table isc-table-basic isc-reveal">
+										<colgroup>
+											<col class="_w-px-75">
+											<col class="_w-15">
+											<col class="_w-25">
+											<col class="_w-25">
+											<col class="_w-25">
+										</colgroup>
+										<tbody>
+											<tr *ngFor="let stdRi of standardRiData | filterriselect : mainTypeValue : typeValue : subTypeValue; let riIndx = index">
+												<td>
+													<div class="isc-radio">
+														<input type="radio" id="{{'riIndex'+riIndx}}" name="template" [value]="stdRi" [(ngModel)]="selectedStdRi" (ngModelChange)="selectRiFrom()" [checked]="riIndx==0">
+														<label attr.for="{{'riIndex'+riIndx}}"></label>
+													</div>
+												</td>
+												<td>{{stdRi.RecType}}
+													<div class="_text-muted">{{stdRi.RecSubType}}</div>
+												</td>
+												<td>{{stdRi.title}}</td>
+												<td>{{stdRi.body}}</td>
+												<td>{{stdRi.details}}</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					<div class="_mt-lg" data-upload="dragndrop"></div>
+				</div>
+				<!-- Narrative End -->
+			</div>
+			<div class="isc-modal-footer">
+				<button class="isc-btn isc-btn-link" (click)="hideModal()">Cancel</button>
+				<button class="isc-btn isc-btn-primary" [disabled]="disableSubmit()" (click)="addRiskImprovement()">Add</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+

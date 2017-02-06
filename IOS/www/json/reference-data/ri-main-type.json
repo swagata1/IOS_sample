@@ -1,0 +1,27 @@
+[
+  {
+    "LOB": "CP",
+    "RILLRCode": "PP",
+    "Description": "Physical Protection"
+  },
+  {
+    "LOB": "CP",
+    "RILLRCode": "HE",
+    "Description": "Human Element"
+  },
+  {
+    "LOB": "CP",
+    "RILLRCode": "RI20",
+    "Description": "B&M Systems"
+  },
+  {
+    "LOB": "CP",
+    "RILLRCode": "RI21",
+    "Description": "B&M Management Programs"
+  },
+  {
+    "LOB": "CP",
+    "RILLRCode": "NATCAT",
+    "Description": "NATCAT"
+  }
+]

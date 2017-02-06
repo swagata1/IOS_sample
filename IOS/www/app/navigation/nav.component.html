@@ -1,0 +1,161 @@
+<ri-add-modal #modal></ri-add-modal>
+<nav id="step1">
+    <div class="isc-navbar isc-navbar-static-top">
+        <div class="isc-navbar-header">
+            <a class="isc-navbar-brand" href>
+                <span class="isc-navbar-logo-image"></span>
+                <span class="sr-only">AIG</span>
+            </a>
+            <span class="isc-navbar-app-title">Property Central</span>
+        </div>
+        <div class="isc-navbar-collapse collapse">
+            <span class="sr-only"> Use arrow keys to access sub-menus and sub-menu links, this may require a mode change</span>
+            <!-- Top Right navigation -->
+            <ul class="isc-nav isc-navbar-nav isc-navbar-right">
+                <li class="isc-navbar-text">
+                    <span class="isc-navbar-app-subtitle ng-binding">Risk Solutions Workspace</span>
+                </li>
+                <li class="isc-nav-person isc-nav-item">
+                    <div class="isc-dropdown" dropdown data-align="right" data-heading=userName data-width="100%" style="width: 100%;">
+                        <a href="javascript:void(0);" class="isc-dropdown-toggle" aria-haspopup="true" aria-expanded="false">{{userName}}<span class="material-icons">person</span></a>
+                        <ul class="isc-dropdown-menu" style="left:auto;right:0px;" role="menu" data-ng-transclude="">
+                            <li>
+                                <a href>
+                                    <span data-isc-icon="settings"><span class="material-icons ">settings</span></span> Preferences
+                                </a>
+                            </li>
+                            <li>
+                                <a href>
+                                    <span data-isc-icon="sign-out"><span class="material-icons ">exit_to_app</span></span>
+                                    Sign Out
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </li>
+            </ul>
+            <div class="isc-nav isc-navbar-nav isc-navbar-right version-label">{{buildVersion}}</div>
+        </div>
+
+    </div>
+
+    <div stick class="isc-sub-navbar isc-navbar-collapse collapse" aria-label="app menu" role="navigation" style="display: block;">
+        <div class="isc-sub-navbar-links">
+            <ul class="isc-nav isc-navbar-nav">
+                <li class="isc-nav-item">
+                    <a class="isc-nav-link" href="javascript:void(0);" (click)="navigateToDashboard()" title="Home"><span class="material-icons ">home</span></a>
+                </li>
+                <li class="isc-navbar-divider"></li>
+                <li *ngIf="currState !='dashboard'" class="isc-nav-item has-breadcrumb-1">
+                    <!--<dropdown-toggle [columnCount]=1 [dropDownItems]="selectItems" [(selectedItem)]="itemToSelect" (selectedItemChange)="getSelectedItem($event)"></dropdown-toggle>-->
+                    <!--<div class="isc-btn-group isc-dropdown" dropdown keyboardNav="true">
+                        <button id="simple-btn-keyboard-nav" type="button" class="isc-btn isc-btn-default isc-dropdown-toggle" dropdownToggle>
+                            {{currentSelectedSite}} <span class="isc-caret"></span>
+                            </button>
+                        <ul class="isc-dropdown-menu" style="max-height:350px;min-width:350px;overflow-x:hidden;top:100%;" dropdownMenu role="menu"
+                            aria-labelledby="simple-btn-keyboard-nav">
+                            <li *ngFor="let site of myWorkList" (account)="account($event)">
+                                <a href="javascript:void(0);" (click)="selectAccount(site)">
+                                    <div data-text-weight="bold">{{site.ACCOUNT_BUSINESS_NM}}</div>
+                                    <div>{{site.LOCATION_GROUP_NM}}</div>
+                                    <small data-color="muted">{{site.SITE_CITY_NM}}, {{site.SITE_STATE_NM}}</small>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>-->
+                </li>
+            </ul>
+            <!-- show below only if Survey is downloaded -->
+            <axis-app-nav [navKind]="navKind" [selectedSite]="selectedSite" (stateChange)="stateChange($event)" *ngIf="currState !='dashboard' && isDownloaded == true"></axis-app-nav>
+            <ul class="isc-nav isc-navbar-nav" *ngIf="currState !='dashboard' && isDownloaded == true"> 
+                <li *ngIf="currState == 'construction' || currState == 'sprinklers' || currState == 'waterSupply' || currState == 'protection' || currState == 'hazards' || currState == 'supervision' || currState == 'managementPrograms' || currState == 'exposure' || currState == 'nat-cat' ||                    currState == 'risk-improvements'" class="isc-nav-item">
+                    <button class="isc-btn isc-btn-icon" data-isc-button="icon" data-heading="RI" type="button" title="Add Risk Improvement"
+                            (click)="modal.showModal(viewMetaData, 'Add', currState)"> 
+                        <span class="material-icons ">add</span>
+                        <span class="isc-btn-icon-text">RI</span>
+                    </button>
+                </li>
+                <li class="isc-nav-item" [hidden]="(currState == 'waterSupply') || (currState == 'sprinklers')">
+                    <button class="isc-btn isc-btn-icon" data-isc-button="icon" title="Upload photos" type="button" (click)="toggleFileUpload()"> 
+                        <span class="material-icons ">image</span>
+                    </button>
+                </li>
+                <li class="isc-nav-item">
+                    <button class="isc-btn isc-btn-icon" data-isc-button="icon" title="Add comments" type="button" (click)="toggleComments()"> 
+                        <span class="material-icons">chat</span>
+                    </button>
+                </li>
+            </ul>
+
+            <ul class="isc-nav isc-navbar-nav isc-navbar-right">
+                <li class="isc-navbar-divider"></li>
+                <li class="isc-nav-item">
+                    <a class="isc-nav-link" href>
+                        <span class="material-icons ">help</span>
+                    </a>
+                </li>
+                <li class="isc-navbar-divider" *ngIf="currState !='dashboard'"></li>
+                <li class="isc-nav-item" *ngIf="currState !='dashboard'">
+                    <a class="isc-nav-link" href="javascript:void(0);" title="View additional Survey Information" (click)="toggleNavPanel()">
+                        <span class="material-icons" [hidden]="navPanelClose">keyboard_arrow_up</span>
+                        <span class="material-icons" [hidden]="!navPanelClose">keyboard_arrow_down</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="isc-nav isc-navbar-nav isc-navbar-right" *ngIf="currState !='dashboard' && isDownloaded == true">
+                <li class="isc-nav-item">
+                    <button class="isc-btn isc-btn-icon" data-isc-button="icon" title="View report" type="button"> 
+                        <span class="material-icons ">description</span>
+                    </button>
+                </li>
+                <li class="isc-nav-item">
+                    <button (click)="pageDisplay('upload')" class="isc-btn isc-btn-icon" data-isc-button="icon" title="Upload survey" type="button">
+                        <span class="material-icons ">file_upload</span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div *ngIf="currState !='dashboard'" class="isc-page-header-wrapper" [hidden]="navPanelClose">
+            <!-- DE45 : 10/21/2016 : Fixed -->
+            <ul *ngIf="selectedSite" class="isc-list-inline">
+                <li *ngIf="selectedSite.RFS_PARENT_ID">{{selectedSite.RFS_PARENT_ID}}-{{selectedSite.SUB_RFS_NO}}</li>
+                <li *ngIf="selectedSite.RFS_ID">{{selectedSite.RFS_ID}}</li>
+                <li *ngIf="selectedSite.WORKING_CURRENCY_NM"><label>Currency</label> {{selectedSite.WORKING_CURRENCY_NM}}</li>
+                <li *ngIf="selectedSite.WORKING_UNIT_TYPE_CD"><label>Unit</label> {{selectedSite.WORKING_UNIT_TYPE_CD}}</li>
+                <li *ngIf="selectedSite.WORKING_PRESSURE_CD"><label>Pressure</label> {{selectedSite.WORKING_PRESSURE_CD}}</li>
+            </ul>
+            <ul class="isc-list-inline _pull-right">
+                <li>
+                    <!-- 
+                <li (click)="toggleToolOnline()">
+                    <span class="_d-inline-block _w-px-50 _text-center">
+                        <span data-isc-icon="loading"><span class="material-icons isc-rotate">autorenew</span></span>
+                    </span>
+                -->
+                    <span class="isc-badge _bg-success" *ngIf="checkIfOnline()">Online</span>
+                    <span class="isc-badge _bg-danger" *ngIf="!checkIfOnline()">Offline</span>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" (click)="toggleNavPanel()"><span class="_text-color" data-isc-icon="close" data-size="small"><span class="material-icons isc-icon-sm _text-color">close</span></span></a>
+                </li>
+            </ul>
+        </div>
+        <div *ngIf="currState !='dashboard'" class="isc-component-overlay isc-component-overlay-close" [ngClass]="{'isc-component-overlay-close': showFileOrComment == 0}">
+            <!-- Upload -->
+            <div class="isc-component-body drag-drop-container" [hidden]="showFileOrComment != -1">
+                <span>File Upload</span>
+            </div>
+            <!-- Chat -->
+            <div class="isc-component-body chat-container" *ngIf="showFileOrComment == 1">
+                <!--<editor></editor>-->
+                <div class="isc-editor">
+                    <textarea htmlEditor [(ngModel)]="commonService.globalNarrative"></textarea>
+                    <!--<div [innerHTML]="txt"></div>-->
+                    <!--This div gets updated by content of editor on blur event -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+</nav>

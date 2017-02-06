@@ -1,0 +1,213 @@
+<!-- Hydraulic Fluid Systems Section Starts -->
+<div class="isc-form-horizontal isc-reveal">
+   <div class="isc-form-group">
+      <div class="isc-col-md-6">
+         <label class="isc-control-label" for="hfsHazardName">Hazard Name</label>
+         <input class="isc-form-control" type="text" name="hfsHazardName" id="hfsHazardName" value="" [(ngModel)]="model.OFFLNS_HFS_HAZARD_NAME" />
+      </div>
+      <div class="isc-col-md-6">
+         <label class="isc-control-label" for="hfsAreaSize">Area Size</label>
+         <input class="isc-form-control" type="number" name="hfsAreaSize" id="hfsAreaSize" value="" [(ngModel)]="model.OFFLNN_HFS_AREA_SIZE" />
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="hfsCutoffRating">Cutoff Rating</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="hfsCutoffRating" id="hfsCutoffRatingHalf" value="1/2" [(ngModel)]="model.OFFLNS_HFS_CUTOFF_RATING" />
+            <label for="hfsCutoffRatingHalf">1/2</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="hfsCutoffRating" id="hfsCutoffRatingOne" value="1" [(ngModel)]="model.OFFLNS_HFS_CUTOFF_RATING" />
+            <label for="hfsCutoffRatingOne">1</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="hfsCutoffRating" id="hfsCutoffRatingTwo" value="2" [(ngModel)]="model.OFFLNS_HFS_CUTOFF_RATING" />
+            <label for="hfsCutoffRatingTwo">2</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="hfsCutoffRating" id="hfsCutoffRatingThree" value="3" [(ngModel)]="model.OFFLNS_HFS_CUTOFF_RATING" />
+            <label for="hfsCutoffRatingThree">3</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="hfsCutoffRating" id="hfsCutoffRatingFour" value="4" [(ngModel)]="model.OFFLNS_HFS_CUTOFF_RATING" />
+            <label for="hfsCutoffRatingFour">4</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="hfsCutoffRating" id="hfsCutoffRatingUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_HFS_CUTOFF_RATING" />
+            <label for="hfsCutoffRatingUnknown">Unknown</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="hfsCutoffRating" id="hfsCutoffRatingNone" value="None" [(ngModel)]="model.OFFLNS_HFS_CUTOFF_RATING" />
+            <label for="hfsCutoffRatingNone">None</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="hfsTypeOfSystem">Type of System</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsTypeOfSystemCentralized" id="hfsTypeOfSystemCentralized" value="Centralizedformoremachines" [(ngModel)]="model.OFFLNS_HFS_TYPE_OF_SYSTEM_CENTRALIZED" />
+            <label for="hfsTypeOfSystemCentralized">Centralized for more machines</label>                        
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsTypeOfSystemSingle" id="hfsTypeOfSystemSingle" value="SingleUnits" [(ngModel)]="model.OFFLNS_HFS_TYPE_OF_SYSTEM_SINGLE" />
+            <label for="hfsTypeOfSystemSingle">Single Units</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsTypeOfSystemBoth" id="hfsTypeOfSystemBoth" value="Both" [(ngModel)]="model.OFFLNS_HFS_TYPE_OF_SYSTEM_BOTH" />
+            <label for="hfsTypeOfSystemBoth">Both</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsTypeOfSystemOther" id="hfsTypeOfSystemOther" value="Other" [(ngModel)]="model.OFFLNS_HFS_TYPE_OF_SYSTEM_OTHER" />
+            <label for="hfsTypeOfSystemOther">Other (see comments)</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsTypeOfSystemUnknown" id="hfsTypeOfSystemUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_HFS_TYPE_OF_SYSTEM_UNKNOWN" />
+            <label for="hfsTypeOfSystemUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="hfsTypeOfConnections">Type of Connections</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsTypeOfConnectionsFlexible" id="hfsTypeOfConnectionsFlexible" value="Flexiblehoses" [(ngModel)]="model.OFFLNS_HFS_TYPE_OF_CONNECTION_FLEXIBLE" />
+            <label for="hfsTypeOfConnectionsFlexible">Flexible hoses</label>                        
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsTypeOfConnectionsFlanged" id="hfsTypeOfConnectionsFlanged" value="flangedandweldedconnection" [(ngModel)]="model.OFFLNS_HFS_TYPE_OF_CONNECTION_FLANGED" />
+            <label for="hfsTypeOfConnectionsFlanged">Flanged and welded connection</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsTypeOfConnectionsOnlyWelded" id="hfsTypeOfConnectionsOnlyWelded" value="onlyweldedconnection" [(ngModel)]="model.OFFLNS_HFS_TYPE_OF_CONNECTION_WELDED" />
+            <label for="hfsTypeOfConnectionsOnlyWelded">Only welded connection</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsTypeOfConnectionsThreadedWelded" id="hfsTypeOfConnectionsThreadedWelded" value="threadedwelded" [(ngModel)]="model.OFFLNS_HFS_TYPE_OF_CONNECTION_THREADED" />
+            <label for="hfsTypeOfConnectionsThreadedWelded">Threaded welded</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsTypeOfConnectionsCombustible" id="hfsTypeOfConnectionsCombustible" value="combustiblehoses" [(ngModel)]="model.OFFLNS_HFS_TYPE_OF_CONNECTION_COMBUSTIBLE" />
+            <label for="hfsTypeOfConnectionsCombustible">Combustible hoses</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsTypeOfConnectionsOther" id="hfsTypeOfConnectionsOther" value="Other" [(ngModel)]="model.OFFLNS_HFS_TYPE_OF_CONNECTION_OTHER" />
+            <label for="hfsTypeOfConnectionsOther">Other (see comments)</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsTypeOfConnectionsUnknown" id="hfsTypeOfConnectionsUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_HFS_TYPE_OF_CONNECTION_UNKNOWN" />
+            <label for="hfsTypeOfConnectionsUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="hfsMaxCapacity">Maximum capacity exceeds 100 gal (380 liter)?</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsMaxCapacityYes" id="hfsMaxCapacityYes" value="Yes" [(ngModel)]="model.OFFLNS_HFS_MAXIMUM_CONNECTION_YES" />
+            <label for="hfsMaxCapacityYes">Yes</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsMaxCapacityNo" id="hfsMaxCapacityNo" value="No" [(ngModel)]="model.OFFLNS_HFS_MAXIMUM_CONNECTION_NO" />
+            <label for="hfsMaxCapacityNo">No</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsMaxCapacityOther" id="hfsMaxCapacityOther" value="Other" [(ngModel)]="model.OFFLNS_HFS_MAXIMUM_CONNECTION_OTHER" />
+            <label for="hfsMaxCapacityOther">Other (see comments)</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsMaxCapacityUnknown" id="hfsMaxCapacityUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_HFS_MAXIMUM_CONNECTION_UNKNOWN" />
+            <label for="hfsMaxCapacityUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="hfsLessHazardous">Less hazardous liquid used</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsLessHazardousYes" id="hfsLessHazardousYes" value="Yes" [(ngModel)]="model.OFFLNS_HFS_LESS_HAZARDOUS_LIQUID_YES" />
+            <label for="hfsLessHazardousYes">Yes</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsLessHazardousNo" id="hfsLessHazardousNo" value="No" [(ngModel)]="model.OFFLNS_HFS_LESS_HAZARDOUS_LIQUID_NO" />
+            <label for="hfsLessHazardousNo">No</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsLessHazardousOther" id="hfsLessHazardousOther" value="Other" [(ngModel)]="model.OFFLNS_HFS_LESS_HAZARDOUS_LIQUID_OTHER" />
+            <label for="hfsLessHazardousOther">Other (see comments)</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsLessHazardousUnknown" id="hfsLessHazardousUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_HFS_LESS_HAZARDOUS_LIQUID_UNKNOWN" />
+            <label for="hfsLessHazardousUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="hfsAutomatic">Automatic interlocks provided</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsAutomaticLowReservoir" id="hfsAutomaticLowReservoir" value="Low-Lowreservoirinterlockedwithpumps" [(ngModel)]="model.OFFLNS_HFS_AUTOMATIC_INTERLOCK_LOW_RESERVOIR" />
+            <label for="hfsAutomaticLowReservoir">Low-Low reservoir interlocked with pumps</label>                        
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsAutomaticFlame" id="hfsAutomaticFlame" value="Flameorheatdetectioninstalled" [(ngModel)]="model.OFFLNS_HFS_AUTOMATIC_INTERLOCK_FLAME_DETECTION" />
+            <label for="hfsAutomaticFlame">Flame or heat detection installed</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsAutomaticSprinkler" id="hfsAutomaticSprinkler" value="Sprinklersystemwaterflowalarms" [(ngModel)]="model.OFFLNS_HFS_AUTOMATIC_INTERLOCK_SPRINKLER" />
+            <label for="hfsAutomaticSprinkler">Sprinkler system water flow alarms</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsAutomaticNo" id="hfsAutomaticNo" value="NO" [(ngModel)]="model.OFFLNS_HFS_AUTOMATIC_INTERLOCK_NO" />
+            <label for="hfsAutomaticNo">NO</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsAutomaticNA" id="hfsAutomaticNA" value="N/A" [(ngModel)]="model.OFFLNS_HFS_AUTOMATIC_INTERLOCK_NA" />
+            <label for="hfsAutomaticNA">N/A</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsAutomaticComment" id="hfsAutomaticComment" value="SeeComment" [(ngModel)]="model.OFFLNS_HFS_AUTOMATIC_INTERLOCK_SEE_COMMENT" /> 
+            <label for="hfsAutomaticComment">See comment</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsAutomaticUnknown" id="hfsAutomaticUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_HFS_AUTOMATIC_INTERLOCK_UNKNOWN" />
+            <label for="hfsAutomaticUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="hfsManual">Manual interlocks provided</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsManualOperator" id="hfsManualOperator" value="OperatoractuatedHydraulicSystemEmergencyStop" [(ngModel)]="model.OFFLNS_HFS_MANUAL_INTERLOCK_OPERATOR" />
+            <label for="hfsManualOperator">Operator actuated Hydraulic System Emergency Stop</label>                        
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsManualDistributed" id="hfsManualDistributed" value="DistributedControlSystem(DCS)orProgrammableLogicController(PLC)" [(ngModel)]="model.OFFLNS_HFS_MANUAL_INTERLOCK_DCS_PLC" />
+            <label for="hfsManualDistributed">Distributed Control System (DCS) or Programmable Logic Controller (PLC)</label>
+         </div>
+         <!-- <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsManualQuarterly" id="hfsManualQuarterly">
+            <label for="hfsManualQuarterly">Operator actuated Hydraulic System Emergency Stop</label>
+             </div> -->   
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsManualNo" id="hfsManualNo" value="NO" [(ngModel)]="model.OFFLNS_HFS_MANUAL_INTERLOCK_NO" />
+            <label for="hfsManualNo">NO</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsManualNA" id="hfsManualNA" value="N/A" [(ngModel)]="model.OFFLNS_HFS_MANUAL_INTERLOCK_NA" />
+            <label for="hfsManualNA">N/A</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsManualAnnualOther" id="hfsManualAnnualOther" value="Other" [(ngModel)]="model.OFFLNS_HFS_MANUAL_INTERLOCK_OTHER" />
+            <label for="hfsManualAnnualOther">Other (see comments)</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="hfsManualUnknown" id="hfsManualUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_HFS_MANUAL_INTERLOCK_UNKNOWN" />
+            <label for="hfsManualUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- Hydraulic Fluid Systems Section End -->

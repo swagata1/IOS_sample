@@ -1,0 +1,105 @@
+<div class="isc-card">
+  <!-- small summary view -->
+  <div class="isc-card-heading" *ngIf="viewType==='small'">
+    <div class="isc-card-title">
+      <h4>Risk improvements <span class="isc-badge" *ngIf="riDataList && riDataList.length > 0">{{riDataList.length}}</span></h4>
+    </div>
+  </div>
+  <div class="isc-card-body" *ngIf="riDataList && riDataList.length <= 0">
+    <p data-color="muted">No risk improvements added.</p>
+  </div>
+
+  <div class="isc-table-responsive" *ngIf="viewType==='small' && riDataList && riDataList.length > 0">
+    <table class="isc-table isc-table-basic">
+      <colgroup>
+        <col>
+        <col class="_w-15">
+        <col class="_w-15">
+        <col class="_w-px-50">
+      </colgroup>
+      <thead>
+        <tr>
+          <th></th>
+          <th data-align="right">LE before</th>
+          <th data-align="right">LE after</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody><!--| orderby:['RI_NO']; let riIndex=index;-->
+        <tr *ngFor="let riPage of riDataList | orderby:['RI_NO']; let riIndex=index;">
+          <td>
+            <a href="javascript:void(0);" (click)="modal.showModal(riPage, 'Edit')">{{riPage.RISK_IMPRVMNT_NM}}</a>
+            <div data-color="muted">{{riPage.RI_NO}}</div>
+          </td>
+          <td data-vert-align="top" data-align="right">{{riPage.TOT_LOSS_EST_BFR_RI_AM}}</td>
+          <td data-vert-align="top" data-align="right">{{riPage.TOT_LOSS_EST_AFTER_RI_AM}}</td>
+          <td data-vert-align="top" data-align="right">
+            <!-- *ngIf="riPage.isDeletable" -->
+            <button class="isc-btn isc-btn-icon" 
+                    data-isc-button="icon" 
+                    *ngIf="riPage.isDeletable"
+                    (click)="removeRiskImprovementItem(riPage.RI_NO)"
+                    type="button"> 
+              <span data-isc-icon="delete" class="ng-scope">
+                <span class="material-icons">delete</span> 
+              </span>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!-- large summary view -->
+  <div class="isc-table-responsive" *ngIf="viewType==='large' && riDataList && riDataList.length > 0">
+    <table class="isc-table isc-table-basic" id="ri-location">
+      <colgroup>
+        <col class="_w-20">
+        <col class="">
+        <col class="">
+        <col class="">
+        <col class="">
+        <col class="">
+        <col class="">
+        <col class="_w-px-100">
+      </colgroup>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Type</th>
+          <th>Status</th>
+          <th>Category</th>
+          <th>Age</th>
+          <th>Intended Action</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let riPage of riDataList | orderby:['RI_NO']; let riIndex=index;">
+          <td><a (click)="modal.showModal(riPage, 'Edit')">{{riPage.RISK_IMPRVMNT_NM}}</a>
+            <div data-color="muted">{{riPage.RI_NO}}</div>
+            <div> <span class="isc-badge isc-badge-danger" *ngIf="riPage.LARGE_LOSS_POTENTIAL_IN">SLE</span> </div>
+          </td>
+          <td>
+            <div data-text-weight="bold">{{filterMainType(riPage.RISK_MAINTYPE_CD)}}</div>
+            <div>{{filterTypesByTradeSector(riPage.RISK_MAINTYPE_CD, predominantTradeSector, riPage.RISK_TYPE_CD)}}</div>
+            <div data-color="muted">{{filterSubTypeByTradeSector(riPage.RISK_MAINTYPE_CD, predominantTradeSector, riPage.RISK_TYPE_CD, riPage.RISK_SUBTYPE_CD)}}</div>
+          </td>
+          <td data-vert-align="top">{{filterStatusByCodes(riPage.RISK_STATUS_CD)}}</td>
+          <td data-vert-align="top">{{filterCategory(riPage.RISK_CATEGORY_CD)}}</td>
+          <td data-vert-align="top">{{riPage.RISK_OUTSTANDING_CD}}</td>
+          <td data-vert-align="top">{{filterIntendedAction(riPage.INTENDED_ACTION_CD)}}</td>
+          <td data-align="center" data-vert-align="top"><button class="isc-btn isc-btn-icon" data-isc-button="icon" *ngIf="riPage.isDeletable" (click)="removeRiskImprovementItem(riPage.RI_NO)"
+              type="button"> <span data-isc-icon="delete"><span class="material-icons ">delete</span> </span></button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="isc-card-footer">
+    <button class="isc-btn isc-btn-primary isc-btn-sm" data-isc-button="primary" data-size="small" type="button" 
+            (click)="modal.showModal(viewMetaData, 'Add')"> 
+      <span data-isc-icon="add"><span class="material-icons ">add</span><span> RI</span></span>
+    </button>
+  </div>
+  <ri-add-modal #modal></ri-add-modal>
+</div>

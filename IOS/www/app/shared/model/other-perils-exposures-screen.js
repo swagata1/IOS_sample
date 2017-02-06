@@ -1,0 +1,9 @@
+"use strict";
+var OtherPerilsExposuresScreen = (function () {
+    function OtherPerilsExposuresScreen() {
+    }
+    return OtherPerilsExposuresScreen;
+}());
+exports.OtherPerilsExposuresScreen = OtherPerilsExposuresScreen;
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC9zaGFyZWQvbW9kZWwvb3RoZXItcGVyaWxzLWV4cG9zdXJlcy1zY3JlZW4udHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBO0lBQUE7SUFFQSxDQUFDO0lBQUQsaUNBQUM7QUFBRCxDQUZBLEFBRUMsSUFBQTtBQUZZLGtDQUEwQiw2QkFFdEMsQ0FBQSIsImZpbGUiOiJhcHAvc2hhcmVkL21vZGVsL290aGVyLXBlcmlscy1leHBvc3VyZXMtc2NyZWVuLmpzIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNsYXNzIE90aGVyUGVyaWxzRXhwb3N1cmVzU2NyZWVuIHtcclxuXHJcbn0iXX0=

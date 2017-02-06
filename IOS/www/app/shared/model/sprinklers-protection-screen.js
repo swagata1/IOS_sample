@@ -1,0 +1,9 @@
+"use strict";
+var SprinklersProtectionScreen = (function () {
+    function SprinklersProtectionScreen() {
+    }
+    return SprinklersProtectionScreen;
+}());
+exports.SprinklersProtectionScreen = SprinklersProtectionScreen;
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC9zaGFyZWQvbW9kZWwvc3ByaW5rbGVycy1wcm90ZWN0aW9uLXNjcmVlbi50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQUE7SUFBQTtJQUVBLENBQUM7SUFBRCxpQ0FBQztBQUFELENBRkEsQUFFQyxJQUFBO0FBRlksa0NBQTBCLDZCQUV0QyxDQUFBIiwiZmlsZSI6ImFwcC9zaGFyZWQvbW9kZWwvc3ByaW5rbGVycy1wcm90ZWN0aW9uLXNjcmVlbi5qcyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjbGFzcyBTcHJpbmtsZXJzUHJvdGVjdGlvblNjcmVlbiB7XHJcblxyXG59Il19

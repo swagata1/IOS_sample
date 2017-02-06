@@ -1,0 +1,230 @@
+<div class="isc-card">
+  <div class="isc-card-body">
+    <div class="isc-grid">
+      <div class="isc-col-md-10">
+        <div class="isc-form-horizontal">
+          <h4>Signaling Systems</h4>
+          <div class="isc-form-group">
+            <label class="isc-col-md-3 isc-control-label" for="spSignaling">Signaling Systems</label>
+            <div class="isc-col-md-9">
+              <div class="isc-checkbox isc-checkbox-inline">
+                <input type="checkbox" name="spSignaling" id="spSignalingNone">
+                <label for="spSignalingNone">None</label>
+              </div>
+              <div class="isc-checkbox isc-checkbox-inline">
+                <input type="checkbox" name="spSignaling" id="spSignalingCentralStation">
+                <label for="spSignalingCentralStation">Central Station/ARC</label>
+              </div>
+              <div class="isc-checkbox isc-checkbox-inline">
+                <input type="checkbox" name="spSignaling" id="spSignalingRemoteStation">
+                <label for="spSignalingRemoteStation">Remote Station</label>
+              </div>
+              <div class="isc-checkbox isc-checkbox-inline">
+                <input type="checkbox" name="spSignaling" id="spSignalingProprietary">
+                <label for="spSignalingProprietary">Proprietary</label>
+              </div>
+              <div class="isc-checkbox isc-checkbox-inline">
+                <input type="checkbox" name="spSignaling" id="spSignalingLocalAlarm">
+                <label for="spSignalingLocalAlarm">Local Alarm</label>
+              </div>
+              <div class="isc-checkbox isc-checkbox-inline">
+                <input type="checkbox" name="spSignaling" id="spSignalingRecognized">
+                <label for="spSignalingRecognized">Recognized</label>
+              </div>
+            </div>
+          </div>
+          <div class="isc-form-group">
+            <label class="isc-col-md-3 isc-control-label" for="spMonitoredLine">Monitored Line</label>
+            <div class="isc-col-md-9">
+              <div class="isc-toggle-switch" data-ng-model="container.spMonitoredLine" data-btn-checkbox data-btn-checkbox-true="'On'"
+                data-btn-checkbox-false="'Off'">
+                <div class="isc-toggle-container">
+                  <div class="isc-toggle-bar"></div>
+                  <div class="isc-toggle-button"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h4>Fire Protection Alarm</h4>
+          <div class="isc-form-group">
+            <label class="isc-col-md-3 isc-control-label" for="spFireProtection">Fire Protection Alarm</label>
+            <div class="isc-col-md-9">
+              <div class="isc-checkbox isc-checkbox-inline">
+                <input type="checkbox" name="spFireProtection" id="spFireProtectionWaterflow">
+                <label for="spFireProtectionWaterflow">Water flow</label>
+              </div>
+              <div class="isc-checkbox isc-checkbox-inline">
+                <input type="checkbox" name="spFireProtection" id="spFireProtectionHeatFlame">
+                <label for="spFireProtectionHeatFlame">Heat/Flame Detex</label>
+              </div>
+              <div class="isc-checkbox isc-checkbox-inline">
+                <input type="checkbox" name="spFireProtection" id="spFireProtectionPumpRunning">
+                <label for="spFireProtectionPumpRunning">Pump Running</label>
+              </div>
+              <div class="isc-checkbox isc-checkbox-inline">
+                <input type="checkbox" name="spFireProtection" id="spFireProtectionTankResLevel">
+                <label for="spFireProtectionTankResLevel">Tank/Res Level</label>
+              </div>
+              <div class="isc-checkbox isc-checkbox-inline">
+                <input type="checkbox" name="spFireProtection" id="spFireProtectionValveTampers">
+                <label for="spFireProtectionValveTampers">Valve Tampers</label>
+              </div>
+              <div class="isc-checkbox isc-checkbox-inline">
+                <input type="checkbox" name="spFireProtection" id="spFireProtectionValveSmokeDetection">
+                <label for="spFireProtectionValveSmokeDetection">Smoke Detection</label>
+              </div>
+              <div class="isc-checkbox isc-checkbox-inline">
+                <input type="checkbox" name="spFireProtection" id="spFireProtectionValveSpecialExiting">
+                <label for="spFireProtectionValveSpecialExiting">Special Exiting System</label>
+              </div>
+              <div class="isc-checkbox isc-checkbox-inline">
+                <input type="checkbox" name="spFireProtection" id="spFireProtectionValveTankTemperature">
+                <label for="spFireProtectionValveTankTemperature">Tank Temperature</label>
+              </div>
+              <div class="isc-checkbox isc-checkbox-inline">
+                <input type="checkbox" name="spFireProtection" id="spFireProtectionValveLowBuilding">
+                <label for="spFireProtectionValveLowBuilding">Low Building Temp</label>
+              </div>
+              <div class="isc-checkbox isc-checkbox-inline">
+                <input type="checkbox" name="spFireProtection" id="spFireProtectionPullBoxes">
+                <label for="spFireProtectionPullBoxes">Pull Boxes</label>
+              </div>
+              <div class="isc-checkbox isc-checkbox-inline">
+                <input type="checkbox" name="spFireProtection" id="spFireProtectionPumpTrouble">
+                <label for="spFireProtectionPumpTrouble">Pump Trouble</label>
+              </div>
+              <div class="isc-checkbox isc-checkbox-inline">
+                <input type="checkbox" name="spFireProtection" id="spFireProtectionDryPipe">
+                <label for="spFireProtectionDryPipe">Dry Pipe Supervisory</label>
+              </div>
+              <div class="isc-checkbox isc-checkbox-inline">
+                <input type="checkbox" name="spFireProtection" id="spFireProtectionPumpPower">
+                <label for="spFireProtectionPumpPower">Pump Power</label>
+              </div>
+            </div>
+          </div>
+          <div class="isc-form-group">
+            <label class="isc-col-md-3 isc-control-label" for="spValveLocked">Valve Locked</label>
+            <div class="isc-col-md-9">
+              <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="spValveLocked" id="spValveLockedYes">
+                <label for="spValveLockedYes">Yes</label>
+              </div>
+              <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="spValveLocked" id="spValveLockedNo">
+                <label for="spValveLockedNo">No</label>
+              </div>
+              <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="spValveLocked" id="spValveLockedPartially">
+                <label for="spValveLockedPartially">Partially</label>
+              </div>
+              <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="spValveLocked" id="spValveLockedNone">
+                <label for="spValveLockedNone">None</label>
+              </div>
+            </div>
+          </div>
+          <div class="isc-form-group">
+            <label class="isc-col-md-3 isc-control-label" for="spSmokeDetection">Smoke Detection Monitored</label>
+            <div class="isc-col-md-9">
+              <div class="isc-toggle-switch" data-ng-model="container.spSmokeDetection" data-btn-checkbox data-btn-checkbox-true="'On'"
+                data-btn-checkbox-false="'Off'">
+                <div class="isc-toggle-container">
+                  <div class="isc-toggle-bar"></div>
+                  <div class="isc-toggle-button"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="isc-form-group">
+            <label class="isc-col-md-3 isc-control-label" for="spOtherAlarms">Other Alarms</label>
+            <div class="isc-col-md-9">
+              <div class="isc-toggle-switch" data-ng-model="container.spOtherAlarms" data-btn-checkbox data-btn-checkbox-true="'On'" data-btn-checkbox-false="'Off'">
+                <div class="isc-toggle-container">
+                  <div class="isc-toggle-bar"></div>
+                  <div class="isc-toggle-button"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h4>Maintenance, Testing &amp; Inspection</h4>
+          <div class="isc-form-group">
+            <label class="isc-col-md-3 isc-control-label" for="spValveLocked">Fire Detection Coverage <span data-color="muted">(Including Sprinklers)</span></label>
+            <div class="isc-col-md-9">
+              <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="spValveLocked" id="spValveLocked100">
+                <label for="spValveLocked100">100%</label>
+              </div>
+              <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="spValveLocked" id="spValveLocked90">
+                <label for="spValveLocked90">90%</label>
+              </div>
+              <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="spValveLocked" id="spValveLocked80">
+                <label for="spValveLocked80">80%</label>
+              </div>
+              <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="spValveLocked" id="spValveLockedOther">
+                <label for="spValveLockedOther">Other</label>
+              </div>
+            </div>
+          </div>
+          <div class="isc-form-group">
+            <label class="isc-col-md-3 isc-control-label" for="spMaintenance">Maintenance, Testing and Inspection per NFPA 25</label>
+            <div class="isc-col-md-9">
+              <div class="isc-btn-group isc-btn-toggle">
+                <label data-ng-repeat="button in ['Satisfactory','Unsatisfactory']" data-ng-model="container.togglespMaintenance" data-btn-radio="button">
+                  {{button}}
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="isc-col-md-2">
+        <div class="isc-grid">
+          <div class="isc-col-sm-4  isc-col-md-12">
+            <div class="isc-summary _mb-xlg"> <small class="isc-summary-title">Current Rating</small>
+              <h4 class="isc-summary-text">Excellent
+                <button data-isc-button="icon" data-ng-click="container.editafdCurrentRating=!container.editafdCurrentRating"><span data-isc-icon="change" data-size="small"></span></button>
+              </h4>
+              <div class="isc-reveal" data-ng-show="container.editafdCurrentRating">
+                <div class="isc-input-group">
+                  <label class="sr-only" for="afdCurrentRating">Current rating</label>
+                  <div angucomplete-alt clear="true" data-ng-class="{'has-rating-highlight':afdCurrentRating}" focus-first="true" id="afdCurrentRating"
+                    input-class="isc-form-control" local-data="ddGeneratedRatings" maxlength="50" minlength="0" model="container.inputafdCurrentRating"
+                    pause="100" placeholder="Override?" search-fields="name" selected-object="selectedRating" title-field="name">
+                  </div>
+                  <span class="isc-input-group-addon" data-ng-click="container.editafdCurrentRating=false;clearInput('afdCurrentRating');"> <span data-isc-icon="delete "></span>                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="isc-col-sm-4 isc-col-md-12">
+            <div class="isc-summary"> <small class="isc-summary-title">Post R/I Rating</small>
+              <h4 class="isc-summary-text">Moderate
+                <button data-isc-button="icon" data-ng-click="container.editafdPostRating=!container.editafdPostRating"><span data-isc-icon="change" data-size="small"></span></button>
+              </h4>
+              <div class="isc-reveal" data-ng-show="container.editafdPostRating">
+                <div class="isc-input-group">
+                  <label class="sr-only" for="afdPostRating">Post R/I Rating</label>
+                  <div angucomplete-alt clear="true" data-ng-class="{'has-rating-highlight':afdPostRating}" focus-first="true" id="afdPostRating"
+                    input-class="isc-form-control" local-data="ddGeneratedRatings" maxlength="50" minlength="0" model="container.inputafdPostRating"
+                    pause="100" placeholder="Override?" search-fields="name" selected-object="selectedRating" title-field="name">
+                  </div>
+                  <span class="isc-input-group-addon" data-ng-click="container.editafdPostRating=false;clearInput('afdPostRating');"> <span data-isc-icon="delete "></span>                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form method="post" id="commentsSupervisionAFD">
+      <div class="isc-editor">
+        <textarea data-ui-tinymce="tinymceOptionsComments" data-ng-model="container.tinymceModelCommentsSupervisionAFD" placeholder="Comments for Automatic Fire Detection.">
+      </textarea>
+      </div>
+    </form>
+  </div>
+</div>

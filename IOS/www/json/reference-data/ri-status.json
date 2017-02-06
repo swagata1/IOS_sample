@@ -1,0 +1,38 @@
+[
+  {
+    "Code": "ACC",
+    "Description": "Accepted"
+  },
+  {
+    "Code": "UR",
+    "Description": "Under Review"
+  },
+  {
+    "Code": "REJ",
+    "Description": "Rejected"
+  },
+  {
+    "Code": "NA",
+    "Description": "Not Applicable"
+  },
+  {
+    "Code": "CPR",
+    "Description": "Complete"
+  },
+  {
+    "Code": "PC",
+    "Description": "Partially Complete"
+  },
+  {
+    "Code": "ONG",
+    "Description": "Ongoing"
+  },
+  {
+    "Code": "NP",
+    "Description": "No Progress"
+  },
+  {
+    "Code": "CC",
+    "Description": "Confirmed Complete"
+  }
+]

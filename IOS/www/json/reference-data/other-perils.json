@@ -1,0 +1,162 @@
+[
+  {
+    "PerilType": "Hailstorm Exposure",
+    "ExposureCode": "MREZ1L",
+    "Description": "MRe Zone 1: low"
+  },
+  {
+    "PerilType": "Hailstorm Exposure",
+    "ExposureCode": "MREZ2",
+    "Description": "MRe Zone 2"
+  },
+  {
+    "PerilType": "Hailstorm Exposure",
+    "ExposureCode": "MREZ3",
+    "Description": "MRe Zone 3"
+  },
+  {
+    "PerilType": "Hailstorm Exposure",
+    "ExposureCode": "MREZ4",
+    "Description": "MRe Zone 4"
+  },
+  {
+    "PerilType": "Hailstorm Exposure",
+    "ExposureCode": "MREZ5",
+    "Description": "MRe Zone 5"
+  },
+  {
+    "PerilType": "Hailstorm Exposure",
+    "ExposureCode": "MREZ6",
+    "Description": "MRe Zone 6: high"
+  },
+  {
+    "PerilType": "Hailstorm Rating",
+    "ExposureCode": "None",
+    "Description": "None"
+  },
+  {
+    "PerilType": "Hailstorm Rating",
+    "ExposureCode": "Slight",
+    "Description": "Slight"
+  },
+  {
+    "PerilType": "Hailstorm Rating",
+    "ExposureCode": "Moderate",
+    "Description": "Moderate"
+  },
+  {
+    "PerilType": "Hailstorm Rating",
+    "ExposureCode": "Severe",
+    "Description": "Severe"
+  },
+  {
+    "PerilType": "Collapse Rating",
+    "ExposureCode": "None",
+    "Description": "None"
+  },
+  {
+    "PerilType": "Collapse Rating",
+    "ExposureCode": "Slight",
+    "Description": "Slight"
+  },
+  {
+    "PerilType": "Collapse Rating",
+    "ExposureCode": "Moderate",
+    "Description": "Moderate"
+  },
+  {
+    "PerilType": "Collapse Rating",
+    "ExposureCode": "Severe",
+    "Description": "Severe"
+  },
+  {
+    "PerilType": "Collapse Rating",
+    "ExposureCode": "Severe",
+    "Description": "Severe"
+  },
+  {
+    "PerilType": "Other Perils Rating",
+    "ExposureCode": "None",
+    "Description": "None"
+  },
+  {
+    "PerilType": "Other Perils Rating",
+    "ExposureCode": "Slight",
+    "Description": "Slight"
+  },
+  {
+    "PerilType": "Other Perils Rating",
+    "ExposureCode": "Moderate",
+    "Description": "Moderate"
+  },
+  {
+    "PerilType": "Other Perils Rating",
+    "ExposureCode": "Severe",
+    "Description": "Severe"
+  },
+  {
+    "PerilType": "LIGHT_RATING",
+    "ExposureCode": "MReZone1",
+    "Description": "MRe Zone 1: 0.2-1 (lightning strikes per km² a year)"
+  },
+  {
+    "PerilType": "LIGHT_RATING",
+    "ExposureCode": "MReZone2",
+    "Description": "MRe Zone 2: 1-4 (lightning strikes per km² a year)"
+  },
+  {
+    "PerilType": "LIGHT_RATING",
+    "ExposureCode": "MReZone3",
+    "Description": "MRe Zone 3: 4-10 (lightning strikes per km² a year)"
+  },
+  {
+    "PerilType": "LIGHT_RATING",
+    "ExposureCode": "MReZone4",
+    "Description": "MRe Zone 4: 10-20 (lightning strikes per km² a year)"
+  },
+  {
+    "PerilType": "LIGHT_RATING",
+    "ExposureCode": "MReZone5",
+    "Description": "MRe Zone 5: 20-40 (lightning strikes per km² a year)"
+  },
+  {
+    "PerilType": "LIGHT_RATING",
+    "ExposureCode": "MReZone6",
+    "Description": "MRe Zone 6: 40-80 (lightning strikes per km² a year)"
+  },
+  {
+    "PerilType": "TORNADO_RATING_CD",
+    "ExposureCode": "Zone1",
+    "Description": "MRe Zone 1: low"
+  },
+  {
+    "PerilType": "TORNADO_RATING_CD",
+    "ExposureCode": "Zone2",
+    "Description": "MRe Zone 2"
+  },
+  {
+    "PerilType": "TORNADO_RATING_CD",
+    "ExposureCode": "Zone3",
+    "Description": "MRe Zone 3"
+  },
+  {
+    "PerilType": "TORNADO_RATING_CD",
+    "ExposureCode": "Zone4",
+    "Description": "MRe Zone 4: high"
+  },
+  {
+    "PerilType": "TSUNAMI_EXPOSURE_CD",
+    "ExposureCode": "No Hazard",
+    "Description": "No Hazard"
+  },
+  {
+    "PerilType": "TSUNAMI_EXPOSURE_CD",
+    "ExposureCode": "MREZ1VL2L",
+    "Description": "MRe Zone 1: Very low to low"
+  },
+  {
+    "PerilType": "TSUNAMI_EXPOSURE_CD",
+    "ExposureCode": "MREZ1M2H",
+    "Description": "MRe Zone 2: Medium to high"
+  }
+]

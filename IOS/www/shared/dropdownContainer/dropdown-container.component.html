@@ -1,0 +1,67 @@
+<ul class="isc-nav">
+ 	<li class="isc-nav-item has-breadcrumb-1" >
+		<div class="isc-btn-group isc-dropdown" dropdown [keyboardNav]="true" [isOpen]="isOpen">
+			<div *ngIf="isSearchable && !toggleShow" class="fullWidthInput" [ngClass]="{'delete-box-container': (isSearchableWithDelete)}">
+				<input *ngIf="!displayData" type="text" 
+					 class="isc-btn isc-btn-default isc-dropdown-toggle" 
+					 (keyup)="inputKeyUp($event)" 
+					 [placeholder]="placeholder"
+					 dropdownToggle 
+					 [ngModel]="inputData" 							 
+					 (click)="loadData();isOpen=!isOpen;" 
+					 (ngModelChange)="updateData($event)" 
+					 [ngClass]="{'has-axis-required': isRequiredFlag}"
+					 [disabled]=isDisabled/>
+					 
+				<input *ngIf="displayData" type="text" 
+					 class="isc-btn isc-btn-default isc-dropdown-toggle" 
+					 (keyup)="inputKeyUp($event)" 
+					 [placeholder]="placeholder"
+					 dropdownToggle 
+					 [ngModel]="displayData" 							 
+					 (click)="loadData();isOpen=!isOpen;" 
+					 (ngModelChange)="updateData($event)" 
+					 [ngClass]="{'has-axis-required': isRequiredFlag}"
+					 [disabled]=isDisabled/>
+
+					 <span *ngIf="!isSearchableWithDelete" class="isc-caret"></span>
+					 <span *ngIf="isSearchableWithDelete && !inputData" class="isc-caret"></span>
+					 <i *ngIf="(displayData || inputData) && isSearchableWithDelete" class="isc-caret material-icons tmp-typeahead-clear" (click)="clearInput()">clear</i>
+					 <span class="isc-input-group-addon" *ngIf="elementToBeDeleted" (click)="deleteTriggered(event)"> 
+						<span class="material-icons">delete</span>
+					 </span>
+			</div>
+				
+			<button class="isc-btn isc-btn-default isc-dropdown-toggle" 
+							dropdownToggle 
+							*ngIf="!isSearchable" 
+							(click)="loadData()" 
+							(ngModelChange)="updateData($event)" 
+							[ngClass]="{'has-axis-required': isRequiredFlag}"
+							[disabled]=isDisabled>{{placeholder? placeholder: (displayData? displayData: inputData)}}
+				<span class="isc-caret"></span>
+			</button>			
+			<span *ngIf="isRequiredFlag && placeholder" class="axis-help-block">Please enter a value</span>
+			<ul class="isc-dropdown-menu dropdown-container" role="menu">
+				<ng-container *ngIf="suggestions && suggestions.length>0">
+				  <li *ngFor="let suggestion of suggestions" (click)="selectSuggestion(suggestion)">
+				  	<a href="javascript:void(0)">
+				  		{{(keyProperty && keyProperty[0]) ? suggestion[keyProperty[0]] : suggestion[displayProperty[0]]}}
+				  		<br>
+						<small data-color="muted" *ngIf="displayProperty && displayProperty.length>0">
+							{{suggestion[displayProperty[1]]}}
+						</small>
+				  	</a>			           	  	
+				  </li>	
+				</ng-container>
+				<ng-container *ngIf="suggestions && suggestions.length==0">
+				   <li>
+				  	<a class="disabled" href="javascript:void(0)">
+				  		No result found			  		
+				  	</a>			           	  	
+				  </li>	
+				</ng-container>				
+			</ul> 
+	    </div>						     
+	</li>
+</ul>

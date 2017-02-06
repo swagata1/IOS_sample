@@ -1,0 +1,432 @@
+{
+	"HG1":[
+	{		
+		"predominantConstructionClassCode": "ISO 6",
+		"bldgDamage": 25,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 5",
+		"bldgDamage": 35,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 4",
+		"bldgDamage": 50,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 3",
+		"bldgDamage": 50,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 2",
+		"bldgDamage": 100,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 1",
+		"bldgDamage": 100,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	}],
+	"HG2": [
+	{		
+		"predominantConstructionClassCode": "ISO 6",
+		"bldgDamage": 25,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 5",
+		"bldgDamage": 35,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 4",
+		"bldgDamage": 50,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 3",
+		"bldgDamage": 50,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 2",
+		"bldgDamage": 100,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 1",
+		"bldgDamage": 100,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	}],
+	"HG3": [
+	{		
+		"predominantConstructionClassCode": "ISO 6",
+		"bldgDamage": 35,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 5",
+		"bldgDamage": 50,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 4",
+		"bldgDamage": 55,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 3",
+		"bldgDamage": 60,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 2",
+		"bldgDamage": 100,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 1",
+		"bldgDamage": 100,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	}],
+	"HG4": [
+	{		
+		"predominantConstructionClassCode": "ISO 6",
+		"bldgDamage": 35,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 5",
+		"bldgDamage": 50,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 4",
+		"bldgDamage": 55,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 3",
+		"bldgDamage": 60,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 2",
+		"bldgDamage": 100,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 1",
+		"bldgDamage": 100,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	}],
+	"HG5": [
+	{		
+		"predominantConstructionClassCode": "ISO 6",
+		"bldgDamage": 45,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 5",
+		"bldgDamage": 65,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 4",
+		"bldgDamage": 70,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 3",
+		"bldgDamage": 70,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 2",
+		"bldgDamage": 100,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 1",
+		"bldgDamage": 100,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	}],
+	"HG6": [
+	{		
+		"predominantConstructionClassCode": "ISO 6",
+		"bldgDamage": 45,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 5",
+		"bldgDamage": 65,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 4",
+		"bldgDamage": 70,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 3",
+		"bldgDamage": 70,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 2",
+		"bldgDamage": 100,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 1",
+		"bldgDamage": 100,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	}],
+	"HG7": [
+	{		
+		"predominantConstructionClassCode": "ISO 6",
+		"bldgDamage": 55,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 5",
+		"bldgDamage": 70,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 4",
+		"bldgDamage": 80,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 3",
+		"bldgDamage": 100,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 2",
+		"bldgDamage": 100,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 1",
+		"bldgDamage": 100,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	}],
+	"HG8": [
+	{		
+		"predominantConstructionClassCode": "ISO 6",
+		"bldgDamage": 55,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 5",
+		"bldgDamage": 70,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 4",
+		"bldgDamage": 80,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 3",
+		"bldgDamage": 100,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 2",
+		"bldgDamage": 100,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 1",
+		"bldgDamage": 100,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	}],
+	"HG9": [
+	{		
+		"predominantConstructionClassCode": "ISO 6",
+		"bldgDamage": 60,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 5",
+		"bldgDamage": 100,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 4",
+		"bldgDamage": 100,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 3",
+		"bldgDamage": 100,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 2",
+		"bldgDamage": 100,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 1",
+		"bldgDamage": 100,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	}],
+	"HG10": [
+	{		
+		"predominantConstructionClassCode": "ISO 6",
+		"bldgDamage": 60,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 5",
+		"bldgDamage": 100,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 4",
+		"bldgDamage": 100,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 3",
+		"bldgDamage": 100,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 2",
+		"bldgDamage": 100,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	},
+	{
+		"predominantConstructionClassCode": "ISO 1",
+		"bldgDamage": 100,
+		"contentsDamage": 100,
+		"stockDamage": 100,
+		"mAndEDamage": 100
+	}]
+}

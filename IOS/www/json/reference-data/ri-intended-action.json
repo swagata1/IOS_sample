@@ -1,0 +1,42 @@
+[
+  {
+    "Code": "AGWC",
+    "Description": "Agree - Will Complete"
+  },
+  {
+    "Code": "AGEO",
+    "Description": "Agree - Evaluating Options"
+  },
+  {
+    "Code": "AGSF",
+    "Description": "Agree - Seeking Funding"
+  },
+  {
+    "Code": "AGBAP",
+    "Description": "Agree - But Action Postponed"
+  },
+  {
+    "Code": "AGP",
+    "Description": "Agree- Partially"
+  },
+  {
+    "Code": "DGWC",
+    "Description": "Disagree - But Will Complete"
+  },
+  {
+    "Code": "DGWS",
+    "Description": "Will Study"
+  },
+  {
+    "Code": "DGNC",
+    "Description": "No Commitment"
+  },
+  {
+    "Code": "DWNC",
+    "Description": "Disagree - Will Not Complete"
+  },
+  {
+    "Code": "OTHER",
+    "Description": "Other"
+  }
+]

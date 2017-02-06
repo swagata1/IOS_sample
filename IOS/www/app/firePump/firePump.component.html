@@ -1,0 +1,539 @@
+<div *ngIf="firePumpData">
+  <div class="isc-card" 
+       *ngFor="let firePump of firePumpData; 
+             let firePumpInd = index;">
+    <div class="isc-card-heading">
+      <div class="isc-card-title">
+        <h4>Fire Pump {{firePumpInd+1 | number:'3.0-0'}}</h4>
+      </div>
+      <div class="isc-card-options">
+        <button class="isc-btn isc-btn-icon" data-isc-button="icon" size="small">
+            <span class="material-icons" title="Delete" (click)="deleteFirePump(firePumpInd);">delete</span>
+        </button>
+      </div>
+    </div>
+    <div class="isc-card-body">
+      <div class="isc-grid">
+        <div class="isc-col-sm-3">
+          <div class="isc-form-group">
+            <label>Name</label>
+            <input #pumpName="ngModel" class="isc-form-control" type="text" required [(ngModel)]="firePump.PUMP_NM" placeholder="Enter" />            
+						<span *ngIf="pumpName.errors" class="axis-help-block">
+              {{validationMessagesObject.MSG1}}</span>
+          </div>
+        </div>
+        <div class="isc-col-sm-3">
+          <div class="isc-form-group">
+            <label>Suction source</label>
+            <!-- isSearchable=false [searchProperty]="'Description'"-->
+            <dropdown-container 
+                *ngIf="suction"
+                isRequired=true
+                placeholder="Please Select"
+                [(inputData)]="firePump.SUCTION_SOURCE_CD"
+                [list]="suction"                      
+                [displayProperty]="'Description'">
+            </dropdown-container>
+          </div>
+        </div>
+        <div class="isc-col-sm-2">
+          <div class="isc-form-group">
+            <label>Driver</label>
+            <dropdown-container 
+                *ngIf="driver"
+                isRequired=true
+                placeholder="Please Select"
+                [(inputData)]="firePump.DRIVER_TYPE_CD"                       
+                [list]="driver"
+                [displayProperty]="'Description'">
+            </dropdown-container>
+          </div>
+        </div>
+        <div class="isc-col-sm-2">
+          <div class="isc-form-group">
+            <label>Shaft</label>
+            <dropdown-container 
+                *ngIf="shaft"
+                isRequired=true
+                placeholder="Please Select"
+                [(inputData)]="firePump.SHAFT_TYPE_CD"                       
+                [list]="shaft"
+                [displayProperty]="'Description'">
+            </dropdown-container>
+          </div>
+        </div>
+        <div class="isc-col-sm-2">
+          <div class="isc-form-group">
+            <label>Start method</label>
+            <dropdown-container 
+                *ngIf="startMethod"
+                isRequired=true 
+                placeholder="Please Select"
+                [(inputData)]="firePump.CONTROLLER_TYPE_CD"                       
+                [list]="startMethod"
+                [displayProperty]="'Description'">
+            </dropdown-container>
+          </div>
+        </div>
+      </div>
+      <div class="isc-table-responsive">
+        <table class="isc-table isc-table-basic">
+          <colgroup>
+          <col />
+          <col />
+          <col />
+          <col />
+          <col />
+          <col />
+          <col />
+          <col />
+          <col />
+          <col />
+          </colgroup>
+          <thead>
+            <tr>
+              <th rowspan="2" data-align="center">Driver approval</th>
+              <th rowspan="2" data-align="center">Approval listing</th>
+              <th rowspan="2" data-align="center">Controller approval</th>
+              <th colspan="2" rowspan="1" data-align="center">Pressure</th>
+              <th colspan="2" rowspan="1" data-align="center">Flow</th>
+              <th rowspan="2" data-align="center">Pressure @ max flow <small>({{ rfsPressureUnit }})</small></th>
+              <th rowspan="2" data-align="center">Rated speed <small>(rpm)</small></th>
+              <th rowspan="2" data-align="center">Pressure tank</th>
+            </tr>
+            <tr role="row">
+              <th data-align="center">Churn <small>({{ rfsPressureUnit }})</small></th>
+              <th data-align="center">Rated <small>({{ rfsPressureUnit }})</small></th>
+              <th data-align="center">Rated <small>({{ rfsUnit }})</small></th>
+              <th data-align="center">Max <small>({{ rfsUnit }})</small></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <dropdown-container 
+                    *ngIf="driverApproval"
+                    isRequired=true
+                    placeholder="Please Select"
+                    [(inputData)]="firePump.DRIVER_APPROVAL_LIST_CD"                       
+                    [list]="driverApproval"
+                    [displayProperty]="'Description'">
+                </dropdown-container>
+              </td>
+              <td>
+                <dropdown-container 
+                    *ngIf="approvalListing"
+                    isRequired=true
+                    placeholder="Please Select"
+                    [(inputData)]="firePump.FIRE_PUMP_APPROVAL_LIST_CD"                       
+                    [list]="approvalListing"
+                    [displayProperty]="'Description'">
+                </dropdown-container>
+              </td>
+              <td>
+                <dropdown-container 
+                    *ngIf="controllerApproval"
+                    isRequired=true
+                    placeholder="Please Select"
+                    [(inputData)]="firePump.CONTROLLER_APPROVAL_LIST_CD"                       
+                    [list]="controllerApproval"
+                    [displayProperty]="'Description'">
+                </dropdown-container>
+              </td>
+              <td>
+                <input class="isc-form-control" type="number" spellcheck="true"
+                      [(ngModel)]="firePump.churnPressure" />                
+              </td>
+              <td>
+                <input #ratedPressure="ngModel" class="isc-form-control" type="number" required 
+                      [(ngModel)]="firePump.NOMINAL_PUMP_PRESSURE_QT" 
+                      (ngModelChange)="ratedPressureChange(firePumpInd);" />
+                <span *ngIf="ratedPressure.errors" class="axis-help-block">
+                    {{validationMessagesObject.MSG1}}</span>
+              </td>
+              <td>
+                <input #ratedFlow="ngModel" class="isc-form-control" type="number" required 
+                      [(ngModel)]="firePump.NOMINAL_PUMP_FLOW_QT" 
+                      (ngModelChange)="ratedFlowChange(firePumpInd);" />
+                <span *ngIf="ratedFlow.errors" class="axis-help-block">
+                    {{validationMessagesObject.MSG1}}</span>
+              </td>
+              <td>
+                <input class="isc-form-control" type="number" 
+                      [(ngModel)]="firePump.maxFlow" />
+              </td>
+              <td>
+                <input class="isc-form-control" type="number" 
+                      [(ngModel)]="firePump.pressureMaxFlow" />
+              </td>
+              <td>
+                <input #ratedSpeed="ngModel" class="isc-form-control" type="number" required 
+                      [(ngModel)]="firePump.NOMINAL_PUMP_SPEED_QT" 
+                      (ngModelChange)="ratedSpeedChange(firePumpInd);" />
+                <span *ngIf="ratedSpeed.errors" class="axis-help-block">
+                    {{validationMessagesObject.MSG1}}</span>
+              </td>
+              <td data-align="center">
+                <toggle-switch size="small" [(ngModel)]="firePump.PRESSURE_TANK_CD"></toggle-switch>
+              </td>
+            </tr>
+            <tr class="nested-table"
+                *ngFor="let testData of firePumpData[firePumpInd].FirePumpPerfList; 
+                        let testDataInd = index;">
+              <td colspan="10">
+                <div class="isc-card-row isc-card-secondary">
+                  <div class="isc-grid">
+                    <div class="isc-col-sm-11">
+                      <div class="isc-form-inline">
+                        <div class="isc-form-group">
+                          <label class="isc-control-label" for="testdataDate01">Tested date</label>
+                          <!--<div class="isc-datepicker" id="rinTargetCompletionDate"> 
+                            <div class="isc-input-group"> 
+                              <input type="text" class="isc-form-control" placeholder="mm/dd/yyyy" 
+                                    [(ngModel)]="testData.FIRE_PUMP_TEST_DT"/> 
+                              <span class="isc-input-group-btn"> 
+                                <button type="button" class="isc-btn isc-btn-default">
+                                  <i class="material-icons">date_range</i></button> 
+                              </span> 
+                            </div> 
+                          </div>-->
+                          <div class="isc-input-group">
+                              <input type="text" class="isc-form-control" required 
+                                    placeholder="mm/dd/yyyy" 
+                                    [value]="setDate(testData.FIRE_PUMP_TEST_DT) | date:'MM/dd/yyyy'" />
+                              <span class="isc-input-group-btn">
+                                <button type="button" (click)="testData.showDatePicker = !testData.showDatePicker" class="isc-btn isc-btn-default" >
+                                  <i class="material-icons">date_range</i>
+                                </button>
+                              </span>
+                          </div>
+                          <div *ngIf="testData.showDatePicker" style="position: absolute; z-index: 999;">
+                            <datepicker [(ngModel)]="testData.FIRE_PUMP_TEST_DT" 
+                                        [minDate]="minDate" 
+                                        [showWeeks]="false" 
+                                        (dismissDatepicker)="testData.showDatePicker = !testData.showDatePicker"
+                                        (clearSelectedDate)="clearSelectedDate(testData)"
+                                        (triggerTodaysDate)="setTodaysDate(testData, $event)"
+                                        (selectionDone)="testData.showDatePicker = !testData.showDatePicker">
+                            </datepicker>
+                          </div>
+                          <span *ngIf="!testData.FIRE_PUMP_TEST_DT" class="axis-help-block">
+                                 {{validationMessagesObject.MSG1}}</span>
+                        </div>
+                        <div class="isc-form-group">
+                          <label class="isc-control-label" for="testdataby01">Tested by</label>
+                          <input #testedBy="ngModel" class="isc-form-control" type="text" placeholder="" required
+                                 [(ngModel)]="testData.FIRE_PUMP_TESTER_NM" />
+                          <span *ngIf="testedBy.errors" class="axis-help-block">
+                                 {{validationMessagesObject.MSG1}}</span>
+                        </div>
+                        <div class="isc-form-group">
+                          <label class="isc-control-label" for="pumpIncludeinGraph">Include in graph</label>
+                        </div>
+                        <div class="isc-form-group" style="margin-left: 0px;">
+                          <toggle-switch size="small" [(ngModel)]="testData.GRAPH_INCLUSION_IN"></toggle-switch>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="isc-col-sm-1"  data-align="right">
+                      <div class="isc-form-inline _nm">
+                        <div class="isc-form-group">
+                          <!-- prepareDataForChart(firePump, testDataInd);  -->
+                          <button class="isc-btn isc-btn-icon" data-isc-button="icon" size="small"
+                                  data-toggle="modal" data-target="#myModal" 
+                                  (click)="!testData.GRAPH_INCLUSION_IN || modal.showModal();">
+                              <span class="material-icons" title="Chart">insert_chart</span>
+                          </button>
+                          <button class="isc-btn isc-btn-icon" data-isc-button="icon" size="small"
+                                  (click)="deleteTestData(firePumpInd, testDataInd);">
+                              <span class="material-icons" title="Delete">delete</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <table class="isc-table isc-table-basic ">
+                  <colgroup>
+                    <col />
+                    <col />
+                    <col />
+                    <col />
+                    <col />
+                    <col />
+                    <col />
+                    <col />
+                    <col />
+                    <col />
+                    <col class="_w-px-100" />
+                  </colgroup>
+                  <thead>
+                    <tr>
+                      <th rowspan="2">Test point</th>
+                      <th rowspan="1" colspan="3" data-align="center">Flow</th>
+                      <th rowspan="1" colspan="4" data-align="center">Pressure</th>
+                      <th rowspan="2" data-align="center">Speed <small>(rpm)</small></th>
+                      <th rowspan="2">Rating</th>
+                      <th rowspan="2"></th>
+                      <th rowspan="2"></th>
+                    </tr>
+                    <tr role="row">
+                      <th data-align="center" >Measured</th>
+                      <th data-align="center" ><span class="_text-nowrap">Nominal %</span></th>
+                      <th data-align="center" >Corrected <small>({{ rfsPressureUnit }})</small></th>
+                      <th data-align="center" >Suction <small>({{ rfsPressureUnit }})</small></th>
+                      <th data-align="center" >Discharge <small>({{ rfsPressureUnit }})</small></th>
+                      <th data-align="center" >Net <small>({{ rfsPressureUnit }})</small></th>
+                      <th data-align="center" >Corrected <small>({{ rfsPressureUnit }})</small></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr *ngFor="let testPoint of firePumpData[firePumpInd].FirePumpPerfList[testDataInd].FirePumpTestPointsList; 
+                                let testPointInd = index;">
+                      <!-- Test Point -->
+                      <td *ngIf="testPointInd == 0"><span style="padding-left: 5px;">Churn</span></td>
+                      <td *ngIf="testPointInd > 0">
+                        <input #testpointLabel="ngModel" class="isc-form-control" type="text" required [(ngModel)]="testPoint.pyLabel" />
+                        <span *ngIf="testpointLabel.errors" class="axis-help-block">
+                              {{validationMessagesObject.MSG1}}</span>
+                      </td>
+                      
+                      <!-- Measured Flow-->
+                      <td *ngIf="testPointInd == 0">
+                        <input #measuredFlow="ngModel" class="isc-form-control" type="text" required value="0" 
+                              [(ngModel)]="testPoint.MEASURED_FLOW_QT" 
+                              (blur)="measuredFlowChange(firePumpInd, testDataInd, testPointInd);"
+                              (ngModelChange)="restrictInvalidInput(firePumpInd, testDataInd, testPointInd, 'measuredFlow');"/>
+                        <span *ngIf="measuredFlow.errors" class="axis-help-block">
+                              {{validationMessagesObject.MSG1}}</span>
+                      </td>
+                      <td *ngIf="testPointInd > 0">
+                        <input #measuredFlow="ngModel" class="isc-form-control" type="text" required [(ngModel)]="testPoint.MEASURED_FLOW_QT" 
+                              (blur)="measuredFlowChange(firePumpInd, testDataInd, testPointInd);"
+                              (ngModelChange)="restrictInvalidInput(firePumpInd, testDataInd, testPointInd, 'measuredFlow');"/>
+                        <span *ngIf="measuredFlow.errors" class="axis-help-block">
+                              {{validationMessagesObject.MSG1}}</span>
+                      </td>
+
+                      <!-- Nominal Flow -->
+                      <td *ngIf="testPointInd == 0" data-align="right"><span>0.00</span></td>
+                      <td *ngIf="testPointInd > 0" data-align="right">
+                        <span *ngIf="testPoint.NOMINAL_FLOW_PC">
+                          <!--testPoint.MEASURED_FLOW_QT / firePump.NOMINAL_PUMP_FLOW_QT -->
+                          {{ testPoint.NOMINAL_FLOW_PC | number:'1.2-2'}}
+                        </span>
+                      </td>
+
+                      <!-- Corrected Flow -->
+                      <td data-align="right">
+                        <span *ngIf="testPoint.CORRECTED_FLOW_QT">
+                          <!--testPoint.MEASURED_FLOW_QT * firePump.NOMINAL_PUMP_SPEED_QT / testPoint.PUMP_SPEED_QT-->
+                          {{ testPoint.CORRECTED_FLOW_QT | number:'1.2-2'}}
+                        </span>
+                      </td>
+
+                      <!-- Suction Pressure -->
+                      <td>
+                        <input #suctionPressure="ngModel" class="isc-form-control" type="text" required [(ngModel)]="testPoint.SUCTION_PRESSURE_QT" 
+                                (blur)="suctionPressureChange(firePumpInd, testDataInd, testPointInd);" />
+                        <span *ngIf="suctionPressure.errors" class="axis-help-block">
+                              {{validationMessagesObject.MSG1}}</span>
+                      </td>
+
+                      <!-- Discharge Pressure -->
+                      <td>
+                        <input #dischargePressure="ngModel" class="isc-form-control" type="text" required [(ngModel)]="testPoint.DISCHARGE_PRESSURE_QT" 
+                              (blur)="dischargePressureChange(firePumpInd, testDataInd, testPointInd);"
+                              (ngModelChange)="restrictInvalidInput(firePumpInd, testDataInd, testPointInd, 'dischargePressure');" />
+                        <span *ngIf="dischargePressure.errors" class="axis-help-block">
+                              {{validationMessagesObject.MSG1}}</span>
+                      </td>
+
+                      <!-- Net Pressure -->
+                      <td data-align="right">
+                        <span *ngIf="testPoint.NET_PRESSURE_QT || testPoint.NET_PRESSURE_QT == '0'">
+                          <!--testPoint.DISCHARGE_PRESSURE_QT - testPoint.SUCTION_PRESSURE_QT-->
+                          {{ testPoint.NET_PRESSURE_QT | number:'1.2-2'}}
+                        </span>
+                      </td>
+
+                      <!-- Corrected Pressure -->
+                      <td data-align="right">
+                        <span *ngIf="testPoint.CORRECTED_PRESSURE_QT">
+                          <!--testPoint.NET_PRESSURE_QT * firePump.NOMINAL_PUMP_SPEED_QT / testPoint.PUMP_SPEED_QT * firePump.NOMINAL_PUMP_SPEED_QT / testPoint.PUMP_SPEED_QT-->
+                          {{ testPoint.CORRECTED_PRESSURE_QT | number:'1.2-2'}}
+                        </span> 
+                      </td>
+
+                      <!-- Speed -->
+                      <td>
+                        <input #speed="ngModel" class="isc-form-control" type="text" required [(ngModel)]="testPoint.PUMP_SPEED_QT" 
+                              (blur)="speedChange(firePumpInd, testDataInd, testPointInd);" />
+                        <span *ngIf="speed.errors" class="axis-help-block">
+                              {{validationMessagesObject.MSG1}}</span>
+                      </td>
+
+                      <!-- Rating -->
+                      <td *ngIf="testPointInd == 0">Not Applicable</td>
+                      <td *ngIf="testPointInd > 0 && testPoint.RATING_DS">
+                        <dropdown-container 
+                            *ngIf="rating"
+                            isRequired=true
+                            placeholder="Please Select"
+                            [(inputData)]="testPoint.RATING_DS"                       
+                            [list]="rating"
+                            [displayProperty]="'Description'">
+                        </dropdown-container>
+                      </td>
+
+                      <!-- Copy -->
+                      <td data-align="right" width="5%">
+                        <button class="isc-btn isc-btn-icon" data-isc-button="icon" size="small" 
+                                (click)="copyTestPoint(testPoint, firePumpInd, testDataInd, testPointInd);">
+                          <span class="material-icons" title="Copy">content_copy</span>
+                        </button>
+                      </td>
+
+                      <!-- Delete/Trash -->
+                      <td data-align="center" width="5%">
+                        <button class="isc-btn isc-btn-icon" data-isc-button="icon" size="small" 
+                                *ngIf="testPointInd > 0"
+                                (click)="deleteTestPoint(firePumpInd, testDataInd, testPointInd);">
+                          <span class="material-icons" title="Delete">delete</span>
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="isc-input-group isc-input-group-sm isc-row-insert">
+                          <input class="isc-form-control" type="number" 
+                                [(ngModel)]="addCountArray[firePumpInd].addTestPointCount[testDataInd]" 
+                                [disabled]="testData.FirePumpTestPointsList.length >=25">
+                          <span class="isc-input-group-btn">
+                            <button class="isc-btn isc-btn-primary" data-isc-button="primary" 
+                                    (click)="addTestPoint(firePumpInd, testDataInd, addCountArray[firePumpInd].addTestPointCount[testDataInd]);"
+                                    [disabled]="testData.FirePumpTestPointsList.length >=25">
+                                <span class="material-icons ">add</span> Test Point
+                            </button>
+                          </span> 
+                        </div>
+                      </td>
+                      <td></td><td></td><td></td><td></td><td></td><td></td>
+                      <td></td><td></td><td></td><td></td><td></td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                  </tfoot>
+                </table>
+              </td>
+              <fire-pump-chart #modal [inputChartData]=firePump [testDataInd]=testDataInd [xUnit]=rfsUnit [yUnit]=rfsPressureUnit></fire-pump-chart>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="isc-card-row" data-separator-top>
+      <div class="isc-input-group isc-input-group-sm isc-row-insert">
+        <input class="isc-form-control" type="number" [(ngModel)]="addCountArray[firePumpInd].addTestDataCount"
+              [disabled]="firePump.FirePumpPerfList && firePump.FirePumpPerfList.length >= 25">
+        <span class="isc-input-group-btn">
+          <button class="isc-btn isc-btn-primary" data-isc-button="primary"
+                  (click)="addTestData(firePumpInd, addCountArray[firePumpInd].addTestDataCount);"
+                  [disabled]="firePump.FirePumpPerfList && firePump.FirePumpPerfList.length >= 25">
+              <span class="material-icons ">add</span> Test Data
+          </button>
+        </span> 
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="isc-card">
+  <div class="isc-card-row">
+    <div class="isc-input-group isc-input-group-sm isc-row-insert" *ngIf="firePumpData">
+      <input class="isc-form-control" type="number" [(ngModel)]="addFirePumpCount"
+             [disabled]="firePumpData.length >= 25">
+      <span class="isc-input-group-btn">
+        <button class="isc-btn isc-btn-primary" data-isc-button="primary"
+                (click)="addFirePump(addFirePumpCount);"
+                [disabled]="firePumpData.length >= 25">
+            <span class="material-icons ">add</span> Pump
+        </button>
+      </span> 
+    </div>
+  </div>
+</div>
+
+<!--<div class="isc-grid" data-equal-column-height="true">
+  <div class="isc-col-md-6">
+    <div class="isc-card">
+      <div class="isc-card-heading">
+        <div class="isc-card-title">
+          <h4>Risk improvements <span class="isc-badge">2</span></h4>
+        </div>
+      </div>
+      <div class="isc-table-responsive">
+        <table class="isc-table isc-table-basic">
+          <colgroup>
+          <col />
+          <col class="_w-15"/>
+          <col class="_w-15"/>
+          <col class="_w-px-50"/>
+          </colgroup>
+          <thead>
+            <tr>
+              <th>Rec</th>
+              <th data-align="right">LE before</th>
+              <th data-align="right">LE after</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href>Self-Inspection Program Updates</a>
+                <div data-color="muted">16-03-01</div></td>
+              <td data-vert-align="top" data-align="right">1,500,000</td>
+              <td data-vert-align="top" data-align="right">500,000</td>
+              <td data-vert-align="top" data-align="right">
+                <button class="isc-btn isc-btn-icon">
+                  <span class="material-icons" title="Delete">delete</span>	
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td><a href>Planned Preventative Maintenance on Electrical Systems</a>
+                <div data-color="muted">16-03-02</div></td>
+              <td data-vert-align="top" data-align="right">900,000</td>
+              <td data-vert-align="top" data-align="right">400,000</td>
+              <td data-vert-align="top" data-align="right">
+                <button class="isc-btn isc-btn-icon">
+                  <span class="material-icons" title="Delete">delete</span>	
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="isc-card-footer">
+        <button class="isc-btn isc-btn-primary"><span class="material-icons">add</span> RI</button>
+      </div>
+    </div>
+  </div>
+  <div class="isc-col-md-6">
+    <div class="isc-card">
+      <div class="isc-card-heading">
+        <div class="isc-card-title">
+          <h4>Hazards</h4>
+        </div>
+      </div>
+      <div class="isc-card-body">
+        <h4>Hazard Content...</h4>
+      </div>
+      <div class="isc-card-footer">
+        <button class="isc-btn isc-btn-primary"><span class="material-icons">add</span> Hazard</button>
+      </div>
+    </div>
+  </div>
+</div>-->
+
+

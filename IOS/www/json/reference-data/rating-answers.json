@@ -1,0 +1,217 @@
+[
+    {
+        "RatQueCategory": "Exposure",
+        "RatNarrative": "Negligible",
+        "Scores": "10"
+    },
+    {
+        "RatQueCategory": "Exposure",
+        "RatNarrative": "Slight",
+        "Scores": "8"
+    },
+    {
+        "RatQueCategory": "Exposure",
+        "RatNarrative": "Moderate",
+        "Scores": "6"
+    },
+    {
+        "RatQueCategory": "Exposure",
+        "RatNarrative": "High",
+        "Scores": "4"
+    },
+    {
+        "RatQueCategory": "Exposure",
+        "RatNarrative": "Severe",
+        "Scores": "0"
+    },
+    {
+        "RatQueCategory": "Construction",
+        "RatNarrative": "ISO 6 / Class AA  - Fire Resistive",
+        "Scores": "10"
+    },
+    {
+        "RatQueCategory": "Construction",
+        "RatNarrative": "ISO 5 / Class A -  Modified Fire Resistive",
+        "Scores": "8.0000001"
+    },
+    {
+        "RatQueCategory": "Construction",
+        "RatNarrative": "ISO 4 / Class B  - Masonry Noncombustible with noncombustible metal deck roof",
+        "Scores": "8"
+    },
+    {
+        "RatQueCategory": "Construction",
+        "RatNarrative": "ISO 3 / Class B   Non-combustible (Light noncombustible with noncombustible metal deck roof)",
+        "Scores": "6.0000002"
+    },
+    {
+        "RatQueCategory": "Construction",
+        "RatNarrative": "FM Approved Metal Sandwich Panels and EIFS meeting “special exemption criteria”",
+        "Scores": "6.0000001"
+    },
+    {
+        "RatQueCategory": "Construction",
+        "RatNarrative": "LPBC listed / Approved Metal Sandwich Panels",
+        "Scores": "6"
+    },
+    {
+        "RatQueCategory": "Construction",
+        "RatNarrative": "ISO 2 / Class C - Joisted Masonry",
+        "Scores": "4.0000003"
+    },
+    {
+        "RatQueCategory": "Construction",
+        "RatNarrative": "ISO 3 with combustible metal deck roofs / Class C",
+        "Scores": "4.0000002"
+    },
+    {
+        "RatQueCategory": "Construction",
+        "RatNarrative": "ISO 4 with combustible metal deck roofs / Class C",
+        "Scores": "4.0000001"
+    },
+    {
+        "RatQueCategory": "Construction",
+        "RatNarrative": "Metal Sandwich Panels with polyurethane insulation",
+        "Scores": "4"
+    },
+    {
+        "RatQueCategory": "Construction",
+        "RatNarrative": "ISO 1 / Class D – Frame",
+        "Scores": "0.0000002"
+    },
+    {
+        "RatQueCategory": "Construction",
+        "RatNarrative": "Metal Sandwich Panels with polystyrene insulation",
+        "Scores": "0.0000001"
+    },
+    {
+        "RatQueCategory": "Construction",
+        "RatNarrative": "Exterior Insulation Finish Systems (EIFS)",
+        "Scores": "0"
+    },
+    {
+        "RatQueCategory": "Water Supply",
+        "RatNarrative": "Excellent",
+        "Scores": "10"
+    },
+    {
+        "RatQueCategory": "Water Supply",
+        "RatNarrative": "Good",
+        "Scores": "8"
+    },
+    {
+        "RatQueCategory": "Water Supply",
+        "RatNarrative": "Adequate",
+        "Scores": "6"
+    },
+    {
+        "RatQueCategory": "Water Supply",
+        "RatNarrative": "Nearly Adequate",
+        "Scores": "4"
+    },
+    {
+        "RatQueCategory": "Water Supply",
+        "RatNarrative": "Inadequate",
+        "Scores": "0"
+    },
+    {
+        "RatQueCategory": "Supervision",
+        "RatNarrative": "Excellent",
+        "Scores": "10"
+    },
+    {
+        "RatQueCategory": "Supervision",
+        "RatNarrative": "Good",
+        "Scores": "8"
+    },
+    {
+        "RatQueCategory": "Supervision",
+        "RatNarrative": "Adequate",
+        "Scores": "6"
+    },
+    {
+        "RatQueCategory": "Supervision",
+        "RatNarrative": "Nearly Adequate",
+        "Scores": "4"
+    },
+    {
+        "RatQueCategory": "Supervision",
+        "RatNarrative": "Inadequate",
+        "Scores": "0"
+    },
+    {
+        "RatQueCategory": "Hazards - Process & Common",
+        "RatNarrative": "Not Present",
+        "Scores": "10"
+    },
+    {
+        "RatQueCategory": "Hazards - Process & Common",
+        "RatNarrative": "Slight",
+        "Scores": "8"
+    },
+    {
+        "RatQueCategory": "Hazards - Process & Common",
+        "RatNarrative": "Low",
+        "Scores": "6"
+    },
+    {
+        "RatQueCategory": "Hazards - Process & Common",
+        "RatNarrative": "Moderate",
+        "Scores": "4"
+    },
+    {
+        "RatQueCategory": "Hazards - Process & Common",
+        "RatNarrative": "Severe",
+        "Scores": "0"
+    },
+    {
+        "RatQueCategory": "Protection",
+        "RatNarrative": "Excellent",
+        "Scores": "10"
+    },
+    {
+        "RatQueCategory": "Protection",
+        "RatNarrative": "Good",
+        "Scores": "8"
+    },
+    {
+        "RatQueCategory": "Protection",
+        "RatNarrative": "Adequate",
+        "Scores": "6"
+    },
+    {
+        "RatQueCategory": "Protection",
+        "RatNarrative": "Nearly Adequate",
+        "Scores": "4"
+    },
+    {
+        "RatQueCategory": "Protection",
+        "RatNarrative": "Inadequate",
+        "Scores": "0"
+    },
+    {
+        "RatQueCategory": "Human Element",
+        "RatNarrative": "Excellent",
+        "Scores": "10"
+    },
+    {
+        "RatQueCategory": "Human Element",
+        "RatNarrative": "Good",
+        "Scores": "8"
+    },
+    {
+        "RatQueCategory": "Human Element",
+        "RatNarrative": "Adequate",
+        "Scores": "6"
+    },
+    {
+        "RatQueCategory": "Human Element",
+        "RatNarrative": "Nearly Adequate",
+        "Scores": "4"
+    },
+    {
+        "RatQueCategory": "Human Element",
+        "RatNarrative": "Inadequate",
+        "Scores": "0"
+    }
+]

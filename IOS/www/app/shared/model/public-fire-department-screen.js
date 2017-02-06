@@ -1,0 +1,9 @@
+"use strict";
+var PublicFireDepartmentScreen = (function () {
+    function PublicFireDepartmentScreen() {
+    }
+    return PublicFireDepartmentScreen;
+}());
+exports.PublicFireDepartmentScreen = PublicFireDepartmentScreen;
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC9zaGFyZWQvbW9kZWwvcHVibGljLWZpcmUtZGVwYXJ0bWVudC1zY3JlZW4udHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBO0lBQUE7SUFFQSxDQUFDO0lBQUQsaUNBQUM7QUFBRCxDQUZBLEFBRUMsSUFBQTtBQUZZLGtDQUEwQiw2QkFFdEMsQ0FBQSIsImZpbGUiOiJhcHAvc2hhcmVkL21vZGVsL3B1YmxpYy1maXJlLWRlcGFydG1lbnQtc2NyZWVuLmpzIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNsYXNzIFB1YmxpY0ZpcmVEZXBhcnRtZW50U2NyZWVuIHtcclxuXHJcbn0iXX0=

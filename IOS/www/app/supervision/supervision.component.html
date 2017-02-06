@@ -1,0 +1,12 @@
+<div (click)="$event.preventDefault()">
+  <isc-tabset class="isc-nav-tabs-secondary" role="tabpanel">
+
+    <isc-tab heading="Security" (select)="loadComponent(1)">
+        <security *ngIf="pageToggle == '1'"></security>
+    </isc-tab>
+    <isc-tab heading="Automatic Fire Detection" (select)="loadComponent(2)">
+        <automatic-fire-detection *ngIf="pageToggle == '2'"></automatic-fire-detection>
+    </isc-tab>
+
+  </isc-tabset>
+</div>

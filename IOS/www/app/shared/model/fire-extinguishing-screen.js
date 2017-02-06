@@ -1,0 +1,9 @@
+"use strict";
+var FireExtinguishingScreen = (function () {
+    function FireExtinguishingScreen() {
+    }
+    return FireExtinguishingScreen;
+}());
+exports.FireExtinguishingScreen = FireExtinguishingScreen;
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC9zaGFyZWQvbW9kZWwvZmlyZS1leHRpbmd1aXNoaW5nLXNjcmVlbi50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQUE7SUFBQTtJQUVBLENBQUM7SUFBRCw4QkFBQztBQUFELENBRkEsQUFFQyxJQUFBO0FBRlksK0JBQXVCLDBCQUVuQyxDQUFBIiwiZmlsZSI6ImFwcC9zaGFyZWQvbW9kZWwvZmlyZS1leHRpbmd1aXNoaW5nLXNjcmVlbi5qcyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjbGFzcyBGaXJlRXh0aW5ndWlzaGluZ1NjcmVlbiB7XHJcblxyXG59Il19

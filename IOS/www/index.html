@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- paths must remain relative -->
+    <base href="./">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Risk Solutions Workspace</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css?1474230375092">    
+    <link rel="stylesheet" href="node_modules/nvd3/build/nv.d3.min.css?1474230375092"> <!-- TEMP ADD Remove it after sorting out css injection issue -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    
+</head>
+
+<!-- Step-1:  Added : ng-app="ibmApp" ng-controller="appCtrl" -->
+<body ng-app="ibmApp">
+
+  <!--<ion-side-menus enable-menu-with-back-views="true" ng-cloak>
+        
+        <ion-side-menu side="right">
+            <ul class="list menuList">
+			
+			  	
+          		<a menu-close class="item item-icon-left" ui-sref="settings">
+			  		<i class="icon"></i> Application Settings
+			  	</a>
+			  	
+		  	</ul>
+        </ion-side-menu>
+        <ion-side-menu-content> -->
+
+
+
+ <axis-app>Loading...</axis-app>
+
+<script>
+    // Fixes undefined module function in SystemJS bundle
+    function module() {}
+</script>
+
+<!-- shims:js -->
+<script src="node_modules/core-js/client/shim.min.js?1481087365138"></script>
+<script src="node_modules/systemjs/dist/system.src.js?1481087365142"></script>
+<!-- endinject -->
+
+
+
+<script src="system-config.js"></script>
+
+
+<!-- libs:js -->
+<script src="node_modules/zone.js/dist/zone.js?1481087365150"></script>
+<script src="node_modules/rxjs/bundles/Rx.min.js?1481087365152"></script>
+<script src="node_modules/tinymce/tinymce.min.js?1481087365153"></script>
+<script src="node_modules/d3/d3.min.js?1481087365155"></script>
+<script src="node_modules/nvd3/build/nv.d3.min.js?1481087365156"></script>
+<!-- endinject -->
+
+ <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+<!-- inject:js -->
+<!-- Integrated app's js -->
+    <script src="js/app.js"></script>
+    <!--<script src="js/controllers.js"></script>
+    <script src="js/services.js"></script>-->
+<!-- endinject -->
+
+<script>
+    System.import('main')
+            .catch(function (e) {
+                console.error(e,
+                        'Error loading axis framework!!');
+            });
+</script>
+
+
+<script>
+var ELECTRON_DETECTED  = (window && window.process && window.process.type) == "renderer";
+
+if (ELECTRON_DETECTED) {
+    console.log("Electron Version");
+    System.set('electron', System.newModule(require('electron')));
+} else {
+    console.log("Web Version");
+    System.set('electron', System.newModule({})); // Makes dummy
+}
+</script>
+</body>
+</html>

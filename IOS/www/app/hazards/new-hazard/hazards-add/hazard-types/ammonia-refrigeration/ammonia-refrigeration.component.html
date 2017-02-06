@@ -1,0 +1,297 @@
+<!-- Ammonia refrigeration systems Section Starts -->
+<div class="isc-form-horizontal isc-reveal">
+    <div class="isc-form-group">    
+        <div class="isc-col-md-4">
+           <label class="isc-control-label" for="hazardName">Hazard Name</label>
+           <input class="isc-form-control" type="text" name="hazardName" placeholder="Enter Hazard Name"  spellcheck="true" [(ngModel)]="model.OFFLNS_HAZARD_NM"/>
+        </div>
+        <div class="isc-col-md-4">
+          <label class="isc-control-label" for="areasize">Area size</label>
+          <input class="isc-form-control" type="number" name="areasize" placeholder="Enter Area size" [(ngModel)]="model.OFFLNN_AREA_SIZE"/>
+        </div>
+        <div class="isc-col-md-4">
+          <label class="isc-control-label" for="ammoniaQuantity">Ammonia Quantity in system (kg/lbs)</label>
+          <input class="isc-form-control" type="number" name="ammoniaQuantity" placeholder="Enter Ammonia Quantity in system" [(ngModel)]="model.OFFLNN_AMMONIA_QUANTITY"/>
+        </div>    
+    </div>
+
+    <div class="isc-form-group">
+        <label class="isc-col-md-3 isc-control-label" for="hmCutoffRating">Cutoff Rating</label>
+        <div class="isc-col-md-9">
+          <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="hmCutoffRating" id="hmCutoffRatingHalf" value="1/2" [(ngModel)]="model.OFFLNS_CUTOFF_RATING">
+            <label for="hmCutoffRatingHalf">1/2</label>
+          </div>
+          <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="hmCutoffRating" id="hmCutoffRatingOne" value="1" [(ngModel)]="model.OFFLNS_CUTOFF_RATING">
+            <label for="hmCutoffRatingOne">1</label>
+          </div>
+          <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="hmCutoffRating" id="hmCutoffRatingTwo" value="2" [(ngModel)]="model.OFFLNS_CUTOFF_RATING">
+            <label for="hmCutoffRatingTwo">2</label>
+          </div>  
+          <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="hmCutoffRating" id="hmCutoffRatingThree" value="3" [(ngModel)]="model.OFFLNS_CUTOFF_RATING">
+            <label for="hmCutoffRatingThree">3</label>
+          </div>  
+          <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="hmCutoffRating" id="hmCutoffRatingFour" value="4" [(ngModel)]="model.OFFLNS_CUTOFF_RATING">
+            <label for="hmCutoffRatingFour">4</label>
+          </div>  
+          <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="hmCutoffRating" id="hmCutoffRatingNone" value="None" [(ngModel)]="model.OFFLNS_CUTOFF_RATING">
+            <label for="hmCutoffRatingNone">None</label>
+          </div>  
+          <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="hmCutoffRating" id="hmCutoffRatingUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_CUTOFF_RATING">
+            <label for="hmCutoffRatingUnknown">Unknown</label>
+          </div>               
+        </div>
+      </div>
+
+    <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="hmCoolingSystemType">Cooling System Type</label>
+      <div class="isc-col-md-9">
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmCoolingSystemType" id="hmCoolingSystemTypeDirect" value="Direct" [(ngModel)]="model.OFFLNS_COOLING_SYSTEM">
+          <label for="hmCoolingSystemTypeDirect">Direct</label>
+        </div>
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmCoolingSystemType" id="hmCoolingSystemTypeIndirect" value="Indirect" [(ngModel)]="model.OFFLNS_COOLING_SYSTEM">
+          <label for="hmCoolingSystemTypeIndirect">Indirect</label>
+        </div>                        
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmCoolingSystemType" id="hmCoolingSystemTypeUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_COOLING_SYSTEM">
+          <label for="hmCoolingSystemTypeUnknown">Unknown</label>
+        </div>               
+      </div>
+    </div>
+
+    <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="hmAmmoniaGasDetection">Ammonia Gas Detection Sensor installed over possible Leakage points?</label>
+      <div class="isc-col-md-9">
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmAmmoniaGasDetection" id="hmAmmoniaGasDetectionYes" value="Yes" [(ngModel)]="model.OFFLNS_AMMONIA_GAS_DETECTION">
+          <label for="hmAmmoniaGasDetectionYes">Yes</label>
+        </div>
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmAmmoniaGasDetection" id="hmAmmoniaGasDetectionNo" value="No" [(ngModel)]="model.OFFLNS_AMMONIA_GAS_DETECTION">
+          <label for="hmAmmoniaGasDetectionNo">No</label>
+        </div>                        
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmAmmoniaGasDetection" id="hmAmmoniaGasDetectionUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_AMMONIA_GAS_DETECTION">
+          <label for="hmAmmoniaGasDetectionUnknown">Unknown</label>
+        </div>                      
+      </div>
+    </div>
+
+    <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="hmGasDetection">Gas detection connected to a constantly attended station?</label>
+      <div class="isc-col-md-9">
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmGasDetection" id="hmGasDetectionYes" value="Yes" [(ngModel)]="model.OFFLNS_GAS_DETECTION_STATION">
+          <label for="hmGasDetectionYes">Yes</label>
+        </div>
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmGasDetection" id="hmGasDetectionNo" value="No" [(ngModel)]="model.OFFLNS_GAS_DETECTION_STATION">
+          <label for="hmGasDetectionNo">No</label>
+        </div>                        
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmGasDetection" id="hmGasDetectionUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_GAS_DETECTION_STATION">
+          <label for="hmGasDetectionUnknown">Unknown</label>
+        </div>                      
+      </div>
+    </div>
+
+    <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="hmMachineRoom">Machine Room continuous ventilation running</label>
+      <div class="isc-col-md-9">
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmMachineRoom" id="hmMachineRoomYes" value="Yes" [(ngModel)]="model.OFFLNS_MACHINE_ROOM_VENTILATION">
+          <label for="hmMachineRoomYes">Yes</label>
+        </div>
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmMachineRoom" id="hmMachineRoomNo" value="No" [(ngModel)]="model.OFFLNS_MACHINE_ROOM_VENTILATION">
+          <label for="hmMachineRoomNo">No</label>
+        </div>                        
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmMachineRoom" id="hmMachineRoomUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_MACHINE_ROOM_VENTILATION">
+          <label for="hmMachineRoomUnknown">Unknown</label>
+        </div>                      
+      </div>
+    </div>
+
+    <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="hmMachineRoomEmergency">Machine Room Emergency Ventilation</label>
+      <div class="isc-col-md-9">
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmMachineRoomEmergency" id="hmMachineRoomEmergencyYes" value="Yes" [(ngModel)]="model.OFFLNS_MACHINE_ROOM_EMERGENCY">
+          <label for="hmMachineRoomEmergencyYes">Yes</label>
+        </div>
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmMachineRoomEmergency" id="hmMachineRoomEmergencyNo" value="No" [(ngModel)]="model.OFFLNS_MACHINE_ROOM_EMERGENCY">
+          <label for="hmMachineRoomEmergencyNo">No</label>
+        </div>                        
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmMachineRoomEmergency" id="hmMachineRoomEmergencyUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_MACHINE_ROOM_EMERGENCY">
+          <label for="hmMachineRoomEmergencyUnknown">Unknown</label>
+        </div>                      
+      </div>
+    </div>
+
+    <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="hmVentilation">Ventilation Fan Key Control Outside of Room</label>
+      <div class="isc-col-md-9">
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmVentilation" id="hmVentilationYes" value="Yes" [(ngModel)]="model.OFFLNS_VENTILATION_FAN">
+          <label for="hmVentilationYes">Yes</label>
+        </div>
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmVentilation" id="hmVentilationNo" value="No" [(ngModel)]="model.OFFLNS_VENTILATION_FAN">
+          <label for="hmVentilationNo">No</label>
+        </div>                        
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmVentilation" id="hmVentilationUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_VENTILATION_FAN">
+          <label for="hmVentilationUnknown">Unknown</label>
+        </div>                      
+      </div>
+    </div>
+
+    <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="hmElectricalEquipment">Machine Room Electrical Equipment Classification</label>
+      <div class="isc-col-md-9">
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmElectricalEquipment" id="hmElectricalEquipmentDiv1" value="CL1 Div1" [(ngModel)]="model.OFFLNS_MACHINE_ROOM_ELECTRICAL">
+          <label for="hmElectricalEquipmentDiv1">CL1 Div1</label>
+        </div>
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmElectricalEquipment" id="hmElectricalEquipmentDiv2" value="CL1 Div2" [(ngModel)]="model.OFFLNS_MACHINE_ROOM_ELECTRICAL">
+          <label for="hmElectricalEquipmentDiv2">CL1 Div2</label>
+        </div>
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmElectricalEquipment" id="hmElectricalEquipmentOrdinary" value="Ordinary" [(ngModel)]="model.OFFLNS_MACHINE_ROOM_ELECTRICAL">
+          <label for="hmElectricalEquipmentOrdinary">Ordinary</label>
+        </div> 
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmElectricalEquipment" id="hmElectricalEquipmentEUexplosion" value="EU explosion" [(ngModel)]="model.OFFLNS_MACHINE_ROOM_ELECTRICAL">
+          <label for="hmElectricalEquipmentEUexplosion">EU explosion</label>
+        </div>                        
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmElectricalEquipment" id="hmElectricalEquipmentproof" value="proof" [(ngModel)]="model.OFFLNS_MACHINE_ROOM_ELECTRICAL">
+          <label for="hmElectricalEquipmentproof">proof</label>
+        </div> 
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmElectricalEquipment" id="hmElectricalEquipmentUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_MACHINE_ROOM_ELECTRICAL">
+          <label for="hmElectricalEquipmentUnknown">Unknown</label>
+        </div>                      
+      </div>
+    </div>
+
+    <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="hmExplosionVenting">Machine Room Explosion Venting</label>
+      <div class="isc-col-md-9">
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmExplosionVenting" id="hmExplosionVentingYes" value="Yes" [(ngModel)]="model.OFFLNS_MACHINE_ROOM_EXPLLOSION">
+          <label for="hmExplosionVentingYes">Yes</label>
+        </div>
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmExplosionVenting" id="hmExplosionVentingNo" value="No" [(ngModel)]="model.OFFLNS_MACHINE_ROOM_EXPLLOSION">
+          <label for="hmExplosionVentingNo">No</label>
+        </div>                        
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmExplosionVenting" id="hmExplosionVentingUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_MACHINE_ROOM_EXPLLOSION">
+          <label for="hmExplosionVentingUnknown">Unknown</label>
+        </div>                      
+      </div>
+    </div>
+
+    <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="hmEmergencyOrganization">Emergency Organization adequate for the hazard</label>
+      <div class="isc-col-md-9">
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmEmergencyOrganization" id="hmEmergencyOrganizationYes" value="Yes" [(ngModel)]="model.OFFLNS_EMERGENCY_ORGANIZATION">
+          <label for="hmEmergencyOrganizationYes">Yes</label>
+        </div>
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmEmergencyOrganization" id="hmEmergencyOrganizationNo" value="No" [(ngModel)]="model.OFFLNS_EMERGENCY_ORGANIZATION">
+          <label for="hmEmergencyOrganizationNo">No</label>
+        </div> 
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmEmergencyOrganization" id="hmEmergencyOrganizationNA" value="N/A" [(ngModel)]="model.OFFLNS_EMERGENCY_ORGANIZATION">
+          <label for="hmEmergencyOrganizationNA">N/A</label>
+        </div>                        
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmEmergencyOrganization" id="hmEmergencyOrganizationUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_EMERGENCY_ORGANIZATION">
+          <label for="hmEmergencyOrganizationUnknown">Unknown</label>
+        </div>                      
+      </div>
+    </div>
+
+    <div class="isc-form-group">
+        <label class="isc-col-md-3 isc-control-label" for="hmCeilingSprinklerSystem">Ceiling Sprinkler System</label>
+        <div class="isc-col-md-9">
+          <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="hmCeilingSprinklerSystem" id="hmCeilingSprinklerSystemAutomatic" value="Automatic" [(ngModel)]="model.OFFLNS_CEILING_SPRINKLER">
+            <label for="hmCeilingSprinklerSystemAutomatic">Automatic</label>
+          </div>
+          <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="hmCeilingSprinklerSystem" id="hmCeilingSprinklerSystemManual" value="Manual" [(ngModel)]="model.OFFLNS_CEILING_SPRINKLER">
+            <label for="hmCeilingSprinklerSystemManual">Manual</label>
+          </div>
+          <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="hmCeilingSprinklerSystem" id="hmCeilingSprinklerSystemNone" value="None" [(ngModel)]="model.OFFLNS_CEILING_SPRINKLER">
+            <label for="hmCeilingSprinklerSystemNone">None</label>
+          </div>
+          <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="hmCeilingSprinklerSystem" id="hmCeilingSprinklerSystemUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_CEILING_SPRINKLER">
+            <label for="hmCeilingSprinklerSystemUnknown">Unknown</label>
+          </div>                      
+        </div>
+    </div>
+
+    <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="hmOperatorsPersonnel">Operators/Personnel trained</label>
+      <div class="isc-col-md-9">
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmOperatorsPersonnel" id="hmOperatorsPersonnelYes" value="Yes" [(ngModel)]="model.OFFLNS_OPERATORS_TRAINED">
+          <label for="hmOperatorsPersonnelYes">Yes</label>
+        </div>
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmOperatorsPersonnel" id="hmOperatorsPersonnelNo" value="No" [(ngModel)]="model.OFFLNS_OPERATORS_TRAINED">
+          <label for="hmOperatorsPersonnelNo">No</label>
+        </div> 
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmOperatorsPersonnel" id="hmOperatorsPersonnelNA" value="N/A" [(ngModel)]="model.OFFLNS_OPERATORS_TRAINED">
+          <label for="hmOperatorsPersonnelNA">N/A</label>
+        </div>                        
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmOperatorsPersonnel" id="hmOperatorsPersonnelUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_OPERATORS_TRAINED">
+          <label for="hmOperatorsPersonnelUnknown">Unknown</label>
+        </div>                      
+      </div>
+    </div>
+
+    <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="hmIceplugprevention">Ice plug prevention / monitoring at chillers</label>
+      <div class="isc-col-md-9">
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmIceplugprevention" id="hmIceplugpreventionYes" value="Yes" [(ngModel)]="model.OFFLNS_ICE_PLUG_PREVENTION">
+          <label for="hmIceplugpreventionYes">Yes</label>
+        </div>
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmIceplugprevention" id="hmIceplugpreventionNo" value="No" [(ngModel)]="model.OFFLNS_ICE_PLUG_PREVENTION">
+          <label for="hmIceplugpreventionNo">No</label>
+        </div> 
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmIceplugprevention" id="hmIceplugpreventionNA" value="N/A" [(ngModel)]="model.OFFLNS_ICE_PLUG_PREVENTION">
+          <label for="hmIceplugpreventionNA">N/A</label>
+        </div>                        
+        <div class="isc-radio isc-radio-inline">
+          <input type="radio" name="hmIceplugprevention" id="hmIceplugpreventionUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_ICE_PLUG_PREVENTION">
+          <label for="hmIceplugpreventionUnknown">Unknown</label>
+        </div>                      
+      </div>
+    </div>
+
+</div>
+<!-- Ammonia refrigeration systems Section Ends -->

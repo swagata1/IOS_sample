@@ -1,0 +1,9 @@
+"use strict";
+var GeneralExposuresScreen = (function () {
+    function GeneralExposuresScreen() {
+    }
+    return GeneralExposuresScreen;
+}());
+exports.GeneralExposuresScreen = GeneralExposuresScreen;
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC9zaGFyZWQvbW9kZWwvZ2VuZXJhbC1leHBvc3VyZXMtc2NyZWVuLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQTtJQUFBO0lBRUEsQ0FBQztJQUFELDZCQUFDO0FBQUQsQ0FGQSxBQUVDLElBQUE7QUFGWSw4QkFBc0IseUJBRWxDLENBQUEiLCJmaWxlIjoiYXBwL3NoYXJlZC9tb2RlbC9nZW5lcmFsLWV4cG9zdXJlcy1zY3JlZW4uanMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY2xhc3MgR2VuZXJhbEV4cG9zdXJlc1NjcmVlbiB7XHJcblxyXG59Il19

@@ -1,0 +1,18 @@
+[
+  {
+    "Code": "CRT",
+    "Description": "Critical"
+  },
+  {
+    "Code": "IMP",
+    "Description": "Important"
+  },
+  {
+    "Code": "ADV",
+    "Description": "Advisory"
+  },
+  {
+    "Code": "CO",
+    "Description": "Code"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "BuildingFloodZoneCode": "FZ1",
+    "Description": "No Flood Exposure"
+  },
+  {
+    "BuildingFloodZoneCode": "FZ2",
+    "Description": "<=100-year Flood Zone"
+  },
+  {
+    "BuildingFloodZoneCode": "FZ3",
+    "Description": "500-year Flood Zone"
+  },
+  {
+    "BuildingFloodZoneCode": "FZ4",
+    "Description": "Protected by Levee"
+  },
+  {
+    "BuildingFloodZoneCode": "FZ6",
+    "Description": "Unknown"
+  },
+  {
+    "BuildingFloodZoneCode": "FZ7",
+    "Description": ">500-year Flood Zone"
+  },
+  {
+    "BuildingFloodZoneCode": "FZ8",
+    "Description": "within 1000ft of 100 Yr Flood Zone"
+  }
+]

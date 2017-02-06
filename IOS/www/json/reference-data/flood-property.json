@@ -1,0 +1,30 @@
+[
+  {
+    "PropertyFloodZoneCode": "PFZ",
+    "Description": ">500 yr flood zone"
+  },
+  {
+    "PropertyFloodZoneCode": "FivHun",
+    "Description": "500 yr flood zone"
+  },
+  {
+    "PropertyFloodZoneCode": "NoFlood",
+    "Description": "No Flood Exposure"
+  },
+  {
+    "PropertyFloodZoneCode": "Coastal",
+    "Description": "Protected by Levee"
+  },
+  {
+    "PropertyFloodZoneCode": "Unknown",
+    "Description": "Unknown"
+  },
+  {
+    "PropertyFloodZoneCode": "HFZ",
+    "Description": "<= 100 yr flood zone"
+  },
+  {
+    "PropertyFloodZoneCode": "HunFD",
+    "Description": "within 1000ft of 100 Yr Flood Zone"
+  }
+]

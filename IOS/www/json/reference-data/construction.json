@@ -1,0 +1,72 @@
+[{
+	"table1Heading": "Building Info",
+	"table2Heading": "Construction",
+	"unit" : "(sq ft)",
+	"footer1" : "AA, A, ISO6",
+	"footer2" : "AAA, ISO6",
+	"footer3" : "AAA, ISO6",
+	"tableData": [{
+		"name": "Block 1",
+		"values": [{
+			"GRASP_LOCATION_NM": "Building 1A",
+			"codeSchemeDescription": [{"item" : "Steel Construction"} , {"item" : "Wood Construction"}],
+			"dispW" : "RMS - 3B5",
+			"dispS" : "RMS - 2A2",
+			"STOREY_CT": "9",
+			"BUILDING_HEIGHT_FT_NO": "30",
+			"YEAR_BUILT_NO": "1989",
+			"LAST_UPGRADED_YEAR_NO": "1994",
+			"ENG_LATITUDE_NO": "30.424444",
+			"ENG_LONGITUDE_NO": "-80.42844",
+			"TYPE_ISO1_CLASS_D_AM": "15000",
+			"TYPE_ISO2_CLASS_C_AM": "18000",
+			"TYPE_CMD_ISO3_CLASS_C_AM": "28000",
+			"TYPE_ISO3_CLASS_B_AM": "25000",
+			"TYPE_CMD_ISO4_CLASS_C_AM": "10000",
+			"TYPE_ISO4_CLASS_B_AM": "18000",
+			"TYPE_ISO5_CLASS_A_AM": "22000",
+			"TYPE_ISO6_CLASS_AA_AM": "21000"
+		}, {
+			"GRASP_LOCATION_NM": "Building 1B",
+			"codeSchemeDescription": [{"item" : "Steel Construction"} , {"item" : "Wood Construction"}],
+			"dispW" : "RMS - 3B5",
+			"dispS" : "RMS - 2A2",
+			"STOREY_CT": "6",
+			"BUILDING_HEIGHT_FT_NO": "23",
+			"YEAR_BUILT_NO": "1999",
+			"LAST_UPGRADED_YEAR_NO": "2003",
+			"ENG_LATITUDE_NO": "99.424444",
+			"ENG_LONGITUDE_NO": "-40.42844",
+			"TYPE_ISO1_CLASS_D_AM": "10000",
+			"TYPE_ISO2_CLASS_C_AM": "12000",
+			"TYPE_CMD_ISO3_CLASS_C_AM": "22000",
+			"TYPE_ISO3_CLASS_B_AM": "12000",
+			"TYPE_CMD_ISO4_CLASS_C_AM": "9000",
+			"TYPE_ISO4_CLASS_B_AM": "1000",
+			"TYPE_ISO5_CLASS_A_AM": "15000",
+			"TYPE_ISO6_CLASS_AA_AM": "31000"
+		}]
+	}, {
+		"name": "Block 2",
+		"values": [{
+			"GRASP_LOCATION_NM": "Building 2A",
+			"codeSchemeDescription": [{"item" : "Steel Construction"} , {"item" : "Wood Construction"}],
+			"dispW" : "RMS - 3B5",
+			"dispS" : "RMS - 2A2",
+			"STOREY_CT": "2",
+			"BUILDING_HEIGHT_FT_NO": "22",
+			"YEAR_BUILT_NO": "2001",
+			"LAST_UPGRADED_YEAR_NO": "2005",
+			"ENG_LATITUDE_NO": "33.424444",
+			"ENG_LONGITUDE_NO": "-80.42844",
+			"TYPE_ISO1_CLASS_D_AM": "10000",
+			"TYPE_ISO2_CLASS_C_AM": "12000",
+			"TYPE_CMD_ISO3_CLASS_C_AM": "22000",
+			"TYPE_ISO3_CLASS_B_AM": "12000",
+			"TYPE_CMD_ISO4_CLASS_C_AM": "9000",
+			"TYPE_ISO4_CLASS_B_AM": "1000",
+			"TYPE_ISO5_CLASS_A_AM": "15000",
+			"TYPE_ISO6_CLASS_AA_AM": "31000"
+		}]
+	}]
+}]

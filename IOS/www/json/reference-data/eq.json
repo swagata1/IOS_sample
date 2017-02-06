@@ -1,0 +1,22 @@
+[
+  {
+    "EQZoneCode": 0,
+    "Description": "MR Zone 0:<MMV"
+  },
+  {
+    "EQZoneCode": 1,
+    "Description": "MR Zone 1:MMVI "
+  },
+  {
+    "EQZoneCode": 2,
+    "Description": "MR Zone 2:MMVII "
+  },
+  {
+    "EQZoneCode": 3,
+    "Description": "MR Zone 3:MMVIII "
+  },
+  {
+    "EQZoneCode": 4,
+    "Description": "MR Zone 4:>=MMIX"
+  }
+]

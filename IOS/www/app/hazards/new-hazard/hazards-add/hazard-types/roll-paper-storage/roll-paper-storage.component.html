@@ -1,0 +1,268 @@
+<!-- Roll Paper Storage Section Starts -->
+<div class="isc-form-horizontal isc-reveal">
+   <div class="isc-form-group">
+      <div class="isc-col-md-3">
+         <label class="isc-control-label" for="rpsHazardName">Hazard Name</label>
+         <input class="isc-form-control" type="text" name="rpsHazardName" id="rpsHazardName" value="" [(ngModel)]="model.OFFLNS_RPS_HAZARD_NAME" />
+      </div>
+      <div class="isc-col-md-3">
+         <label class="isc-control-label" for="rpsAreaSize">Area Size</label>
+         <input class="isc-form-control" type="number" name="rpsAreaSize" id="rpsAreaSize" value="" [(ngModel)]="model.OFFLNN_RPS_AREA_SIZE" />
+      </div>
+      <div class="isc-col-md-3">
+         <label class="isc-control-label" for="rpsCeilingHeight">Ceiling Height</label>
+         <input class="isc-form-control" type="number" name="rpsCeilingHeight" id="rpsCeilingHeight" value="" [(ngModel)]="model.OFFLNN_RPS_CEILING_HEIGHT" />
+      </div>
+      <div class="isc-col-md-3">
+         <label class="isc-control-label" for="rpsStorageHeight">Storage height</label>
+         <input class="isc-form-control" type="number" name="rpsStorageHeight" id="rpsStorageHeight" value="" [(ngModel)]="model.OFFLNN_RPS_STORAGE_HEIGHT" />
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="rpsCutOff">Cut Off Rating</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="rpsCutOff" id="rpsCutOffHalf" value="1/2" [(ngModel)]="model.OFFLNN_RPS_CUTOFF_RATING" />
+            <label for="rpsCutOffHalf">1/2</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="rpsCutOff" id="rpsCutOffOne" value="1" [(ngModel)]="model.OFFLNN_RPS_CUTOFF_RATING" />
+            <label for="rpsCutOffOne">1</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="rpsCutOff" id="rpsCutOffTwo" value="2" [(ngModel)]="model.OFFLNN_RPS_CUTOFF_RATING" />
+            <label for="rpsCutOffTwo">2</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="rpsCutOff" id="rpsCutOffThree" value="3" [(ngModel)]="model.OFFLNN_RPS_CUTOFF_RATING" />
+            <label for="rpsCutOffThree">3</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="rpsCutOff" id="rpsCutOffFour" value="4" [(ngModel)]="model.OFFLNN_RPS_CUTOFF_RATING" />
+            <label for="rpsCutOffFour">4</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="rpsCutOff" id="rpsCutOffNone" value="None" [(ngModel)]="model.OFFLNN_RPS_CUTOFF_RATING" />
+            <label for="rpsCutOffNone">None</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="rpsCutOff" id="rpsCutOffUnknown" value="Unknown" [(ngModel)]="model.OFFLNN_RPS_CUTOFF_RATING" />
+            <label for="rpsCutOffUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="rpsStorageArray">Storage Array</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="rpsStorageArray" id="rpsStorageArrayClosed" value="Closed" [(ngModel)]="model.OFFLNN_RPS_STORAGE_ARRAY" />
+            <label for="rpsStorageArrayClosed">Closed</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="rpsStorageArray" id="rpsStorageArrayOpen" value="Open" [(ngModel)]="model.OFFLNN_RPS_STORAGE_ARRAY" />
+            <label for="rpsStorageArrayOpen">Open</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="rpsStorageArray" id="rpsStorageArrayStandard" value="Standard" [(ngModel)]="model.OFFLNN_RPS_STORAGE_ARRAY" />
+            <label for="rpsStorageArrayStandard">Standard</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="rpsStorageArray" id="rpsStorageArrayUnknown" value="Unknown" [(ngModel)]="model.OFFLNN_RPS_STORAGE_ARRAY" />
+            <label for="rpsStorageArrayUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="rpsPalletType">Pallet Type</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="rpsPalletTypeWood" id="rpsPalletTypeWood" value="Wood" [(ngModel)]="model.OFFLNN_RPS_PALLET_TYPES_WOOD" />
+            <label for="rpsPalletTypeWood">Wood</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="rpsPalletTypePlastic" id="rpsPalletTypePlastic" value="Plastic" [(ngModel)]="model.OFFLNN_RPS_PALLET_TYPES_PLASTIC" />
+            <label for="rpsPalletTypePlastic">Plastic</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="rpsPalletTypeCardboard" id="rpsPalletTypeCardboard" value="Cardboard" [(ngModel)]="model.OFFLNN_RPS_PALLET_TYPES_CARDBOARD" />
+            <label for="rpsPalletTypeCardboard">Cardboard</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="rpsPalletTypeNone" id="rpsPalletTypeNone" value="None" [(ngModel)]="model.OFFLNN_RPS_PALLET_TYPES_NONE" />
+            <label for="rpsPalletTypeNone">None</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="rpsPalletTypeUnknown" id="rpsPalletTypeUnknown" value="Unknown" [(ngModel)]="model.OFFLNN_RPS_PALLET_TYPES_UNKNOWN" />
+            <label for="rpsPalletTypeUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="rpsPaperWeight">Type (Weight) of paper</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="rpsPaperWeight" id="rpsPaperWeightLight" value="LightWeight" [(ngModel)]="model.OFFLNN_RPS_TYPE_OF_PAPER" />
+            <label for="rpsPaperWeightLight">Light Weight</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="rpsPaperWeight" id="rpsPaperWeightMedium" value="MediumWeight" [(ngModel)]="model.OFFLNN_RPS_TYPE_OF_PAPER" />
+            <label for="rpsPaperWeightMedium">Medium Weight</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="rpsPaperWeight" id="rpsPaperWeightHeavy" value="HeavyWeight" [(ngModel)]="model.OFFLNN_RPS_TYPE_OF_PAPER" />
+            <label for="rpsPaperWeightHeavy">Heavy Weight</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="rpsPaperWeight" id="rpsPaperWeightUnknown" value="Unknown" [(ngModel)]="model.OFFLNN_RPS_TYPE_OF_PAPER" />
+            <label for="rpsPaperWeightUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="rpsBanding">Banding</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="rpsBanding" id="rpsBandingBanded" value="Banded" [(ngModel)]="model.OFFLNN_RPS_BANDING" />
+            <label for="rpsBandingBanded">Banded</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="rpsBanding" id="rpsBandingUnbanded" value="Unbanded" [(ngModel)]="model.OFFLNN_RPS_BANDING" />
+            <label for="rpsBandingUnbanded">Unbanded</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="rpsBanding" id="rpsBandingCombination" value="Combination" [(ngModel)]="model.OFFLNN_RPS_BANDING" />
+            <label for="rpsBandingCombination">Combination</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="rpsBanding" id="rpsBandingNA" value="N/A" [(ngModel)]="model.OFFLNN_RPS_BANDING" />
+            <label for="rpsBandingNA">N/A</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="rpsBanding" id="rpsBandingUnknown" value="Unknown" [(ngModel)]="model.OFFLNN_RPS_BANDING" />
+            <label for="rpsBandingUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="rpsHeatSmoke">Heat & Smoke Vents</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="rpsHeatSmoke" id="rpsHeatSmokeYes" value="Yes" [(ngModel)]="model.OFFLNN_RPS_SMOKE_VENTS" />
+            <label for="rpsHeatSmokeYes">Yes</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="rpsHeatSmoke" id="rpsHeatSmokeNo" value="No" [(ngModel)]="model.OFFLNN_RPS_SMOKE_VENTS" />
+            <label for="rpsHeatSmokeNo">No</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="rpsHeatSmoke" id="rpsHeatSmokeUnknown" value="Unknown" [(ngModel)]="model.OFFLNN_RPS_SMOKE_VENTS" />
+            <label for="rpsHeatSmokeUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="rpsFireDetection">Fire Detection</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="rpsFireDetectionHeat" id="rpsFireDetectionHeat" value="Heat" [(ngModel)]="model.OFFLNN_RPS_FIRE_DETECTION_HEAT" />
+            <label for="rpsFireDetectionHeat">Heat</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="rpsFireDetectionSmoke" id="rpsFireDetectionSmoke" value="Smoke" [(ngModel)]="model.OFFLNN_RPS_FIRE_DETECTION_SMOKE" />
+            <label for="rpsFireDetectionSmoke">Smoke</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="rpsFireDetectionUvIr" id="rpsFireDetectionUvIr" value="UV/IR" [(ngModel)]="model.OFFLNN_RPS_FIRE_DETECTION_UV_IR" />
+            <label for="rpsFireDetectionUvIr">UV/IR</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="rpsFireDetectionAir" id="rpsFireDetectionAir" value="AirSampling" [(ngModel)]="model.OFFLNN_RPS_FIRE_DETECTION_AIR" />
+            <label for="rpsFireDetectionAir">Air Sampling</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="rpsFireDetectionOther" id="rpsFireDetectionOther" value="Other" [(ngModel)]="model.OFFLNN_RPS_FIRE_DETECTION_OTHER" />
+            <label for="rpsFireDetectionOther">Other</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="rpsFireDetectionNone" id="rpsFireDetectionNone" value="None" [(ngModel)]="model.OFFLNN_RPS_FIRE_DETECTION_NONE" />
+            <label for="rpsFireDetectionNone">None</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="rpsFireDetectionUnknown" id="rpsFireDetectionUnknown" value="Unknown" [(ngModel)]="model.OFFLNN_RPS_FIRE_DETECTION_UNKNOWN" />
+            <label for="rpsFireDetectionUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="rpsCeiling">Ceiling Sprinkler System</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="rpsCeiling" id="rpsCeilingAutomatic" value="Automatic" [(ngModel)]="model.OFFLNN_RPS_CEILING_SPRINKLER" />
+            <label for="rpsCeilingAutomatic">Automatic</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="rpsCeiling" id="rpsCeilingManual" value="Manual" [(ngModel)]="model.OFFLNN_RPS_CEILING_SPRINKLER" />
+            <label for="rpsCeilingManual">Manual</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="rpsCeiling" id="rpsCeilingNone" value="None" [(ngModel)]="model.OFFLNN_RPS_CEILING_SPRINKLER" />
+            <label for="rpsCeilingNone">None</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="rpsCeiling" id="rpsCeilingUnknown" value="Unknown" [(ngModel)]="model.OFFLNN_RPS_CEILING_SPRINKLER" />
+            <label for="rpsCeilingUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="rpsCeilingType">Ceiling Sprinkler System Type</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="rpsCeilingTypeCmda" id="rpsCeilingTypeCmda" value="CMDA" [(ngModel)]="model.OFFLNN_RPS_CEILING_SPRINKLER_TYPE_CMDA" />
+            <label for="rpsCeilingTypeCmda">CMDA</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="rpsCeilingTypeCmsa" id="rpsCeilingTypeCmsa" value="CMSA" [(ngModel)]="model.OFFLNN_RPS_CEILING_SPRINKLER_TYPE_CMSA" />
+            <label for="rpsCeilingTypeCmsa">CMSA</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="rpsCeilingTypeEsfr" id="rpsCeilingTypeEsfr" value="ESFR" [(ngModel)]="model.OFFLNN_RPS_CEILING_SPRINKLER_TYPE_ESFR" />
+            <label for="rpsCeilingTypeEsfr">ESFR</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="rpsCeilingTypeOther" id="rpsCeilingTypeOther" value="Other" [(ngModel)]="model.OFFLNN_RPS_CEILING_SPRINKLER_TYPE_OTHER" />
+            <label for="rpsCeilingTypeOther">Other</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="rpsCeilingTypeUnknown" id="rpsCeilingTypeUnknown" value="Unknown" [(ngModel)]="model.OFFLNN_RPS_CEILING_SPRINKLER_TYPE_UNKNOWN" />
+            <label for="rpsCeilingTypeUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="rpsOtherFp">Other FP System</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="rpsOtherFpFoam" id="rpsOtherFpFoam" value="Foam" [(ngModel)]="model.OFFLNN_RPS_OTHER_FP_FOAM" />
+            <label for="rpsOtherFpFoam">Foam</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="rpsOtherFpGaseous" id="rpsOtherFpGaseous" value="Gaseous" [(ngModel)]="model.OFFLNN_RPS_OTHER_FP_GASEOUS" />
+            <label for="rpsOtherFpGaseous">Gaseous</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="rpsOtherFpDry" id="rpsOtherFpDry" value="DryChemical" [(ngModel)]="model.OFFLNN_RPS_OTHER_FP_DRY" />
+            <label for="rpsOtherFpDry">Dry Chemical</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="rpsOtherFpOther" id="rpsOtherFpOther" value="Other" [(ngModel)]="model.OFFLNN_RPS_OTHER_FP_OTHER" />
+            <label for="rpsOtherFpOther">Other</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="rpsOtherFpUnknown" id="rpsOtherFpUnknown" value="Unknown" [(ngModel)]="model.OFFLNN_RPS_OTHER_FP_UNKNOWN" />
+            <label for="rpsOtherFpUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- Roll Paper Storage Section End -->

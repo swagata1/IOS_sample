@@ -1,0 +1,152 @@
+[
+  {
+    "Code": 1,
+    "Description": "Light Manufacturing",
+    "LOB": "CP"
+  },
+  {
+    "Code": 2,
+    "Description": "High Rise Offices",
+    "LOB": "CP"
+  },
+  {
+    "Code": 3,
+    "Description": "Hotels",
+    "LOB": "CP"
+  },
+  {
+    "Code": 4,
+    "Description": "Heavy Mfg - Combustible Products",
+    "LOB": "CP"
+  },
+  {
+    "Code": 5,
+    "Description": "Semiconductor/Wafer Fab",
+    "LOB": "CP"
+  },
+  {
+    "Code": 6,
+    "Description": "Airports",
+    "LOB": "CP"
+  },
+  {
+    "Code": 7,
+    "Description": "Universities",
+    "LOB": "CP"
+  },
+  {
+    "Code": 8,
+    "Description": "Hospitals",
+    "LOB": "CP"
+  },
+  {
+    "Code": 9,
+    "Description": "Heavy Mfg - Non Comb Products",
+    "LOB": "CP"
+  },
+  {
+    "Code": 10,
+    "Description": "Warehousing",
+    "LOB": "CP"
+  },
+  {
+    "Code": 11,
+    "Description": "General*",
+    "LOB": "CP"
+  },
+  {
+    "Code": 12,
+    "Description": "Data Centers",
+    "LOB": "CP"
+  },
+  {
+    "Code": 13,
+    "Description": "Batch Chemicals",
+    "LOB": "EER"
+  },
+  {
+    "Code": 14,
+    "Description": "Civil Infrastructure",
+    "LOB": "EER"
+  },
+  {
+    "Code": 15,
+    "Description": "POWERGEN Hydroelectric Power Station",
+    "LOB": "EER"
+  },
+  {
+    "Code": 16,
+    "Description": "Mining & ORE Processing",
+    "LOB": "EER"
+  },
+  {
+    "Code": 17,
+    "Description": "Oil & Chemical",
+    "LOB": "EER"
+  },
+  {
+    "Code": 18,
+    "Description": "Oil Rig - Production",
+    "LOB": "EER"
+  },
+  {
+    "Code": 19,
+    "Description": "Pharmaceutical - Formulation & Packaging",
+    "LOB": "EER"
+  },
+  {
+    "Code": 20,
+    "Description": "POWERGEN excludes Hydro & Waste incineration",
+    "LOB": "EER"
+  },
+  {
+    "Code": 21,
+    "Description": "Terminal",
+    "LOB": "EER"
+  },
+  {
+    "Code": 22,
+    "Description": "Waste To Energy",
+    "LOB": "EER"
+  },
+  {
+    "Code": 23,
+    "Description": "Rubber Tires",
+    "LOB": "CP"
+  },
+  {
+    "Code": 24,
+    "Description": "Cement",
+    "LOB": "CP"
+  },
+  {
+    "Code": 25,
+    "Description": "Cold Rolling Mills",
+    "LOB": "CP"
+  },
+  {
+    "Code": 26,
+    "Description": "Aluminum",
+    "LOB": "CP"
+  },
+  {
+    "Code": 27,
+    "Description": "Steel",
+    "LOB": "CP"
+  },
+  {
+    "Code": 28,
+    "Description": "Board Mills",
+    "LOB": "CP"
+  },
+  {
+    "Code": 29,
+    "Description": "Sawmills",
+    "LOB": "CP"
+  },
+  {
+    "Code": 30,
+    "Description": "Pulp & Paper",
+    "LOB": "CP"
+  }
+]

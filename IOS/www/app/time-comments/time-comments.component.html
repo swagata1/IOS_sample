@@ -1,0 +1,70 @@
+<div class="isc-card">
+  
+  <div class="isc-card-heading">
+    <div class="isc-card-title">
+      <h4>Hours & Cost</h4>
+    </div>
+  </div> 
+  
+  <div class="isc-card-body _border-top">
+    <div class="isc-grid">
+      <div class="isc-col-sm-6 isc-col-md-2">
+        <div class="isc-form-group">
+          <label for="tcOnsiteHours">Onsite Hours</label>
+          <input type="number" class="isc-form-control" id="tcOnsiteHours" placeholder="Onsite Hours" 
+                [ngModelOptions]="{standalone: true}"  [(ngModel)]="timeCommentsData.OnsiteHoursFA"
+                (ngModelChange)="updateTotalHours();">          
+        </div>
+      </div>
+      <div class="isc-col-sm-6 isc-col-md-2">
+        <div class="isc-form-group">
+          <label for="tcReportHours">Report Hours</label>
+          <input type="number" class="isc-form-control" id="tcReportHours" placeholder="Report Hours"
+                [ngModelOptions]="{standalone: true}"  [(ngModel)]="timeCommentsData.ReportWriteHoursFA"
+                (ngModelChange)="updateTotalHours();">
+        </div>
+      </div>
+      <div class="isc-col-sm-6 isc-col-md-2">
+        <div class="isc-form-group">
+          <label for="tcTravelHours">Travel Hours</label>
+          <input type="number" class="isc-form-control" id="tcTravelHours" placeholder="Travel Hours"
+                [ngModelOptions]="{standalone: true}"  [(ngModel)]="timeCommentsData.TravelHoursFA"
+                (ngModelChange)="updateTotalHours();">
+        </div>
+      </div>
+      <div class="isc-col-sm-6 isc-col-md-2">
+        <div class="isc-form-group">
+          <label for="tcOtherHours">Other Hours</label>
+          <input type="number" class="isc-form-control" id="tcOtherHours" placeholder="Other Hours"
+                [ngModelOptions]="{standalone: true}"  [(ngModel)]="timeCommentsData.OtherHoursFA"
+                (ngModelChange)="updateTotalHours();">
+        </div>
+      </div>
+    </div>
+    <div class="isc-grid">
+      <div class="isc-col-sm-6 isc-col-md-2">
+        <div class="isc-summary"> <small class="isc-summary-title">Total Hours</small>
+          <h4 class="isc-summary-text">{{timeCommentsData.TimeToCompleteFA}}</h4>
+        </div>
+      </div>
+      <div class="isc-col-sm-6 isc-col-md-2">
+        <div class="isc-summary"> <small class="isc-summary-title">Total SUB RFS Cost</small>
+          <h4 class="isc-summary-text">$100,000,000</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="isc-card-footer isc-form-row">
+    <div class="isc-form-group">
+      <label for="tinymceModelCommentsTP" class="isc-control-label">Next Survey Comments</label>
+      <div class="isc-editor">
+        <textarea htmlEditor name="body"></textarea>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+

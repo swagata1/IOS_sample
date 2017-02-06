@@ -1,0 +1,22 @@
+[
+  {
+    "ExposureCode": "NoExpo",
+    "Description": "No Exposure"
+  },
+  {
+    "ExposureCode": "Slight",
+    "Description": "Slight"
+  },
+  {
+    "ExposureCode": "Moderate",
+    "Description": "Moderate"
+  },
+  {
+    "ExposureCode": "Severe",
+    "Description": "Severe"
+  },
+  {
+    "ExposureCode": "Unknown",
+    "Description": "Unknown"
+  }
+]

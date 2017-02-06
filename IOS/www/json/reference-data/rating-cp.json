@@ -1,0 +1,6022 @@
+[
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 179,
+    "QUESTION_CATEGORY_NM": "Exposure",
+    "QUESTION_ID": 657,
+    "QUESTION_TX": "Exposure",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 180,
+    "QUESTION_CATEGORY_NM": "Construction",
+    "QUESTION_ID": 658,
+    "QUESTION_TX": "Construction",
+    "WEIGHT_NO": 0.15
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 181,
+    "QUESTION_CATEGORY_NM": "Water Supply",
+    "QUESTION_ID": 659,
+    "QUESTION_TX": "Water Supply",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 182,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 660,
+    "QUESTION_TX": "Automatic Fire Detection",
+    "WEIGHT_NO": 0.06
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 182,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 661,
+    "QUESTION_TX": "Security",
+    "WEIGHT_NO": 0.04
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 183,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 662,
+    "QUESTION_TX": "Sprinklers",
+    "WEIGHT_NO": 0.175
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 183,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 663,
+    "QUESTION_TX": "Special Extinguishing Protection",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 183,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 664,
+    "QUESTION_TX": "Fire Extinguishing Appliances/Hosereels",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 183,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 665,
+    "QUESTION_TX": "Public Fire Department",
+    "WEIGHT_NO": 0.0375
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 184,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 666,
+    "QUESTION_TX": "Baggage Handling Areas",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 184,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 667,
+    "QUESTION_TX": "Commercial Cooking",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 184,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 668,
+    "QUESTION_TX": "Fuel Storage Facilities",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 184,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 669,
+    "QUESTION_TX": "Flammable Gases - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.002
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 184,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 670,
+    "QUESTION_TX": "Explosive Dusts",
+    "WEIGHT_NO": 0
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 184,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 671,
+    "QUESTION_TX": "Hydraulic Equipment",
+    "WEIGHT_NO": 0.003
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 184,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 672,
+    "QUESTION_TX": "Aerosols",
+    "WEIGHT_NO": 0
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 184,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 673,
+    "QUESTION_TX": "Storage - cargo/despatch",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 184,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 674,
+    "QUESTION_TX": "Electrical",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 184,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 675,
+    "QUESTION_TX": "Heating, Ventilation, Air Cond & Refrigeration",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 184,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 676,
+    "QUESTION_TX": "Fuel supply and delivery",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 184,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 677,
+    "QUESTION_TX": "Control room / tower & Equipment",
+    "WEIGHT_NO": 0.005
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 185,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 678,
+    "QUESTION_TX": "Emergency Organization & Planning",
+    "WEIGHT_NO": 0.0188
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 185,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 679,
+    "QUESTION_TX": "Self-Inspection Program",
+    "WEIGHT_NO": 0.0313
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 185,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 680,
+    "QUESTION_TX": "Impairment Procedures",
+    "WEIGHT_NO": 0.0188
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 185,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 681,
+    "QUESTION_TX": "Contractor Management",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 185,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 682,
+    "QUESTION_TX": "Hot Work Permit",
+    "WEIGHT_NO": 0.0375
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 185,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 683,
+    "QUESTION_TX": "Smoking",
+    "WEIGHT_NO": 0.0188
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 185,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 684,
+    "QUESTION_TX": "Housekeeping",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 185,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 685,
+    "QUESTION_TX": "Planned Preventative Maintenance",
+    "WEIGHT_NO": 0.0375
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 185,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 686,
+    "QUESTION_TX": "Management Interest",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Airports",
+    "OCCUPANCY_CD": 6,
+    "QUESTION_CATEGORY_CD": 185,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 687,
+    "QUESTION_TX": "Site Level Business Continuity Planning",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 235,
+    "QUESTION_CATEGORY_NM": "Exposure",
+    "QUESTION_ID": 812,
+    "QUESTION_TX": "Exposure",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 236,
+    "QUESTION_CATEGORY_NM": "Construction",
+    "QUESTION_ID": 814,
+    "QUESTION_TX": "Construction",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 237,
+    "QUESTION_CATEGORY_NM": "Water Supply",
+    "QUESTION_ID": 815,
+    "QUESTION_TX": "Water Supply",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 238,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 816,
+    "QUESTION_TX": "Automatic Fire Detection",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 238,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 818,
+    "QUESTION_TX": "Security",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 239,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 822,
+    "QUESTION_TX": "Electrical",
+    "WEIGHT_NO": 0.04
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 239,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 827,
+    "QUESTION_TX": "Fired Process Equipment",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 239,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 830,
+    "QUESTION_TX": "Flammable Gases - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 239,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 833,
+    "QUESTION_TX": "Flammable Liquids - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 239,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 838,
+    "QUESTION_TX": "Power Boilers / Compressors / HVAC / Hot Oil",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 239,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 855,
+    "QUESTION_TX": "Rolling Mills",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 239,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 857,
+    "QUESTION_TX": "Anode Plant",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 239,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 858,
+    "QUESTION_TX": "Alumina Digester",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 239,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 859,
+    "QUESTION_TX": "Pot Lines",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 239,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 860,
+    "QUESTION_TX": "Casting",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 239,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 861,
+    "QUESTION_TX": "Turbine Generators",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 240,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 878,
+    "QUESTION_TX": "Sprinklers",
+    "WEIGHT_NO": 0.14
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 240,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 881,
+    "QUESTION_TX": "Special Extinguishing Protection",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 240,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 884,
+    "QUESTION_TX": "Fire Extinguishing Appliances/Hosereels",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 240,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 887,
+    "QUESTION_TX": "Public Fire Department",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 241,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 891,
+    "QUESTION_TX": "Emergency Organization & Planning",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 241,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 894,
+    "QUESTION_TX": "Self-Inspection Program",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 241,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 897,
+    "QUESTION_TX": "Impairment Procedures",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 241,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 900,
+    "QUESTION_TX": "Contractor Management",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 241,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 904,
+    "QUESTION_TX": "Hot Work Permit",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 241,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 908,
+    "QUESTION_TX": "Smoking",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 241,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 912,
+    "QUESTION_TX": "Housekeeping",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 241,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 915,
+    "QUESTION_TX": "Planned Preventative Maintenance",
+    "WEIGHT_NO": 0.09
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 241,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 919,
+    "QUESTION_TX": "Management Interest",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 241,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 922,
+    "QUESTION_TX": "Site Level Business Continuity Planning",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Aluminum",
+    "OCCUPANCY_CD": 26,
+    "QUESTION_CATEGORY_CD": 239,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 1003,
+    "QUESTION_TX": "Explosive Dusts",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 249,
+    "QUESTION_CATEGORY_NM": "Exposure",
+    "QUESTION_ID": 812,
+    "QUESTION_TX": "Exposure",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 250,
+    "QUESTION_CATEGORY_NM": "Construction",
+    "QUESTION_ID": 813,
+    "QUESTION_TX": "Construction",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 251,
+    "QUESTION_CATEGORY_NM": "Water Supply",
+    "QUESTION_ID": 815,
+    "QUESTION_TX": "Water Supply",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 252,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 816,
+    "QUESTION_TX": "Automatic Fire Detection",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 252,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 818,
+    "QUESTION_TX": "Security",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 253,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 820,
+    "QUESTION_TX": "Electrical",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 253,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 823,
+    "QUESTION_TX": "Explosive Dusts",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 253,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 825,
+    "QUESTION_TX": "Fired Process Equipment",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 253,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 829,
+    "QUESTION_TX": "Flammable Gases - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 253,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 834,
+    "QUESTION_TX": "Flammable Liquids - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 253,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 836,
+    "QUESTION_TX": "Power Boilers / Compressors / HVAC / Hot Oil",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 253,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 845,
+    "QUESTION_TX": "Storage",
+    "WEIGHT_NO": 0.0625
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 253,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 862,
+    "QUESTION_TX": "Turbine Generators",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 253,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 863,
+    "QUESTION_TX": "Wood Yard",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 253,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 865,
+    "QUESTION_TX": "Conveyors",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 253,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 867,
+    "QUESTION_TX": "Veneer Mill / Dryer",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 253,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 868,
+    "QUESTION_TX": "Press",
+    "WEIGHT_NO": 0.0375
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 254,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 876,
+    "QUESTION_TX": "Sprinklers",
+    "WEIGHT_NO": 0.21
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 254,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 882,
+    "QUESTION_TX": "Special Extinguishing Protection",
+    "WEIGHT_NO": 0.045
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 254,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 883,
+    "QUESTION_TX": "Fire Extinguishing Appliances/Hosereels",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 254,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 888,
+    "QUESTION_TX": "Public Fire Department",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 255,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 889,
+    "QUESTION_TX": "Emergency Organization & Planning",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 255,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 892,
+    "QUESTION_TX": "Self-Inspection Program",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 255,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 895,
+    "QUESTION_TX": "Impairment Procedures",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 255,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 898,
+    "QUESTION_TX": "Contractor Management",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 255,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 902,
+    "QUESTION_TX": "Hot Work Permit",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 255,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 906,
+    "QUESTION_TX": "Smoking",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 255,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 910,
+    "QUESTION_TX": "Housekeeping",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 255,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 913,
+    "QUESTION_TX": "Planned Preventative Maintenance",
+    "WEIGHT_NO": 0.04
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 255,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 917,
+    "QUESTION_TX": "Management Interest",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Board Mills",
+    "OCCUPANCY_CD": 28,
+    "QUESTION_CATEGORY_CD": 255,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 920,
+    "QUESTION_TX": "Site Level Business Continuity Planning",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 221,
+    "QUESTION_CATEGORY_NM": "Exposure",
+    "QUESTION_ID": 812,
+    "QUESTION_TX": "Exposure",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 222,
+    "QUESTION_CATEGORY_NM": "Construction",
+    "QUESTION_ID": 814,
+    "QUESTION_TX": "Construction",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 223,
+    "QUESTION_CATEGORY_NM": "Water Supply",
+    "QUESTION_ID": 815,
+    "QUESTION_TX": "Water Supply",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 224,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 817,
+    "QUESTION_TX": "Automatic Fire Detection",
+    "WEIGHT_NO": 0.06
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 224,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 819,
+    "QUESTION_TX": "Security",
+    "WEIGHT_NO": 0.04
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 225,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 821,
+    "QUESTION_TX": "Electrical",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 225,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 824,
+    "QUESTION_TX": "Explosive Dusts (Coal)",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 225,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 826,
+    "QUESTION_TX": "Fired Process Equipment",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 225,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 830,
+    "QUESTION_TX": "Flammable Gases - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 225,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 832,
+    "QUESTION_TX": "Flammable Liquids - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 225,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 840,
+    "QUESTION_TX": "Heating Boilers / Compressors / HVAC",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 225,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 846,
+    "QUESTION_TX": "Storage",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 225,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 848,
+    "QUESTION_TX": "Hammer Mills",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 225,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 849,
+    "QUESTION_TX": "Kiln",
+    "WEIGHT_NO": 0.04
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 225,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 851,
+    "QUESTION_TX": "Finish Mill (SAG Mill)",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 225,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 852,
+    "QUESTION_TX": "Hydraulic Equipment",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 226,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 877,
+    "QUESTION_TX": "Sprinklers",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 226,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 880,
+    "QUESTION_TX": "Special Extinguishing Protection",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 226,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 884,
+    "QUESTION_TX": "Fire Extinguishing Appliances/Hosereels",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 226,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 886,
+    "QUESTION_TX": "Public Fire Department",
+    "WEIGHT_NO": 0.04
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 227,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 890,
+    "QUESTION_TX": "Emergency Organization & Planning",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 227,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 893,
+    "QUESTION_TX": "Self-Inspection Program",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 227,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 896,
+    "QUESTION_TX": "Impairment Procedures",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 227,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 899,
+    "QUESTION_TX": "Contractor Management",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 227,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 903,
+    "QUESTION_TX": "Hot Work Permit",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 227,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 907,
+    "QUESTION_TX": "Smoking",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 227,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 911,
+    "QUESTION_TX": "Housekeeping",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 227,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 914,
+    "QUESTION_TX": "Planned Preventative Maintenance",
+    "WEIGHT_NO": 0.075
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 227,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 918,
+    "QUESTION_TX": "Management Interest",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cement",
+    "OCCUPANCY_CD": 24,
+    "QUESTION_CATEGORY_CD": 227,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 921,
+    "QUESTION_TX": "Site Level Business Continuity Planning",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cold Rolling Mill",
+    "OCCUPANCY_CD": 25,
+    "QUESTION_CATEGORY_CD": 228,
+    "QUESTION_CATEGORY_NM": "Exposure",
+    "QUESTION_ID": 812,
+    "QUESTION_TX": "Exposure",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cold Rolling Mill",
+    "OCCUPANCY_CD": 25,
+    "QUESTION_CATEGORY_CD": 229,
+    "QUESTION_CATEGORY_NM": "Construction",
+    "QUESTION_ID": 814,
+    "QUESTION_TX": "Construction",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cold Rolling Mill",
+    "OCCUPANCY_CD": 25,
+    "QUESTION_CATEGORY_CD": 230,
+    "QUESTION_CATEGORY_NM": "Water Supply",
+    "QUESTION_ID": 815,
+    "QUESTION_TX": "Water Supply",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cold Rolling Mill",
+    "OCCUPANCY_CD": 25,
+    "QUESTION_CATEGORY_CD": 231,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 816,
+    "QUESTION_TX": "Automatic Fire Detection",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cold Rolling Mill",
+    "OCCUPANCY_CD": 25,
+    "QUESTION_CATEGORY_CD": 231,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 818,
+    "QUESTION_TX": "Security",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cold Rolling Mill",
+    "OCCUPANCY_CD": 25,
+    "QUESTION_CATEGORY_CD": 232,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 822,
+    "QUESTION_TX": "Electrical",
+    "WEIGHT_NO": 0.04
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cold Rolling Mill",
+    "OCCUPANCY_CD": 25,
+    "QUESTION_CATEGORY_CD": 232,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 827,
+    "QUESTION_TX": "Fired Process Equipment",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cold Rolling Mill",
+    "OCCUPANCY_CD": 25,
+    "QUESTION_CATEGORY_CD": 232,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 830,
+    "QUESTION_TX": "Flammable Gases - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cold Rolling Mill",
+    "OCCUPANCY_CD": 25,
+    "QUESTION_CATEGORY_CD": 232,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 832,
+    "QUESTION_TX": "Flammable Liquids - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cold Rolling Mill",
+    "OCCUPANCY_CD": 25,
+    "QUESTION_CATEGORY_CD": 232,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 837,
+    "QUESTION_TX": "Power Boilers / Compressors / HVAC",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cold Rolling Mill",
+    "OCCUPANCY_CD": 25,
+    "QUESTION_CATEGORY_CD": 232,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 847,
+    "QUESTION_TX": "Storage",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cold Rolling Mill",
+    "OCCUPANCY_CD": 25,
+    "QUESTION_CATEGORY_CD": 232,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 853,
+    "QUESTION_TX": "Rolling Mills",
+    "WEIGHT_NO": 0.04
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cold Rolling Mill",
+    "OCCUPANCY_CD": 25,
+    "QUESTION_CATEGORY_CD": 232,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 856,
+    "QUESTION_TX": "Coating Operations",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cold Rolling Mill",
+    "OCCUPANCY_CD": 25,
+    "QUESTION_CATEGORY_CD": 233,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 878,
+    "QUESTION_TX": "Sprinklers",
+    "WEIGHT_NO": 0.14
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cold Rolling Mill",
+    "OCCUPANCY_CD": 25,
+    "QUESTION_CATEGORY_CD": 233,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 881,
+    "QUESTION_TX": "Special Extinguishing Protection",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cold Rolling Mill",
+    "OCCUPANCY_CD": 25,
+    "QUESTION_CATEGORY_CD": 233,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 884,
+    "QUESTION_TX": "Fire Extinguishing Appliances/Hosereels",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cold Rolling Mill",
+    "OCCUPANCY_CD": 25,
+    "QUESTION_CATEGORY_CD": 233,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 887,
+    "QUESTION_TX": "Public Fire Department",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cold Rolling Mill",
+    "OCCUPANCY_CD": 25,
+    "QUESTION_CATEGORY_CD": 234,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 891,
+    "QUESTION_TX": "Emergency Organization & Planning",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cold Rolling Mill",
+    "OCCUPANCY_CD": 25,
+    "QUESTION_CATEGORY_CD": 234,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 894,
+    "QUESTION_TX": "Self-Inspection Program",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cold Rolling Mill",
+    "OCCUPANCY_CD": 25,
+    "QUESTION_CATEGORY_CD": 234,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 897,
+    "QUESTION_TX": "Impairment Procedures",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cold Rolling Mill",
+    "OCCUPANCY_CD": 25,
+    "QUESTION_CATEGORY_CD": 234,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 900,
+    "QUESTION_TX": "Contractor Management",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cold Rolling Mill",
+    "OCCUPANCY_CD": 25,
+    "QUESTION_CATEGORY_CD": 234,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 904,
+    "QUESTION_TX": "Hot Work Permit",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cold Rolling Mill",
+    "OCCUPANCY_CD": 25,
+    "QUESTION_CATEGORY_CD": 234,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 908,
+    "QUESTION_TX": "Smoking",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cold Rolling Mill",
+    "OCCUPANCY_CD": 25,
+    "QUESTION_CATEGORY_CD": 234,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 912,
+    "QUESTION_TX": "Housekeeping",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cold Rolling Mill",
+    "OCCUPANCY_CD": 25,
+    "QUESTION_CATEGORY_CD": 234,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 915,
+    "QUESTION_TX": "Planned Preventative Maintenance",
+    "WEIGHT_NO": 0.09
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cold Rolling Mill",
+    "OCCUPANCY_CD": 25,
+    "QUESTION_CATEGORY_CD": 234,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 919,
+    "QUESTION_TX": "Management Interest",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cold Rolling Mill",
+    "OCCUPANCY_CD": 25,
+    "QUESTION_CATEGORY_CD": 234,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 922,
+    "QUESTION_TX": "Site Level Business Continuity Planning",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Cold Rolling Mill",
+    "OCCUPANCY_CD": 25,
+    "QUESTION_CATEGORY_CD": 232,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 1003,
+    "QUESTION_TX": "Explosive Dusts",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 200,
+    "QUESTION_CATEGORY_NM": "Exposure",
+    "QUESTION_ID": 750,
+    "QUESTION_TX": "Exposure",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 201,
+    "QUESTION_CATEGORY_NM": "Construction",
+    "QUESTION_ID": 751,
+    "QUESTION_TX": "Construction",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 202,
+    "QUESTION_CATEGORY_NM": "Water Supply",
+    "QUESTION_ID": 752,
+    "QUESTION_TX": "Water Supply",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 203,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 753,
+    "QUESTION_TX": "Automatic Fire Detection",
+    "WEIGHT_NO": 0.07
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 203,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 754,
+    "QUESTION_TX": "Security",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 204,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 755,
+    "QUESTION_TX": "Sprinklers",
+    "WEIGHT_NO": 0.0525
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 204,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 756,
+    "QUESTION_TX": "Special Extinguishing Protection",
+    "WEIGHT_NO": 0.2625
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 204,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 757,
+    "QUESTION_TX": "Fire Extinguishing Appliances/Hosereels",
+    "WEIGHT_NO": 0.0175
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 204,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 758,
+    "QUESTION_TX": "Public Fire Department",
+    "WEIGHT_NO": 0.0175
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 205,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 759,
+    "QUESTION_TX": "Diesel Generator (emergency power supplies)",
+    "WEIGHT_NO": 0.0225
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 205,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 760,
+    "QUESTION_TX": "Commercial Cooking",
+    "WEIGHT_NO": 0.0075
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 205,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 761,
+    "QUESTION_TX": "Flammable Liquids - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.0075
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 205,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 762,
+    "QUESTION_TX": "Flammable Gases - Storage, Transfer, Use",
+    "WEIGHT_NO": 0
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 205,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 763,
+    "QUESTION_TX": "Explosive Dusts",
+    "WEIGHT_NO": 0
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 205,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 764,
+    "QUESTION_TX": "Hydraulic Equipment",
+    "WEIGHT_NO": 0
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 205,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 765,
+    "QUESTION_TX": "Aerosols",
+    "WEIGHT_NO": 0
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 205,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 766,
+    "QUESTION_TX": "Storage",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 205,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 767,
+    "QUESTION_TX": "Electrical",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 205,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 768,
+    "QUESTION_TX": "Heating, Ventilation, Air Cond & Refrigeration",
+    "WEIGHT_NO": 0.0225
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 205,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 769,
+    "QUESTION_TX": "UPS and Batteries",
+    "WEIGHT_NO": 0.0225
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 205,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 770,
+    "QUESTION_TX": "Transient Overvoltage/Surge Risk",
+    "WEIGHT_NO": 0.0225
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 206,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 771,
+    "QUESTION_TX": "Emergency Organization & Planning",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 206,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 772,
+    "QUESTION_TX": "Self-Inspection Program",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 206,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 773,
+    "QUESTION_TX": "Impairment Procedures",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 206,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 774,
+    "QUESTION_TX": "Contractor Management",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 206,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 775,
+    "QUESTION_TX": "Hot Work Permit",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 206,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 776,
+    "QUESTION_TX": "Smoking",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 206,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 777,
+    "QUESTION_TX": "Housekeeping",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 206,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 778,
+    "QUESTION_TX": "Planned Preventative Maintenance",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 206,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 779,
+    "QUESTION_TX": "Management Interest",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Data Centers",
+    "OCCUPANCY_CD": 12,
+    "QUESTION_CATEGORY_CD": 206,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 780,
+    "QUESTION_TX": "Site Level Business Continuity Planning",
+    "WEIGHT_NO": 0.06
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 158,
+    "QUESTION_CATEGORY_NM": "Exposure",
+    "QUESTION_ID": 567,
+    "QUESTION_TX": "Exposure",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 159,
+    "QUESTION_CATEGORY_NM": "Construction",
+    "QUESTION_ID": 568,
+    "QUESTION_TX": "Construction",
+    "WEIGHT_NO": 0.15
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 160,
+    "QUESTION_CATEGORY_NM": "Water Supply",
+    "QUESTION_ID": 569,
+    "QUESTION_TX": "Water Supply",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 161,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 570,
+    "QUESTION_TX": "Automatic Fire Detection",
+    "WEIGHT_NO": 0.06
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 161,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 571,
+    "QUESTION_TX": "Security",
+    "WEIGHT_NO": 0.04
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 162,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 572,
+    "QUESTION_TX": "Sprinklers",
+    "WEIGHT_NO": 0.175
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 162,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 573,
+    "QUESTION_TX": "Special Extinguishing Protection",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 162,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 574,
+    "QUESTION_TX": "Fire Extinguishing Appliances/Hosereels",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 162,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 575,
+    "QUESTION_TX": "Public Fire Department",
+    "WEIGHT_NO": 0.0375
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 163,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 576,
+    "QUESTION_TX": "Fired Process Equipment",
+    "WEIGHT_NO": 0.003
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 163,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 577,
+    "QUESTION_TX": "Commercial Cooking",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 163,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 578,
+    "QUESTION_TX": "Flammable Liquids - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.0075
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 163,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 579,
+    "QUESTION_TX": "Flammable Gases - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.0075
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 163,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 580,
+    "QUESTION_TX": "Explosive Dusts",
+    "WEIGHT_NO": 0.002
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 163,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 581,
+    "QUESTION_TX": "Hydraulic Equipment",
+    "WEIGHT_NO": 0.005
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 163,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 582,
+    "QUESTION_TX": "Aerosols",
+    "WEIGHT_NO": 0.005
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 163,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 583,
+    "QUESTION_TX": "Storage",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 163,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 584,
+    "QUESTION_TX": "Electrical",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 163,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 585,
+    "QUESTION_TX": "Heating, Ventilation, Air Cond & Refrigeration",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 164,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 586,
+    "QUESTION_TX": "Emergency Organization & Planning",
+    "WEIGHT_NO": 0.0188
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 164,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 587,
+    "QUESTION_TX": "Self-Inspection Program",
+    "WEIGHT_NO": 0.0313
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 164,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 588,
+    "QUESTION_TX": "Impairment Procedures",
+    "WEIGHT_NO": 0.0188
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 164,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 589,
+    "QUESTION_TX": "Contractor Management",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 164,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 590,
+    "QUESTION_TX": "Hot Work Permit",
+    "WEIGHT_NO": 0.0375
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 164,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 591,
+    "QUESTION_TX": "Smoking",
+    "WEIGHT_NO": 0.0188
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 164,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 592,
+    "QUESTION_TX": "Housekeeping",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 164,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 593,
+    "QUESTION_TX": "Planned Preventative Maintenance",
+    "WEIGHT_NO": 0.0375
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 164,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 594,
+    "QUESTION_TX": "Management Interest",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "General*",
+    "OCCUPANCY_CD": 11,
+    "QUESTION_CATEGORY_CD": 164,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 595,
+    "QUESTION_TX": "Site Level Business Continuity Planning",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 130,
+    "QUESTION_CATEGORY_NM": "Exposure",
+    "QUESTION_ID": 451,
+    "QUESTION_TX": "Exposure",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 131,
+    "QUESTION_CATEGORY_NM": "Construction",
+    "QUESTION_ID": 452,
+    "QUESTION_TX": "Construction",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 132,
+    "QUESTION_CATEGORY_NM": "Water Supply",
+    "QUESTION_ID": 453,
+    "QUESTION_TX": "Water Supply",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 133,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 454,
+    "QUESTION_TX": "Automatic Fire Detection",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 133,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 455,
+    "QUESTION_TX": "Security",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 134,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 456,
+    "QUESTION_TX": "Sprinklers",
+    "WEIGHT_NO": 0.21
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 134,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 457,
+    "QUESTION_TX": "Special Extinguishing Protection",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 134,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 458,
+    "QUESTION_TX": "Fire Extinguishing Appliances/Hosereels",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 134,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 459,
+    "QUESTION_TX": "Public Fire Department",
+    "WEIGHT_NO": 0.045
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 135,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 460,
+    "QUESTION_TX": "Fired Process Equipment",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 135,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 461,
+    "QUESTION_TX": "Commercial Cooking",
+    "WEIGHT_NO": 0.005
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 135,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 462,
+    "QUESTION_TX": "Flammable Liquids - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 135,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 463,
+    "QUESTION_TX": "Flammable Gases - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 135,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 464,
+    "QUESTION_TX": "Explosive Dusts",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 135,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 465,
+    "QUESTION_TX": "Hydraulic Equipment",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 135,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 466,
+    "QUESTION_TX": "Aerosols",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 135,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 467,
+    "QUESTION_TX": "Storage",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 135,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 468,
+    "QUESTION_TX": "Electrical",
+    "WEIGHT_NO": 0.04
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 135,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 469,
+    "QUESTION_TX": "Heating, Ventilation, Air Cond & Refrigeration",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 136,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 470,
+    "QUESTION_TX": "Emergency Organization & Planning",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 136,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 471,
+    "QUESTION_TX": "Self-Inspection Program",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 136,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 472,
+    "QUESTION_TX": "Impairment Procedures",
+    "WEIGHT_NO": 0.014
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 136,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 473,
+    "QUESTION_TX": "Contractor Management",
+    "WEIGHT_NO": 0.014
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 136,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 474,
+    "QUESTION_TX": "Hot Work Permit",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 136,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 475,
+    "QUESTION_TX": "Smoking",
+    "WEIGHT_NO": 0.016
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 136,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 476,
+    "QUESTION_TX": "Housekeeping",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 136,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 477,
+    "QUESTION_TX": "Planned Preventative Maintenance",
+    "WEIGHT_NO": 0.036
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 136,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 478,
+    "QUESTION_TX": "Management Interest",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Combustible Products",
+    "OCCUPANCY_CD": 4,
+    "QUESTION_CATEGORY_CD": 136,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 479,
+    "QUESTION_TX": "Site Level Business Continuity Planning",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 137,
+    "QUESTION_CATEGORY_NM": "Exposure",
+    "QUESTION_ID": 480,
+    "QUESTION_TX": "Exposure",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 138,
+    "QUESTION_CATEGORY_NM": "Construction",
+    "QUESTION_ID": 481,
+    "QUESTION_TX": "Construction",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 139,
+    "QUESTION_CATEGORY_NM": "Water Supply",
+    "QUESTION_ID": 482,
+    "QUESTION_TX": "Water Supply",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 140,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 483,
+    "QUESTION_TX": "Automatic Fire Detection",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 140,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 484,
+    "QUESTION_TX": "Security",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 141,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 485,
+    "QUESTION_TX": "Sprinklers",
+    "WEIGHT_NO": 0.045
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 141,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 486,
+    "QUESTION_TX": "Special Extinguishing Protection",
+    "WEIGHT_NO": 0.045
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 141,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 487,
+    "QUESTION_TX": "Fire Extinguishing Appliances/Hosereels",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 141,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 488,
+    "QUESTION_TX": "Public Fire Department",
+    "WEIGHT_NO": 0.045
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 142,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 489,
+    "QUESTION_TX": "Fired Process Equipment",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 142,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 490,
+    "QUESTION_TX": "Commercial Cooking",
+    "WEIGHT_NO": 0.0063
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 142,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 491,
+    "QUESTION_TX": "Flammable Liquids - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 142,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 492,
+    "QUESTION_TX": "Flammable Gases - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 142,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 493,
+    "QUESTION_TX": "Explosive Dusts",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 142,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 494,
+    "QUESTION_TX": "Hydraulic Equipment",
+    "WEIGHT_NO": 0.0375
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 142,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 495,
+    "QUESTION_TX": "Aerosols",
+    "WEIGHT_NO": 0.0063
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 142,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 496,
+    "QUESTION_TX": "Storage",
+    "WEIGHT_NO": 0.0063
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 142,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 497,
+    "QUESTION_TX": "Electrical",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 142,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 498,
+    "QUESTION_TX": "Heating, Ventilation, Air Cond & Refrigeration",
+    "WEIGHT_NO": 0.0188
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 143,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 499,
+    "QUESTION_TX": "Emergency Organization & Planning",
+    "WEIGHT_NO": 0.0225
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 143,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 500,
+    "QUESTION_TX": "Self-Inspection Program",
+    "WEIGHT_NO": 0.039
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 143,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 501,
+    "QUESTION_TX": "Impairment Procedures",
+    "WEIGHT_NO": 0.0225
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 143,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 502,
+    "QUESTION_TX": "Contractor Management",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 143,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 503,
+    "QUESTION_TX": "Hot Work Permit",
+    "WEIGHT_NO": 0.036
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 143,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 504,
+    "QUESTION_TX": "Smoking",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 143,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 505,
+    "QUESTION_TX": "Housekeeping",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 143,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 506,
+    "QUESTION_TX": "Planned Preventative Maintenance",
+    "WEIGHT_NO": 0.06
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 143,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 507,
+    "QUESTION_TX": "Management Interest",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Heavy Mfg - Non Comb Products",
+    "OCCUPANCY_CD": 9,
+    "QUESTION_CATEGORY_CD": 143,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 508,
+    "QUESTION_TX": "Site Level Business Continuity Planning",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 165,
+    "QUESTION_CATEGORY_NM": "Exposure",
+    "QUESTION_ID": 596,
+    "QUESTION_TX": "Exposure",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 166,
+    "QUESTION_CATEGORY_NM": "Construction",
+    "QUESTION_ID": 597,
+    "QUESTION_TX": "Construction",
+    "WEIGHT_NO": 0.15
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 167,
+    "QUESTION_CATEGORY_NM": "Water Supply",
+    "QUESTION_ID": 598,
+    "QUESTION_TX": "Water Supply",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 168,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 599,
+    "QUESTION_TX": "Automatic Fire Detection",
+    "WEIGHT_NO": 0.06
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 168,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 600,
+    "QUESTION_TX": "Security",
+    "WEIGHT_NO": 0.04
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 169,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 601,
+    "QUESTION_TX": "Sprinklers",
+    "WEIGHT_NO": 0.175
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 169,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 602,
+    "QUESTION_TX": "Special Extinguishing Protection",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 169,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 603,
+    "QUESTION_TX": "Fire Extinguishing Appliances/Hosereels",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 169,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 604,
+    "QUESTION_TX": "Public Fire Department",
+    "WEIGHT_NO": 0.0375
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 170,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 605,
+    "QUESTION_TX": "Data Centers",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 170,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 606,
+    "QUESTION_TX": "Commercial Cooking",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 170,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 607,
+    "QUESTION_TX": "Flammable Liquids - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.005
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 170,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 608,
+    "QUESTION_TX": "Flammable Gases - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.005
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 170,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 609,
+    "QUESTION_TX": "Explosive Dusts",
+    "WEIGHT_NO": 0
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 170,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 610,
+    "QUESTION_TX": "Car Parking",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 170,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 611,
+    "QUESTION_TX": "Aerosols",
+    "WEIGHT_NO": 0
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 170,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 612,
+    "QUESTION_TX": "Storage/Archives",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 170,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 613,
+    "QUESTION_TX": "Electrical",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 170,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 614,
+    "QUESTION_TX": "Heating, Ventilation, Air Cond & Refrigeration",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 170,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 615,
+    "QUESTION_TX": "Utility risers",
+    "WEIGHT_NO": 0.005
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 170,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 616,
+    "QUESTION_TX": "External fire spread",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 171,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 617,
+    "QUESTION_TX": "Emergency Organization & Planning",
+    "WEIGHT_NO": 0.0188
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 171,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 618,
+    "QUESTION_TX": "Self-Inspection Program",
+    "WEIGHT_NO": 0.0313
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 171,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 619,
+    "QUESTION_TX": "Impairment Procedures",
+    "WEIGHT_NO": 0.0188
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 171,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 620,
+    "QUESTION_TX": "Contractor Management",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 171,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 621,
+    "QUESTION_TX": "Hot Work Permit",
+    "WEIGHT_NO": 0.0375
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 171,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 622,
+    "QUESTION_TX": "Smoking",
+    "WEIGHT_NO": 0.0188
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 171,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 623,
+    "QUESTION_TX": "Housekeeping",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 171,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 624,
+    "QUESTION_TX": "Planned Preventative Maintenance",
+    "WEIGHT_NO": 0.0375
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 171,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 625,
+    "QUESTION_TX": "Management Interest",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "High Rise Offices",
+    "OCCUPANCY_CD": 2,
+    "QUESTION_CATEGORY_CD": 171,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 626,
+    "QUESTION_TX": "Site Level Business Continuity Planning",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 193,
+    "QUESTION_CATEGORY_NM": "Exposure",
+    "QUESTION_ID": 719,
+    "QUESTION_TX": "Exposure",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 194,
+    "QUESTION_CATEGORY_NM": "Construction",
+    "QUESTION_ID": 720,
+    "QUESTION_TX": "Construction",
+    "WEIGHT_NO": 0.15
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 195,
+    "QUESTION_CATEGORY_NM": "Water Supply",
+    "QUESTION_ID": 721,
+    "QUESTION_TX": "Water Supply",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 196,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 722,
+    "QUESTION_TX": "Automatic Fire Detection",
+    "WEIGHT_NO": 0.06
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 196,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 723,
+    "QUESTION_TX": "Security",
+    "WEIGHT_NO": 0.04
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 197,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 724,
+    "QUESTION_TX": "Sprinklers",
+    "WEIGHT_NO": 0.175
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 197,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 725,
+    "QUESTION_TX": "Special Extinguishing Protection",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 197,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 726,
+    "QUESTION_TX": "Fire Extinguishing Appliances/Hosereels",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 197,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 727,
+    "QUESTION_TX": "Public Fire Department",
+    "WEIGHT_NO": 0.0375
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 198,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 728,
+    "QUESTION_TX": "Fired Process Equipment",
+    "WEIGHT_NO": 0
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 198,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 729,
+    "QUESTION_TX": "Commercial Cooking",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 198,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 730,
+    "QUESTION_TX": "Flammable Liquids - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.005
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 198,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 731,
+    "QUESTION_TX": "Flammable Gases - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 198,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 732,
+    "QUESTION_TX": "Laundries",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 198,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 733,
+    "QUESTION_TX": "Living / Residential Areas - non-patient",
+    "WEIGHT_NO": 0.005
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 198,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 734,
+    "QUESTION_TX": "Laboratories",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 198,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 735,
+    "QUESTION_TX": "Storage",
+    "WEIGHT_NO": 0.005
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 198,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 736,
+    "QUESTION_TX": "Electrical",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 198,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 737,
+    "QUESTION_TX": "Heating, Ventilation, Air Cond & Refrigeration",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 198,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 738,
+    "QUESTION_TX": "High valued materials (pharma & samples)",
+    "WEIGHT_NO": 0.005
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 198,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 739,
+    "QUESTION_TX": "High Valued Equipment",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 199,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 740,
+    "QUESTION_TX": "Emergency Organization & Planning",
+    "WEIGHT_NO": 0.0188
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 199,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 741,
+    "QUESTION_TX": "Self-Inspection Program",
+    "WEIGHT_NO": 0.0313
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 199,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 742,
+    "QUESTION_TX": "Impairment Procedures",
+    "WEIGHT_NO": 0.0188
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 199,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 743,
+    "QUESTION_TX": "Contractor Management",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 199,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 744,
+    "QUESTION_TX": "Hot Work Permit",
+    "WEIGHT_NO": 0.0375
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 199,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 745,
+    "QUESTION_TX": "Smoking",
+    "WEIGHT_NO": 0.0188
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 199,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 746,
+    "QUESTION_TX": "Housekeeping",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 199,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 747,
+    "QUESTION_TX": "Planned Preventative Maintenance",
+    "WEIGHT_NO": 0.0375
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 199,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 748,
+    "QUESTION_TX": "Management Interest",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hospitals",
+    "OCCUPANCY_CD": 8,
+    "QUESTION_CATEGORY_CD": 199,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 749,
+    "QUESTION_TX": "Site Level Business Continuity Planning",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 172,
+    "QUESTION_CATEGORY_NM": "Exposure",
+    "QUESTION_ID": 627,
+    "QUESTION_TX": "Exposure",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 173,
+    "QUESTION_CATEGORY_NM": "Construction",
+    "QUESTION_ID": 628,
+    "QUESTION_TX": "Construction",
+    "WEIGHT_NO": 0.15
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 174,
+    "QUESTION_CATEGORY_NM": "Water Supply",
+    "QUESTION_ID": 629,
+    "QUESTION_TX": "Water Supply",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 175,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 630,
+    "QUESTION_TX": "Automatic Fire Detection",
+    "WEIGHT_NO": 0.06
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 175,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 631,
+    "QUESTION_TX": "Security",
+    "WEIGHT_NO": 0.04
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 176,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 632,
+    "QUESTION_TX": "Sprinklers",
+    "WEIGHT_NO": 0.175
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 176,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 633,
+    "QUESTION_TX": "Special Extinguishing Protection",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 176,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 634,
+    "QUESTION_TX": "Fire Extinguishing Appliances/Hosereels",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 176,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 635,
+    "QUESTION_TX": "Public Fire Department",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 177,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 636,
+    "QUESTION_TX": "Fired Process Equipment",
+    "WEIGHT_NO": 0
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 177,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 637,
+    "QUESTION_TX": "Commercial Cooking",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 177,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 638,
+    "QUESTION_TX": "Flammable Liquids - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.002
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 177,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 639,
+    "QUESTION_TX": "Flammable Gases - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.002
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 177,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 640,
+    "QUESTION_TX": "Laundries",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 177,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 641,
+    "QUESTION_TX": "Car Parking",
+    "WEIGHT_NO": 0.005
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 177,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 642,
+    "QUESTION_TX": "Aerosols",
+    "WEIGHT_NO": 0.002
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 177,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 643,
+    "QUESTION_TX": "Storage",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 177,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 644,
+    "QUESTION_TX": "Electrical",
+    "WEIGHT_NO": 0.022
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 177,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 645,
+    "QUESTION_TX": "Heating, Ventilation, Air Cond & Refrigeration",
+    "WEIGHT_NO": 0.012
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 177,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 646,
+    "QUESTION_TX": "Utility risers",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 178,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 647,
+    "QUESTION_TX": "Emergency Organization & Planning",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 178,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 648,
+    "QUESTION_TX": "Self-Inspection Program",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 178,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 649,
+    "QUESTION_TX": "Impairment Procedures",
+    "WEIGHT_NO": 0.0188
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 178,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 650,
+    "QUESTION_TX": "Contractor Management",
+    "WEIGHT_NO": 0.0375
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 178,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 651,
+    "QUESTION_TX": "Hot Work Permit",
+    "WEIGHT_NO": 0.0375
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 178,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 652,
+    "QUESTION_TX": "Smoking",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 178,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 653,
+    "QUESTION_TX": "Housekeeping",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 178,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 654,
+    "QUESTION_TX": "Planned Preventative Maintenance",
+    "WEIGHT_NO": 0.0188
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 178,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 655,
+    "QUESTION_TX": "Management Interest",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Hotels",
+    "OCCUPANCY_CD": 3,
+    "QUESTION_CATEGORY_CD": 178,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 656,
+    "QUESTION_TX": "Site Level Business Continuity Planning",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 144,
+    "QUESTION_CATEGORY_NM": "Exposure",
+    "QUESTION_ID": 509,
+    "QUESTION_TX": "Exposure",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 145,
+    "QUESTION_CATEGORY_NM": "Construction",
+    "QUESTION_ID": 510,
+    "QUESTION_TX": "Construction",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 146,
+    "QUESTION_CATEGORY_NM": "Water Supply",
+    "QUESTION_ID": 511,
+    "QUESTION_TX": "Water Supply",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 147,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 512,
+    "QUESTION_TX": "Automatic Fire Detection",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 147,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 513,
+    "QUESTION_TX": "Security",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 148,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 514,
+    "QUESTION_TX": "Sprinklers",
+    "WEIGHT_NO": 0.175
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 148,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 515,
+    "QUESTION_TX": "Special Extinguishing Protection",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 148,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 516,
+    "QUESTION_TX": "Fire Extinguishing Appliances/Hosereels",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 148,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 517,
+    "QUESTION_TX": "Public Fire Department",
+    "WEIGHT_NO": 0.0375
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 149,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 518,
+    "QUESTION_TX": "Fired Process Equipment",
+    "WEIGHT_NO": 0.0045
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 149,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 519,
+    "QUESTION_TX": "Commercial Cooking",
+    "WEIGHT_NO": 0.018
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 149,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 520,
+    "QUESTION_TX": "Flammable Liquids - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 149,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 521,
+    "QUESTION_TX": "Flammable Gases - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 149,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 522,
+    "QUESTION_TX": "Explosive Dusts",
+    "WEIGHT_NO": 0.0075
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 149,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 523,
+    "QUESTION_TX": "Hydraulic Equipment",
+    "WEIGHT_NO": 0.012
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 149,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 524,
+    "QUESTION_TX": "Aerosols",
+    "WEIGHT_NO": 0.0105
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 149,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 525,
+    "QUESTION_TX": "Storage",
+    "WEIGHT_NO": 0.0225
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 149,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 526,
+    "QUESTION_TX": "Electrical",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 149,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 527,
+    "QUESTION_TX": "Heating, Ventilation, Air Cond & Refrigeration",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 150,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 528,
+    "QUESTION_TX": "Emergency Organization & Planning",
+    "WEIGHT_NO": 0.0225
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 150,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 529,
+    "QUESTION_TX": "Self-Inspection Program",
+    "WEIGHT_NO": 0.0375
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 150,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 530,
+    "QUESTION_TX": "Impairment Procedures",
+    "WEIGHT_NO": 0.0225
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 150,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 531,
+    "QUESTION_TX": "Contractor Management",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 150,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 532,
+    "QUESTION_TX": "Hot Work Permit",
+    "WEIGHT_NO": 0.045
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 150,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 533,
+    "QUESTION_TX": "Smoking",
+    "WEIGHT_NO": 0.0225
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 150,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 534,
+    "QUESTION_TX": "Housekeeping",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 150,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 535,
+    "QUESTION_TX": "Planned Preventative Maintenance",
+    "WEIGHT_NO": 0.045
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 150,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 536,
+    "QUESTION_TX": "Management Interest",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Light Manufacturing",
+    "OCCUPANCY_CD": 1,
+    "QUESTION_CATEGORY_CD": 150,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 537,
+    "QUESTION_TX": "Site Level Business Continuity Planning",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 263,
+    "QUESTION_CATEGORY_NM": "Exposure",
+    "QUESTION_ID": 812,
+    "QUESTION_TX": "Exposure",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 264,
+    "QUESTION_CATEGORY_NM": "Construction",
+    "QUESTION_ID": 814,
+    "QUESTION_TX": "Construction",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 265,
+    "QUESTION_CATEGORY_NM": "Water Supply",
+    "QUESTION_ID": 815,
+    "QUESTION_TX": "Water Supply",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 266,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 816,
+    "QUESTION_TX": "Automatic Fire Detection",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 266,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 818,
+    "QUESTION_TX": "Security",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 267,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 821,
+    "QUESTION_TX": "Electrical",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 267,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 826,
+    "QUESTION_TX": "Fired Process Equipment",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 267,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 830,
+    "QUESTION_TX": "Flammable Gases - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 267,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 832,
+    "QUESTION_TX": "Flammable Liquids - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 267,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 835,
+    "QUESTION_TX": "Power Boilers / BLRB/ Compressors / HVAC",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 267,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 847,
+    "QUESTION_TX": "Storage",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 267,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 864,
+    "QUESTION_TX": "Wood Yard",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 267,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 866,
+    "QUESTION_TX": "Conveyors",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 267,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 872,
+    "QUESTION_TX": "Turbine Generator Turbine Blowers",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 267,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 874,
+    "QUESTION_TX": "Pulping",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 267,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 875,
+    "QUESTION_TX": "Paper / Tissue / Pulp Drying",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 268,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 878,
+    "QUESTION_TX": "Sprinklers",
+    "WEIGHT_NO": 0.14
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 268,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 881,
+    "QUESTION_TX": "Special Extinguishing Protection",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 268,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 884,
+    "QUESTION_TX": "Fire Extinguishing Appliances/Hosereels",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 268,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 887,
+    "QUESTION_TX": "Public Fire Department",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 269,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 891,
+    "QUESTION_TX": "Emergency Organization & Planning",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 269,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 894,
+    "QUESTION_TX": "Self-Inspection Program",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 269,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 897,
+    "QUESTION_TX": "Impairment Procedures",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 269,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 901,
+    "QUESTION_TX": "Contractor Management",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 269,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 905,
+    "QUESTION_TX": "Hot Work Permit",
+    "WEIGHT_NO": 0.045
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 269,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 909,
+    "QUESTION_TX": "Smoking",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 269,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 912,
+    "QUESTION_TX": "Housekeeping",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 269,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 916,
+    "QUESTION_TX": "Planned Preventative Maintenance",
+    "WEIGHT_NO": 0.06
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 269,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 919,
+    "QUESTION_TX": "Management Interest",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 269,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 922,
+    "QUESTION_TX": "Site Level Business Continuity Planning",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Pulp & Paper",
+    "OCCUPANCY_CD": 30,
+    "QUESTION_CATEGORY_CD": 267,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 1003,
+    "QUESTION_TX": "Explosive Dusts",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 214,
+    "QUESTION_CATEGORY_NM": "Exposure",
+    "QUESTION_ID": 812,
+    "QUESTION_TX": "Exposure",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 215,
+    "QUESTION_CATEGORY_NM": "Construction",
+    "QUESTION_ID": 813,
+    "QUESTION_TX": "Construction",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 216,
+    "QUESTION_CATEGORY_NM": "Water Supply",
+    "QUESTION_ID": 815,
+    "QUESTION_TX": "Water Supply",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 217,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 816,
+    "QUESTION_TX": "Automatic Fire Detection",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 217,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 818,
+    "QUESTION_TX": "Security",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 218,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 820,
+    "QUESTION_TX": "Electrical",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 218,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 823,
+    "QUESTION_TX": "Explosive Dusts",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 218,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 825,
+    "QUESTION_TX": "Fired Process Equipment",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 218,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 829,
+    "QUESTION_TX": "Flammable Gases - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 218,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 831,
+    "QUESTION_TX": "Flammable Liquids - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 218,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 839,
+    "QUESTION_TX": "Power Boilers / Compressors / HVAC",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 218,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 841,
+    "QUESTION_TX": "Banbury Mixing",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 218,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 842,
+    "QUESTION_TX": "Calendaring",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 218,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 843,
+    "QUESTION_TX": "Green Tire Presses",
+    "WEIGHT_NO": 0.0375
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 218,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 845,
+    "QUESTION_TX": "Storage",
+    "WEIGHT_NO": 0.0625
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 219,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 876,
+    "QUESTION_TX": "Sprinklers",
+    "WEIGHT_NO": 0.21
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 219,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 879,
+    "QUESTION_TX": "Special Extinguishing Protection",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 219,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 883,
+    "QUESTION_TX": "Fire Extinguishing Appliances/Hosereels",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 219,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 885,
+    "QUESTION_TX": "Public Fire Department",
+    "WEIGHT_NO": 0.06
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 220,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 889,
+    "QUESTION_TX": "Emergency Organization & Planning",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 220,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 892,
+    "QUESTION_TX": "Self-Inspection Program",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 220,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 895,
+    "QUESTION_TX": "Impairment Procedures",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 220,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 898,
+    "QUESTION_TX": "Contractor Management",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 220,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 902,
+    "QUESTION_TX": "Hot Work Permit",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 220,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 906,
+    "QUESTION_TX": "Smoking",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 220,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 910,
+    "QUESTION_TX": "Housekeeping",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 220,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 913,
+    "QUESTION_TX": "Planned Preventative Maintenance",
+    "WEIGHT_NO": 0.04
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 220,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 917,
+    "QUESTION_TX": "Management Interest",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Rubber Tires",
+    "OCCUPANCY_CD": 23,
+    "QUESTION_CATEGORY_CD": 220,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 920,
+    "QUESTION_TX": "Site Level Business Continuity Planning",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 256,
+    "QUESTION_CATEGORY_NM": "Exposure",
+    "QUESTION_ID": 812,
+    "QUESTION_TX": "Exposure",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 257,
+    "QUESTION_CATEGORY_NM": "Construction",
+    "QUESTION_ID": 813,
+    "QUESTION_TX": "Construction",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 258,
+    "QUESTION_CATEGORY_NM": "Water Supply",
+    "QUESTION_ID": 815,
+    "QUESTION_TX": "Water Supply",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 259,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 816,
+    "QUESTION_TX": "Automatic Fire Detection",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 259,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 818,
+    "QUESTION_TX": "Security",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 260,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 820,
+    "QUESTION_TX": "Electrical",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 260,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 823,
+    "QUESTION_TX": "Explosive Dusts",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 260,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 825,
+    "QUESTION_TX": "Fired Process Equipment",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 260,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 829,
+    "QUESTION_TX": "Flammable Gases - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 260,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 834,
+    "QUESTION_TX": "Flammable Liquids - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 260,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 836,
+    "QUESTION_TX": "Power Boilers / Compressors / HVAC / Hot Oil",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 260,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 845,
+    "QUESTION_TX": "Storage",
+    "WEIGHT_NO": 0.0625
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 260,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 850,
+    "QUESTION_TX": "Kilns",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 260,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 862,
+    "QUESTION_TX": "Turbine Generators",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 260,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 863,
+    "QUESTION_TX": "Wood Yard",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 260,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 865,
+    "QUESTION_TX": "Conveyors",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 260,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 873,
+    "QUESTION_TX": "Sawing / Planing",
+    "WEIGHT_NO": 0.0375
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 261,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 876,
+    "QUESTION_TX": "Sprinklers",
+    "WEIGHT_NO": 0.21
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 261,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 882,
+    "QUESTION_TX": "Special Extinguishing Protection",
+    "WEIGHT_NO": 0.045
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 261,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 883,
+    "QUESTION_TX": "Fire Extinguishing Appliances/Hosereels",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 261,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 888,
+    "QUESTION_TX": "Public Fire Department",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 262,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 889,
+    "QUESTION_TX": "Emergency Organization & Planning",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 262,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 892,
+    "QUESTION_TX": "Self-Inspection Program",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 262,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 895,
+    "QUESTION_TX": "Impairment Procedures",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 262,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 898,
+    "QUESTION_TX": "Contractor Management",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 262,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 902,
+    "QUESTION_TX": "Hot Work Permit",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 262,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 906,
+    "QUESTION_TX": "Smoking",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 262,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 910,
+    "QUESTION_TX": "Housekeeping",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 262,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 913,
+    "QUESTION_TX": "Planned Preventative Maintenance",
+    "WEIGHT_NO": 0.04
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 262,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 917,
+    "QUESTION_TX": "Management Interest",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Sawmills",
+    "OCCUPANCY_CD": 29,
+    "QUESTION_CATEGORY_CD": 262,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 920,
+    "QUESTION_TX": "Site Level Business Continuity Planning",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 207,
+    "QUESTION_CATEGORY_NM": "Exposure",
+    "QUESTION_ID": 781,
+    "QUESTION_TX": "Exposure",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 208,
+    "QUESTION_CATEGORY_NM": "Construction",
+    "QUESTION_ID": 782,
+    "QUESTION_TX": "Construction",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 209,
+    "QUESTION_CATEGORY_NM": "Water Supply",
+    "QUESTION_ID": 783,
+    "QUESTION_TX": "Water Supply",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 210,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 784,
+    "QUESTION_TX": "Automatic Fire Detection",
+    "WEIGHT_NO": 0.09
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 210,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 785,
+    "QUESTION_TX": "Security",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 211,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 786,
+    "QUESTION_TX": "Sprinklers",
+    "WEIGHT_NO": 0.075
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 211,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 787,
+    "QUESTION_TX": "Special Extinguishing Protection",
+    "WEIGHT_NO": 0.0075
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 211,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 788,
+    "QUESTION_TX": "Smoke Extraction",
+    "WEIGHT_NO": 0.06
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 211,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 789,
+    "QUESTION_TX": "Public Fire Department",
+    "WEIGHT_NO": 0.0075
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 212,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 790,
+    "QUESTION_TX": "Exhaust Ducts and Hook-Ups",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 212,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 791,
+    "QUESTION_TX": "Wet Process Tools",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 212,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 792,
+    "QUESTION_TX": "Other Tools",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 212,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 793,
+    "QUESTION_TX": "Cleanroom Partitions",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 212,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 794,
+    "QUESTION_TX": "Pyrophoric Gases",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 212,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 795,
+    "QUESTION_TX": "Flammable Gases - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 212,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 796,
+    "QUESTION_TX": "Flammable Liquids - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 212,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 797,
+    "QUESTION_TX": "Electrical",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 212,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 798,
+    "QUESTION_TX": "Utility Equipment",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 212,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 799,
+    "QUESTION_TX": "Ancillary Equipment",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 212,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 800,
+    "QUESTION_TX": "Storage",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 213,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 802,
+    "QUESTION_TX": "Emergency Organization & Planning",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 213,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 803,
+    "QUESTION_TX": "Self-Inspection Program",
+    "WEIGHT_NO": 0.005
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 213,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 804,
+    "QUESTION_TX": "Impairment Procedures",
+    "WEIGHT_NO": 0.005
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 213,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 805,
+    "QUESTION_TX": "Contractor Management",
+    "WEIGHT_NO": 0.005
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 213,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 806,
+    "QUESTION_TX": "Hot Work Permit",
+    "WEIGHT_NO": 0.005
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 213,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 807,
+    "QUESTION_TX": "Smoking",
+    "WEIGHT_NO": 0.005
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 213,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 808,
+    "QUESTION_TX": "Housekeeping",
+    "WEIGHT_NO": 0.005
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 213,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 809,
+    "QUESTION_TX": "Planned Preventative Maintenance",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 213,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 810,
+    "QUESTION_TX": "Management Interest",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Semiconductor/Wafer Fab",
+    "OCCUPANCY_CD": 5,
+    "QUESTION_CATEGORY_CD": 213,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 811,
+    "QUESTION_TX": "Site Level Business Continuity Planning",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 242,
+    "QUESTION_CATEGORY_NM": "Exposure",
+    "QUESTION_ID": 812,
+    "QUESTION_TX": "Exposure",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 243,
+    "QUESTION_CATEGORY_NM": "Construction",
+    "QUESTION_ID": 814,
+    "QUESTION_TX": "Construction",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 244,
+    "QUESTION_CATEGORY_NM": "Water Supply",
+    "QUESTION_ID": 815,
+    "QUESTION_TX": "Water Supply",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 245,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 816,
+    "QUESTION_TX": "Automatic Fire Detection",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 245,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 818,
+    "QUESTION_TX": "Security",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 246,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 821,
+    "QUESTION_TX": "Electrical",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 246,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 828,
+    "QUESTION_TX": "Fired Process Equipment",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 246,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 830,
+    "QUESTION_TX": "Flammable Gases - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 246,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 832,
+    "QUESTION_TX": "Flammable Liquids - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 246,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 837,
+    "QUESTION_TX": "Power Boilers / Compressors / HVAC",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 246,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 854,
+    "QUESTION_TX": "Rolling Mills",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 246,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 866,
+    "QUESTION_TX": "Conveyors",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 246,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 869,
+    "QUESTION_TX": "Steel Converting BOF, LMF",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 246,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 870,
+    "QUESTION_TX": "Casters",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 246,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 871,
+    "QUESTION_TX": "Coke Plant / By-Products Plant",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 246,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 872,
+    "QUESTION_TX": "Turbine Generator Turbine Blowers",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 247,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 878,
+    "QUESTION_TX": "Sprinklers",
+    "WEIGHT_NO": 0.14
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 247,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 881,
+    "QUESTION_TX": "Special Extinguishing Protection",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 247,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 884,
+    "QUESTION_TX": "Fire Extinguishing Appliances/Hosereels",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 247,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 887,
+    "QUESTION_TX": "Public Fire Department",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 248,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 891,
+    "QUESTION_TX": "Emergency Organization & Planning",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 248,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 894,
+    "QUESTION_TX": "Self-Inspection Program",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 248,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 897,
+    "QUESTION_TX": "Impairment Procedures",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 248,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 900,
+    "QUESTION_TX": "Contractor Management",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 248,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 904,
+    "QUESTION_TX": "Hot Work Permit",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 248,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 908,
+    "QUESTION_TX": "Smoking",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 248,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 912,
+    "QUESTION_TX": "Housekeeping",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 248,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 915,
+    "QUESTION_TX": "Planned Preventative Maintenance",
+    "WEIGHT_NO": 0.09
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 248,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 919,
+    "QUESTION_TX": "Management Interest",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 248,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 922,
+    "QUESTION_TX": "Site Level Business Continuity Planning",
+    "WEIGHT_NO": 0.03
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Steel",
+    "OCCUPANCY_CD": 27,
+    "QUESTION_CATEGORY_CD": 246,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 1003,
+    "QUESTION_TX": "Explosive Dusts",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 186,
+    "QUESTION_CATEGORY_NM": "Exposure",
+    "QUESTION_ID": 688,
+    "QUESTION_TX": "Exposure",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 187,
+    "QUESTION_CATEGORY_NM": "Construction",
+    "QUESTION_ID": 689,
+    "QUESTION_TX": "Construction",
+    "WEIGHT_NO": 0.15
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 188,
+    "QUESTION_CATEGORY_NM": "Water Supply",
+    "QUESTION_ID": 690,
+    "QUESTION_TX": "Water Supply",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 189,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 691,
+    "QUESTION_TX": "Automatic Fire Detection",
+    "WEIGHT_NO": 0.06
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 189,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 692,
+    "QUESTION_TX": "Security",
+    "WEIGHT_NO": 0.04
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 190,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 693,
+    "QUESTION_TX": "Sprinklers",
+    "WEIGHT_NO": 0.175
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 190,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 694,
+    "QUESTION_TX": "Special Extinguishing Protection",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 190,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 695,
+    "QUESTION_TX": "Fire Extinguishing Appliances/Hosereels",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 190,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 696,
+    "QUESTION_TX": "Public Fire Department",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 191,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 697,
+    "QUESTION_TX": "Fired Process Equipment",
+    "WEIGHT_NO": 0
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 191,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 698,
+    "QUESTION_TX": "Commercial Cooking",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 191,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 699,
+    "QUESTION_TX": "Flammable Liquids - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.005
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 191,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 700,
+    "QUESTION_TX": "Flammable Gases - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.005
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 191,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 701,
+    "QUESTION_TX": "Laundries",
+    "WEIGHT_NO": 0.005
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 191,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 702,
+    "QUESTION_TX": "Residential Areas",
+    "WEIGHT_NO": 0.005
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 191,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 703,
+    "QUESTION_TX": "Laboratories",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 191,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 704,
+    "QUESTION_TX": "Storage",
+    "WEIGHT_NO": 0.01
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 191,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 705,
+    "QUESTION_TX": "Electrical",
+    "WEIGHT_NO": 0.0225
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 191,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 706,
+    "QUESTION_TX": "Heating, Ventilation, Air Cond & Refrigeration",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 191,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 707,
+    "QUESTION_TX": "High Valued Materials",
+    "WEIGHT_NO": 0.005
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 191,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 708,
+    "QUESTION_TX": "High Valued Equipment",
+    "WEIGHT_NO": 0.005
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 192,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 709,
+    "QUESTION_TX": "Emergency Organization & Planning",
+    "WEIGHT_NO": 0.0125
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 192,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 710,
+    "QUESTION_TX": "Self-Inspection Program",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 192,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 711,
+    "QUESTION_TX": "Impairment Procedures",
+    "WEIGHT_NO": 0.0188
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 192,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 712,
+    "QUESTION_TX": "Contractor Management",
+    "WEIGHT_NO": 0.0375
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 192,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 713,
+    "QUESTION_TX": "Hot Work Permit",
+    "WEIGHT_NO": 0.0375
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 192,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 714,
+    "QUESTION_TX": "Smoking",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 192,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 715,
+    "QUESTION_TX": "Housekeeping",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 192,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 716,
+    "QUESTION_TX": "Planned Preventative Maintenance",
+    "WEIGHT_NO": 0.0188
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 192,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 717,
+    "QUESTION_TX": "Management Interest",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Universities",
+    "OCCUPANCY_CD": 7,
+    "QUESTION_CATEGORY_CD": 192,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 718,
+    "QUESTION_TX": "Site Level Business Continuity Planning",
+    "WEIGHT_NO": 0.025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 151,
+    "QUESTION_CATEGORY_NM": "Exposure",
+    "QUESTION_ID": 538,
+    "QUESTION_TX": "Exposure",
+    "WEIGHT_NO": 0.05
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 152,
+    "QUESTION_CATEGORY_NM": "Construction",
+    "QUESTION_ID": 539,
+    "QUESTION_TX": "Construction",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 153,
+    "QUESTION_CATEGORY_NM": "Water Supply",
+    "QUESTION_ID": 540,
+    "QUESTION_TX": "Water Supply",
+    "WEIGHT_NO": 0.1
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 154,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 541,
+    "QUESTION_TX": "Automatic Fire Detection",
+    "WEIGHT_NO": 0.06
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 154,
+    "QUESTION_CATEGORY_NM": "Supervision",
+    "QUESTION_ID": 542,
+    "QUESTION_TX": "Security",
+    "WEIGHT_NO": 0.04
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 155,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 543,
+    "QUESTION_TX": "Sprinklers",
+    "WEIGHT_NO": 0.28
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 155,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 544,
+    "QUESTION_TX": "Special Extinguishing Protection",
+    "WEIGHT_NO": 0.04
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 155,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 545,
+    "QUESTION_TX": "Fire Extinguishing Appliances/Hosereels",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 155,
+    "QUESTION_CATEGORY_NM": "Protection",
+    "QUESTION_ID": 546,
+    "QUESTION_TX": "Public Fire Department",
+    "WEIGHT_NO": 0.06
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 156,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 547,
+    "QUESTION_TX": "Fired Process Equipment",
+    "WEIGHT_NO": 0.002
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 156,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 548,
+    "QUESTION_TX": "Commercial Cooking",
+    "WEIGHT_NO": 0.0025
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 156,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 549,
+    "QUESTION_TX": "Flammable Liquids - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.007
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 156,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 550,
+    "QUESTION_TX": "Flammable Gases - Storage, Transfer, Use",
+    "WEIGHT_NO": 0.007
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 156,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 551,
+    "QUESTION_TX": "Explosive Dusts",
+    "WEIGHT_NO": 0.002
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 156,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 552,
+    "QUESTION_TX": "Hydraulic Equipment",
+    "WEIGHT_NO": 0.002
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 156,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 553,
+    "QUESTION_TX": "Aerosols",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 156,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 554,
+    "QUESTION_TX": "Storage",
+    "WEIGHT_NO": 0.035
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 156,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 555,
+    "QUESTION_TX": "Electrical",
+    "WEIGHT_NO": 0.02
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 156,
+    "QUESTION_CATEGORY_NM": "Hazards",
+    "QUESTION_ID": 556,
+    "QUESTION_TX": "Heating, Ventilation, Air Cond & Refrigeration",
+    "WEIGHT_NO": 0.0075
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 157,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 557,
+    "QUESTION_TX": "Emergency Organization & Planning",
+    "WEIGHT_NO": 0.0113
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 157,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 558,
+    "QUESTION_TX": "Self-Inspection Program",
+    "WEIGHT_NO": 0.0188
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 157,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 559,
+    "QUESTION_TX": "Impairment Procedures",
+    "WEIGHT_NO": 0.0113
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 157,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 560,
+    "QUESTION_TX": "Contractor Management",
+    "WEIGHT_NO": 0.0075
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 157,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 561,
+    "QUESTION_TX": "Hot Work Permit",
+    "WEIGHT_NO": 0.0225
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 157,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 562,
+    "QUESTION_TX": "Smoking",
+    "WEIGHT_NO": 0.0113
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 157,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 563,
+    "QUESTION_TX": "Housekeeping",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 157,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 564,
+    "QUESTION_TX": "Planned Preventative Maintenance",
+    "WEIGHT_NO": 0.0225
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 157,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 565,
+    "QUESTION_TX": "Management Interest",
+    "WEIGHT_NO": 0.015
+  },
+  {
+    "LOB_CD": "CP",
+    "OCCUPANCY_DESCRIPTION": "Warehousing",
+    "OCCUPANCY_CD": 10,
+    "QUESTION_CATEGORY_CD": 157,
+    "QUESTION_CATEGORY_NM": "Human Element",
+    "QUESTION_ID": 566,
+    "QUESTION_TX": "Site Level Business Continuity Planning",
+    "WEIGHT_NO": 0.015
+  }
+]

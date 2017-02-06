@@ -1,0 +1,1 @@
+{"version":3,"sources":["app/firePump/firePump.component.scss"],"names":[],"mappings":"AAAA;EACI,kBAAkB;EAClB,0BAA0B,EAC7B","file":"firePump.component.css","sourcesContent":[".ng-dirty.ng-invalid {\r\n    border-color: red;\r\n    background-color: #ffecef;\r\n}\r\n"]}

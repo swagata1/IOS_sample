@@ -1,0 +1,7 @@
+"use strict";
+var alert_component_1 = require('./alert/alert.component');
+exports.AlertComponent = alert_component_1.AlertComponent;
+var alert_module_1 = require('./alert/alert.module');
+exports.AlertModule = alert_module_1.AlertModule;
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNoYXJlZC9hbGVydC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQUEsZ0NBQStCLHlCQUF5QixDQUFDO0FBQWhELDBEQUFnRDtBQUN6RCw2QkFBNEIsc0JBQXNCLENBQUM7QUFBMUMsaURBQTBDIiwiZmlsZSI6InNoYXJlZC9hbGVydC5qcyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCB7IEFsZXJ0Q29tcG9uZW50IH0gZnJvbSAnLi9hbGVydC9hbGVydC5jb21wb25lbnQnO1xyXG5leHBvcnQgeyBBbGVydE1vZHVsZSB9IGZyb20gJy4vYWxlcnQvYWxlcnQubW9kdWxlJztcclxuIl19

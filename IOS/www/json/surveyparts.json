@@ -1,0 +1,199 @@
+[{
+  "id": "0",
+  "name": "Cover Page",
+  "section": "coverpage",
+  "status": "Complete",
+  "action": "",
+  "order": 0,
+  "active": false
+}, {
+  "id": "1",
+  "name": "Summary",
+  "section": "summary",
+  "status": "Complete",
+  "action": "",
+  "order": 1,
+  "active": false
+}, {
+  "id": "16",
+  "name": "Request Details",
+  "section": "requestDetails",
+  "status": "Complete",
+  "action": "",
+  "order": 1,
+  "active": true
+}, {
+  "id": "2",
+  "name": "Construction",
+  "section": "construction",
+  "status": "Incomplete",
+  "action": "Fix",
+  "order": 2,
+  "active": false
+}, {
+  "id": "17",
+  "name": "Construction",
+  "section": "construction2",
+  "status": "Incomplete",
+  "action": "Fix",
+  "order": 3,
+  "subsection": [{
+    "name": "Building Info",
+    "attribute": "bi",
+    "order": 1
+  }, {
+    "name": "Construction",
+    "attribute": "construction",
+    "order": 2
+  }, {
+    "name": "Protection",
+    "attribute": "protection",
+    "order": 3
+  }],
+  "active": true
+}, {
+  "id": "3",
+  "name": "Occupancy",
+  "section": "occupancy",
+  "status": "Complete",
+  "action": "",
+  "order": 4,
+  "active": true
+}, {
+  "id": "4",
+  "name": "Sprinklers",
+  "section": "sprinklers",
+  "status": "Complete",
+  "action": "",
+  "order": 5,
+  "active": true
+}, {
+  "id": "5",
+  "name": "Water Supplies",
+  "section": "waterSupplies",
+  "status": "Complete",
+  "action": "",
+  "order": 6,
+  "active": true
+}, {
+  "id": "6",
+  "name": "Protection",
+  "section": "protection",
+  "status": "Incomplete",
+  "action": "Fix",
+  "order": 7,
+  "active": true
+}, {
+  "id": "7",
+  "name": "NATCAT",
+  "section": "natcat",
+  "status": "Complete",
+  "action": "",
+  "order": 12,
+  "active": true
+}, {
+  "id": "8",
+  "name": "Management Programs",
+  "section": "managementPrograms",
+  "status": "Complete",
+  "action": "",
+  "order": 13,
+  "subtypes": [{
+    "name": "Plant Emergency Response Rating",
+    "attribute": "plantEmergencyResponseRating",
+    "order": 1
+  }, {
+    "name": "Self Inspection Program",
+    "attribute": "selfInspectionProgram",
+    "order": 2
+  }, {
+    "name": "Impairment Procedures",
+    "attribute": "impairmentProcedures",
+    "order": 3
+  }, {
+    "name": "Contractor Management",
+    "attribute": "contractorManagement",
+    "order": 4
+  }, {
+    "name": "Hot Work Permit",
+    "attribute": "hotWorkPermit",
+    "order": 5
+  }, {
+    "name": "Smoking",
+    "attribute": "smoking",
+    "order": 6
+  }, {
+    "name": "Housekeeping",
+    "attribute": "housekeeping",
+    "order": 7
+  }, {
+    "name": "Preventative Maintenance Program",
+    "attribute": "preventativeMaintenanceProgram",
+    "order": 8
+  }, {
+    "name": "Management Interest",
+    "attribute": "managementInterest",
+    "order": 9
+  }, {
+    "name": "Site Level BCP",
+    "attribute": "siteLevelBcp",
+    "order": 10
+  }],
+  "active": true
+}, {
+  "id": "10",
+  "name": "Surveillance",
+  "section": "surveillance",
+  "status": "Complete",
+  "action": "",
+  "order": 8,
+  "active": true
+}, {
+  "id": "11",
+  "name": "Hazards",
+  "section": "hazards",
+  "status": "Complete",
+  "action": "",
+  "order": 9,
+  "active": true
+}, {
+  "id": "12",
+  "name": "Exposures",
+  "section": "exposures",
+  "status": "Complete",
+  "action": "",
+  "order": 10,
+  "active": true
+}, {
+  "id": "13",
+  "name": "Fire Loss Estimates",
+  "section": "fireLossEstimates",
+  "status": "Complete",
+  "action": "",
+  "order": 11,
+  "active": true
+}, {
+  "id": "14",
+  "name": "Risk Improvements",
+  "section": "riskImprovements",
+  "status": "Complete",
+  "action": "",
+  "order": 13,
+  "active": true
+}, {
+  "id": "15",
+  "name": "Time & Expense",
+  "section": "timeExpense",
+  "status": "Complete",
+  "action": "",
+  "order": 14,
+  "active": true
+}, {
+  "id": "9",
+  "name": "Objects",
+  "section": "objects",
+  "status": "Complete",
+  "action": "",
+  "order": 9,
+  "active": false
+}]

@@ -1,0 +1,3 @@
+<div class="isc-btn-group isc-btn-toggle" [class.disabled]="disabled">
+    <label [ngClass]="{active: (selectedIndex == controlIndex)}" *ngFor="let control of controlArr; let controlIndex = index;" (click)="segmentSelected(control, controlIndex)">{{control}}</label>    
+</div>

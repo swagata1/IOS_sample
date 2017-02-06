@@ -1,0 +1,57 @@
+
+<div class="isc-card">
+  <div class="isc-table-responsive">
+    <table class="isc-table isc-table-basic">
+      <colgroup>
+      <col />
+      <col class="_w-25" />
+      <col class="_w-25" />
+      <col class="_w-10" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th>Hazard</th>
+          <th>Current Rating</th>
+          <th>Post R/I Rating</th>
+          <th data-align="center">RI's</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let category of hazardCategories">
+          <td>{{category.QUESTION_TX}}</td>
+          <td>
+                <dropdown-container 
+                    [(inputData)]="category.CURRENT_RATING" 
+                    placeholder="Please Select"
+                    [list]="category.currentRatingAns" 
+                    [displayProperty]="'RatNarrative'"
+                    [keyProperty]="'RatNarrative'"
+                    isSearchable=true
+                    [searchProperty]="'RatNarrative'"
+                    (suggestionSelected)="changeCurrentRating($event,category)">
+                </dropdown-container> 
+                <p class="axis-help-block" *ngIf="category.ratingLow">The  Hazard Rating is "Low" or less  consider adding R/I</p> 
+                <p class="axis-help-block" *ngIf="!category.CURRENT_RATING">Please enter a value</p>           
+          </td>
+          <td>
+            <dropdown-container 
+            [(inputData)]="category.POST_RI_RATING" 
+            placeholder="Please Select"
+            [list]="category.postRatingAns" 
+            [displayProperty]="'RatNarrative'"
+            [keyProperty]="'RatNarrative'"
+            isSearchable=true
+            [searchProperty]="'RatNarrative'"
+            (suggestionSelected)="changePostRating($event,category)">
+            </dropdown-container> 
+            <p class="axis-help-block" *ngIf="!category.POST_RI_RATING">Please enter a value</p>
+          </td>
+            <td data-align="center">
+                <span *ngIf="category.riCount">{{category.riCount}}</span>
+                <span *ngIf="!category.riCount">0</span>
+            </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

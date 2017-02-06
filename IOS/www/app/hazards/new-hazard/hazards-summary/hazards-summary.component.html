@@ -1,0 +1,107 @@
+<div class="isc-card">
+  <!-- Small Summary View Section starts -->
+  <div class="isc-card-heading" *ngIf="hazardsSummarySmallView">
+    <div class="isc-card-title">
+      <h4>
+        Hazards
+        <span class="isc-badge" *ngIf="hazardsSummary && hazardsSummary.length > 0">
+          {{hazardsSummary.length}}
+        </span>
+      </h4>
+    </div>
+  </div>
+  <div class="isc-table-responsive" *ngIf="hazardsSummarySmallView">
+    <table class="isc-table isc-table-basic">
+      <colgroup>
+        <col />
+        <col />
+        <col />
+        <col class="_w-px-100" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Type</th>
+          <th>Category</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let summary of hazardsSummary; let indx = index"> 
+          <td>
+            <span>
+              {{summary.SPECIFIC_LOCATION_NM }}
+            </span>
+          </td>
+          <td>
+            {{summary.HAZARD_MAIN_TYPE_Desc}}
+            <div class="_text-muted">{{summary.HAZARD_TYPE_Desc}}</div>
+          </td>
+          <td>{{categoryDesc[indx]}}</td> 
+          <td data-align="center">
+            <button class="isc-btn isc-btn-icon" (click)="deleteEstimate(summary, indx)"><span class="material-icons isc-icon-sm" title="Delete">delete</span> </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!-- Small Summary View Section ends -->
+
+  <!-- Large Summary View Section starts -->
+  <div class="isc-table-responsive" *ngIf="!hazardsSummarySmallView">
+    <table class="isc-table isc-table-basic">
+      <colgroup>
+        <col />
+        <col />
+        <col />
+        <col />
+        <col />
+        <col class="_w-px-100" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Category</th>
+          <th data-align="center">Recs</th>
+          <th data-align="center">Sprinklers </th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let summary of hazardsSummary; let indx = index">
+          <td>
+            <a (click)="modal.showModal('Update', summary, indx);">{{summary.SPECIFIC_LOCATION_NM}}
+            </a>
+          </td>
+          <td>
+            {{mainTypeDrop[indx]}}
+            <div class="_text-muted">{{typeDrop[indx]}}</div>
+          </td>
+          <td>{{categoryDesc[indx]}}</td>
+          <td data-align="center">5</td>
+          <td data-align="center">3</td>
+            <!-- <td><span
+              data-isc-tooltip-template="'partials/forms/tooltipHazardLinked.html'"
+              data-kind="text"
+              data-width="650px"
+              >3</span></td> -->
+          <td data-align="center">
+            <button class="isc-btn isc-btn-icon" (click)="copyEstimate(summary, indx)"><span class="material-icons isc-icon-sm" title="Copy">content_copy</span> </button>
+            <button class="isc-btn isc-btn-icon" (click)="deleteEstimate(summary, indx)"><span class="material-icons isc-icon-sm" title="Delete">delete</span> </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!-- Large Summary View Section ends -->
+  <div class="isc-card-footer">
+    <div data-backdrop="static">
+      <button (click)="modal.showModal('New');" class="isc-btn isc-btn-primary isc-btn-sm" data-isc-button="primary" data-size="small" type="button">
+        <span data-isc-icon="add"><span class="material-icons ">add</span><span> Hazard</span></span>
+      </button>
+    </div>
+  </div>
+  <hazards-add #modal></hazards-add>
+</div>
+     

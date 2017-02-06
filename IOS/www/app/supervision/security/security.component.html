@@ -1,0 +1,154 @@
+<form name="formPageSupervision">
+  <div class="isc-card">
+    <div class="isc-card-body">
+      <div class="isc-grid">
+        <div class="isc-col-md-10">
+          <div class="isc-form-horizontal">
+            <div class="isc-form-group" *ngIf="securityWatchServiceValues && securityWatchServiceValues.length > 0">
+              <label class="isc-col-md-3 isc-control-label">Security &amp; Watch Service <span data-color="muted">(24/7)</span></label>
+              <div class="isc-col-md-9">
+                <div class="isc-radio isc-radio-inline" *ngFor="let value of securityWatchServiceValues">
+                  <!--<input type="radio" [(ngModel)]="securityWatchService"  name="sex" value="male">Male-->
+                  <input type="radio" 
+                         name="spWatchService" 
+                         id="spWatchService{{$index}}" 
+                         
+                         value="{{value.Description}}">
+                  <label>{{value.Description}}</label>
+                </div>
+                <div class="isc-help-block">errorMessagePlaceHolder</div>
+              </div>
+            </div>
+            <div class="isc-form-group" *ngIf="roundFrequencyValues && roundFrequencyValues.length > 0">
+              <label class="isc-col-md-3 isc-control-label">Round Frequency</label>
+              <div class="isc-col-md-9">
+                <div class="isc-radio isc-radio-inline" *ngFor="let value of roundFrequencyValues">
+                  <input type="radio" 
+                         name="spRoundFreq" 
+                         id="spRoundFreq{{$index}}" 
+                         value="value.Description" 
+                         required>
+                  <label>{{value.Description}}</label>
+                </div>
+                <div class="isc-help-block">errorMessagePlaceHolder</div>
+              </div>
+            </div>
+            <div class="isc-form-group" *ngIf="securityRoundsValues && securityRoundsValues.length > 0">
+              <label class="isc-col-md-3 isc-control-label" for="spSecurityRounds">Security Rounds</label>
+              <div class="isc-col-md-9">
+                <div class="isc-btn-group isc-btn-toggle">
+									<segment-control [controlArr]="[securityRoundsValues[0].Description, securityRoundsValues[1].Description]" 
+                                   >
+                  </segment-control>
+                  <!-- [(ngModel)]="" -->
+                </div>
+                <input type="hidden" name="spSecurityRounds" required />
+                <div class="isc-help-block">errorMessagePlaceHolder</div>
+              </div>
+            </div>
+            <div class="isc-form-group" *ngIf="coverageValues && coverageValues.length > 0"> 
+              <label class="isc-col-md-3 isc-control-label">Coverage</label>
+              <div class="isc-col-md-9">
+                <div class="isc-radio isc-radio-inline" *ngFor="let value of coverageValues">
+                  <input type="radio" 
+                         name="spCoverage" 
+                         id="spCoverage{{$index}}" 
+                         value="value.Description" 
+                         required>
+                  <label>{{value.Description}}</label>
+                </div>
+                <div class="isc-help-block">errorMessagePlaceHolder</div>
+              </div>
+            </div>
+            <div class="isc-form-group" *ngIf="securityAlarmsValues && securityAlarmsValues.length > 0">
+              <label class="isc-col-sm-12 isc-col-md-3 isc-control-label">Security Alarms</label>
+              <div class="isc-col-md-9">
+                <div class="isc-checkbox isc-checkbox-inline" *ngFor="let value of securityAlarmsValues">
+                  <input type="checkbox" id="spAlarm{{$index}}" name="spAlarm" value="value.Description">
+                  <label class="checkbox">{{value.Description}}</label>
+                </div>
+                <div class="isc-help-block">errorMessagePlaceHolder</div>
+              </div>
+            </div>
+            <div class="isc-form-group" *ngIf="intrusionAlarmMonitoringValues && intrusionAlarmMonitoringValues.length > 0">
+              <label class="isc-col-sm-12 isc-col-md-3 isc-control-label">Intrusion Alarm Monitoring</label>
+              <div class="isc-col-md-9">
+                <div class="isc-radio isc-radio-inline"  *ngFor="let value of intrusionAlarmMonitoringValues">
+                  <input type="radio" 
+                         name="spIntrusionAlarm" 
+                         id="spIntrusionAlarm{{$index}}" 
+                         value="value.Description" 
+                         required>
+                  <label>{{value.Description}}</label>
+                </div>
+                <div class="isc-help-block">errorMessagePlaceHolder</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="isc-col-md-2">
+          <div class="isc-grid">
+            <div class="isc-col-sm-4  isc-col-md-12" *ngIf="spCurrentRatings && spCurrentRatings.length > 0">
+              <div class="isc-summary _mb-xlg"> 
+                <small class="isc-summary-title">Current Rating</small>
+                <h4 class="isc-summary-text">
+                  Excellent            
+                </h4>
+                <button class="isc-btn isc-btn-icon" 
+                        data-size="small" 
+                        (click)="toggleEditSecurityCurrentRating = !toggleEditSecurityCurrentRating">
+                  <span class="material-icons isc-icon-sm">edit</span>
+                </button>
+                <div class="isc-reveal" *ngIf="toggleEditSecurityCurrentRating">
+                  <div class="isc-input-group">
+                    <!--(suggestionSelected)="consCurrentRatingHandler($event)"-->
+                    <dropdown-container 
+                      placeholder="Override?" 
+                      [list]="spCurrentRatings" 
+                      [searchProperty]="'RatNarrative'" 
+                      [displayProperty]="'RatNarrative'"
+                      isSearchable=true 
+                      isSearchableWithDelete=true 
+                      elementToBeDeleted=true>
+                    </dropdown-container>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="isc-col-sm-4 isc-col-md-12" *ngIf="spPostRatings && spPostRatings.length > 0">
+              <div class="isc-summary"> 
+                <small class="isc-summary-title">Post R/I Rating</small>
+                <h4 class="isc-summary-text">
+                  Moderate            
+                </h4>
+                <button class="isc-btn isc-btn-icon" 
+                        data-size="small" 
+                        (click)="toggleEditSecurityPostRating = !toggleEditSecurityPostRating">
+                    <span class="material-icons isc-icon-sm">edit</span>
+                  </button>
+                <div class="isc-reveal" *ngIf="toggleEditSecurityPostRating">
+                  <div class="isc-input-group">
+                    <dropdown-container 
+                      placeholder="Override?" 
+                      [list]="spPostRatings" 
+                      [searchProperty]="'RatNarrative'" 
+                      [displayProperty]="'RatNarrative'"
+                      isSearchable=true 
+                      isSearchableWithDelete=true 
+                      elementToBeDeleted=true>
+                    </dropdown-container>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="isc-form-group isc-editor">
+        <textarea htmlEditor ></textarea>
+        <!--[(ngModel)]="txt" -->
+      </div>
+    </div>
+  </div>
+  <!--<div class="isc-card" data-ng-include src="'partials/forms/include-common-ri.html'"></div>-->
+</form>

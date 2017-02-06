@@ -1,0 +1,52 @@
+
+<div class="isc-card" *ngIf="hazardsData">
+  <div class="isc-card-body">
+    <div class="isc-form-horizontal isc-form-row">
+      <div class="isc-form-group">
+        <label class="isc-col-sm-2 isc-control-label">Predominant Trade Sector</label>
+        <div class="isc-col-sm-5">
+          <p class="isc-form-control-static" *ngIf="hazardsData">{{hazardsData.predominantTSDesc}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="isc-table-responsive">
+    <!-- <table class="isc-table isc-table-basic" data-ng-repeat="survey in filtered = (surveys | filter:{name:getSurveyName()}:true)"> -->
+    <table class="isc-table isc-table-basic">
+      <colgroup>
+      <col />
+      <col />
+      <col />
+      <col />
+      <col />
+    </colgroup>
+    <thead>
+      <tr>
+        <th></th>
+        <th>SIC</th>
+        <th>Trade Sector</th>
+        <th>Hazard Grade</th>
+        <th>Group</th>
+      </tr>
+    </thead>
+    <!-- <tbody data-ng-repeat="site in ::survey.sites"> -->
+    <tbody>
+      <tr class="row-heading">
+        <td colspan="5">{{hazardsData.blockName}}</td>
+      </tr>
+      <!-- <tr data-ng-repeat="item in ::site.items track by $index"> -->
+      <tr>
+        <td *ngIf="hazardsData">{{hazardsData.blockName}}</td>
+        <td *ngIf="hazardsData">{{hazardsData.sicCode}}</td>
+        <td *ngIf="hazardsData">{{hazardsData.tradeSectorDesc}}</td>
+        <td *ngIf="hazardsData">{{hazardsData.hazardGradeDesc}}</td>
+        <td *ngIf="hazardsData">{{hazardsData.occupancyGroup}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<hazards-summary [viewType]="'large'"></hazards-summary>
+
+

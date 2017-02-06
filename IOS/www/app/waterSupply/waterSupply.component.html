@@ -1,0 +1,298 @@
+<div class="isc-card" *ngIf="(availableWaterSupply || availableWaterSupply == 0) && (requiredWaterSupply || requiredWaterSupply == 0)">
+  <div class="isc-card-body">
+    <div class="isc-form-inline isc-form-row">
+      <div class="isc-form-group">
+        <label class="isc-control-label">Available Points</label>
+        <p class="isc-form-control-static" 
+           [ngClass]="{redAvaPoints: (availableWaterSupply > requiredWaterSupply)}">{{availableWaterSupply}}</p>
+      </div>
+      <div class="isc-form-group">
+        <label class="isc-control-label">Required Points</label>
+        <p class="isc-form-control-static">{{requiredWaterSupply}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="isc-card" *ngFor="let value of waterSupplyData; let valueInd=index;">
+  <div class="isc-card-heading">
+    <div class="isc-card-title">
+      <h4>Water Supply {{valueInd+1 | number:'3.0-0'}} </h4>
+    </div>
+  </div>
+  <div class="isc-card-body">
+    <div class="isc-grid">
+      <div class="isc-col-sm-3">
+        <div class="isc-form-group">
+          <label>Type</label>
+          <dropdown-container *ngIf="type"   
+            [(inputData)]="value.WATER_SUPPLY_TYPE_CD"
+            placeholder="Please Select"
+            [list]="type"
+            [displayProperty]="'Code'"
+            [keyProperty]="'Description'"
+            (suggestionSelected)="typeHandler($event, valueInd)">
+          </dropdown-container>
+        </div>
+      </div>
+      <div class="isc-col-sm-6">
+        <div class="isc-form-group">
+          <label>Pump Associated</label>
+          <dropdown-container *ngIf="pumpAssociated"  
+            [(inputData)]="value.ASSOCIATED_PUMP_TYPE_CD_VALUE"
+            placeholder="Please Select"
+            [list]="pumpAssociated"
+            [displayProperty]="'Description'"
+            (suggestionSelected)="pumpHandler($event, valueInd)">
+          </dropdown-container>
+        </div>
+      </div>
+      <div class="isc-col-sm-2">
+        <div class="isc-form-group">
+          <label>Adequacy</label>
+          <dropdown-container *ngIf="adequate"  
+            [(inputData)]="value.WATER_SUPPLY_ADEQUACY_CD_VALUE" 
+            placeholder="Please Select"
+            [list]="adequate"
+            [displayProperty]="'Description'"
+            (suggestionSelected)="adequacyHandler($event, valueInd)">
+          </dropdown-container>
+        </div>
+      </div>
+      <div class="isc-col-sm-1">
+        <div class="isc-form-group">
+          <label>&#8195;</label>
+          <div data-align="right">
+            <button class="isc-btn isc-btn-icon" data-isc-button="icon" size="small"
+                    *ngIf="value.WaterSupplyPerfData && value.WaterSupplyPerfData.length < 1;">
+              <span class="material-icons" title="Chart">insert_chart</span>
+            </button>
+            <button class="isc-btn isc-btn-icon" data-isc-button="icon" size="small" 
+                    *ngIf="value.WaterSupplyPerfData && value.WaterSupplyPerfData.length > 0;" 
+                    (click)="modal.showModal();">
+              <span class="material-icons" title="Chart">insert_chart</span>
+            </button>
+            <button class="isc-btn isc-btn-icon" data-isc-button="icon" size="small">
+              <span class="material-icons" title="Delete" (click)="deleteSupply(valueInd);">delete</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <water-supply-chart #modal [inputChartData]=value [testDataInd]=valueInd [xUnit]=rfsUnit [yUnit]=rfsPressureUnit></water-supply-chart>
+    </div>
+    <div class="isc-table-responsive" *ngIf="value.WaterSupplyPerfData && value.WaterSupplyPerfData.length > 0">
+      <table class="isc-table isc-table-basic">
+        <colgroup>
+        <col />
+        <col />
+        <col />
+        <col />
+        <col />
+        <col />
+        <col />
+        <col />
+        <col />
+        <col class="_w-px-100" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th rowspan="2">Name</th>
+            <th rowspan="2">Date</th>
+            <th rowspan="2">By</th>
+            <th colspan="2" rowspan="1" data-align="center">Pressure</th>
+            <th rowspan="2" data-align="center">Residual Flow Rate ({{rfsUnit}})</th>
+            <th colspan="2" rowspan="1" data-align="center">Readings Location</th>
+            <th rowspan="2" data-align="center">Include in Graph</th>
+            <th rowspan="2"></th>
+          </tr>
+          <tr role="row">
+            <th data-align="center">Static ({{rfsPressureUnit}})</th>
+            <th data-align="center">Residual ({{rfsPressureUnit}})</th>
+            <th data-align="center">Pressure </th>
+            <th data-align="center">Flow</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let testData of value.WaterSupplyPerfData; let testDataInd=index;" class="axisAlignTop">
+            <td>
+              <input #waterSupplyTestNm="ngModel" class="isc-form-control" required spellcheck="true" [(ngModel)]="testData.WATER_SUPPLY_TEST_NM"/>
+						  <span [hidden]="waterSupplyTestNm.valid || waterSupplyTestNm.pristine" class="axis-help-block">{{validationMessagesObject.MSG1}}</span>
+            </td>
+            <td>
+              <div class="isc-input-group">
+                <input type="text" class="isc-form-control" required placeholder="mm/dd/yyyy" 
+                       [value]="setDate(testData.WATER_SUPPLY_TEST_DT) | date:'MM/dd/yyyy'" />
+                <span class="isc-input-group-btn">
+                  <button type="button" (click)="testData.showDatePicker = !testData.showDatePicker" class="isc-btn isc-btn-default" ><i class="material-icons">date_range</i></button></span>
+              </div>
+              <div *ngIf="testData.showDatePicker" style="position: absolute; z-index: 999;">
+                <datepicker [(ngModel)]="testData.WATER_SUPPLY_TEST_DT" 
+                            [minDate]="minDate" 
+                            [showWeeks]="false" 
+                            (dismissDatepicker)="testData.showDatePicker = !testData.showDatePicker"
+                            (clearSelectedDate)="clearSelectedDate(testData)"
+                            (triggerTodaysDate)="setTodaysDate(testData, $event)"
+                            (selectionDone)="testData.showDatePicker = !testData.showDatePicker">
+                </datepicker>
+              </div>
+            </td>
+            <td>
+              <input #waterSupplyTesterNm="ngModel" class="isc-form-control" required [(ngModel)]="testData.WATER_SUPPLY_TESTER_NM" />
+						  <span [hidden]="waterSupplyTesterNm.valid || waterSupplyTesterNm.pristine" class="axis-help-block">{{validationMessagesObject.MSG1}}</span>
+            </td>
+            <td>
+              <input #staticPressureQT="ngModel" class="isc-form-control" type="number" required [(ngModel)]="testData.STATIC_PRESSURE_QT" [ngClass]="{'errorClass': testData.STATIC_PRESSURE_QT && testData.RESIDUAL_PRESSURE_QT && testData.STATIC_PRESSURE_QT <= testData.RESIDUAL_PRESSURE_QT}" />
+              <small *ngIf="testData.STATIC_PRESSURE_QT && testData.RESIDUAL_PRESSURE_QT && testData.STATIC_PRESSURE_QT <= testData.RESIDUAL_PRESSURE_QT">{{validationMessagesObject.MSG4}}</small>
+						  <span [hidden]="staticPressureQT.valid || staticPressureQT.pristine" class="axis-help-block">{{validationMessagesObject.MSG1}}</span>
+            </td>
+            <td>
+              <input #residualPressureQT="ngModel" class="isc-form-control" type="number" required [(ngModel)]="testData.RESIDUAL_PRESSURE_QT" [ngClass]="{'errorClass': testData.STATIC_PRESSURE_QT && testData.RESIDUAL_PRESSURE_QT && testData.STATIC_PRESSURE_QT <= testData.RESIDUAL_PRESSURE_QT}" />
+						  <span [hidden]="residualPressureQT.valid || residualPressureQT.pristine" class="axis-help-block">{{validationMessagesObject.MSG1}}</span>
+            </td>
+            <td>
+              <input #residualFlowRateQT="ngModel" class="isc-form-control" type="number" required [(ngModel)]="testData.RESIDUAL_FLOW_RATE_QT"/>
+						  <span [hidden]="residualFlowRateQT.valid || residualFlowRateQT.pristine" class="axis-help-block">{{validationMessagesObject.MSG1}}</span>
+            </td>
+            <td>
+              <input #locPressureRdngTX="ngModel" class="isc-form-control" required [(ngModel)]="testData.LOCATION_PRESSURE_RDNG_TX" />
+						  <span [hidden]="locPressureRdngTX.valid || locPressureRdngTX.pristine" class="axis-help-block">{{validationMessagesObject.MSG1}}</span>
+            </td>
+            <td>
+              <input #locFlowRdngTX="ngModel" class="isc-form-control" required [(ngModel)]="testData.LOCATION_FLOW_RDNG_TX" />
+						  <span [hidden]="locFlowRdngTX.valid || locFlowRdngTX.pristine" class="axis-help-block">{{validationMessagesObject.MSG1}}</span>
+            </td>
+            <td data-align="center">
+              <toggle-switch size="small" [(ngModel)]="testData.IncludeThisSection"></toggle-switch>
+            </td>
+            <td data-align="right">
+              <button class="isc-btn isc-btn-icon">
+                <span class="material-icons" title="Copy" (click)="copyTest(testData, valueInd, testDataInd);">content_copy</span>
+              </button>
+              <button class="isc-btn isc-btn-icon">
+                <span class="material-icons" title="Delete" (click)="deleteTest(valueInd, testDataInd);">delete</span>	
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="isc-card-footer">
+    <div class="isc-input-group isc-input-group-sm isc-row-insert">
+      <input class="isc-form-control" type="number" [(ngModel)]="value.testCount">
+      <span class="isc-input-group-btn">
+        <button class="isc-btn isc-btn-primary" (click)="addTests(valueInd, value.testCount);" [disabled]="value.testCount > 25">
+          <span class="material-icons">add</span> Test
+        </button>
+      </span>
+    </div>
+  </div>
+</div>
+<div class="isc-card">
+  <div class="isc-grid" data-equal-column-height="true" data-separator="true">
+    <div class="isc-col-md-6" data-flex-align="middle">
+      <div class="isc-card-row">
+        <div class="isc-input-group isc-input-group-sm isc-row-insert">
+          <input class="isc-form-control" type="number" [(ngModel)]="supplyCount">
+          <span class="isc-input-group-btn">
+            <button class="isc-btn isc-btn-primary" (click)="addSupplies()" [disabled]="supplyCount > 25">
+              <span class="material-icons">add</span> Water Supply
+            </button>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="isc-col-md-3" data-flex-align="middle">
+      <div class="isc-card-row">
+        <div class="isc-summary">
+          <label>Current Rating</label>
+          <dropdown-container 
+            *ngIf="wsCurrentRatings"
+            [(inputData)]="wsCurrentRatingValue" 
+            placeholder="Please Select"
+            [list]="wsCurrentRatings"
+            [searchProperty]="'RatNarrative'"
+            [displayProperty]="'RatNarrative'"
+            isSearchable=true 
+            (suggestionSelected)="wsCurrentRatingHandler($event)"
+            (inputDataChange)="wsCurrentRatingBlank(wsCurrentRatingValue)">
+          </dropdown-container>
+          <span *ngIf="wsCurrentRatingValue == ''" 
+                class="axis-help-block">
+            {{validationMessagesObject.MSG1}}
+          </span>
+          <span *ngIf="wsCurrentRatingValue == 'Adequate' || wsCurrentRatingValue == 'Nearly Adequate' || wsCurrentRatingValue == 'Inadequate'" 
+                class="axis-help-block">
+            {{warningMessagesObject.MSG5}}
+          </span>
+          <!--<small class="isc-summary-title">Current Rating</small>
+          <h4 class="isc-summary-text">
+            {{wsCurrentRatingValue}}
+            <button class="isc-btn isc-btn-icon" data-size="small" (click)="toggleEditWsCurrentRating = !toggleEditWsCurrentRating">
+							<span class="material-icons isc-icon-sm">edit</span>
+						</button>
+          </h4>
+          <div class="isc-reveal" *ngIf="toggleEditWsCurrentRating">
+            <div class="isc-input-group">
+              <dropdown-container 
+                placeholder="Override?" 
+                [list]="wsCurrentRatings" 
+                [searchProperty]="'RatNarrative'" 
+                [displayProperty]="'RatNarrative'"
+                isSearchable=true 
+                isSearchableWithDelete=true 
+                elementToBeDeleted=true 
+                (suggestionSelected)="wsCurrentRatingHandler($event)">
+              </dropdown-container>
+            </div>
+          </div>-->
+        </div>
+      </div>
+    </div>
+    <div class="isc-col-md-3" data-flex-align="middle">
+      <div class="isc-card-row">
+        <div class="isc-summary">
+          <label>Post R/I Rating</label>
+          <dropdown-container 
+            *ngIf="wsPostRIRatings"
+            [(inputData)]="wsPostRIRatingValue" 
+            placeholder="Please Select"
+            [list]="wsPostRIRatings"
+            [searchProperty]="'RatNarrative'"
+            [displayProperty]="'RatNarrative'"
+            isSearchable=true 
+            (suggestionSelected)="wsPostRIRatingHandler($event)"
+            (inputDataChange)="wsPostRIRatingBlank(wsPostRIRatingValue)">
+          </dropdown-container>
+          <span *ngIf="wsPostRIRatingValue == ''" 
+                class="axis-help-block">
+            {{validationMessagesObject.MSG1}}
+          </span>
+          <!--<small class="isc-summary-title">Post R/I Rating</small>
+          <h4 class="isc-summary-text">
+            {{wsPostRIRatingValue}}
+            <button class="isc-btn isc-btn-icon" data-size="small" (click)="toggleEditWsPostRIRating = !toggleEditWsPostRIRating">
+							<span class="material-icons isc-icon-sm">edit</span>
+						</button>
+          </h4>
+          <div class="isc-reveal" *ngIf="toggleEditWsPostRIRating">
+            <div class="isc-input-group">
+              <dropdown-container 
+                placeholder="Override?" 
+                [list]="wsPostRIRatings" 
+                [searchProperty]="'RatNarrative'" 
+                [displayProperty]="'RatNarrative'"
+                isSearchable=true 
+                isSearchableWithDelete=true 
+                elementToBeDeleted=true 
+                (suggestionSelected)="wsPostRIRatingHandler($event)">
+              </dropdown-container>
+            </div>
+          </div>-->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<ri-summary [viewMetaData]="viewMetaData" [viewType]="viewType" [addRIType]="'water-supply'"></ri-summary>

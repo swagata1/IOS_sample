@@ -1,0 +1,332 @@
+<!-- Ovens-Furnaces Section Starts  -->
+<div class="isc-form-horizontal isc-reveal">
+  <div class="isc-form-group">    
+    <div class="isc-col-md-4">
+       <label class="isc-control-label" for="hazardName">Hazard Name</label>
+       <input class="isc-form-control" type="text" name="hazardName" placeholder="Enter Hazard Name"  spellcheck="true" [(ngModel)]="model.OFFLNS_HAZARD_NM" />
+    </div>
+    <div class="isc-col-md-4">
+      <label class="isc-control-label" for="areasize">Area size</label>
+      <input class="isc-form-control" type="number" name="areasize" placeholder="Enter Area size" [(ngModel)]="model.OFFLNN_AREA_SIZE"/>
+    </div>
+    <div class="isc-col-md-4">
+      <label class="isc-control-label" for="burnerHeaterSize">Burner/Heater Size (BTU/hr)</label>
+      <input class="isc-form-control" type="number" name="burnerHeaterSize" placeholder="Enter Burner/Heater Size" [(ngModel)]="model.OFFLNN_HEATER_SIZE">
+    </div>    
+  </div>
+
+  <div class="isc-form-group">
+    <label class="isc-col-md-3 isc-control-label" for="hmCutoffRating">Cutoff Rating</label>
+    <div class="isc-col-md-9">
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmCutoffRating" id="hmCutoffRatingHalf" value="1/2" [(ngModel)]="model.OFFLNS_CUTOFF_RATING">
+        <label for="hmCutoffRatingHalf">1/2</label>
+      </div>
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmCutoffRating" id="hmCutoffRatingOne" value="1" [(ngModel)]="model.OFFLNS_CUTOFF_RATING">
+        <label for="hmCutoffRatingOne">1</label>
+      </div>
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmCutoffRating" id="hmCutoffRatingTwo" value="2" [(ngModel)]="model.OFFLNS_CUTOFF_RATING">
+        <label for="hmCutoffRatingTwo">2</label>
+      </div>  
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmCutoffRating" id="hmCutoffRatingThree" value="3" [(ngModel)]="model.OFFLNS_CUTOFF_RATING">
+        <label for="hmCutoffRatingThree">3</label>
+      </div>  
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmCutoffRating" id="hmCutoffRatingFour" value="4" [(ngModel)]="model.OFFLNS_CUTOFF_RATING">
+        <label for="hmCutoffRatingFour">4</label>
+      </div>  
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmCutoffRating" id="hmCutoffRatingNone" value="None" [(ngModel)]="model.OFFLNS_CUTOFF_RATING">
+        <label for="hmCutoffRatingNone">None</label>
+      </div>  
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmCutoffRating" id="hmCutoffRatingUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_CUTOFF_RATING">
+        <label for="hmCutoffRatingUnknown">Unknown</label>
+      </div>               
+    </div>
+  </div>
+
+  <div class="isc-form-group">
+    <label class="isc-col-md-3 isc-control-label" for="hmFlammable">Flammable or Combustible Product</label>
+    <div class="isc-col-md-9">
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmFlammable" id="hmFlammableYes" value="Yes" [(ngModel)]="model.OFFLNS_FLAMMABLE_PRODUCT">
+        <label for="hmFlammableYes">Yes</label>
+      </div>
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmFlammable" id="hmFlammableNo" value="No" [(ngModel)]="model.OFFLNS_FLAMMABLE_PRODUCT">
+        <label for="hmFlammableNo">No</label>
+      </div>
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmFlammable" id="hmFlammableUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FLAMMABLE_PRODUCT">
+        <label for="hmFlammableUnknown">Unknown</label>
+      </div>                      
+    </div>
+  </div>  
+ 
+  <div class="isc-form-group">
+    <label class="isc-col-md-3 isc-control-label" for="hmFuel">Fuel</label>
+    <div class="isc-col-md-9">
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmBFuel" id="hmBFuelNaturalGas" value="Natural Gas" [(ngModel)]="model.OFFLNS_FUEL_NATURAL_GAS">
+        <label for="hmBFuelNaturalGas">Natural Gas</label>                        
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmFuelOil" id="hmFuelOil" value="Oil" [(ngModel)]="model.OFFLNS_FUEL_OIL">
+        <label for="hmFuelOil">Oil</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmFuelElectric" id="hmFuelElectric" value="Electric" [(ngModel)]="model.OFFLNS_FUEL_ELECTRIC">
+        <label for="hmFuelElectric">Electric</label>
+      </div>                      
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmFuelOther" id="hmFuelOther" value="Other" [(ngModel)]="model.OFFLNS_FUEL_OTHER">
+        <label for="hmFuelOther">Other</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmFuelUnknown" id="hmFuelUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FUEL_UNKNOWN">
+        <label for="hmFuelUnknown">Unknown</label>
+      </div>
+    </div>
+  </div>                 
+
+  <div class="isc-form-group">
+    <label class="isc-col-md-3 isc-control-label" for="hmSafetyShutoff">Safety Shutoff Valve(s) adequate</label>
+    <div class="isc-col-md-9">                     
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmSafetyShutoff" id="hmSafetyShutoffYes" value="Yes" [(ngModel)]="model.OFFLNS_SAFETY_SHUTOFF">
+        <label for="hmSafetyShutoffYes">Yes</label>
+      </div>  
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmSafetyShutoff" id="hmSafetyShutoffNo" value="No" [(ngModel)]="model.OFFLNS_SAFETY_SHUTOFF">
+        <label for="hmSafetyShutoffNo">No</label>
+      </div>  
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmSafetyShutoff" id="hmSafetyShutoffUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_SAFETY_SHUTOFF">
+        <label for="hmSafetyShutoffUnknown">Unknown</label>
+      </div>               
+    </div>
+  </div>
+
+  <div class="isc-form-group">
+    <label class="isc-col-md-3 isc-control-label" for="hmPressureSwitches">High/Low Pressure Switches</label>
+    <div class="isc-col-md-9">                     
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmPressureSwitches" id="hmPressureSwitchesYes" value="Yes" [(ngModel)]="model.OFFLNS_PRESSURE_SWITCHES">
+        <label for="hmPressureSwitchesYes">Yes</label>
+      </div>  
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmPressureSwitches" id="hmPressureSwitchesNo" value="No" [(ngModel)]="model.OFFLNS_PRESSURE_SWITCHES">
+        <label for="hmPressureSwitchesNo">No</label>
+      </div>
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmPressureSwitches" id="hmPressureSwitchesNA" value="N/A" [(ngModel)]="model.OFFLNS_PRESSURE_SWITCHES">
+        <label for="hmPressureSwitchesNA">N/A</label>
+      </div>  
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmPressureSwitches" id="hmPressureSwitchesUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_PRESSURE_SWITCHES">
+        <label for="hmPressureSwitchesUnknown">Unknown</label>
+      </div>               
+    </div>
+  </div>
+
+  <div class="isc-form-group">
+    <label class="isc-col-md-3 isc-control-label" for="hmHighTemperature">High Temperature Interlock</label>
+    <div class="isc-col-md-9">                     
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmHighTemperature" id="hmHighTemperatureYes" value="Yes" [(ngModel)]="model.OFFLNS_HIGH_TEMP_INTER">
+        <label for="hmHighTemperatureYes">Yes</label>
+      </div>  
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmHighTemperature" id="hmHighTemperatureNo" value="No" [(ngModel)]="model.OFFLNS_HIGH_TEMP_INTER">
+        <label for="hmHighTemperatureNo">No</label>
+      </div>  
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmHighTemperature" id="hmHighTemperatureUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_HIGH_TEMP_INTER">
+        <label for="hmHighTemperatureUnknown">Unknown</label>
+      </div>               
+    </div>
+  </div>
+
+  <div class="isc-form-group">
+    <label class="isc-col-md-3 isc-control-label" for="hmLELDetection">LEL Detection</label>
+    <div class="isc-col-md-9">                     
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmLELDetection" id="hmLELDetectionYes" value="Yes" [(ngModel)]="model.OFFLNS_LEL_DETECTION">
+        <label for="hmLELDetectionYes">Yes</label>
+      </div>  
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmLELDetection" id="hmLELDetectionNo" value="No" [(ngModel)]="model.OFFLNS_LEL_DETECTION">
+        <label for="hmLELDetectionNo">No</label>
+      </div>  
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmLELDetection" id="hmLELDetectionUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_LEL_DETECTION">
+        <label for="hmLELDetectionUnknown">Unknown</label>
+      </div>               
+    </div>
+  </div>
+
+  <div class="isc-form-group">
+    <label class="isc-col-md-3 isc-control-label" for="hmExplosionVenting">Explosion Venting</label>
+    <div class="isc-col-md-9">                     
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmExplosionVenting" id="hmExplosionVentingYes" value="Yes" [(ngModel)]="model.OFFLNS_EXPLOSION_VENTING">
+        <label for="hmExplosionVentingYes">Yes</label>
+      </div>  
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmExplosionVenting" id="hmExplosionVentingNo" value="No" [(ngModel)]="model.OFFLNS_EXPLOSION_VENTING">
+        <label for="hmExplosionVentingNo">No</label>
+      </div>
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmExplosionVenting" id="hmExplosionVentingNA" value="N/A" [(ngModel)]="model.OFFLNS_EXPLOSION_VENTING">
+        <label for="hmExplosionVentingNA">N/A</label>
+      </div>  
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmExplosionVenting" id="hmExplosionVentingUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_EXPLOSION_VENTING">
+        <label for="hmExplosionVentingUnknown">Unknown</label>
+      </div>               
+    </div>
+  </div>
+
+  <div class="isc-form-group">
+    <label class="isc-col-md-3 isc-control-label" for="hmCeilingsprinklers">Ceiling sprinklers</label>
+    <div class="isc-col-md-9">                     
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmCeilingsprinklers" id="hmCeilingsprinklersAutomatic" value="Automatic" [(ngModel)]="model.OFFLNS_CEILING_SPRINKLER">
+        <label for="hmCeilingsprinklersAutomatic">Automatic</label>
+      </div>  
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmCeilingsprinklers" id="hmCeilingsprinklersManual" value="Manual" [(ngModel)]="model.OFFLNS_CEILING_SPRINKLER">
+        <label for="hmCeilingsprinklersManual">Manual</label>
+      </div>
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmCeilingsprinklers" id="hmCeilingsprinklersNone" value="None" [(ngModel)]="model.OFFLNS_CEILING_SPRINKLER">
+        <label for="hmCeilingsprinklersNone">None</label>
+      </div>  
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmCeilingsprinklers" id="hmCeilingsprinklersUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_CEILING_SPRINKLER">
+        <label for="hmCeilingsprinklersUnknown">Unknown</label>
+      </div>               
+    </div>
+  </div>
+
+  <div class="isc-form-group">
+    <label class="isc-col-md-3 isc-control-label" for="hmOtherFPSystem">Other FP System</label>
+    <div class="isc-col-md-9">
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmOtherFPSystem" id="hmOtherFPSystemFoam" value="Foam" [(ngModel)]="model.OFFLNS_OTHER_FP_FOAM">
+        <label for="hmOtherFPSystemFoam">Foam</label>                        
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmOtherFPSystem" id="hmOtherFPSystemGaseous" value="Gaseous" [(ngModel)]="model.OFFLNS_OTHER_FP_GASEOUS">
+        <label for="hmOtherFPSystemGaseous">Gaseous</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmOtherFPSystem" id="hmOtherFPSystemDryChemical" value="Dry Chemical" [(ngModel)]="model.OFFLNS_OTHER_FP_DRY_CHEMICAL">
+        <label for="hmOtherFPSystemDryChemical">Dry Chemical</label>
+      </div>                      
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmOtherFPSystem" id="hmOtherFPSystemOther" value="Other" [(ngModel)]="model.OFFLNS_OTHER_FP_OTHER">
+        <label for="hmOtherFPSystemOther">Other</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmOtherFPSystem" id="hmOtherFPSystemUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_OTHER_FP_UNKNOWN">
+        <label for="hmOtherFPSystemUnknown">Unknown</label>
+      </div>
+    </div>
+  </div>
+
+  <div class="isc-form-group">
+    <label class="isc-col-md-3 isc-control-label" for="hmOvenFurnace">Oven/Furnace periodically cleaned of residue</label>
+    <div class="isc-col-md-9">                     
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmOvenFurnace" id="hmOvenFurnaceYes" value="Yes" [(ngModel)]="model.OFFLNS_OVEN_FURNACE_CLEANING">
+        <label for="hmOvenFurnaceYes">Yes</label>
+      </div>  
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmOvenFurnace" id="hmOvenFurnaceNo" value="No" [(ngModel)]="model.OFFLNS_OVEN_FURNACE_CLEANING">
+        <label for="hmOvenFurnaceNo">No</label>
+      </div>
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmOvenFurnace" id="hmOvenFurnaceNA" value="N/A" [(ngModel)]="model.OFFLNS_OVEN_FURNACE_CLEANING">
+        <label for="hmOvenFurnaceNA">N/A</label>
+      </div>  
+      <div class="isc-radio isc-radio-inline">
+        <input type="radio" name="hmOvenFurnace" id="hmOvenFurnaceUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_OVEN_FURNACE_CLEANING">
+        <label for="hmOvenFurnaceUnknown">Unknown</label>
+      </div>               
+    </div>
+  </div>
+
+  <div class="isc-form-group">
+    <label class="isc-col-md-3 isc-control-label" for="hmHoodsDuct">Hoods/Duct cleaning Frequency</label>
+    <div class="isc-col-md-9">
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmHoodsDuctWeekly" id="hmHoodsDuctWeekly" value="Weekly" [(ngModel)]="model.OFFLNS_HOOD_DUCT_CLEANING_WEEKLY">
+        <label for="hmHoodsDuctWeekly">Weekly</label>                        
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmHoodsDuctMonthly" id="hmHoodsDuctMonthly" value="Monthly" [(ngModel)]="model.OFFLNS_HOOD_DUCT_CLEANING_MONTHLY">
+        <label for="hmHoodsDuctMonthly">Monthly</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmHoodsDuctQuarterly" id="hmHoodsDuctQuarterly" value="Quarterly" [(ngModel)]="model.OFFLNS_HOOD_DUCT_CLEANING_QUARTERLY">
+        <label for="hmHoodsDuctQuarterly">Quarterly</label>
+      </div>   
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmHoodsDuctAnnual" id="hmHoodsDuctAnnually" value="Annually" [(ngModel)]="model.OFFLNS_HOOD_DUCT_CLEANING_ANNUALLY">
+        <label for="hmHoodsDuctAnnually">Annually</label>
+      </div>      
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmHoodsDuctOther" id="hmHoodsDuctOther" value="Other" [(ngModel)]="model.OFFLNS_HOOD_DUCT_CLEANING_OTHER">
+        <label for="hmHoodsDuctOther">Other</label>
+      </div>
+       <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmHoodsDuctNone" id="hmHoodsDuctNA" value="N/A" [(ngModel)]="model.OFFLNS_HOOD_DUCT_CLEANING_NA">
+        <label for="hmHoodsDuctNA">N/A</label>
+      </div>  
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmHoodsDuct" id="hmHoodsDuctUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_HOOD_DUCT_CLEANING_UNKNOWN">
+        <label for="hmHoodsDuctUnknown">Unknown</label>
+      </div>
+    </div>  
+  </div>
+
+  <div class="isc-form-group">
+    <label class="isc-col-md-3 isc-control-label" for="hmDuctworkFireProtection">Ductwork Fire Protection</label>
+    <div class="isc-col-md-9">
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmDuctworkFireProtection" id="hmDuctworkFireProtectionWaterbased" value="Water based" [(ngModel)]="model.OFFLNS_DUCTWORK_FIRE_PROT_WATER_BASED">
+        <label for="hmDuctworkFireProtectionWaterbased">Water based</label>                        
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmDuctworkFireProtection" id="hmDuctworkFireProtectionGaseous" value="Gaseous" [(ngModel)]="model.OFFLNS_DUCTWORK_FIRE_PROT_GASEOUS">
+        <label for="hmDuctworkFireProtectionGaseous">Gaseous</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmDuctworkFireProtection" id="hmDuctworkFireProtectionDryChemical" value="Dry Chemical" [(ngModel)]="model.OFFLNS_DUCTWORK_FIRE_PROT_DRY_CHEMICAL">
+        <label for="hmDuctworkFireProtectionDryChemical">Dry Chemical</label>
+      </div>                      
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmDuctworkFireProtection" id="hmDuctworkFireProtectionOther" value="Other"[(ngModel)]="model.OFFLNS_DUCTWORK_FIRE_PROT_OTHER">
+        <label for="hmDuctworkFireProtectionOther">Other</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmDuctworkFireProtection" id="hmDuctworkFireProtectionNone" value="None" [(ngModel)]="model.OFFLNS_DUCTWORK_FIRE_PROT_NONE">
+        <label for="hmDuctworkFireProtectionNone">None</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmDuctworkFireProtection" id="hmDuctworkFireProtectionNA" value="N/A" [(ngModel)]="model.OFFLNS_DUCTWORK_FIRE_PROT_NA">
+        <label for="hmDuctworkFireProtectionNA">N/A</label>
+      </div>
+      <div class="isc-checkbox isc-checkbox-inline">
+        <input type="checkbox" name="hmDuctworkFireProtection" id="hmDuctworkFireProtectionUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_DUCTWORK_FIRE_PROT_UNKNOWN">
+        <label for="hmDuctworkFireProtectionUnknown">Unknown</label>
+      </div>
+    </div>
+  </div>                    
+</div>
+<!-- Ovens-Furnaces Section Ends -->

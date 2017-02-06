@@ -1,0 +1,12 @@
+<div>
+  <isc-tabset class="isc-nav-tabs-secondary" role="tabpanel">    
+
+    <isc-tab heading="Add Hazard" (select)="loadComponent(1)">
+       <new-hazards *ngIf="pageToggle == '1'"></new-hazards> 
+    </isc-tab>
+    <isc-tab heading="Rating" (select)="loadComponent(2)">
+       <hazards-ratings *ngIf="pageToggle == '2'"></hazards-ratings> 
+    </isc-tab>
+  
+  </isc-tabset>
+</div>

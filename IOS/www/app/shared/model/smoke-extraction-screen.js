@@ -1,0 +1,9 @@
+"use strict";
+var SmokeExtractionScreen = (function () {
+    function SmokeExtractionScreen() {
+    }
+    return SmokeExtractionScreen;
+}());
+exports.SmokeExtractionScreen = SmokeExtractionScreen;
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC9zaGFyZWQvbW9kZWwvc21va2UtZXh0cmFjdGlvbi1zY3JlZW4udHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBO0lBQUE7SUFFQSxDQUFDO0lBQUQsNEJBQUM7QUFBRCxDQUZBLEFBRUMsSUFBQTtBQUZZLDZCQUFxQix3QkFFakMsQ0FBQSIsImZpbGUiOiJhcHAvc2hhcmVkL21vZGVsL3Ntb2tlLWV4dHJhY3Rpb24tc2NyZWVuLmpzIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNsYXNzIFNtb2tlRXh0cmFjdGlvblNjcmVlbiB7XHJcblxyXG59Il19

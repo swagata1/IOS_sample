@@ -1,0 +1,45 @@
+<div class="isc-container">
+    <div *ngIf="isLoading" class="._text-center" data-align="center">
+        <span data-isc-icon="loading" data-size="xxxx-large"><span class="material-icons  isc-rotate isc-icon-xxxx-lg">autorenew</span></span>
+    </div>
+    <div class="isc-grid">
+        <div class="isc-col-sm-9 _center-block">
+            <div class="isc-card isc-card-horizontal isc-reveal">
+                <div class="isc-card-content">
+                    <div class="isc-card-body">
+                        <form class="isc-form-horizontal">
+                            <div class="isc-form-group has-isc-required">
+                                <label for="employee_id" class="isc-col-md-3 isc-control-label">Employee ID <span data-isc-note="required"></span></label>
+                                <div class="isc-col-md-4">
+                                    <input type="text" class="isc-form-control" id="employee_id" placeholder="Employee ID">
+                                </div>
+                            </div>
+                            <div class="isc-form-group">
+                                <label for="" class="isc-col-md-3 isc-control-label">Environment <span data-isc-note="required"></span></label>
+                                <!--<div class="isc-col-md-4">
+                                    <ul class="isc-nav isc-navbar-nav">
+                                        <li class="isc-nav-item">
+                                            <div class="isc-btn-group isc-dropdown" dropdown keyboardNav="true">
+                                                <button type="button" class="isc-btn isc-btn-default isc-dropdown-toggle" dropdownToggle>
+							Development <span class="isc-caret"></span>
+							</button>
+                                                <ul class="isc-dropdown-menu" dropdownMenu data-isc-dropdown="button" id="target_environment" data-heading="Environment"
+                                                    data-width="auto">
+                                                    <li><a href="javascript:void(0)">Development</a></li>
+                                                    <li><a href="javascript:void(0)">QA</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>-->
+                                <dropdown-container [(inputData)]="schemeValue" [list]="environments" [searchProperty]="'scheme'" [displayProperty]="'scheme'"
+                                    isRequired=true isSearchable=false>
+                                </dropdown-container>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

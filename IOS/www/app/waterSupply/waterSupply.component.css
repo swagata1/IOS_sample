@@ -1,0 +1,11 @@
+.ng-dirty.ng-invalid, .errorClass {
+  border-color: red;
+  background-color: #ffecef; }
+
+.axisAlignTop {
+  vertical-align: top; }
+
+.redAvaPoints {
+  color: red; }
+
+/*# sourceMappingURL=waterSupply.component.css.map */

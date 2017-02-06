@@ -1,0 +1,135 @@
+<!--<div class="isc-square-btn-wrapper">
+  <div class="isc-square-btn-container">
+    <div class="isc-square-btn-bg">
+      <span data-isc-icon="add" data-size="large"><span class="material-icons isc-icon-lg">add</span>
+      </span> <span class="isc-btn-text">Sprinklers</span> </div>
+    <span class="isc-label">Protection</span> </div>
+  <div class="isc-square-btn-container">
+    <div class="isc-square-btn-bg">
+      <span data-isc-icon="add" data-size="large"><span class="material-icons isc-icon-lg">add</span>
+      </span> <span class="isc-btn-text">Planned Preventative Maintenance</span> </div>
+    <span class="isc-label">Human Element</span> </div>
+  <div class="isc-square-btn-container">
+    <div class="isc-square-btn-bg">
+      <span data-isc-icon="add" data-size="large"><span class="material-icons isc-icon-lg">add</span>
+      </span> <span class="isc-btn-text">Housekeeping</span> </div>
+    <span class="isc-label">Human Element</span> </div>
+  <div class="isc-square-btn-container">
+    <div class="isc-square-btn-bg">
+      <span data-isc-icon="add" data-size="large"><span class="material-icons isc-icon-lg">add</span>
+      </span> <span class="isc-btn-text">Emergency Organization &amp; Planning</span> </div>
+    <span class="isc-label">Human Element</span> </div>
+  <div class="isc-square-btn-container">
+    <div class="isc-square-btn-bg">
+      <span data-isc-icon="add" data-size="large"><span class="material-icons isc-icon-lg">add</span>
+      </span> <span class="isc-btn-text">Automatic Fire Detection</span> </div>
+    <span class="isc-label">Supervision</span> </div>
+  <div class="isc-square-btn-container">
+    <div class="isc-square-btn-bg">
+      <span data-isc-icon="add" data-size="large"><span class="material-icons isc-icon-lg">add</span>
+      </span> <span class="isc-btn-text">Electrical</span> </div>
+    <span class="isc-label">Hazards</span> </div>
+  <div class="isc-square-btn-container">
+    <div class="isc-square-btn-bg" data-ng-click="container.mainType='Human Element';container.type='Management Program';container.subtype='Hot Work Permit';container.disableAddRiskImprovement=true;openModalRI(false)">
+      <span data-isc-icon="add" data-size="large"><span class="material-icons isc-icon-lg">add</span>
+      </span> <span class="isc-btn-text">Hot Work Permit</span> </div>
+    <span class="isc-label">Human Element</span> </div>
+  <div class="isc-square-btn-container">
+    <div class="isc-square-btn-bg">
+      <span data-isc-icon="add" data-size="large"><span class="material-icons isc-icon-lg">add</span>
+      </span> <span class="isc-btn-text">Construction</span> </div>
+    <span class="isc-label">Construction</span> </div>
+  <div class="isc-square-btn-container">
+    <div class="isc-square-btn-bg">
+      <span data-isc-icon="add" data-size="large"><span class="material-icons isc-icon-lg">add</span>
+      </span> <span class="isc-btn-text">Site Level Business Continuity Planning</span> </div>
+    <span class="isc-label">Human Element</span> </div>
+  <div class="isc-square-btn-container">
+    <div class="isc-square-btn-bg">
+      <span data-isc-icon="add" data-size="large"><span class="material-icons isc-icon-lg">add</span>
+      </span> <span class="isc-btn-text">Water Supply</span> </div>
+    <span class="isc-label">Water Supply</span> </div>
+</div>-->
+<!--style="max-width:{{getViewportWidth()}}px;"  style="margin-left:{{marginLeft}}px"-->
+<div class="isc-card-gallery">
+  <div class="isc-box-wrapper">
+    <div class="isc-box-container">
+      <div class="isc-box-btn-container">
+        <div class="isc-box-btn-bg" (click)="modal.showModal(quickAddConstruction, 'Add')"> 
+          <span data-isc-icon="add" data-size="large"><span class="material-icons isc-icon-lg">add</span></span>
+          <span class="isc-btn-text">Construction</span> 
+        </div>
+        <span class="isc-label">Construction</span>
+      </div>
+      <div class="isc-box-btn-container">
+        <div class="isc-box-btn-bg" (click)="modal.showModal(quickAddSprinklers, 'Add')"> 
+          <span data-isc-icon="add" data-size="large"><span class="material-icons isc-icon-lg">add</span></span>
+          <span class="isc-btn-text">Sprinklers</span>
+        </div>
+        <span class="isc-label">Protection</span>
+      </div>
+      <div class="isc-box-btn-container">
+        <div class="isc-box-btn-bg" (click)="modal.showModal(quickAddWaterSupplies, 'Add')"> 
+          <span data-isc-icon="add" data-size="large"><span class="material-icons isc-icon-lg">add</span></span>
+          <span class="isc-btn-text">Water Supplies</span> 
+        </div>
+        <span class="isc-label">Water Supplies</span>
+      </div>
+      <div class="isc-box-btn-container">
+        <div class="isc-box-btn-bg"> 
+          <span data-isc-icon="add" data-size="large"><span class="material-icons isc-icon-lg">add</span></span>
+          <span class="isc-btn-text">Protection</span>
+        </div>
+        <span class="isc-label">Protection</span>
+      </div>
+      <div class="isc-box-btn-container">
+        <div class="isc-box-btn-bg" (click)="modal.showModal(quickAddHazards, 'Add')"> 
+          <span data-isc-icon="add" data-size="large"><span class="material-icons isc-icon-lg">add</span></span> 
+          <span class="isc-btn-text">Hazards</span> 
+        </div>
+        <span class="isc-label">Hazards</span> 
+      </div>
+      <div class="isc-box-btn-container">
+        <div class="isc-box-btn-bg" (click)="modal.showModal(quickAddSupervision, 'Add')"> 
+          <span data-isc-icon="add" data-size="large"><span class="material-icons isc-icon-lg">add</span></span> 
+          <span class="isc-btn-text">Supervision</span> 
+        </div>
+        <span class="isc-label">Supervision</span> 
+      </div>
+      <div class="isc-box-btn-container">
+        <div class="isc-box-btn-bg" (click)="modal.showModal(quickAddManagementPrograms, 'Add')"> 
+          <span data-isc-icon="add" data-size="large"><span class="material-icons isc-icon-lg">add</span></span> 
+          <span class="isc-btn-text">Management Programs</span>
+        </div>
+        <span class="isc-label">Management Programs</span>
+      </div>
+      <div class="isc-box-btn-container">
+        <div class="isc-box-btn-bg"> 
+          <span data-isc-icon="add" data-size="large"><span class="material-icons isc-icon-lg">add</span></span> 
+          <span class="isc-btn-text">Exposure</span>
+        </div>
+        <span class="isc-label">Exposure</span>
+      </div>
+      <div class="isc-box-btn-container">
+        <div class="isc-box-btn-bg"> 
+          <span data-isc-icon="add" data-size="large"><span class="material-icons isc-icon-lg">add</span></span> 
+          <span class="isc-btn-text">NATCAT (All Perils)</span>
+        </div>
+        <span class="isc-label">NATCAT (All Perils)</span>
+      </div>
+    </div>
+  </div>
+  <ri-add-modal #modal></ri-add-modal>
+  <!--data-ng-click="scrollLeft()" data-ng-class="{inactive:marginLeft>=0}"  data-ng-click="scrollRight()" data-ng-class="{inactive:squaresFitCount>(squaresCount-1) || marginLeft<marginLeftMax}"-->
+  <div class="isc-card-controls left"> 
+    <span data-isc-icon="keyboard_arrow_left"></span> 
+  </div>
+  <div class="isc-card-controls right"> 
+    <span data-isc-icon="keyboard_arrow_right"></span> 
+  </div>
+</div>
+
+<ri-summary [viewType]="viewType"></ri-summary>
+
+<!-- // Sample to demonstrate compact view -->
+<!--<ri-summary [viewType]="viewCompactType" [viewMetaData]="viewMetaData"></ri-summary>-->

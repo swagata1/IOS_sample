@@ -1,0 +1,258 @@
+[
+  {
+    "Code": "HTC1",
+    "Description": "Aerosol Manufacturing"
+  },
+  {
+    "Code": "HTC2",
+    "Description": "Aircraft Hanger"
+  },
+  {
+    "Code": "HTC3",
+    "Description": "Ammonia refrigeration systems"
+  },
+  {
+    "Code": "HTC4",
+    "Description": "Arc Furnace Transformer"
+  },
+  {
+    "Code": "HTC5",
+    "Description": "Banbury Mixers"
+  },
+  {
+    "Code": "HTC54",
+    "Description": "Battery Room"
+  },
+  {
+    "Code": "HTC6",
+    "Description": "Boilers"
+  },
+  {
+    "Code": "HTC7",
+    "Description": "Black Liquor Recovery Boilers"
+  },
+  {
+    "Code": "HTC8",
+    "Description": "Cable Spreading Rooms"
+  },
+  {
+    "Code": "HTC9",
+    "Description": "Chemical Processing Units"
+  },
+  {
+    "Code": "HTC10",
+    "Description": "Clean Rooms"
+  },
+  {
+    "Code": "HTC11",
+    "Description": "Coal Pulverizers"
+  },
+  {
+    "Code": "HTC12",
+    "Description": "Combustible Dust Collection"
+  },
+  {
+    "Code": "HTC13",
+    "Description": "Combustible Material Conveying"
+  },
+  {
+    "Code": "HTC14",
+    "Description": "Combustible Metal Working"
+  },
+  {
+    "Code": "HTC15",
+    "Description": "Combustion Turbines"
+  },
+  {
+    "Code": "HTC55",
+    "Description": "Commercial Cooking"
+  },
+  {
+    "Code": "HTC16",
+    "Description": "Computerized Control Systems"
+  },
+  {
+    "Code": "HTC17",
+    "Description": "Control Rooms"
+  },
+  {
+    "Code": "HTC18",
+    "Description": "Cooling Towers"
+  },
+  {
+    "Code": "HTC19",
+    "Description": "Dip Tanks"
+  },
+  {
+    "Code": "HTC20",
+    "Description": "Dryers"
+  },
+  {
+    "Code": "HTC21",
+    "Description": "Dust Producing Operations"
+  },
+  {
+    "Code": "HTC22",
+    "Description": "Electrical Generators"
+  },
+  {
+    "Code": "HTC23",
+    "Description": "Explosives"
+  },
+  {
+    "Code": "HTC24",
+    "Description": "Extrusion Press"
+  },
+  {
+    "Code": "HTC25",
+    "Description": "Flammable Gas, Usage"
+  },
+  {
+    "Code": "HTC26",
+    "Description": "Flammable/Combustible Liquid, Usage"
+  },
+  {
+    "Code": "HTC56",
+    "Description": "Flammable Liquids Storage (inside)"
+  },
+  {
+    "Code": "HTC57",
+    "Description": "Flammable Gas Storage"
+  },
+  {
+    "Code": "HTC58",
+    "Description": "Floor-NonRackStorage"
+  },
+  {
+    "Code": "HTC59",
+    "Description": "Flammables - Bulk Storage"
+  },
+  {
+    "Code": "HTC27",
+    "Description": "Fuel Oil Tank Farms"
+  },
+  {
+    "Code": "HTC29",
+    "Description": "Hydraulic Fluid Systems"
+  },
+  {
+    "Code": "HTC30",
+    "Description": "Hydrogen Seal Oil Systems"
+  },
+  {
+    "Code": "HTC60",
+    "Description": "Indoor Idle Pallet Storages"
+  },
+  {
+    "Code": "HTC31",
+    "Description": "Kilns"
+  },
+  {
+    "Code": "HTC32",
+    "Description": "Lube Oil Systems"
+  },
+  {
+    "Code": "HTC33",
+    "Description": "Medical Diagnostic Equipment (High Value)"
+  },
+  {
+    "Code": "HTC34",
+    "Description": "Oil Cooled Transformers > 5000 kVA"
+  },
+  {
+    "Code": "HTC35",
+    "Description": "Oil Heat Transfer Systems"
+  },
+  {
+    "Code": "HTC36",
+    "Description": "Oil Quenching"
+  },
+  {
+    "Code": "HTC61",
+    "Description": "Outdoor Idle Pallet Storage"
+  },
+  {
+    "Code": "HTC37",
+    "Description": "Ovens-Furnaces"
+  },
+  {
+    "Code": "HTC38",
+    "Description": "Painting/Finishing Operations"
+  },
+  {
+    "Code": "HTC39",
+    "Description": "Paper Machines"
+  },
+  {
+    "Code": "HTC40",
+    "Description": "Peroxide & other Oxidizers, Usage"
+  },
+  {
+    "Code": "HTC41",
+    "Description": "Plastic, Metal or Wood Molding Machines"
+  },
+  {
+    "Code": "HTC62",
+    "Description": "Plastic-Plastic Lined Tanks"
+  },
+  {
+    "Code": "HTC42",
+    "Description": "Printing Presses"
+  },
+  {
+    "Code": "HTC63",
+    "Description": "Rack Storage"
+  },
+  {
+    "Code": "HTC43",
+    "Description": "RDF shredders"
+  },
+  {
+    "Code": "HTC44",
+    "Description": "Regenerative Air Preheaters"
+  },
+  {
+    "Code": "HTC45",
+    "Description": "Rolling Mills"
+  },
+  {
+    "Code": "HTC64",
+    "Description": "Roll Paper Storage"
+  },
+  {
+    "Code": "HTC65",
+    "Description": "Rubber Tire Storage"
+  },
+  {
+    "Code": "HTC46",
+    "Description": "Semiconductor Manufacturing"
+  },
+  {
+    "Code": "HTC47",
+    "Description": "Solvent Extraction / Recovery Operations"
+  },
+  {
+    "Code": "HTC48",
+    "Description": "Steam Turbines"
+  },
+  {
+    "Code": "HTC49",
+    "Description": "Cooking"
+  },
+  {
+    "Code": "HTC50",
+    "Description": "Storage"
+  },
+  {
+    "Code": "HTC51",
+    "Description": "Custom"
+  },
+  {
+    "Code": "HTC52",
+    "Description": "Refrigeration Systems"
+  },
+  {
+    "Code": "HTC53",
+    "Description": "Electrical Systems"
+  }
+]

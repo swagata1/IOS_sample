@@ -1,0 +1,31 @@
+<ul class="isc-nav isc-navbar-nav">
+    <li class="isc-nav-item">
+        <div class="isc-btn-group isc-dropdown" [ngClass]="{'tmp-dd-content-right':navKind=='content-right','tmp-dd-menu-left':navKind=='menu-left'}"
+            dropdown keyboardNav="true">
+            <button *ngIf="currState !='dashboard'" type="button" class="isc-btn isc-btn-default isc-dropdown-toggle" dropdownToggle>
+            {{ name ? name : (navKind=='content-right'?"Go to section...":"Request Details")}} <span class="isc-caret"></span>
+            </button>
+            <span *ngIf="currState == 'dashboard'" class="material-icons">more_vert</span>
+            <ul class="tmp-col3 isc-dropdown-menu" [ngClass]="{'tmp-right-content':navKind=='content-right'}" dropdownMenu role="menu"
+                aria-labelledby="simple-btn-keyboard-nav">
+
+                <li role="menuitem"><a class="dropdown-item" href="javascript:void(0);" (click)="nameSet('Request Details', 'detailspage')">Request Details</a></li>
+                <li role="menuitem"><a class="dropdown-item" href="javascript:void(0);" (click)="nameSet('Occupancy', 'occupancy')">Occupancy</a></li>
+                <li role="menuitem"><a class="dropdown-item" href="javascript:void(0);" (click)="nameSet('Construction', 'construction')">Construction</a></li>
+                <li role="menuitem"><a class="dropdown-item" href="javascript:void(0);" (click)="nameSet('Sprinklers', 'sprinklers')">Sprinklers</a></li>
+                <li role="menuitem"><a class="dropdown-item" href="javascript:void(0);" (click)="nameSet('Water Supplies', 'waterSupplies')">Water Supplies</a></li>
+
+                <li role="menuitem"><a class="dropdown-item" href="javascript:void(0);" (click)="nameSet('Protection', 'protection')">Protection</a></li>
+                <li role="menuitem"><a class="dropdown-item" href="javascript:void(0);" (click)="nameSet('Hazards', 'hazards')">Hazards</a></li>
+                <li role="menuitem"><a class="dropdown-item" href="javascript:void(0);" (click)="nameSet('Supervision', 'supervision')">Supervision</a></li>
+                <li role="menuitem"><a class="dropdown-item" href="javascript:void(0);" (click)="nameSet('Management Programs', 'management-programs')">Management Programs</a></li>
+                <li role="menuitem"><a class="dropdown-item" href="javascript:void(0);" (click)="nameSet('Exposures', 'exposures')">Exposures</a></li>
+
+                <li role="menuitem"><a class="dropdown-item" href="javascript:void(0);" (click)="nameSet('NATCAT', 'nat-cat')">NATCAT</a></li>
+                <li role="menuitem"><a class="dropdown-item" href="javascript:void(0);" (click)="nameSet('Fire Loss Estimates', 'fireLoss')">Fire Loss Estimates</a></li>
+                <li role="menuitem"><a class="dropdown-item" href="javascript:void(0);" (click)="nameSet('Risk Improvements','risk-improvements')">Risk Improvements</a></li>
+                <li role="menuitem"><a class="dropdown-item" href="javascript:void(0);" (click)="nameSet('Time & Comments', 'time-comments')">Time &amp; Comments</a></li>
+            </ul>
+        </div>
+    </li>
+</ul>

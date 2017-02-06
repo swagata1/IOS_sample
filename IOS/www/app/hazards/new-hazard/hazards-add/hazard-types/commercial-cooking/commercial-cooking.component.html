@@ -1,0 +1,139 @@
+<div class="isc-form-horizontal isc-reveal">
+    <div class="isc-form-group">
+        <label class="isc-col-md-3 isc-control-label" for="hazardName">Hazard Name</label>
+        <div class="isc-col-md-4">          
+          <input class="isc-form-control" type="text" name="hazardName" placeholder="Enter Hazard Name"  spellcheck="true" [(ngModel)]="model.OFFLNS_HAZARD_NM" />
+        </div>
+    </div>
+
+    <div class="isc-form-group">
+        <label class="isc-col-md-3 isc-control-label" for="hmHoodsFrequency">Hoods/Duct Cleaning Frequency</label>
+        <div class="isc-col-md-9">
+            <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="hmHoodsFrequency" id="hmHoodsFrequencyWeekly" value="Weekly" [(ngModel)]="model.OFFLNS_HOODS_DUCT_CLEANING">
+                <label for="hmHoodsFrequencyWeekly">Weekly</label>
+            </div>
+            <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="hmHoodsFrequency" id="hmHoodsFrequencyMonthly" value="Monthly" [(ngModel)]="model.OFFLNS_HOODS_DUCT_CLEANING">
+                <label for="hmHoodsFrequencyMonthly">Monthly</label>
+            </div>
+            <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="hmHoodsFrequency" id="hmHoodsFrequencyQuarterly" value="Quarterly" [(ngModel)]="model.OFFLNS_HOODS_DUCT_CLEANING">
+                <label for="hmHoodsFrequencyQuarterly">Quarterly</label>
+            </div>
+            <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="hmHoodsFrequency" id="hmHoodsFrequencyAnnually" value="Annually" [(ngModel)]="model.OFFLNS_HOODS_DUCT_CLEANING">
+                <label for="hmHoodsFrequencyAnnually">Annually</label>
+            </div>
+            <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="hmHoodsFrequency" id="hmHoodsFrequencyOther" value="Other" [(ngModel)]="model.OFFLNS_HOODS_DUCT_CLEANING">
+                <label for="hmHoodsFrequencyOther">Other</label>
+            </div>
+            <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="hmHoodsFrequency" id="hmHoodsFrequencyUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_HOODS_DUCT_CLEANING">
+                <label for="hmHoodsFrequencyUnknown">Unknown</label>
+            </div>
+        </div>
+    </div>
+    <div class="isc-form-group">
+        <label class="isc-col-md-3 isc-control-label" for="hmCookingCeiling">Ceiling Sprinklers</label>
+        <div class="isc-col-md-9">
+            <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="hmCookingCeiling" id="hmCookingCeilingYes" value="Yes" [(ngModel)]="model.OFFLNS_CEILING_SPRINKLER">
+                <label for="hmCookingCeilingYes">Yes</label>
+            </div>
+            <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="hmCookingCeiling" id="hmCookingCeilingNo" value="No" [(ngModel)]="model.OFFLNS_CEILING_SPRINKLER">
+                <label for="hmCookingCeilingNo">No</label>
+            </div>
+            <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="hmCookingCeiling" id="hmCookingCeilingUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_CEILING_SPRINKLER">
+                <label for="hmCookingCeilingUnknown">Unknown</label>
+            </div>
+        </div>
+    </div>
+    <div class="isc-form-group">
+        <label class="isc-col-md-3 isc-control-label" for="hmCookingFrequency">Cooking/Frying Area Special Protection</label>
+        <div class="isc-col-md-9">
+            <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="hmCookingFrequency" id="hmCookingFrequencyWaterBased" value="Water Based" [(ngModel)]="model.OFFLNS_COOKING_SPECIAL_PROTECTION">
+                <label for="hmCookingFrequencyWaterBased">Water Based</label>
+            </div>
+            <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="hmCookingFrequency" id="hmCookingFrequencyGaseous" value="Gaseous" [(ngModel)]="model.OFFLNS_COOKING_SPECIAL_PROTECTION">
+                <label for="hmCookingFrequencyGaseous">Gaseous</label>
+            </div>
+            <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="hmCookingFrequency" id="hmCookingFrequencyDryChemical" value="Dry Chemical" [(ngModel)]="model.OFFLNS_COOKING_SPECIAL_PROTECTION">
+                <label for="hmCookingFrequencyDryChemical">Dry Chemical</label>
+            </div>
+            <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="hmCookingFrequency" id="hmCookingFrequencyWetChemical" value="Wet Chemical" [(ngModel)]="model.OFFLNS_COOKING_SPECIAL_PROTECTION">
+                <label for="hmCookingFrequencyWetChemical">Wet Chemical</label>
+            </div>
+            <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="hmCookingFrequency" id="hmCookingFrequencyOther" value="Other" [(ngModel)]="model.OFFLNS_COOKING_SPECIAL_PROTECTION">
+                <label for="hmCookingFrequencyOther">Other</label>
+            </div>
+            <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="hmCookingFrequency" id="hmCookingFrequencyUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_COOKING_SPECIAL_PROTECTION">
+                <label for="hmCookingFrequencyUnknown">Unknown</label>
+            </div>
+            <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="hmCookingFrequency" id="hmCookingFrequencyNone" value="None" [(ngModel)]="model.OFFLNS_COOKING_SPECIAL_PROTECTION">
+                <label for="hmCookingFrequencyNone">None</label>
+            </div>
+        </div>
+    </div>
+    <div class="isc-form-group">
+        <label class="isc-col-md-3 isc-control-label" for="hmFuelShutoffInterlock">Fuel Shutoff Interlock</label>
+        <div class="isc-col-md-9">
+            <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="hmFuelShutoffInterlock" id="hmFuelShutoffInterlockYes" value="Yes" [(ngModel)]="model.OFFLNS_FUEL_SHUTOFF">
+                <label for="hmFuelShutoffInterlockYes">Yes</label>
+            </div>
+            <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="hmFuelShutoffInterlock" id="hmFuelShutoffInterlockNo" value="No" [(ngModel)]="model.OFFLNS_FUEL_SHUTOFF">
+                <label for="hmFuelShutoffInterlockNo">No</label>
+            </div>
+            <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="hmFuelShutoffInterlock" id="hmFuelShutoffInterlockUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FUEL_SHUTOFF">
+                <label for="hmFuelShutoffInterlockUnknown">Unknown</label>
+            </div>
+        </div>
+    </div>
+    <div class="isc-form-group">
+        <label class="isc-col-md-3 isc-control-label" for="hmFryersSep">Fryers Separated From Open Flames</label>
+        <div class="isc-col-md-9">
+            <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="hmFryersSep" id="hmFryersSepYes" value="Yes" [(ngModel)]="model.OFFLNS_FRYERS_SEPARATED">
+                <label for="hmFryersSepYes">Yes</label>
+            </div>
+            <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="hmFryersSep" id="hmFryersSepNo" value="No" [(ngModel)]="model.OFFLNS_FRYERS_SEPARATED">
+                <label for="hmFryersSepNo">No</label>
+            </div>
+            <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="hmFryersSep" id="hmFryersSepUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FRYERS_SEPARATED">
+                <label for="hmFryersSepUnknown">Unknown</label>
+            </div>
+        </div>
+    </div>
+    <div class="isc-form-group _nmb">
+        <label class="isc-col-md-3 isc-control-label" for="hmPortableExtinguisher">Portable Extinguishers Acceptable</label>
+        <div class="isc-col-md-9">
+            <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="hmPortableExtinguisher" id="hmPortableExtinguisherYes" value="Yes" [(ngModel)]="model.OFFLNS_PORTABLE_EXTINGUISHER">
+                <label for="hmPortableExtinguisherYes">Yes</label>
+            </div>
+            <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="hmPortableExtinguisher" id="hmPortableExtinguisherNo" value="No" [(ngModel)]="model.OFFLNS_PORTABLE_EXTINGUISHER">
+                <label for="hmPortableExtinguisherNo">No</label>
+            </div>
+            <div class="isc-radio isc-radio-inline">
+                <input type="radio" name="hmPortableExtinguisher" id="hmPortableExtinguisherUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_PORTABLE_EXTINGUISHER">
+                <label for="hmPortableExtinguisherUnknown">Unknown</label>
+            </div>
+        </div>
+    </div>
+</div>

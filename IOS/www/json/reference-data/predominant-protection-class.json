@@ -1,0 +1,18 @@
+[
+  {
+    "ProtectionClassCode": "ASN",
+    "Description": "Adequately sprinklered where needed"
+  },
+  {
+    "ProtectionClassCode": "NAS",
+    "Description": "Inadequate sprinklers with LE deficiency greater than $10M OR 5% of location MAS, whichever is greater"
+  },
+  {
+    "ProtectionClassCode": "INS",
+    "Description": "Nearly Adequate sprinklers or no sprinklers but with LE deficiency less than $10M OR 5% of location MAS, whichever is greater"
+  },
+  {
+    "ProtectionClassCode": "NOS",
+    "Description": "No sprinklers and LE deficiency greater than $10M OR 5% of location MAS, whichever is greater"
+  }
+]

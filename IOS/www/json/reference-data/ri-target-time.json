@@ -1,0 +1,30 @@
+[
+  {
+    "Code": "UNKNOWN",
+    "Description": "Unknown"
+  },
+  {
+    "Code": "OTHER",
+    "Description": "Other"
+  },
+  {
+    "Code": "WTD",
+    "Description": "Within 30 Days"
+  },
+  {
+    "Code": "WTM",
+    "Description": "Within 3 Months"
+  },
+  {
+    "Code": "WFM",
+    "Description": "Within 4 Months"
+  },
+  {
+    "Code": "WSM",
+    "Description": "Within 6 Months"
+  },
+  {
+    "Code": "WTWM",
+    "Description": "Within 12 Months"
+  }
+]

@@ -1,0 +1,245 @@
+<!-- Plastic-Plastic Lined Tanks Section Starts -->
+<div class="isc-form-horizontal isc-reveal">
+   <div class="isc-form-group">
+      <div class="isc-col-md-6">
+        <label class="isc-control-label" for="pltHazardName">Hazard Name</label>   
+        <input class="isc-form-control" type="text" name="pltHazardName" id="pltHazardName" value="" [(ngModel)]="model.OFFLNS_PLT_HAZARD_NAME" />
+      </div>
+      <div class="isc-col-md-6">
+        <label class="isc-control-label" for="pltTypeHeating">Type of heating</label>
+        <input class="isc-form-control" type="text" name="pltTypeHeating" id="pltTypeHeating" value="" [(ngModel)]="model.OFFLNS_PLT_TYPE_HEATING" />
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="pltAllPlastic">All Plastic Tanks</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltAllPlastic" id="pltAllPlasticYes" value="Yes" [(ngModel)]="model.OFFLNS_PLT_ALL_PLASTIC_TANKS" />
+            <label for="pltAllPlasticYes">Yes</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltAllPlastic" id="pltAllPlasticNo" value="No" [(ngModel)]="model.OFFLNS_PLT_ALL_PLASTIC_TANKS" />
+            <label for="pltAllPlasticNo">No</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltAllPlastic" id="pltAllPlasticOther" value="Other" [(ngModel)]="model.OFFLNS_PLT_ALL_PLASTIC_TANKS" />
+            <label for="pltAllPlasticOther">Other</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltAllPlastic" id="pltAllPlasticUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_PLT_ALL_PLASTIC_TANKS" />
+            <label for="pltAllPlasticUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="pltLowLiquid">Low liquid level indicator</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltLowLiquid" id="pltLowLiquidYes" value="Yes" [(ngModel)]="model.OFFLNS_PLT_LOW_LIQUID_LEVEL" />
+            <label for="pltLowLiquidYes">Yes</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltLowLiquid" id="pltLowLiquidNo" value="No" [(ngModel)]="model.OFFLNS_PLT_LOW_LIQUID_LEVEL" />
+            <label for="pltLowLiquidNo">No</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltLowLiquid" id="pltLowLiquidUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_PLT_LOW_LIQUID_LEVEL" />
+            <label for="pltLowLiquidUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="pltOverflow">Overflow sensors /level indicators</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltOverflow" id="pltOverflowYes" value="Yes" [(ngModel)]="model.OFFLNS_PLT_OVERFLOW_SENSORS" />
+            <label for="pltOverflowYes">Yes</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltOverflow" id="pltOverflowNo" value="No" [(ngModel)]="model.OFFLNS_PLT_OVERFLOW_SENSORS" />
+            <label for="pltOverflowNo">No</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltOverflow" id="pltOverflowOther" value="Other" [(ngModel)]="model.OFFLNS_PLT_OVERFLOW_SENSORS" />
+            <label for="pltOverflowOther">Other</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltOverflow" id="pltOverflowUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_PLT_OVERFLOW_SENSORS" />
+            <label for="pltOverflowUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="pltOverTemperature">Over-temperature protection</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltOverTemperature" id="pltOverTemperatureYes" value="Yes" [(ngModel)]="model.OFFLNS_PLT_OVER_TEMPERATURE_PROTECTION" />
+            <label for="pltOverTemperatureYes">Yes</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltOverTemperature" id="pltOverTemperatureNo" value="No" [(ngModel)]="model.OFFLNS_PLT_OVER_TEMPERATURE_PROTECTION" />
+            <label for="pltOverTemperatureNo">No</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltOverTemperature" id="pltOverTemperatureUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_PLT_OVER_TEMPERATURE_PROTECTION" />
+            <label for="pltOverTemperatureUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="pltContainment">Containment provided for plastic tanks content</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltContainment" id="pltContainmentYes" value="Yes" [(ngModel)]="model.OFFLNS_PLT_CONTAINMENT_FOR_PLASTIC" />
+            <label for="pltContainmentYes">Yes</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltContainment" id="pltContainmentNo" value="No" [(ngModel)]="model.OFFLNS_PLT_CONTAINMENT_FOR_PLASTIC" />
+            <label for="pltContainmentNo">No</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltContainment" id="pltContainmentOther" value="Other" [(ngModel)]="model.OFFLNS_PLT_CONTAINMENT_FOR_PLASTIC" />
+            <label for="pltContainmentOther">Other</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltContainment" id="pltContainmentNA" value="N/A" [(ngModel)]="model.OFFLNS_PLT_CONTAINMENT_FOR_PLASTIC" />
+            <label for="pltContainmentNA">N/A</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltContainment" id="pltContainmentUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_PLT_CONTAINMENT_FOR_PLASTIC" />
+            <label for="pltContainmentUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="pltUnsupervised">Unsupervised Heating during idle hours</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltUnsupervised" id="pltUnsupervisedYes" value="Yes" [(ngModel)]="model.OFFLNS_PLT_UNSUPERVISED_HEATING" />
+            <label for="pltUnsupervisedYes">Yes</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltUnsupervised" id="pltUnsupervisedNo" value="No" [(ngModel)]="model.OFFLNS_PLT_UNSUPERVISED_HEATING" />
+            <label for="pltUnsupervisedNo">No</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltUnsupervised" id="pltUnsupervisedUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_PLT_UNSUPERVISED_HEATING" />
+            <label for="pltUnsupervisedUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="pltAlarm">Alarm Testing Frequency</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltAlarm" id="pltAlarmWeekly" value="Weekly" [(ngModel)]="model.OFFLNS_PLT_ALARM_TESTING_FREQUENCY" />
+            <label for="pltAlarmWeekly">Weekly</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltAlarm" id="pltAlarmMonthly" value="Monthly" [(ngModel)]="model.OFFLNS_PLT_ALARM_TESTING_FREQUENCY" />
+            <label for="pltAlarmMonthly">Monthly</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltAlarm" id="pltAlarmOther" value="Other" [(ngModel)]="model.OFFLNS_PLT_ALARM_TESTING_FREQUENCY" />
+            <label for="pltAlarmOther">Other</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltAlarm" id="pltAlarmNone" value="None" [(ngModel)]="model.OFFLNS_PLT_ALARM_TESTING_FREQUENCY" />
+            <label for="pltAlarmNone">None</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltAlarm" id="pltAlarmUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_PLT_ALARM_TESTING_FREQUENCY" />
+            <label for="pltAlarmUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="pltAlarmStation">Alarms to a constantly attended station?</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltAlarmStation" id="pltAlarmStationYes" value="Yes" [(ngModel)]="model.OFFLNS_PLT_CONSTANT_ATTENDED_STATION" />
+            <label for="pltAlarmStationYes">Yes</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltAlarmStation" id="pltAlarmStationNo" value="No" [(ngModel)]="model.OFFLNS_PLT_CONSTANT_ATTENDED_STATION" />
+            <label for="pltAlarmStationNo">No</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltAlarmStation" id="pltAlarmStationOther" value="Other" [(ngModel)]="model.OFFLNS_PLT_CONSTANT_ATTENDED_STATION" />
+            <label for="pltAlarmStationOther">Other</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltAlarmStation" id="pltAlarmStationUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_PLT_CONSTANT_ATTENDED_STATION" />
+            <label for="pltAlarmStationUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="pltTraining">Is training provided for employees handling emergency situations?</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltTraining" id="pltTrainingYes" value="Yes" [(ngModel)]="model.OFFLNS_PLT_TRAINING_FOR_EMERGENCY_HANDL" />
+            <label for="pltTrainingYes">Yes</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltTraining" id="pltTrainingNo" value="No" [(ngModel)]="model.OFFLNS_PLT_TRAINING_FOR_EMERGENCY_HANDL" />
+            <label for="pltTrainingNo">No</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltTraining" id="pltTrainingOther" value="Other" [(ngModel)]="model.OFFLNS_PLT_TRAINING_FOR_EMERGENCY_HANDL" />
+            <label for="pltTrainingOther">Other (see comment)</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltTraining" id="pltTrainingUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_PLT_TRAINING_FOR_EMERGENCY_HANDL" />
+            <label for="pltTrainingUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="pltCeiling">Ceiling Sprinkler System*</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltCeiling" id="pltCeilingAutomatic" value="Automatic" [(ngModel)]="model.OFFLNS_PLT_CEILING_SPRINKLER" />
+            <label for="pltCeilingAutomatic">Automatic</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltCeiling" id="pltCeilingManual" value="Manual" [(ngModel)]="model.OFFLNS_PLT_CEILING_SPRINKLER" />
+            <label for="pltCeilingManual">Manual</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltCeiling" id="pltCeilingNone" value="None" [(ngModel)]="model.OFFLNS_PLT_CEILING_SPRINKLER" />
+            <label for="pltCeilingNone">None</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="pltCeiling" id="pltCeilingUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_PLT_CEILING_SPRINKLER" />
+            <label for="pltCeilingUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="pltOtherFp">Other FP System</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="pltOtherFpFoam" id="pltOtherFpFoam" value="Foam" [(ngModel)]="model.OFFLNS_PLT_OTHER_FP_FOAM" />
+            <label for="pltOtherFpFoam">Foam</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="pltOtherFpGaseous" id="pltOtherFpGaseous" value="Gaseous" [(ngModel)]="model.OFFLNS_PLT_OTHER_FP_GASEOUS" />
+            <label for="pltOtherFpGaseous">Gaseous</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="pltOtherFpDryChemical" id="pltOtherFpDryChemical" value="DryChemical" [(ngModel)]="model.OFFLNS_PLT_OTHER_FP_DRY" />
+            <label for="pltOtherFpDryChemical">Dry Chemical</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="pltOtherFpOther" id="pltOtherFpOther" value="Other" [(ngModel)]="model.OFFLNS_PLT_OTHER_FP_OTHER" />
+            <label for="pltOtherFpOther">Other</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="pltOtherFpUnknown" id="pltOtherFpUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_PLT_OTHER_FP_UNKNOWN" />
+            <label for="pltOtherFpUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- Plastic-Plastic Lined Tanks Section End -->

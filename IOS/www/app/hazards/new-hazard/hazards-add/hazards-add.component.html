@@ -1,0 +1,368 @@
+<div bsModal #hazardsAddModal="bs-modal" class="isc-modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+   <div *ngIf="modalVisible" class="isc-modal-dialog isc-modal-xl">
+      <div class="isc-modal-content">
+          <div class="isc-modal-header">
+            <h4 class="isc-modal-title">Hazards (ft²)</h4>
+          </div>
+          <!-- <div class="isc-modal-body "> -->
+          <div class="isc-modal-body " data-ng-transclude="" data-isc-modal-body="" data-height="300px" data-size="x-large" style="min-height: 300px; max-height: 500px;">
+            <div class="isc-card isc-card-secondary">
+              <div class="isc-card-heading">
+                 <div class="isc-card-title isc-form-row">
+                    <div class="isc-grid ">
+                       <div class="isc-col-sm-4">
+                          <div class="isc-form-group" >
+                             <label class="isc-control-label" for="hazardName">Hazard Name </label>
+                             <input [(ngModel)] = "hazardModel.SPECIFIC_LOCATION_NM" class="isc-form-control" type="text" name="hazardName" placeholder="Enter Hazard Name"  spellcheck="true"  />
+                             <!-- <span class="isc-help-block" data-ng-show="formModalHazards.hazardName.$error.required">{{errorMessageRequired}}</span> --> 
+                          </div>
+                       </div>
+                       <div class="isc-col-sm-4">
+                          <div class="isc-form-group" >
+                             <label class="isc-control-label">Main Type</label>
+                             <!--<dropdown-container     
+                                [(inputData)]="hazardModel.mainType"                 
+                                [list]="mainType"
+                                [displayProperty]="'Description'"
+                                (suggestionSelected)="dropDownHandler($event)"
+                                >
+
+                                placeholder="Please Select"
+                                    [(inputData)]="addModalObject.HAZARD_MAIN_TYPE_CD"            
+                                    [list]="mainType"
+                                    [searchProperty]="'Description'"
+                                    [displayProperty]="'Description'"
+                                    isSearchable=true
+                                    isRequired=true
+                                    isSearchableWithDelete=true
+                                    (suggestionSelected)="dropDownHandler($event, 'mainType')"
+                                    (instanceDeleted)="dropDownDeleteHandler($event)">
+
+
+                                </dropdown-container>-->
+                                <dropdown-container
+                                    placeholder="Please Select"
+                                    [(inputData)]="hazardModel.HAZARD_MAIN_TYPE_CD"                
+                                    [list]="mainType"
+                                    [searchProperty]="'Description'"
+                                    [displayProperty]="'Code'"
+                                    [keyProperty]="'Description'"
+                                    isSearchable=true
+                                    isRequired=true
+                                    isSearchableWithDelete=true
+                                    (suggestionSelected)="dropDownHandler($event, 'mainType')"
+                                    >
+                                </dropdown-container> 
+                             <!--<input type="hidden" name="hazardMain" />-->
+                             <!-- <span class="isc-help-block" data-ng-show="formModalHazards.hazardMain.$error.required">{{errorMessageRequired}}</span> -->
+                          </div>
+                       </div>
+                       <div class="isc-col-sm-4">
+                          <div class="isc-form-group" >
+                             <label class="isc-control-label" >Type</label>
+                             <dropdown-container
+                                    placeholder="Please Select"
+                                    [(inputData)]="hazardModel.HAZARD_TYPE_CD"                
+                                    [list]="type"
+                                    [searchProperty]="'Description'"
+                                    [displayProperty]="'Code'"
+                                    [keyProperty]="'Description'"
+                                    isSearchable=true
+                                    isRequired=true
+                                    isSearchableWithDelete=true
+                                    (suggestionSelected)="dropDownHandler($event, 'type')"
+                                    (inputDataChange)="dropDownChangeHandler($event)">
+                                </dropdown-container> 
+                             <!--<span class="_hidden">{{"container.hazardType=hazardType.originalObject.url"}}</span>-->
+                             <!-- <span class="isc-help-block" data-ng-show="formModalHazards.hazardType.$error.required">{{errorMessageRequired}}</span> -->
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+              <div class="isc-card-body">
+                 <div class="isc-grid">
+                    <div class="isc-col-md-4">
+                       <div class="isc-form-group">
+                          <label class="isc-control-label">Category</label>
+                          <dropdown-container
+                              placeholder="Please Select"
+                                    [(inputData)]="hazardModel.HAZARD_CATEGORY_CD"                
+                                    [list]="catOccData"
+                                    [searchProperty]="'Description'"
+                                    [displayProperty]="'ELEMENT_CD'"
+                                    [keyProperty]="'Description'"
+                                    isSearchable=true
+                                    isRequired=true
+                                    isSearchableWithDelete=true
+                                    (suggestionSelected)="dropDownHandler($event, 'category')"
+                                    >
+                          </dropdown-container> 
+                          <!-- <span class="isc-help-block" data-ng-show="formModalHazards.hazardCategory.$error.required">{{errorMessageRequired}}</span> -->
+                       </div>
+                    </div>
+                    <div class="isc-col-md-4">
+                       <div class="isc-form-group" *ngIf = "hazardModel.HAZARD_MAIN_TYPE_CD == 'HMT_2'">
+                          <label class="isc-control-label">Hazard Class</label>
+                          <dropdown-container
+                               placeholder="Please Select"
+                                    [(inputData)]="hazardModel.HAZARD_CLASS_CD"                
+                                    [list]="hazardClass"
+                                    [searchProperty]="'Description'"
+                                    [displayProperty]="'Code'"
+                                    [keyProperty]="'Description'"
+                                    isSearchable=true
+                                    isRequired=true
+                                    isSearchableWithDelete=true
+                                    (suggestionSelected)="dropDownHandler($event, 'class')"
+                                    >
+                          </dropdown-container> 
+                       </div>
+                       <div class="isc-form-group" *ngIf = "hazardModel.HAZARD_MAIN_TYPE_CD != 'HMT_2'">
+                          <label class="isc-control-label">Hazard Class</label>
+                          <dropdown-container
+                              placeholder="Please Select"
+                                    [(inputData)]="hazardModel.HAZARD_CLASS_CD"                
+                                    [list]="hazardClass"
+                                    [searchProperty]="'Description'"
+                                    [displayProperty]="'Code'"
+                                    [keyProperty]="'Description'"
+                                    isSearchable=true
+                                    isSearchableWithDelete=true
+                                    (suggestionSelected)="dropDownHandler($event, 'class')"
+                                    >
+                          </dropdown-container> 
+                       </div>
+                    </div>
+                    <div class="isc-col-md-4">
+                       <div class="isc-form-group">
+                          <label class="isc-control-label" for="hazardSize">Hazard Area Size</label>
+                          <input class="isc-form-control" type="text" id="hazardSize" value=""  />
+                       </div>
+                    </div>
+                 </div>
+                 <div class="isc-grid">
+                    <div class="isc-col-md-4">
+                       <div class="isc-form-group">
+                          <label class="isc-control-label" for="hazardSize1">Area size to Acceptable Fire Barriers</label>
+                          <input class="isc-form-control" [(ngModel)] ="hazardModel.HAZARD_AREA_SIZE_QT" type="text" id="hazardSize1" value=""  />
+                       </div>
+                    </div>
+                    <!-- <div class="isc-col-md-4">
+                       <div class="isc-form-group">
+                         <label class="isc-control-label">Linked Recs</label>
+                         <div class="isc-form-control-static">6</div>
+                       </div>
+                       </div> -->
+                 </div>
+                 
+
+                 <div class="isc-grid isc-reveal" *ngIf = "hazardModel.HAZARD_MAIN_TYPE_CD == 'HMT_3'">
+                    <div class="isc-col-md-4">
+                       <div class="isc-form-group">
+                          <label class="isc-control-label" for="hazardSubtype">Predominant Commodity Class</label>
+                          <dropdown-container
+                              placeholder="Please Select"
+                                    [(inputData)]="hazardModel.PREDOMINANT_CLASS_CD"                
+                                    [list]="predominantCommodityClass"
+                                    [searchProperty]="'Description'"
+                                    [displayProperty]="'Code'"
+                                    [keyProperty]="'Description'"
+                                    isSearchable=true
+                                    isRequired=true
+                                    isSearchableWithDelete=true
+                                    (suggestionSelected)="dropDownHandler($event, 'pcc')"
+                                    >
+                          </dropdown-container>
+                       </div>
+                    </div>
+                    <div class="isc-col-md-4">
+                       <div class="isc-form-group">
+                          <label class="isc-control-label" for="hazardStorage">Storage Arrangement</label>
+                          <dropdown-container
+                               placeholder="Please Select"
+                                    [(inputData)]="hazardModel.STORAGE_ARRANGEMENT_CD"                
+                                    [list]="storageArrangement"
+                                    [searchProperty]="'Description'"
+                                    [displayProperty]="'Code'"
+                                    [keyProperty]="'Description'"
+                                    isSearchable=true
+                                    isRequired=true
+                                    isSearchableWithDelete=true
+                                    (suggestionSelected)="dropDownHandler($event, 'storage')"
+                                    >
+                          </dropdown-container>
+                       </div>
+                    </div>
+                    <div class="isc-col-md-2">
+                       <div class="isc-form-group">
+                          <label class="isc-control-label" for="hazardStorageSize">Storage Height</label>
+                          <input class="isc-form-control" [(ngModel)] ="hazardModel.STORAGE_HEIGHT_QT" type="text" id="hazardStorageSize" value=""  />
+                       </div>
+                    </div>
+                    <div class="isc-col-md-2">
+                       <div class="isc-form-group">
+                          <label class="isc-control-label" for="hazardCeilingSize">Ceiling Height</label>
+                          <input class="isc-form-control" [(ngModel)] ="hazardModel.CEILING_HEIGHT_QT" type="text" id="hazardCeilingSize" value=""  />
+                       </div>
+                    </div>
+                 </div>
+
+                  <boilers *ngIf="hazardType == 'Boilers'" [(model)]="hazardModel[key]"></boilers>
+
+                  <rack-storage *ngIf="hazardType == 'Rack Storage'" [(model)]="hazardModel[key]"></rack-storage>
+
+                  <commercial-cooking *ngIf="hazardType == 'Commercial Cooking'" [(model)]="hazardModel[key]"></commercial-cooking>
+
+                  <battery-room *ngIf="hazardType == 'Battery Room'" [(model)]="hazardModel[key]"></battery-room>
+
+                  <ovens-furnaces *ngIf="hazardType == 'Ovens-Furnaces'" [(model)]="hazardModel[key]"></ovens-furnaces>
+
+                  <floor-non-rack *ngIf="hazardType == 'Floor-NonRackStorage'" [(model)]="hazardModel[key]"></floor-non-rack>
+                  
+                  <indoor-idle-pallet *ngIf="hazardType == 'Indoor Idle Pallet Storages'" [(model)]="hazardModel[key]"></indoor-idle-pallet>   
+
+                  <outdoor-idle-pallet *ngIf="hazardType == 'Outdoor Idle Pallet Storage'" [(model)]="hazardModel[key]"></outdoor-idle-pallet>                 
+
+                  <ammonia-refrigeration *ngIf="hazardType == 'Ammonia refrigeration systems'" [(model)]="hazardModel[key]"></ammonia-refrigeration>
+
+                  <!-- ----------------------------------------------------------- -->
+                  <aircraft-hangar *ngIf="hazardType == 'Aircraft Hanger'" [(model)]="parentModel"></aircraft-hangar>
+                  <electrical-systems *ngIf="hazardType == 'Electrical Systems'" [(model)]="parentModel"></electrical-systems>
+                  <hydraulic-fluid-systems *ngIf="hazardType == 'Hydraulic Fluid Systems'" [(model)]="parentModel"></hydraulic-fluid-systems>
+                  <flammable-gas-storage *ngIf="hazardType == 'Flammable Gas Storage'" [(model)]="parentModel"></flammable-gas-storage>
+                  <flammable-liquids-storage *ngIf="hazardType == 'Flammable Liquids Storage (inside)'" [(model)]="parentModel"></flammable-liquids-storage>
+                  <flammables-bulk-storage *ngIf="hazardType == 'Flammables - Bulk Storage'" [(model)]="parentModel"></flammables-bulk-storage>
+                  <plastic-lined-tanks *ngIf="hazardType == 'Plastic-Plastic Lined Tanks'" [(model)]="parentModel"></plastic-lined-tanks>
+                  <roll-paper-storage *ngIf="hazardType == 'Roll Paper Storage'" [(model)]="parentModel"></roll-paper-storage>
+                  <rubber-tire-storage *ngIf="hazardType == 'Rubber Tire Storage'" [(model)]="parentModel"></rubber-tire-storage>
+                  <!-- ----------------------------------------------------------- -->
+
+                 <div></div>
+              </div>                
+            </div>
+            <!-- Risk Improvements Section Starts -->
+            <h4>Risk Improvements</h4>
+            <div class="isc-table-responsive" *ngIf="riDataList && riDataList.length > 0">
+              <table class="isc-table isc-table-basic">
+                <colgroup>
+                  <col>
+                  <col class="_w-15">
+                  <col class="_w-15">
+                  <col class="_w-px-50">
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th data-align="right">LE before</th>
+                    <th data-align="right">LE after</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let riPage of riDataList | orderby:['RI_NO']; let riIndex=index;">
+                    <td>
+                      <span>{{riPage.RISK_IMPRVMNT_NM}}</span>
+                      <div data-color="muted">{{riPage.RI_NO}}</div>
+                    </td>
+                    <td data-vert-align="top" data-align="right">
+                      {{riPage.TOT_LOSS_EST_BFR_RI_AM}}
+                    </td>
+                    <td data-vert-align="top" data-align="right">
+                      {{riPage.TOT_LOSS_EST_AFTER_RI_AM}}
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div *ngIf="riDataList.length == 0">
+              <p data-color="muted">No risk improvements linked to this hazard.</p>
+            </div>
+            <!-- Risk Improvements Section Ends -->
+            <h4>Sprinklers</h4>
+            <div class="isc-scrollable-table isc-reveal sprinkler-cls">
+              <div class="isc-scroll-head">
+                <div class="isc-table-responsive">
+                  <table class="isc-table isc-table-basic">
+                    <colgroup>
+                    <col class="_w-px-75"/>
+                    <col class="_w-px-125"/>
+                    <col class="_w-px-125"/>
+                    <col class="_w-px-125" />
+                    <col class="_w-px-125" />
+                    <col class="_w-px-150" />
+                    <col class="_w-px-150" />
+                    <col class="_w-px-100" />
+                    <col class="_w-px-100" />
+                    </colgroup>
+                    <thead>
+                      <tr>
+                        <th rowspan="2"> </th>
+                        <th rowspan="2">Area protected</th>
+                        <th rowspan="2">System</th>
+                        <th colspan="2" rowspan="1" data-align="center">Design</th>
+                        <th data-align="center" rowspan="2">Existing BOR flow <small>(gpm)</small></th>
+                        <th rowspan="2"> Adjusted BOR pressure</th>
+                        <th rowspan="2"> Temp &#38; <span class="_text-nowrap">K-Factor</span></th>
+                        <th rowspan="2">Hose <small>(gpm)</small></th>
+                        <th rowspan="2">Adequacy</th>
+                      </tr>
+                      <tr role="row">
+                        <th data-align="center">Existing</th>
+                        <th data-align="center">Required</th>
+                      </tr>
+                    </thead>
+                  </table>
+                </div>
+              </div>
+              <div class="isc-scroll-body">
+                <div class="isc-table-responsive">
+                  <table class="isc-table isc-table-basic">
+                    <colgroup>
+                    <col class="_w-px-75"/>
+                    <col class="_w-px-125"/>
+                    <col class="_w-px-125"/>
+                    <col class="_w-px-125" />
+                    <col class="_w-px-125" />
+                    <col class="_w-px-150" />
+                    <col class="_w-px-150" />
+                    <col class="_w-px-100" />
+                    <col class="_w-px-100" />
+                    </colgroup>
+                    <tbody>
+                      <tr *ngFor="let sprinkler of sprinklersData; let getIndex=index;">
+                        <td data-align="center">
+                          <div class="isc-checkbox">
+                            <input [(ngModel)]="sprinkler.isLinked" type="checkbox" name="hazard-link-{{getIndex}}" id="hazard-link-{{getIndex}}">
+                            <label [attr.for]="'hazard-link-' + getIndex">&nbsp;</label>
+                          </div>
+                        </td>                        
+                        <td>{{sprinkler.PROTECTED_AREA_TX}}</td>
+                        <td>{{sprinkler.SYSTEM_TYPE_DESCRIPTION}}</td>
+                        <td data-align="center">{{sprinkler.EXISTING_DESIGN_TX}}</td>                       
+                        <td data-align="center">{{sprinkler.REQUIRED_DESIGN_TX}}</td>
+                        <td data-align="center">{{sprinkler.BOR_FLOW_WITHOUT_HOSE_QT}}</td>
+                        <td data-align="center">{{sprinkler.ADJUSTED_BOR_PRESSURE_QT}}</td>
+                        <td data-align="center">{{sprinkler.TEMP_K_FACTOR_NO}}</td>
+                        <td data-align="center">{{sprinkler.HOSE_QT}}</td>
+                        <td>{{sprinkler.SPRINKLER_ADEQUACY_DESCRIPTION}}</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <!-- Comments --> 
+            <div class="isc-component-body chat-container">
+              <div class="isc-editor">
+                <label class="isc-control-label">Comments</label>
+                <textarea [(ngModel)] = "hazardModel.HazardComments[0].PrimaryLanguage" htmlEditor></textarea>  
+              </div>
+            </div>
+          </div>
+          <div class="isc-modal-footer">
+            <button class="isc-btn isc-btn-link" (click)="hideModal()">Cancel</button>
+            <button class="isc-btn isc-btn-primary"  (click)="saveData()">Save</button> 
+          </div>
+      </div>
+   </div>
+</div>

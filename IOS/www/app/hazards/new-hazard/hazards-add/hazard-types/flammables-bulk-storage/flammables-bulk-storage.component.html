@@ -1,0 +1,486 @@
+<!-- Flammables - Bulk Storage Section Starts -->
+<div class="isc-form-horizontal isc-reveal">
+   <div class="isc-form-group">
+      <div class="isc-col-md-6">
+        <label class="isc-control-label" for="fbsHazardName">Hazard Name</label>   
+        <input class="isc-form-control" type="text" name="fbsHazardName" id="fbsHazardName" value="" [(ngModel)]="model.OFFLNS_FBS_HAZARD_NAME" />
+      </div>
+      <div class="isc-col-md-6">
+        <label class="isc-control-label" for="fbsFlammableMaterials">Largest holdup of flammable materials</label> 
+        <input class="isc-form-control" type="number" name="fbsFlammableMaterials" id="fbsFlammableMaterials" value="" [(ngModel)]="model.OFFLNS_FBS_FLAMMABLE_MATERIALS" />
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="fbsReceivingMethod">Receiving Method</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsReceivingMethodPipeline" id="fbsReceivingMethodPipeline" value="Pipeline" [(ngModel)]="model.OFFLNS_FBS_RECEIVING_METHOD_PIPELINE" />
+            <label for="fbsReceivingMethodPipeline">Pipeline</label>                        
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsReceivingMethodShip" id="fbsReceivingMethodShip" value="Ship/Barge" [(ngModel)]="model.OFFLNS_FBS_RECEIVING_METHOD_SHIP" />
+            <label for="fbsReceivingMethodShip">Ship/Barge</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsReceivingMethodRail" id="fbsReceivingMethodRail" value="Rail" [(ngModel)]="model.OFFLNS_FBS_RECEIVING_METHOD_RAIL" />
+            <label for="fbsReceivingMethodRail">Rail</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsReceivingMethodTruck" id="fbsReceivingMethodTruck" value="Truck" [(ngModel)]="model.OFFLNS_FBS_RECEIVING_METHOD_TRUCK" />
+            <label for="fbsReceivingMethodTruck">Truck</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsReceivingMethodUnknown" id="fbsReceivingMethodUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FBS_RECEIVING_METHOD_UNKNOWN" />
+            <label for="fbsReceivingMethodUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="fbsExportMethod">Export Method</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsExportMethodPipeline" id="fbsExportMethodPipeline" value="Pipeline" [(ngModel)]="model.OFFLNS_FBS_EXPORT_METHOD_PIPELINE" />
+            <label for="fbsExportMethodPipeline">Pipeline</label>                        
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsExportMethodShip" id="fbsExportMethodShip" value="Ship" [(ngModel)]="model.OFFLNS_FBS_EXPORT_METHOD_SHIP" />
+            <label for="fbsExportMethodShip">Ship/Barge</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsExportMethodRail" id="fbsExportMethodRail" value="Rail" [(ngModel)]="model.OFFLNS_FBS_EXPORT_METHOD_RAIL" />
+            <label for="fbsExportMethodRail">Rail</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsExportMethodTruck" id="fbsExportMethodTruck" value="Truck" [(ngModel)]="model.OFFLNS_FBS_EXPORT_METHOD_TRUCK" />
+            <label for="fbsExportMethodTruck">Truck</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsExportMethodUnknown" id="fbsExportMethodUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FBS_EXPORT_METHOD_UNKNOWN" />
+            <label for="fbsExportMethodUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="fbsTransferEquipment">Transfer Equipment</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsTransferEquipment" id="fbsTransferEquipmentArm" value="Arm" [(ngModel)]="model.OFFLNS_FBS_TRANSFER_EQUIPMENT" />
+            <label for="fbsTransferEquipmentArm">Arm</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsTransferEquipment" id="fbsTransferEquipmentHose" value="Hose" [(ngModel)]="model.OFFLNS_FBS_TRANSFER_EQUIPMENT" />
+            <label for="fbsTransferEquipmentHose">Hose</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsTransferEquipment" id="fbsTransferEquipmentConnections" value="Connections" [(ngModel)]="model.OFFLNS_FBS_TRANSFER_EQUIPMENT" />
+            <label for="fbsTransferEquipmentConnections">Connections</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsTransferEquipment" id="fbsTransferEquipmentGas" value="GasPressure" [(ngModel)]="model.OFFLNS_FBS_TRANSFER_EQUIPMENT" />
+            <label for="fbsTransferEquipmentGas">Gas pressure</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsTransferEquipment" id="fbsTransferEquipmentPd" value="PDpump" [(ngModel)]="model.OFFLNS_FBS_TRANSFER_EQUIPMENT" />
+            <label for="fbsTransferEquipmentPd">PD pump</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsTransferEquipment" id="fbsTransferEquipmentCentrifugal" value="CentrifugalPump" [(ngModel)]="model.OFFLNS_FBS_TRANSFER_EQUIPMENT" />
+            <label for="fbsTransferEquipmentCentrifugal">Centrifugal pump</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsTransferEquipment" id="fbsTransferEquipmentother" value="Other" [(ngModel)]="model.OFFLNS_FBS_TRANSFER_EQUIPMENT" />
+            <label for="fbsTransferEquipmentother">Other</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsTransferEquipment" id="fbsTransferEquipmentUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FBS_EXPORT_METHOD" />
+            <label for="fbsTransferEquipmentUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="fbsElectricalArea">Electrical Area Classification</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsElectricalArea" id="fbsElectricalAreaCL1Div1" value="CL1Div1" [(ngModel)]="model.OFFLNS_FBS_ELECTRICAL_AREA" />
+            <label for="fbsElectricalAreaCL1Div1">CL1 Div1</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsElectricalArea" id="fbsElectricalAreaCL1Div2" value="CL1Div2" [(ngModel)]="model.OFFLNS_FBS_ELECTRICAL_AREA" />
+            <label for="fbsElectricalAreaCL1Div2">CL1 Div2</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsElectricalArea" id="fbsElectricalAreaOrdinary" value="Ordinary" [(ngModel)]="model.OFFLNS_FBS_ELECTRICAL_AREA" />
+            <label for="fbsElectricalAreaOrdinary">Ordinary</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsElectricalArea" id="fbsElectricalAreaUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FBS_ELECTRICAL_AREA" />
+            <label for="fbsElectricalAreaUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="fbsContainment">Containment</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsContainmentDike" id="fbsContainmentDike" value="Dikewall" [(ngModel)]="model.OFFLNS_FBS_CONTAINMENT_DIKE_WALL" />
+            <label for="fbsContainmentDike">Dike wall</label>                        
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsContainmentEarthen" id="fbsContainmentEarthen" value="EarthenBerm" [(ngModel)]="model.OFFLNS_FBS_CONTAINMENT_EARTHEN_BERM" />
+            <label for="fbsContainmentEarthen">Earthen berm</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsContainmentNone" id="fbsContainmentNone" value="None" [(ngModel)]="model.OFFLNS_FBS_CONTAINMENT_NONE" />
+            <label for="fbsContainmentNone">None</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsContainmentUnknown" id="fbsContainmentUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FBS_CONTAINMENT_UNKNOWN" />
+            <label for="fbsContainmentUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="fbsDrainage">Drainage</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsDrainageTrenches" id="fbsDrainageTrenches" value="Trenches" [(ngModel)]="model.OFFLNS_FBS_DRAINAGE_TRENCHES" />
+            <label for="fbsDrainageTrenches">Trenches</label>                        
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsDrainageLocal" id="fbsDrainageLocal" value="LocalImpounding" [(ngModel)]="model.OFFLNS_FBS_DRAINAGE_LOCAL" />
+            <label for="fbsDrainageLocal">Local impounding</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsDrainageRemote" id="fbsDrainageRemote" value="RemoteImpounding" [(ngModel)]="model.OFFLNS_FBS_DRAINAGE_REMOTE" />
+            <label for="fbsDrainageRemote">Remote impounding</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsDrainageNone" id="fbsDrainageNone" value="None" [(ngModel)]="model.OFFLNS_FBS_DRAINAGE_NONE" />
+            <label for="fbsDrainageNone">None</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsDrainageUnknown" id="fbsDrainageUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FBS_DRAINAGE_UNKNOWN" />
+            <label for="fbsDrainageUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="fbsFireproofing">Fireproofing</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsFireproofing" id="fbsFireproofingNone" value="None" [(ngModel)]="model.OFFLNS_FBS_FIREPROOFING" />
+            <label for="fbsFireproofingNone">None</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsFireproofing" id="fbsFireproofingSome" value="Some" [(ngModel)]="model.OFFLNS_FBS_FIREPROOFING" />
+            <label for="fbsFireproofingSome">Some</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsFireproofing" id="fbsFireproofingAll" value="All" [(ngModel)]="model.OFFLNS_FBS_FIREPROOFING" />
+            <label for="fbsFireproofingAll">All</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsFireproofing" id="fbsFireproofingUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FBS_FIREPROOFING" />
+            <label for="fbsFireproofingUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="fbsFpCondition">FP Condition</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsFpCondition" id="fbsFpConditionExcellent" value="Excellent" [(ngModel)]="model.OFFLNS_FBS_FP_CONDITION" />
+            <label for="fbsFpConditionExcellent">Excellent</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsFpCondition" id="fbsFpConditionFair" value="Fair" [(ngModel)]="model.OFFLNS_FBS_FP_CONDITION" />
+            <label for="fbsFpConditionFair">Fair</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsFpCondition" id="fbsFpConditionPoor" value="Poor" [(ngModel)]="model.OFFLNS_FBS_FP_CONDITION" />
+            <label for="fbsFpConditionPoor">Poor</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsFpCondition" id="fbsFpConditionUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FBS_FP_CONDITION" />
+            <label for="fbsFpConditionUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="fbsGrounding">Grounding/Bonding</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsGrounding" id="fbsGroundingYes" value="Yes" [(ngModel)]="model.OFFLNS_FBS_GROUNDING" />
+            <label for="fbsGroundingYes">Yes</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsGrounding" id="fbsGroundingNo" value="No" [(ngModel)]="model.OFFLNS_FBS_GROUNDING" />
+            <label for="fbsGroundingNo">No</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsGrounding" id="fbsGroundingUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FBS_GROUNDING" />
+            <label for="fbsGroundingUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="fbsVentilation">Ventilation</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsVentilationNatural" id="fbsVentilationNatural" value="Natural" [(ngModel)]="model.OFFLNS_FBS_VENTILATION_NATURAL" />
+            <label for="fbsVentilationNatural">Natural</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsVentilationMechanical" id="fbsVentilationMechanical" value="Mechanical" [(ngModel)]="model.OFFLNS_FBS_VENTILATION_MECHANICAL" />
+            <label for="fbsVentilationMechanical">Mechanical</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsVentilationNA" id="fbsVentilationNA" value="N/A" [(ngModel)]="model.OFFLNS_FBS_VENTILATION_NA" />
+            <label for="fbsVentilationNA">N/A</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsVentilationUnknown" id="fbsVentilationUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FBS_VENTILATION_UNKNOWN" />
+            <label for="fbsVentilationUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="fbsEmergency">Emergency Isolation Valves</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsEmergency" id="fbsEmergencyNone" value="None" [(ngModel)]="model.OFFLNS_FBS_EMERGENCY_ISOLATION_VALVES" />
+            <label for="fbsEmergencyNone">None</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsEmergency" id="fbsEmergencySome" value="Some" [(ngModel)]="model.OFFLNS_FBS_EMERGENCY_ISOLATION_VALVES" />
+            <label for="fbsEmergencySome">Some</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsEmergency" id="fbsEmergencyAll" value="All" [(ngModel)]="model.OFFLNS_FBS_EMERGENCY_ISOLATION_VALVES" />
+            <label for="fbsEmergencyAll">All</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsEmergency" id="fbsEmergencyUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FBS_EMERGENCY_ISOLATION_VALVES" />
+            <label for="fbsEmergencyUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="fbsLelDetection">LEL Detection</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsLelDetection" id="fbsLelDetectionYes" value="Yes" [(ngModel)]="model.OFFLNS_FBS_LEL_DETECTION" />
+            <label for="fbsLelDetectionYes">Yes</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsLelDetection" id="fbsLelDetectionNo" value="No" [(ngModel)]="model.OFFLNS_FBS_LEL_DETECTION" />
+            <label for="fbsLelDetectionNo">No</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsLelDetection" id="fbsLelDetectionNA" value="N/A" [(ngModel)]="model.OFFLNS_FBS_LEL_DETECTION" />
+            <label for="fbsLelDetectionNA">N/A</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsLelDetection" id="fbsLelDetectionUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FBS_LEL_DETECTION" />
+            <label for="fbsLelDetectionUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="fbsGasDetection">Gas Detection</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsGasDetection" id="fbsGasDetectionYes" value="Yes" [(ngModel)]="model.OFFLNS_FBS_GAS_DETECTION" />
+            <label for="fbsGasDetectionYes">Yes</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsGasDetection" id="fbsGasDetectionNo" value="No" [(ngModel)]="model.OFFLNS_FBS_GAS_DETECTION" />
+            <label for="fbsGasDetectionNo">No</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsGasDetection" id="fbsGasDetectionNA" value="N/A" [(ngModel)]="model.OFFLNS_FBS_GAS_DETECTION" />
+            <label for="fbsGasDetectionNA">N/A</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsGasDetection" id="fbsGasDetectionUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FBS_GAS_DETECTION" />
+            <label for="fbsGasDetectionUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="fbsFireDetection">Fire Detection</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsFireDetectionHeat" id="fbsFireDetectionHeat" value="Heat" [(ngModel)]="model.OFFLNS_FBS_FIRE_DETECTION_HEAT" />
+            <label for="fbsFireDetectionHeat">Heat</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsFireDetectionSmoke" id="fbsFireDetectionSmoke" value="Smoke" [(ngModel)]="model.OFFLNS_FBS_FIRE_DETECTION_SMOKE" />
+            <label for="fbsFireDetectionSmoke">Smoke</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsFireDetectionUvIr" id="fbsFireDetectionUvIr" value="UV/IR" [(ngModel)]="model.OFFLNS_FBS_FIRE_DETECTION_UV_IR" />
+            <label for="fbsFireDetectionUvIr">UV/IR</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsFireDetectionAir" id="fbsFireDetectionAir" value="AirSampling" [(ngModel)]="model.OFFLNS_FBS_FIRE_DETECTION_AIR_SAMPLING" />
+            <label for="fbsFireDetectionAir">Air Sampling</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsFireDetectionOther" id="fbsFireDetectionOther" value="Other" [(ngModel)]="model.OFFLNS_FBS_FIRE_DETECTION_OTHER" />
+            <label for="fbsFireDetectionOther">Other</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsFireDetectionUnknown" id="fbsFireDetectionUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FBS_FIRE_DETECTION_UNKNOWN" />
+            <label for="fbsFireDetectionUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="fbsFireProtection">Fire Protection System</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsFireProtection" id="fbsFireProtectionAutomatic" value="Automatic" [(ngModel)]="model.OFFLNS_FBS_FIRE_PROTECTION_SYSTEM" />
+            <label for="fbsFireProtectionAutomatic">Automatic</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsFireProtection" id="fbsFireProtectionManual" value="Manual" [(ngModel)]="model.OFFLNS_FBS_FIRE_PROTECTION_SYSTEM" />
+            <label for="fbsFireProtectionManual">Manual</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsFireProtection" id="fbsFireProtectionNone" value="None" [(ngModel)]="model.OFFLNS_FBS_FIRE_PROTECTION_SYSTEM" />
+            <label for="fbsFireProtectionNone">None</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsFireProtection" id="fbsFireProtectionUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FBS_FIRE_PROTECTION_SYSTEM" />
+            <label for="fbsFireProtectionUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="fbsFpSystem">FP System Type</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsFpSystemWaterBased" id="fbsFpSystemWaterBased" value="WaterBased" [(ngModel)]="model.OFFLNS_FBS_FP_SYSTEM_TYPE_WATER" />
+            <label for="fbsFpSystemWaterBased">Water based</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsFpSystemFoam" id="fbsFpSystemFoam" value="Foam" [(ngModel)]="model.OFFLNS_FBS_FP_SYSTEM_TYPE_FOAM" />
+            <label for="fbsFpSystemFoam">Foam</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsFpSystemGaseous" id="fbsFpSystemGaseous" value="Gaseous" [(ngModel)]="model.OFFLNS_FBS_FP_SYSTEM_TYPE_GASEOUS" />
+            <label for="fbsFpSystemGaseous">Gaseous</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsFpSystemDryChemical" id="fbsFpSystemDryChemical" value="DryChemical" [(ngModel)]="model.OFFLNS_FBS_FP_SYSTEM_TYPE_DRY" />
+            <label for="fbsFpSystemDryChemical">Dry Chemical</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsFpSystemOther" id="fbsFpSystemOther" value="Other" [(ngModel)]="model.OFFLNS_FBS_FP_SYSTEM_TYPE_OTHER" />
+            <label for="fbsFpSystemOther">Other</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsFpSystemUnknown" id="fbsFpSystemUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FBS_FP_SYSTEM_TYPE_UNKNOWN" />
+            <label for="fbsFpSystemUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="fbsMonitorNozzles">Monitor Nozzles</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsMonitorNozzles" id="fbsMonitorNozzlesAutomatic" value="Automatic" [(ngModel)]="model.OFFLNS_FBS_MONITOR_NOZZLES" />
+            <label for="fbsMonitorNozzlesAutomatic">Automatic</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsMonitorNozzles" id="fbsMonitorNozzlesManual" value="Manual" [(ngModel)]="model.OFFLNS_FBS_MONITOR_NOZZLES" />
+            <label for="fbsMonitorNozzlesManual">Manual</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsMonitorNozzles" id="fbsMonitorNozzlesNone" value="None" [(ngModel)]="model.OFFLNS_FBS_MONITOR_NOZZLES" />
+            <label for="fbsMonitorNozzlesNone">None</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsMonitorNozzles" id="fbsMonitorNozzlesUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FBS_MONITOR_NOZZLES" />
+            <label for="fbsMonitorNozzlesUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="fbsPressureRelief">Pressure Relief Devices</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsPressureRelief" id="fbsPressureReliefVents" value="VentsToAtmosphere" [(ngModel)]="model.OFFLNS_FBS_PRESSURE_RELIEF_ATOMSPHERE" />
+            <label for="fbsPressureReliefVents">Vents to atmosphere</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsPressureRelief" id="fbsPressureReliefFlare" value="Flare" [(ngModel)]="model.OFFLNS_FBS_PRESSURE_RELIEF_FLARE" />
+            <label for="fbsPressureReliefFlare">Flare</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsPressureRelief" id="fbsPressureReliefOther" value="Other" [(ngModel)]="model.OFFLNS_FBS_PRESSURE_RELIEF_OTHER" />
+            <label for="fbsPressureReliefOther">Other</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsPressureRelief" id="fbsPressureReliefUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FBS_PRESSURE_RELIEF_UNKNOWN" />
+            <label for="fbsPressureReliefUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="fbsOverfill">Overfill</label>
+      <div class="isc-col-md-9">
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsOverfillSome" id="fbsOverfillSome" value="Some" [(ngModel)]="model.OFFLNS_FBS_OVERFILL_SOME" />
+            <label for="fbsOverfillSome">Some</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsOverfillAll" id="fbsOverfillAll" value="All" [(ngModel)]="model.OFFLNS_FBS_OVERFILL_ALL" />
+            <label for="fbsOverfillAll">All</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsOverfillSingle" id="fbsOverfillSingle" value="Single" [(ngModel)]="model.OFFLNS_FBS_OVERFILL_SINGLE" />
+            <label for="fbsOverfillSingle">Single</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsOverfillDouble" id="fbsOverfillDouble" value="Double" [(ngModel)]="model.OFFLNS_FBS_OVERFILL_DOUBLE" />
+            <label for="fbsOverfillDouble">Double</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsOverfillLocal" id="fbsOverfillLocal" value="Local" [(ngModel)]="model.OFFLNS_FBS_OVERFILL_LOCAL" />
+            <label for="fbsOverfillLocal">Local</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsOverfillNone" id="fbsOverfillNone" value="None" [(ngModel)]="model.OFFLNS_FBS_OVERFILL_NONE" />
+            <label for="fbsOverfillNone">None</label>
+         </div>
+         <div class="isc-checkbox isc-checkbox-inline">
+            <input type="checkbox" name="fbsOverfillUnknown" id="fbsOverfillUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FBS_OVERFILL_UNKNOWN" />
+            <label for="fbsOverfillUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+   <div class="isc-form-group">
+      <label class="isc-col-md-3 isc-control-label" for="fbsExplosion">Explosion Protection</label>
+      <div class="isc-col-md-9">
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsExplosion" id="fbsExplosionYes" value="Yes" [(ngModel)]="model.OFFLNS_FBS_EXPLOSION_PROTECTION" />
+            <label for="fbsExplosionYes">Yes</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsExplosion" id="fbsExplosionNo" value="No" [(ngModel)]="model.OFFLNS_FBS_EXPLOSION_PROTECTION" />
+            <label for="fbsExplosionNo">No</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsExplosion" id="fbsExplosionNA" value="N/A" [(ngModel)]="model.OFFLNS_FBS_EXPLOSION_PROTECTION" />
+            <label for="fbsExplosionNA">N/A</label>
+         </div>
+         <div class="isc-radio isc-radio-inline">
+            <input type="radio" name="fbsExplosion" id="fbsExplosionUnknown" value="Unknown" [(ngModel)]="model.OFFLNS_FBS_EXPLOSION_PROTECTION" />
+            <label for="fbsExplosionUnknown">Unknown</label>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- Flammables - Bulk Storage Section End -->

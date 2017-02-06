@@ -1,0 +1,22 @@
+<div bsModal #firePumpChartModal="bs-modal" class="isc-modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+	aria-hidden="true">
+	<div class="isc-modal-dialog isc-modal-xl">
+		<div class="isc-modal-content">
+
+			<div class="isc-modal-header">
+				<h4 class="isc-modal-title">Test Data {{testDataInd+1 | number:'3.0-0'}}</h4>
+			</div>
+
+			<div class="isc-modal-body">
+				<div *ngIf="chartData && chartData.length > 0">
+					<axis-graphs [(dataForChart)]=chartData [(dataForOptions)]=optionsData></axis-graphs>
+				</div>
+			</div>
+
+			<div class="isc-modal-footer">
+				<button class="isc-btn isc-btn-primary" (click)="hideModal()">Close</button>
+			</div>
+
+		</div>
+	</div>
+</div>

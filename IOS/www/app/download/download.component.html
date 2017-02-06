@@ -1,0 +1,18 @@
+<span class="fade in">
+    <button *ngIf="currState == 'detailspage'" class="isc-btn isc-btn-primary" data-isc-button="primary" data-size="small" type="button" (click)="downloadData()">
+        <span *ngIf="currState == 'detailspage'">Download More Data</span>
+        <span *ngIf="!isDownloading" data-isc-icon="download">
+            <span class="material-icons ">file_download</span>
+        </span>
+        <span *ngIf="isDownloading" data-isc-icon="loading">
+            <span class="material-icons  isc-rotate">autorenew</span>
+        </span>
+    </button>
+    <a href="javascript:void(0);" *ngIf="currState == 'dashboard'" (click)="downloadData()">
+        <span *ngIf="!isDownloading" class="material-icons">file_download</span>
+        <span *ngIf="isDownloading" data-isc-icon="loading">
+            <span class="material-icons  isc-rotate">autorenew</span>
+        </span>
+    </a>
+</span>
+<isc-alert *ngIf="downloadFailed" dismissible="true" type="danger">Download failed. Please try again</isc-alert>

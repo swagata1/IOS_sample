@@ -1,0 +1,42 @@
+[
+  {
+    "HazardGradeCode": "HG1",
+    "Description": "Non-combustible"
+  },
+  {
+    "HazardGradeCode": "HG2",
+    "Description": "Very low hazard"
+  },
+  {
+    "HazardGradeCode": "HG3",
+    "Description": "Low hazard"
+  },
+  {
+    "HazardGradeCode": "HG4",
+    "Description": "Moderate hazard"
+  },
+  {
+    "HazardGradeCode": "HG5",
+    "Description": "Medium hazard"
+  },
+  {
+    "HazardGradeCode": "HG6",
+    "Description": "Intermediate hazard"
+  },
+  {
+    "HazardGradeCode": "HG7",
+    "Description": "Considerable hazard"
+  },
+  {
+    "HazardGradeCode": "HG8",
+    "Description": "High hazard"
+  },
+  {
+    "HazardGradeCode": "HG9",
+    "Description": "Very high hazard"
+  },
+  {
+    "HazardGradeCode": "HG10",
+    "Description": "Severe hazard"
+  }
+]
